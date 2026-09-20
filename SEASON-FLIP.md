@@ -48,9 +48,12 @@ file) button; change the text, then **Commit changes** at the bottom.
 
 1. `seasons.js` - add one line at the top of the list (there is a comment
    showing exactly what to paste), and set the old season's `entries:` to
-   `null`.
+   `null`. This one line also makes the site's front page
+   (`https://arth2958.github.io/fantasy-live-standings/`) forward visitors to
+   the new season automatically - the front page just reads the list.
 2. Standings page: open the `s50` folder, copy `index.html` and `app.js` into
-   a new folder named `s<NN>`. In the copies, change `data-season="50"` and
+   a new folder named `s<NN>` (each season keeps its own folder - `s49/` is
+   the first archive, `s50/` the current one). In the copies, change `data-season="50"` and
    every "Season 50" text to the new number. (On github.com: open each file,
    copy its contents, then **Add file -> Create new file**, type
    `s<NN>/index.html` as the name, paste, commit.)
