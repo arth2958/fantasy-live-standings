@@ -11,7 +11,7 @@ against every cached price there):
 Registrations move until the season closes, so this script is meant to be
 re-run (the GitHub Action does so on a schedule) until the roster freezes.
 """
-import json, math, re, time, urllib.request
+import json, math, re, sys, time, urllib.request
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
@@ -75,6 +75,7 @@ def build(teams):
     return center, boards
 
 def main():
+    frozen = "--freeze" in sys.argv
     html = fetch(ROSTERS)
     teams = parse_rosters(html)
     center, boards = build(teams)
@@ -84,9 +85,11 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "team_count": len(teams),
         "center": center,
-        "provisional": True,
-        "note": "Prices regenerate from the live roster until registration closes; "
-                "freeze the final JSON when the season locks.",
+        "provisional": not frozen,
+        "note": ("Prices locked to this one-time snapshot; do not regenerate."
+                 if frozen else
+                 "Prices regenerate from the live roster until registration closes; "
+                 "freeze the final JSON when the season locks."),
         "boards": boards,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -95,7 +98,7 @@ def main():
         prices = [p["price"] for p in b["players"]]
         print(f"Board {b['board']}: n={len(prices)} avg={sum(prices)/len(prices):.2f} "
               f"min={min(prices)} max={max(prices)} floor_hits={sum(1 for p in prices if p == MIN_PRICE)}")
-    print(f"Wrote {OUT} ({len(teams)} teams, center {center})")
+    print(f"Wrote {OUT} ({len(teams)} teams, center {center}, frozen={frozen})")
 
 if __name__ == "__main__":
     main()

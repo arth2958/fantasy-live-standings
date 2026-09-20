@@ -13,7 +13,9 @@ async function load() {
     const when = new Date(data.generated_at);
     q("#status").textContent = `Prices from the live roster, updated ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
     q("#provenance").textContent = `${data.team_count} teams x 8 boards from lichess4545. ` +
-      (data.provisional ? "Rosters are still open - prices refresh until registration closes." : "Final frozen prices.");
+      (data.provisional
+        ? "Rosters are still open - prices refresh until registration closes."
+        : `Prices locked ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} using lichess ratings as of that moment. Everyone pays the same price for the same player.`);
     renderBoards();
   } catch (e) {
     q("#status").textContent = "Could not load player prices. Reload to try again.";

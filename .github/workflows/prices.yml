@@ -1,8 +1,6 @@
 name: Update S50 prices
 on:
-  schedule:
-    - cron: '8,23,38,53 * * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # auto-refresh disabled: prices are locked to a one-time snapshot
 permissions:
   contents: write
 jobs:
