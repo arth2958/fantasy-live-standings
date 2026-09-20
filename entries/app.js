@@ -11,13 +11,14 @@ async function load() {
     const r = await fetch(`../data/prices-s${SEASON}.json?` + Date.now(), { cache: "no-store" });
     data = await r.json();
     const when = new Date(data.generated_at);
+    const lockedAt = data.ratings_locked_at ? new Date(data.ratings_locked_at) : when;
     q("#status").textContent = data.provisional
       ? `Prices from the live roster, updated ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`
-      : `Prices locked to a one-time ratings snapshot, ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
+      : `Ratings frozen at the ${lockedAt.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} snapshot`;
     q("#provenance").textContent = `${data.team_count} teams x 8 boards from lichess4545. ` +
       (data.provisional
         ? "Rosters are still open - prices refresh until registration closes."
-        : `Prices locked ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} using lichess ratings as of that moment. Everyone pays the same price for the same player.`);
+        : `Player ratings are pinned to the ${lockedAt.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} snapshot. If a team drops out or joins before entries close, prices recompute across the pool with those pinned ratings - newcomers priced at their rating when they join.`);
     renderBoards();
   } catch (e) {
     q("#status").textContent = "Could not load player prices. Reload to try again.";

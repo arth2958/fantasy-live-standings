@@ -12,12 +12,13 @@ python -m http.server 8000
 ## Season 50 entries app
 
 `entries/` is the Season 50 fantasy entry form: pick one player per board (8
-players) within EUR 16,000. Prices come from `data/prices-s50.json`, a one-time locked snapshot generated
-by `scripts/build_prices.py --freeze` from the live Season 50 roster page. The
-"Update S50 prices" workflow is manual-only so prices never drift between
-entrants. Late roster additions do not change locked prices; to add a player
-after locking, compute their price against the frozen pool (center stays
-(54-1)/2 = 26.5) and append to the JSON.
+players) within EUR 16,000. Prices come from `data/prices-s50.json`. Player ratings are pinned to a
+one-time snapshot (`data/ratings-s50-snapshot.json`, taken 2026-09-20 11:27
+UTC). The "Update S50 prices" workflow runs every ~15 minutes but only
+reprices when roster composition changes (a team drops out or joins before
+entries close): existing players keep snapshot ratings, newcomers are priced
+at their live rating, center recalculates as (N-1)/2. Rating drift on lichess
+is ignored. Each reprice commit message lists what changed.
 
 Submissions go to a Google Apps Script web app that appends to the league
 spreadsheet - see `apps-script/README.md` for deployment.

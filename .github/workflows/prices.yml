@@ -1,6 +1,8 @@
 name: Update S50 prices
 on:
-  workflow_dispatch:  # auto-refresh disabled: prices are locked to a one-time snapshot
+  schedule:
+    - cron: '8,23,38,53 * * * *'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -11,11 +13,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      # Watch mode: recomputes only when roster composition changes.
       - run: python scripts/build_prices.py
       - name: Commit changed data
         run: |
           git config user.name "standings-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/prices-s50.json
-          git diff --cached --quiet || git commit -m "Update S50 player prices"
-          git push
+          git add data/prices-s50.json data/ratings-s50-snapshot.json
+          if ! git diff --cached --quiet; then
+            if [ -s .prices-diff.txt ]; then git commit -F .prices-diff.txt; else git commit -m "Update S50 player prices"; fi
+            git push
+          fi
