@@ -18,7 +18,7 @@ async function load() {
     q("#provenance").textContent = `${data.team_count} teams x 8 boards from lichess4545. ` +
       (data.provisional
         ? "Rosters are still open - prices refresh until registration closes."
-        : `Player ratings are pinned to the ${lockedAt.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} snapshot. If a team drops out or joins before entries close, prices recompute across the pool with those pinned ratings - newcomers priced at their rating when they join.`);
+        : `Player ratings are pinned to the ${lockedAt.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })} snapshot. If a team drops out or joins before entries close, any repricing is decided and announced by the league - never changed silently.`);
     renderBoards();
   } catch (e) {
     q("#status").textContent = "Could not load player prices. Reload to try again.";
