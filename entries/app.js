@@ -152,7 +152,7 @@ async function submit() {
       body: JSON.stringify(e),
     });
     btn.textContent = "Sent";
-    alert("Entry sent. The league sheet's S50 Entries tab should show it within a few seconds - check there to confirm, since this page cannot read the sheet's response.");
+    alert("Entry sent - thanks! Your team will appear on the standings page within about 20 minutes (the site refreshes every 15 minutes plus a short deploy).");
   } catch (ex) {
     queueLocal(e, "send failed");
     btn.textContent = "Saved on this device";
