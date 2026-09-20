@@ -3,7 +3,7 @@
    - standings page: root index.html, reads data/standings.json (S49 archive)
    - entries page:   entries/index.html, reads data/prices-s<N>.json */
 const FANTASY_SEASONS = [
-  { n: 50, entries: "entries/", standings: null }, // standings added when S50 play begins
+  { n: 50, entries: "entries/", standings: "s50/" },
   { n: 49, entries: null, standings: "" },
 ];
 
