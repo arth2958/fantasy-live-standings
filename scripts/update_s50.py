@@ -134,9 +134,13 @@ def main():
                 continue
             owner, name = row[1].strip(), row[2].strip()
             roster = [x.strip() for x in row[3:11] if x.strip()]
+            total = None
+            if len(row) > 11:
+                try: total = int(float(row[11].strip()))
+                except ValueError: total = None
             pts = sum(players[p.casefold()]["points"] for p in roster)
             games = sum(players[p.casefold()]["games"] for p in roster)
-            teams.append({"owner": owner, "name": name, "points": pts, "games": games,
+            teams.append({"owner": owner, "name": name, "total": total, "points": pts, "games": games,
                           "ppg": pts / games if games else 0,
                           "roster": [{"handle": p, "points": players[p.casefold()]["points"],
                                       "games": players[p.casefold()]["games"]} for p in roster]})
