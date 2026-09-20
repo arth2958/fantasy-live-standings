@@ -11,7 +11,9 @@ async function load() {
     const r = await fetch(`../data/prices-s${SEASON}.json?` + Date.now(), { cache: "no-store" });
     data = await r.json();
     const when = new Date(data.generated_at);
-    q("#status").textContent = `Prices from the live roster, updated ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
+    q("#status").textContent = data.provisional
+      ? `Prices from the live roster, updated ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`
+      : `Prices locked to a one-time ratings snapshot, ${when.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
     q("#provenance").textContent = `${data.team_count} teams x 8 boards from lichess4545. ` +
       (data.provisional
         ? "Rosters are still open - prices refresh until registration closes."
