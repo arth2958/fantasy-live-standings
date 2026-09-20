@@ -29,16 +29,33 @@ function doPost(e) {
     }
     const owner = String(data.owner).trim();
     const rows = sheet.getDataRange().getValues();
+    const ownerCol = columnOf(rows[0], ['owner'], 0);
     for (let i = 1; i < rows.length; i++) {
-      if (String(rows[i][1]).trim().toLowerCase() === owner.toLowerCase()) {
+      if (String(rows[i][ownerCol]).trim().toLowerCase() === owner.toLowerCase()) {
         if (!REPLACE_EXISTING) return json({ ok: false, error: 'An entry for this owner already exists.' });
         sheet.deleteRow(i + 1);
         break;
       }
     }
     const picks = data.picks.slice().sort((a, b) => a.board - b.board);
-    sheet.appendRow([new Date(), owner, String(data.team || '').trim()]
-      .concat(picks.map(p => p.handle), [data.total]));
+    const hdr = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+    const row = new Array(hdr.length).fill('');
+    row[columnOf(hdr, ['timestamp', 'date submitted'], 0)] = new Date();
+    row[columnOf(hdr, ['owner'], 0)] = owner;
+    const ni = columnOf(hdr, ['team name', 'fantasy team'], -1);
+    if (ni >= 0) row[ni] = String(data.team || '').trim();
+    for (const p of picks) {
+      const i = columnOf(hdr, ['board ' + p.board], -1);
+      if (i >= 0) row[i] = p.handle;
+    }
+    // dead boards (9 and 10 in the old layout) get n/a, matching prior seasons
+    for (let b = BOARDS + 1; b <= 10; b++) {
+      const i = columnOf(hdr, ['board ' + b], -1);
+      if (i >= 0) row[i] = 'n/a';
+    }
+    const ti = columnOf(hdr, ['total', 'total price'], -1);
+    if (ti >= 0) row[ti] = data.total;
+    sheet.appendRow(row);
     return json({ ok: true });
   } catch (err) {
     return json({ ok: false, error: String(err) });
@@ -61,7 +78,7 @@ function validate(d) {
     sum += price;
   }
   if (sum !== Number(d.total)) return 'Total does not match the picks.';
-  if (sum > BUDGET_CAP) return 'Over the EUR ' + BUDGET_CAP + ' budget.';
+  if (sum > BUDGET_CAP) return 'Over the ' + BUDGET_CAP + ' budget.';
   return null;
 }
 
@@ -83,6 +100,15 @@ function readStatus() {
   if (!sheet) return 'OPEN';
   const v = String(sheet.getRange(STATUS_CELL).getValue() || '').trim().toUpperCase();
   return v === 'CLOSED' ? 'CLOSED' : 'OPEN';
+}
+
+function columnOf(headerRow, names, fallback) {
+  const lowered = headerRow.map(h => String(h).trim().toLowerCase());
+  for (const n of names) {
+    const i = lowered.indexOf(n);
+    if (i >= 0) return i;
+  }
+  return fallback;
 }
 
 function header() {

@@ -92,11 +92,56 @@ def bot_teams(real_teams):
                     order.append(h)
                 counts[h] = counts.get(h, 0) + 1
             top = max(counts.values()) if counts else 0
-            winner = next((h for h in order if counts[h] == top), None)
-            picks.append(next(p for p in boards[b] if p["handle"] == winner) if winner else None)
+            known = {p["handle"].casefold(): p for p in boards[b]}
+            winner = next((h for h in order if counts[h] == top and h.casefold() in known), None)
+            picks.append(known[winner.casefold()] if winner else None)
         if all(picks):
             bots.insert(0, mk("popularity", "Most Popular Players Team", picks))
     return bots
+
+
+def parse_entries(csv_text):
+    """Header-aware parse of the S50 Entries tab. Supports both the app header
+    (Timestamp, Owner, Team name, Board 1..8, Total) and the prior-season sheet
+    layout (blank owner col, Fantasy Team, Board 1..10, Total Price, Date
+    Submitted). Returns [] when the tab is not an entries tab (gviz fallback)."""
+    rows = list(csv.reader(io.StringIO(csv_text)))
+    if not rows:
+        return []
+    hdr = [h.strip().lower() for h in rows[0]]
+
+    def col(names, default=None):
+        for n in names:
+            if n in hdr:
+                return hdr.index(n)
+        return default
+
+    board_cols = [col(["board %d" % b, "board %d " % b]) for b in range(1, 9)]
+    # gviz silently returns the workbook's default tab when the S50 tab is
+    # missing. Accept only a real entries header: the app header ("owner")
+    # or the prior-season layout (blank first cell + "fantasy team"). The
+    # default Standings tab ("player name" / "total points") is rejected.
+    entries_header = "owner" in hdr or ((hdr[0] == "" if hdr else False) and "fantasy team" in hdr)
+    if any(c is None for c in board_cols) or not entries_header or "total points" in hdr:
+        print("Entries tab not found yet (gviz fell back to another tab); 0 teams")
+        return []
+    owner_col = col(["owner"], 0)
+    name_col = col(["team name", "fantasy team"])
+    total_col = col(["total", "total price"])
+
+    out = []
+    for row in rows[1:]:
+        if len(row) <= max(owner_col, max(board_cols)) or not row[owner_col].strip():
+            continue
+        roster = [row[c].strip() for c in board_cols if c < len(row) and row[c].strip()]
+        total = None
+        if total_col is not None and len(row) > total_col and row[total_col].strip():
+            try: total = int(float(row[total_col].strip()))
+            except ValueError: total = None
+        out.append({"owner": row[owner_col].strip(),
+                    "name": row[name_col].strip() if name_col is not None and len(row) > name_col else "",
+                    "handles": roster, "total": total})
+    return out
 
 def main():
     players = defaultdict(lambda: {"points": 0.0, "games": 0})
@@ -121,37 +166,18 @@ def main():
                 players[key]["games"] += 1
 
     teams = []
+    real_for_bots = []
     csv_text = try_fetch(ENTRIES)
     if csv_text and not csv_text.lstrip().startswith("<"):
-        rows = list(csv.reader(io.StringIO(csv_text)))
-        header_ok = rows and len(rows[0]) >= 3 and rows[0][0].strip().lower() == "timestamp" and rows[0][1].strip().lower() == "owner"
-        if not header_ok:
-            print("Entries tab not found yet (gviz fell back to another tab); 0 teams")
-            rows = []
-        for row in rows[1:]:
-            # Timestamp, Owner, Team name, Board 1..8, Total
-            if len(row) < 11 or not row[1].strip():
-                continue
-            owner, name = row[1].strip(), row[2].strip()
-            roster = [x.strip() for x in row[3:11] if x.strip()]
-            total = None
-            if len(row) > 11:
-                try: total = int(float(row[11].strip()))
-                except ValueError: total = None
+        for e in parse_entries(csv_text):
+            owner, name, roster, total = e["owner"], e["name"], e["handles"], e["total"]
+            real_for_bots.append({"handles": roster})
             pts = sum(players[p.casefold()]["points"] for p in roster)
             games = sum(players[p.casefold()]["games"] for p in roster)
             teams.append({"owner": owner, "name": name, "total": total, "points": pts, "games": games,
                           "ppg": pts / games if games else 0,
                           "roster": [{"handle": p, "points": players[p.casefold()]["points"],
                                       "games": players[p.casefold()]["games"]} for p in roster]})
-    real_for_bots = []
-    csv_text2 = csv_text
-    if csv_text2 and not csv_text2.lstrip().startswith("<"):
-        rows = list(csv.reader(io.StringIO(csv_text2)))
-        if rows and len(rows[0]) >= 3 and rows[0][0].strip().lower() == "timestamp":
-            for row in rows[1:]:
-                if len(row) >= 11 and row[1].strip():
-                    real_for_bots.append({"handles": [x.strip() for x in row[3:11] if x.strip()]})
     for b in bot_teams(real_for_bots):
         roster = b["handles"]
         pts = sum(players[p.casefold()]["points"] for p in roster)

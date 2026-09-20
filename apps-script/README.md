@@ -35,3 +35,11 @@ Notes:
   owner (case-insensitive). Flip to `true` to replace the old row instead.
 - Server-side validation re-checks: exactly 8 picks, one per board, no
   duplicate players, total matches the picks and is within 16,000.
+
+## Dead Board 9/10 columns
+
+If the S50 Entries tab uses the prior-season layout (Board 1..10 columns),
+submitted rows automatically write "n/a" into Board 9 and Board 10 so the
+Standings tab formulas that reference those columns keep working. The writer
+maps values by header name, so both the app-created header (Timestamp, Owner,
+Team name, Board 1..8, Total) and the duplicated prior-season layout work.
