@@ -35,7 +35,7 @@ function initSeasonSwitcher() {
     if (path != null) location.href = root + path;
   });
   wrap.append(label, sel);
-  const eyebrow = header.querySelector(".eyebrow");
-  header.insertBefore(wrap, eyebrow ? eyebrow.nextSibling : header.firstChild);
+  const h1 = header.querySelector("h1");
+  header.insertBefore(wrap, h1 || header.firstChild);
 }
 document.addEventListener("DOMContentLoaded", initSeasonSwitcher);
