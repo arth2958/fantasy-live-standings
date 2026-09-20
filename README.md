@@ -12,7 +12,7 @@ python -m http.server 8000
 ## Season 50 entries app
 
 `entries/` is the Season 50 fantasy entry form: pick one player per board (8
-players) within EUR 16,000. Prices come from `data/prices-s50.json`. Player ratings are pinned to a
+players) within €16,000. Prices come from `data/prices-s50.json`. Player ratings are pinned to a
 one-time snapshot (`data/ratings-s50-snapshot.json`, taken 2026-09-20 11:27
 UTC). The "Update S50 prices" workflow runs every ~15 minutes but only
 reprices when roster composition changes (a team drops out or joins before

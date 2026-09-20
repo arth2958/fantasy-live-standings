@@ -77,7 +77,7 @@ def bot_teams(real_teams):
             best = (t, picks)
         if t == target:
             break
-    bots.append(mk("On the dot", f"A random EUR {target:,} Team".replace(",", "."), best[1]))
+    bots.append(mk("On the dot", f"A random €{target:,} Team", best[1]))
     # popularity: most-picked player per board across real entries, in sheet
     # order (MATCH returns the first max-count cell, i.e. earliest entry wins ties).
     if real_teams:

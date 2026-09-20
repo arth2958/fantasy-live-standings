@@ -34,4 +34,4 @@ Notes:
 - Resubmissions: `REPLACE_EXISTING = false` blocks a second entry from the same
   owner (case-insensitive). Flip to `true` to replace the old row instead.
 - Server-side validation re-checks: exactly 8 picks, one per board, no
-  duplicate players, total matches the picks and is within EUR 16,000.
+  duplicate players, total matches the picks and is within €16,000.
