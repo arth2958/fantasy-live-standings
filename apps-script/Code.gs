@@ -15,6 +15,14 @@ const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces t
 const SETTINGS_SHEET = 'Settings';
 const STATUS_CELL = 'B1';
 
+// Server-side pick validation against the "Prices" tab in this spreadsheet.
+// Layout: col A = Team, then per board a 4-column block: Handle, blank, Rtg,
+// Price. Board 1's handle is column D (4), board b's handle is 4 + 4*(b-1),
+// and its price is 3 columns further right. Prices may be formatted ($3,029).
+const PRICES_SHEET = 'Prices';
+const PRICE_FIRST_COL = 4;
+const PRICE_STRIDE = 4;
+
 function doPost(e) {
   try {
     if (readStatus() === 'CLOSED') return json({ ok: false, error: 'Entries are closed.' });
@@ -79,7 +87,39 @@ function validate(d) {
   }
   if (sum !== Number(d.total)) return 'Total does not match the picks.';
   if (sum > BUDGET_CAP) return 'Over the ' + BUDGET_CAP + ' budget.';
+  // Server-side check against the Prices tab: every pick must be a listed
+  // player for that board, at the listed price. Blocks direct POSTs that
+  // bypass the form's dropdowns with made-up handles or lowered prices.
+  let listed;
+  try {
+    listed = priceLookup();
+  } catch (err) {
+    return 'Could not verify picks against the price list; please try again in a minute.';
+  }
+  for (const p of d.picks) {
+    const key = p.board + '|' + String(p.handle).trim().toLowerCase();
+    if (!(key in listed)) return String(p.handle).trim() + ' is not a listed Board ' + p.board + ' player.';
+    if (Number(p.price) !== listed[key]) return String(p.handle).trim() + ' does not have the listed Board ' + p.board + ' price.';
+  }
   return null;
+}
+
+// board|handle (lowercase) -> listed price, from the Prices tab.
+function priceLookup() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(PRICES_SHEET);
+  if (!sheet) throw new Error('Prices tab not found');
+  const values = sheet.getDataRange().getValues();
+  const map = {};
+  for (let r = 1; r < values.length; r++) {
+    for (let b = 1; b <= BOARDS; b++) {
+      const c = PRICE_FIRST_COL - 1 + (b - 1) * PRICE_STRIDE;
+      const handle = String(values[r][c] || '').trim().toLowerCase();
+      if (!handle) continue;
+      const price = Number(String(values[r][c + 3]).replace(/[^\d]/g, ''));
+      if (isFinite(price)) map[b + '|' + handle] = price;
+    }
+  }
+  return map;
 }
 
 // Status endpoint for the entries page. Supports JSONP (?callback=fn) because
