@@ -153,24 +153,46 @@ def parse_entries(csv_text):
 def main():
     players = defaultdict(lambda: {"points": 0.0, "games": 0})
     total_pairings = 0
+    cur_round = 0
+    cur_played = 0
+    cur_sched = 0
+    cur_sched_by = defaultdict(int)
     for rnd in range(1, ROUNDS + 1):
         html = try_fetch(PAIRINGS.format(round=rnd))
         if not html:
             continue
         p = Tables(); p.feed(html)
+        rnd_sched = 0
+        rnd_played = 0
+        rnd_sched_by = defaultdict(int)
+        rnd_played_by = defaultdict(int)
         for cells in p.rows:
-            if len(cells) != 4 or not re.search(r" \(\d+\)$", cells[0]):
+            if len(cells) != 4 or not re.search(r" \(\d+\)$", cells[0]) or not re.search(r" \(\d+\)$", cells[2]):
                 continue
             left = re.sub(r" \(\d+\)$", "", cells[0]); right = re.sub(r" \(\d+\)$", "", cells[2])
+            rnd_sched += 1
+            rnd_sched_by[left.casefold()] += 1
+            rnd_sched_by[right.casefold()] += 1
             raw_score = cells[1].replace(" ", "")
             scores = [raw_score[:len(raw_score)//2], raw_score[len(raw_score)//2:]]
             if len(scores) != 2 or scores[0][0] not in "01½" or scores[1][0] not in "01½":
                 continue
             total_pairings += 1
+            rnd_played += 1
             for handle, raw in ((left, scores[0]), (right, scores[1])):
                 key = handle.casefold()
                 players[key]["points"] += {"0": 0.0, "½": 0.5, "1": 1.0}[raw[0]]
                 players[key]["games"] += 1
+                rnd_played_by[key] += 1
+        if rnd_sched:
+            cur_round, cur_sched, cur_played = rnd, rnd_sched, rnd_played
+            cur_sched_by = rnd_sched_by
+            cur_played_by = rnd_played_by
+
+    def games_left(roster):
+        if not cur_round:
+            return 0
+        return sum(max(0, cur_sched_by.get(p.casefold(), 0) - cur_played_by.get(p.casefold(), 0)) for p in roster)
 
     teams = []
     real_for_bots = []
@@ -182,6 +204,7 @@ def main():
             pts = sum(players[p.casefold()]["points"] for p in roster)
             games = sum(players[p.casefold()]["games"] for p in roster)
             teams.append({"owner": owner, "name": name, "total": total, "points": pts, "games": games,
+                          "games_left": games_left(roster),
                           "ppg": pts / games if games else 0,
                           "roster": [{"handle": p, "points": players[p.casefold()]["points"],
                                       "games": players[p.casefold()]["games"]} for p in roster]})
@@ -190,7 +213,7 @@ def main():
         pts = sum(players[p.casefold()]["points"] for p in roster)
         games = sum(players[p.casefold()]["games"] for p in roster)
         teams.append({"owner": b["owner"], "name": b["name"], "bot": True, "total": b["total"],
-                      "points": pts, "games": games, "ppg": pts / games if games else 0,
+                      "points": pts, "games": games, "games_left": games_left(roster), "ppg": pts / games if games else 0,
                       "roster": [{"handle": h, "points": players[h.casefold()]["points"],
                                   "games": players[h.casefold()]["games"]} for h in roster]})
     # League tiebreaks: 1) points per game, 2) lowest total price.
@@ -226,6 +249,7 @@ def main():
         "source": {"pairings": f"https://www.lichess4545.com/team4545/season/{SEASON}/pairings/", "entries": ENTRIES},
         "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
         "pairings_parsed": total_pairings, "popular": popular, "teams": teams,
+        "round": {"number": cur_round, "played": cur_played, "total": cur_sched},
     }
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
