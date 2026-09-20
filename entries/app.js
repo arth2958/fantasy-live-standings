@@ -2,7 +2,7 @@
 const SEASON = Number(document.body.dataset.season || 50);
 const APPS_SCRIPT_URL = ""; // <-- paste the deployed Apps Script web-app URL here
 const BUDGET = 16000, BOARDS = 8;
-const q = s => document.querySelector(s), euro = n => "€" + n.toLocaleString("en-US");
+const q = s => document.querySelector(s), euro = n => n.toLocaleString("en-US");
 let data = null;
 const picks = new Array(BOARDS).fill(null);
 
