@@ -105,7 +105,7 @@ function validate() {
 
 function entry() {
   return {
-    season: SEASON, owner: q("#owner").value.trim(), team: q("#teamname").value.trim(),
+    season: SEASON, owner: q("#owner").value.trim(), team: q("#teamname").value.trim() || (q("#owner").value.trim() + "’s team"),
     picks: chosen().map(p => ({ board: p.board, handle: p.handle, rating: p.rating, price: p.price })),
     total: total(), prices_generated_at: data.generated_at,
   };

@@ -145,8 +145,9 @@ def parse_entries(csv_text):
         if total_col is not None and len(row) > total_col and row[total_col].strip():
             try: total = int(float(re.sub(r"[^\d.]", "", row[total_col])))
             except ValueError: total = None
+        name = row[name_col].strip() if name_col is not None and len(row) > name_col else ""
         out.append({"owner": owner,
-                    "name": row[name_col].strip() if name_col is not None and len(row) > name_col else "",
+                    "name": name or f"{owner}’s team",
                     "handles": roster, "total": total})
     return out
 
