@@ -16,7 +16,7 @@ SEASON = 50
 ROUNDS = 8
 SHEET = "1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4"
 PAIRINGS = f"https://www.lichess4545.com/team4545/season/{SEASON}/round/{{round}}/pairings/"
-ENTRIES = f"https://docs.google.com/spreadsheets/d/{SHEET}/gviz/tq?tqx=out:csv&sheet=S50%20Entries"
+ENTRIES = f"https://docs.google.com/spreadsheets/d/{SHEET}/gviz/tq?tqx=out:csv&sheet=S50Entries"
 OUT = Path(__file__).resolve().parent.parent / "data" / "standings-s50.json"
 PRICES = Path(__file__).resolve().parent.parent / "data" / "prices-s50.json"
 
@@ -129,16 +129,23 @@ def parse_entries(csv_text):
     name_col = col(["team name", "fantasy team"])
     total_col = col(["total", "total price"])
 
+    bot_owners = {"popularity", "cheapskate", "profligate", "arbitrary", "on the dot"}
     out = []
     for row in rows[1:]:
         if len(row) <= max(owner_col, max(board_cols)) or not row[owner_col].strip():
             continue
+        owner = row[owner_col].strip()
+        # rows owned by the synthetic entries (carried over when the tab was
+        # duplicated from a prior season) are not real entries: they never
+        # appear on the site from the sheet and never feed the popularity count
+        if owner.casefold() in bot_owners:
+            continue
         roster = [row[c].strip() for c in board_cols if c < len(row) and row[c].strip()]
         total = None
         if total_col is not None and len(row) > total_col and row[total_col].strip():
-            try: total = int(float(row[total_col].strip()))
+            try: total = int(float(re.sub(r"[^\d.]", "", row[total_col])))
             except ValueError: total = None
-        out.append({"owner": row[owner_col].strip(),
+        out.append({"owner": owner,
                     "name": row[name_col].strip() if name_col is not None and len(row) > name_col else "",
                     "handles": roster, "total": total})
     return out

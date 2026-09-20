@@ -4,7 +4,7 @@
  * Deploy: see apps-script/README.md. Receives POSTs from the entries page and
  * appends validated rows to an "S50 Entries" tab in this spreadsheet.
  */
-const SHEET_NAME = 'S50 Entries';
+const SHEET_NAME = 'S50Entries';
 const BUDGET_CAP = 16000;
 const BOARDS = 8;
 const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces the old row)

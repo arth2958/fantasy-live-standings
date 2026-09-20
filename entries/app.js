@@ -1,6 +1,6 @@
 /* Season 50 fantasy entry form. */
 const SEASON = Number(document.body.dataset.season || 50);
-const APPS_SCRIPT_URL = ""; // <-- paste the deployed Apps Script web-app URL here
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxIVFQQFFKTAmkjt03wSI5yxg5tSyCsLf1AiPyN3iAb7_DtCbjWLXvWLPwmaaOFcLVJeA/exec"; // <-- paste the deployed Apps Script web-app URL here
 const BUDGET = 16000, BOARDS = 8;
 const q = s => document.querySelector(s), euro = n => n.toLocaleString("en-US");
 let data = null;
