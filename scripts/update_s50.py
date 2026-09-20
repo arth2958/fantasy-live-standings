@@ -12,13 +12,19 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-SEASON = 50
+# *** NEXT SEASON (see SEASON-FLIP.md for the full plain-language guide):
+# 1. Copy this file to update_s<NN>.py (e.g. update_s51.py).
+# 2. Change SEASON below to the new season number.
+# 3. In ENTRIES, change "sheet=S50Entries" to the new entries tab name.
+# 4. Change the two "s50" filenames in OUT and PRICES to the new season.
+# 5. Add the new script and data files to .github/workflows/update.yml.
+SEASON = 50  # <== UPDATE EACH SEASON
 ROUNDS = 8
-SHEET = "1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4"
+SHEET = "1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4"  # league spreadsheet; same every season
 PAIRINGS = f"https://www.lichess4545.com/team4545/season/{SEASON}/round/{{round}}/pairings/"
-ENTRIES = f"https://docs.google.com/spreadsheets/d/{SHEET}/gviz/tq?tqx=out:csv&sheet=S50Entries"
-OUT = Path(__file__).resolve().parent.parent / "data" / "standings-s50.json"
-PRICES = Path(__file__).resolve().parent.parent / "data" / "prices-s50.json"
+ENTRIES = f"https://docs.google.com/spreadsheets/d/{SHEET}/gviz/tq?tqx=out:csv&sheet=S50Entries"  # <== UPDATE EACH SEASON (tab name)
+OUT = Path(__file__).resolve().parent.parent / "data" / "standings-s50.json"  # <== UPDATE EACH SEASON
+PRICES = Path(__file__).resolve().parent.parent / "data" / "prices-s50.json"  # <== UPDATE EACH SEASON
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "FantasyStandings/1.0 (+https://github.com/arth2958/fantasy-live-standings)"})

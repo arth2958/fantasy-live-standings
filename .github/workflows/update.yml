@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      # NEXT SEASON: add "- run: python scripts/update_s<NN>.py" here, and add
+      # the new data/standings-s<NN>.json to the git add line below.
       - run: python scripts/update.py
       - run: python scripts/update_s50.py
       - name: Commit changed data

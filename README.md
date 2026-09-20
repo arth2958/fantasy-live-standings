@@ -9,6 +9,11 @@ python scripts/update.py
 python -m http.server 8000
 ```
 
+## Starting a new season
+
+See **SEASON-FLIP.md** - a plain-language, no-coding-needed checklist for
+rolling the sheet, the Apps Script, and this site to the next season.
+
 ## Season 50 entries app
 
 `entries/` is the Season 50 fantasy entry form: pick one player per board (8

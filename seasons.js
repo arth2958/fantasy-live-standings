@@ -2,6 +2,9 @@
    A new season = one entry here plus its data file(s). No page rebuilds.
    - standings page: root index.html, reads data/standings.json (S49 archive)
    - entries page:   entries/index.html, reads data/prices-s<N>.json */
+// *** NEXT SEASON: add one line at the TOP of this list, e.g.
+//   { n: 51, entries: "entries/", standings: "s51/" },
+// ...and change the old season's "entries" to null once its entries close.
 const FANTASY_SEASONS = [
   { n: 50, entries: "entries/", standings: "s50/" },
   { n: 49, entries: null, standings: "" },

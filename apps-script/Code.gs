@@ -4,7 +4,9 @@
  * Deploy: see apps-script/README.md. Receives POSTs from the entries page and
  * appends validated rows to an "S50 Entries" tab in this spreadsheet.
  */
-const SHEET_NAME = 'S50Entries';
+// *** NEXT SEASON: change 'S50Entries' to the new tab name (e.g. 'S51Entries').
+// That is the tab submissions are written to. One word, season number changes.
+const SHEET_NAME = 'S50Entries'; // <== UPDATE EACH SEASON
 const BUDGET_CAP = 16000;
 const BOARDS = 8;
 const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces the old row)
@@ -12,6 +14,8 @@ const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces t
 // Commissioner's close switch: a "Settings" tab in this spreadsheet,
 // A1 = SUBMISSIONS, B1 = OPEN or CLOSED. Checked on every submission.
 // Missing tab/cell defaults to OPEN.
+// Season-independent: the Settings tab and OPEN/CLOSED cell stay the same
+// every season. No changes needed here.
 const SETTINGS_SHEET = 'Settings';
 const STATUS_CELL = 'B1';
 
@@ -19,6 +23,11 @@ const STATUS_CELL = 'B1';
 // Layout: col A = Team, then per board a 4-column block: Handle, blank, Rtg,
 // Price. Board 1's handle is column D (4), board b's handle is 4 + 4*(b-1),
 // and its price is 3 columns further right. Prices may be formatted ($3,029).
+// Season-independent IF the Prices tab keeps the same layout each season
+// (Team column, then Handle / blank / Rtg / Price blocks for Boards 1..8).
+// The validation below reads whatever players and prices are in the tab, so
+// new-season prices need no code change. If the tab layout ever changes,
+// update PRICE_FIRST_COL / PRICE_STRIDE to match.
 const PRICES_SHEET = 'Prices';
 const PRICE_FIRST_COL = 4;
 const PRICE_STRIDE = 4;
@@ -125,7 +134,9 @@ function priceLookup() {
 // Status endpoint for the entries page. Supports JSONP (?callback=fn) because
 // Apps Script sends no CORS headers, so the page reads this via a script tag.
 function doGet(e) {
-  const payload = JSON.stringify({ season: 50, submissions: readStatus() });
+  // *** NEXT SEASON: change 50 to the new season number. The entries page
+  // shows this in its status messages. Nothing else uses it.
+  const payload = JSON.stringify({ season: 50, submissions: readStatus() }); // <== UPDATE EACH SEASON
   const cb = e && e.parameter && e.parameter.callback;
   if (cb && /^[A-Za-z_$][\w$]*$/.test(cb)) {
     return ContentService.createTextOutput(cb + '(' + payload + ');')

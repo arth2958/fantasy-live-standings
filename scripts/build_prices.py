@@ -19,7 +19,10 @@ from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 
-SEASON = 50
+# *** NEXT SEASON: change the season number, then run this script once after
+# the new season's rosters publish to build data/prices-s<NN>.json and the
+# ratings snapshot. See SEASON-FLIP.md.
+SEASON = 50  # <== UPDATE EACH SEASON
 ROSTERS = f"https://www.lichess4545.com/team4545/season/{SEASON}/rosters/"
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / f"prices-s{SEASON}.json"

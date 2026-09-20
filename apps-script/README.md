@@ -34,7 +34,10 @@ Notes:
 - Resubmissions: `REPLACE_EXISTING = false` blocks a second entry from the same
   owner (case-insensitive). Flip to `true` to replace the old row instead.
 - Server-side validation re-checks: exactly 8 picks, one per board, no
-  duplicate players, total matches the picks and is within 16,000.
+  duplicate players, total matches the picks and is within 16,000 - and every
+  pick is verified against the spreadsheet's **Prices** tab (real player,
+  listed for that board, at the listed price). This blocks direct POSTs that
+  bypass the form's dropdowns with made-up handles or lowered prices.
 
 ## Dead Board 9/10 columns
 
@@ -43,3 +46,11 @@ submitted rows automatically write "n/a" into Board 9 and Board 10 so the
 Standings tab formulas that reference those columns keep working. The writer
 maps values by header name, so both the app-created header (Timestamp, Owner,
 Team name, Board 1..8, Total) and the duplicated prior-season layout work.
+
+## Next season
+
+Only two lines in `Code.gs` change per season - both are marked with comments
+that say `UPDATE EACH SEASON` (`SHEET_NAME` at the top, and `season: 50` in
+`doGet`). After editing, remember: **Deploy -> Manage deployments -> pencil ->
+Version: New version -> Deploy**. See `../SEASON-FLIP.md` for the full
+plain-language season-start guide.
