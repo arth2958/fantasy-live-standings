@@ -162,4 +162,28 @@ async function submit() {
 }
 
 q("#submit").onclick = submit;
-load(); renderQueue();
+
+function checkStatus() {
+  if (!APPS_SCRIPT_URL) return;
+  const cb = "s50status" + Date.now();
+  window[cb] = res => {
+    delete window[cb];
+    if (res && res.submissions === "CLOSED") setClosed();
+  };
+  const s = document.createElement("script");
+  s.src = APPS_SCRIPT_URL + (APPS_SCRIPT_URL.includes("?") ? "&" : "?") + "callback=" + cb;
+  s.onload = () => s.remove();
+  s.onerror = () => s.remove(); // status unknown: sheet stays source of truth
+  document.body.appendChild(s);
+}
+
+function setClosed() {
+  const btn = q("#submit");
+  btn.disabled = true;
+  btn.textContent = "Entries are closed";
+  q("#status").textContent = "Entries are closed.";
+  document.querySelectorAll(".board input, .board .clear, #owner, #teamname")
+    .forEach(el => { el.disabled = true; });
+}
+
+load(); renderQueue(); checkStatus();

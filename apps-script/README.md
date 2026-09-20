@@ -15,6 +15,18 @@ on the device and says so - nothing reaches the sheet.
 6. Paste it into `entries/app.js` as the `APPS_SCRIPT_URL` constant and push,
    or tell me the URL and I'll wire it up.
 
+Closing entries (commissioner switch):
+- Create a tab named **Settings** in the spreadsheet.
+- A1: `SUBMISSIONS`   B1: `OPEN`
+- To close entries, set B1 to `CLOSED`. Submissions are then rejected with
+  "Entries are closed." and the entries page shows the closed state on load
+  (it reads the switch live via the script's doGet).
+- Missing Settings tab or cell = OPEN, so nothing breaks before you create it.
+
+Updating the code later: Apps Script web apps do NOT pick up code edits
+automatically. After any change: Deploy -> Manage deployments -> pencil icon
+-> Version: New version -> Deploy. The URL stays the same.
+
 Notes:
 - The page posts with `no-cors` (Apps Script sends no CORS headers), so the
   page cannot read the response. It tells the user to confirm their row in the

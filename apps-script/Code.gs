@@ -9,8 +9,15 @@ const BUDGET_CAP = 16000;
 const BOARDS = 8;
 const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces the old row)
 
+// Commissioner's close switch: a "Settings" tab in this spreadsheet,
+// A1 = SUBMISSIONS, B1 = OPEN or CLOSED. Checked on every submission.
+// Missing tab/cell defaults to OPEN.
+const SETTINGS_SHEET = 'Settings';
+const STATUS_CELL = 'B1';
+
 function doPost(e) {
   try {
+    if (readStatus() === 'CLOSED') return json({ ok: false, error: 'Entries are closed.' });
     const data = JSON.parse(e.postData.contents);
     const err = validate(data);
     if (err) return json({ ok: false, error: err });
@@ -56,6 +63,26 @@ function validate(d) {
   if (sum !== Number(d.total)) return 'Total does not match the picks.';
   if (sum > BUDGET_CAP) return 'Over the EUR ' + BUDGET_CAP + ' budget.';
   return null;
+}
+
+// Status endpoint for the entries page. Supports JSONP (?callback=fn) because
+// Apps Script sends no CORS headers, so the page reads this via a script tag.
+function doGet(e) {
+  const payload = JSON.stringify({ season: 50, submissions: readStatus() });
+  const cb = e && e.parameter && e.parameter.callback;
+  if (cb && /^[A-Za-z_$][\w$]*$/.test(cb)) {
+    return ContentService.createTextOutput(cb + '(' + payload + ');')
+      .setMimeType(ContentService.MimeType.JAVASCRIPT);
+  }
+  return ContentService.createTextOutput(payload)
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+function readStatus() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SETTINGS_SHEET);
+  if (!sheet) return 'OPEN';
+  const v = String(sheet.getRange(STATUS_CELL).getValue() || '').trim().toUpperCase();
+  return v === 'CLOSED' ? 'CLOSED' : 'OPEN';
 }
 
 function header() {
