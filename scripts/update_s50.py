@@ -193,10 +193,30 @@ def main():
                       "points": pts, "games": games, "ppg": pts / games if games else 0,
                       "roster": [{"handle": h, "points": players[h.casefold()]["points"],
                                   "games": players[h.casefold()]["games"]} for h in roster]})
-    teams.sort(key=lambda x: (-x["points"], -x["ppg"], x["owner"].casefold()))
+    # League tiebreaks: 1) points per game, 2) lowest total price.
+    # Ranks stay shared while no games are played (0-0 with no games means
+    # PPG is undefined for everyone, so price does not order anyone yet).
+    INF = float("inf")
+    popular = []
+    for b in range(8):
+        counts = {}
+        for e in real_for_bots:
+            if b < len(e["handles"]):
+                h = e["handles"][b]
+                counts[h] = counts.get(h, 0) + 1
+        if counts:
+            top = max(counts.values())
+            popular.append({"board": b + 1, "handle": next(h for h in counts if counts[h] == top),
+                            "picks": top, "of": len(real_for_bots)})
+    teams.sort(key=lambda x: (-x["points"], -x["ppg"],
+                              x["total"] if x["total"] is not None else INF,
+                              x["owner"].casefold()))
     rank = 0; last = None
     for i, t in enumerate(teams, 1):
-        key = (t["points"], t["ppg"])
+        if t["games"] == 0:
+            key = ("preseason", t["points"])  # shared rank until games exist
+        else:
+            key = (t["points"], t["ppg"], t["total"])
         if key != last:
             rank = i; last = key
         t["rank"] = rank
@@ -204,8 +224,8 @@ def main():
         "season": SEASON, "rounds": ROUNDS,
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": {"pairings": f"https://www.lichess4545.com/team4545/season/{SEASON}/pairings/", "entries": ENTRIES},
-        "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: fantasy points per game.",
-        "pairings_parsed": total_pairings, "teams": teams,
+        "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
+        "pairings_parsed": total_pairings, "popular": popular, "teams": teams,
     }
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")

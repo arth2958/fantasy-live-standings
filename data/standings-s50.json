@@ -1,14 +1,116 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-20T13:37:51.826001Z",
+  "updated_at": "2026-09-20T13:49:00.167251Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
-  "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: fantasy points per game.",
+  "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
   "pairings_parsed": 0,
+  "popular": [
+    {
+      "board": 1,
+      "handle": "tommeketoch",
+      "picks": 2,
+      "of": 7
+    },
+    {
+      "board": 2,
+      "handle": "Feet_Barbie",
+      "picks": 2,
+      "of": 7
+    },
+    {
+      "board": 3,
+      "handle": "Jg777",
+      "picks": 2,
+      "of": 7
+    },
+    {
+      "board": 4,
+      "handle": "Zubenelgenubi",
+      "picks": 1,
+      "of": 7
+    },
+    {
+      "board": 5,
+      "handle": "TristanBrown17",
+      "picks": 2,
+      "of": 7
+    },
+    {
+      "board": 6,
+      "handle": "cinemashow",
+      "picks": 2,
+      "of": 7
+    },
+    {
+      "board": 7,
+      "handle": "Pineapplechiffoncake",
+      "picks": 1,
+      "of": 7
+    },
+    {
+      "board": 8,
+      "handle": "R0B-W",
+      "picks": 2,
+      "of": 7
+    }
+  ],
   "teams": [
+    {
+      "owner": "cheapskate",
+      "name": "Lowest Cost Team",
+      "bot": true,
+      "total": 7463,
+      "points": 0.0,
+      "games": 0,
+      "ppg": 0,
+      "roster": [
+        {
+          "handle": "drchessdad",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "OhDearPleaseNo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "BlazedAndConfused",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Llawlietnea",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "TTotr",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "MakeMyMove",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Lexgrad",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "K5KGC",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 1
+    },
     {
       "owner": "arbitrary",
       "name": "Random Team",
@@ -113,51 +215,50 @@
       "rank": 1
     },
     {
-      "owner": "cheapskate",
-      "name": "Lowest Cost Team",
-      "bot": true,
-      "total": 7463,
+      "owner": "fork2020",
+      "name": "Finally a Website League.",
+      "total": 15784,
       "points": 0.0,
       "games": 0,
       "ppg": 0,
       "roster": [
         {
-          "handle": "drchessdad",
+          "handle": "tommeketoch",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "OhDearPleaseNo",
+          "handle": "LloydRet",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "BlazedAndConfused",
+          "handle": "berndwind",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "Llawlietnea",
+          "handle": "BLang316",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "TTotr",
+          "handle": "fork2020",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "MakeMyMove",
+          "handle": "SedNomini",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "Lexgrad",
+          "handle": "MatthewKCanada",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "K5KGC",
+          "handle": "R0B-W",
           "points": 0.0,
           "games": 0
         }
@@ -165,50 +266,152 @@
       "rank": 1
     },
     {
-      "owner": "flipiflapi",
-      "name": "everyone but me :(",
-      "total": 15983,
+      "owner": "RPCX",
+      "name": "^_~",
+      "total": 15792,
       "points": 0.0,
       "games": 0,
       "ppg": 0,
       "roster": [
         {
-          "handle": "ItsASecret2000",
+          "handle": "Silkthewanderer",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "Feet_Barbie",
+          "handle": "bufferunderrun",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "val1313",
+          "handle": "Fischer_and_Chips88",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "KirkD",
+          "handle": "Zubenelgenubi",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "gary0892",
+          "handle": "RPCX",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "RBorja1980",
+          "handle": "prostidude",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "ameyer",
+          "handle": "Pineapplechiffoncake",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "f1re_bunny",
+          "handle": "mongreltiger",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "owner": "baberle",
+      "name": "Red Bull makes me hypermodern",
+      "total": 15875,
+      "points": 0.0,
+      "games": 0,
+      "ppg": 0,
+      "roster": [
+        {
+          "handle": "guitarspider",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "yellorambo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ysgwydd",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ecoarrivazumashoomzo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Airini_H",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "parziwal08",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "baberle",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "R0B-W",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "owner": "LosingIsTheBest",
+      "name": "Gods Of Survivors",
+      "total": 15912,
+      "points": 0.0,
+      "games": 0,
+      "ppg": 0,
+      "roster": [
+        {
+          "handle": "alp_arslan92",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "j3084",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Nestor3690",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Sarahwynn",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "TristanBrown17",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "its_ck",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "LosingIsTheBest",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "jakubjaniak1994",
           "points": 0.0,
           "games": 0
         }
@@ -260,6 +463,57 @@
         },
         {
           "handle": "angborxley",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "owner": "flipiflapi",
+      "name": "everyone but me :(",
+      "total": 15983,
+      "points": 0.0,
+      "games": 0,
+      "ppg": 0,
+      "roster": [
+        {
+          "handle": "ItsASecret2000",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Feet_Barbie",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "val1313",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "KirkD",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "gary0892",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "RBorja1980",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ameyer",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "f1re_bunny",
           "points": 0.0,
           "games": 0
         }
@@ -322,13 +576,13 @@
       "owner": "popularity",
       "name": "Most Popular Players Team",
       "bot": true,
-      "total": 16734,
+      "total": 17238,
       "points": 0.0,
       "games": 0,
       "ppg": 0,
       "roster": [
         {
-          "handle": "Silkthewanderer",
+          "handle": "tommeketoch",
           "points": 0.0,
           "games": 0
         },
@@ -348,7 +602,7 @@
           "games": 0
         },
         {
-          "handle": "RPCX",
+          "handle": "TristanBrown17",
           "points": 0.0,
           "games": 0
         },
@@ -363,7 +617,7 @@
           "games": 0
         },
         {
-          "handle": "mongreltiger",
+          "handle": "R0B-W",
           "points": 0.0,
           "games": 0
         }
@@ -416,57 +670,6 @@
         },
         {
           "handle": "MartinDanielsson",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "owner": "RPCX",
-      "name": "^_~",
-      "total": 15792,
-      "points": 0.0,
-      "games": 0,
-      "ppg": 0,
-      "roster": [
-        {
-          "handle": "Silkthewanderer",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "bufferunderrun",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Zubenelgenubi",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "RPCX",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "prostidude",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Pineapplechiffoncake",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "mongreltiger",
           "points": 0.0,
           "games": 0
         }
