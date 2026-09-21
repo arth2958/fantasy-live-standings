@@ -20,15 +20,22 @@ the new season number (for example 51).
 
 This is the guardrail that keeps an archive from changing after rollover.
 
-1. Wait for **both** archive preconditions: (a) the final round's last game is
-   complete, and (b) the next season's teams have been formed and are live on
-   the league rosters page. The second condition ensures `no_longer_rostered` /
+1. Wait for **all** archive preconditions:
+   - the final round's last game is complete;
+   - Round 8 results are officially published on the league standings page;
+     preferably wait until the league site declares the season winners; and
+   - the next season's teams have been formed and are live on the league
+     rosters page.
+
+   Game completion alone is not final: league moderators can take days or
+   longer to finish cheating checks, and a post-season disqualification can
+   change results. The next-roster condition ensures `no_longer_rostered` /
    dropped states are computed against a valid next-season roster instead of
    the off-season gap. Verify there are no pending or in-progress player states,
    then wait for the final standings and projection updates. Confirm the current
    `s<OLD>/` page has the expected final teams, points, games, winner and only
-   final status colors. Never freeze while a game is unfinished or before the
-   next roster is live: either would bake a temporary state into the archive.
+   final status colors. Never freeze before every condition is met: doing so
+   could bake a pending, provisional or off-season state into the archive.
    Once frozen, status colors and game links survive as static historical data.
 2. Copy the current live artifact to an immutable archive name:
    `data/standings-s<OLD>.json`. For S50 this file already has that name, so
