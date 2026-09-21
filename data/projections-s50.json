@@ -1,7 +1,7 @@
 {
   "season": 50,
   "round": 1,
-  "updated_at": "2026-09-21T19:14:53.515733Z",
+  "updated_at": "2026-09-21T19:33:42.883312Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -5129,90 +5129,6 @@
       "projected_rank": 61
     },
     {
-      "owner": "LosingIsTheBest",
-      "name": "Gods Of Survivors",
-      "actual_points": 0.0,
-      "projected_points": 3.537743938035626,
-      "projected_round": 3.537743938035626,
-      "left": 7,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "alp_arslan92",
-          "status": "pending",
-          "rating": 2324,
-          "expected_points": 0.6648579785547648,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "j3084",
-          "status": "pending",
-          "rating": 2095,
-          "expected_points": 0.4526514819541353,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Nestor3690",
-          "status": "pending",
-          "rating": 1987,
-          "expected_points": 0.4103164968600499,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Sarahwynn",
-          "status": "pending",
-          "rating": 1921,
-          "expected_points": 0.5700528235839882,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "TristanBrown17",
-          "status": "pending",
-          "rating": 1874,
-          "expected_points": 0.533051393884441,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "its_ck",
-          "status": "pending",
-          "rating": 1772,
-          "expected_points": 0.4384320610263539,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "LosingIsTheBest",
-          "status": "pending",
-          "rating": 1726,
-          "expected_points": 0.4683817021718927,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "jakubjaniak1994",
-          "status": "unpaired",
-          "rating": null,
-          "expected_points": 0.0,
-          "actual_result": null,
-          "season_points": 0.0,
-          "season_games": 0
-        }
-      ],
-      "projected_rank": 62
-    },
-    {
       "owner": "Lordziax",
       "name": "I just pressed some buttons and this is what happened",
       "actual_points": 0.0,
@@ -5294,7 +5210,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 63
+      "projected_rank": 62
     },
     {
       "owner": "FinErik",
@@ -5378,7 +5294,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 64
+      "projected_rank": 63
     },
     {
       "owner": "macha1313",
@@ -5462,7 +5378,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 65
+      "projected_rank": 64
     },
     {
       "owner": "flipiflapi",
@@ -5546,10 +5462,102 @@
           "season_games": 1
         }
       ],
+      "projected_rank": 65
+    },
+    {
+      "owner": "LosingIsTheBest",
+      "name": "Gods Of Survivors",
+      "actual_points": 0.0,
+      "projected_points": 3.069362235863733,
+      "projected_round": 3.069362235863733,
+      "left": 6,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "alp_arslan92",
+          "status": "pending",
+          "rating": 2324,
+          "expected_points": 0.6648579785547648,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "j3084",
+          "status": "pending",
+          "rating": 2095,
+          "expected_points": 0.4526514819541353,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Nestor3690",
+          "status": "pending",
+          "rating": 1987,
+          "expected_points": 0.4103164968600499,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Sarahwynn",
+          "status": "pending",
+          "rating": 1921,
+          "expected_points": 0.5700528235839882,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "TristanBrown17",
+          "status": "pending",
+          "rating": 1874,
+          "expected_points": 0.533051393884441,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "its_ck",
+          "status": "pending",
+          "rating": 1772,
+          "expected_points": 0.4384320610263539,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "LosingIsTheBest",
+          "status": "lost",
+          "rating": 1710,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "jakubjaniak1994",
+          "status": "unpaired",
+          "rating": null,
+          "expected_points": 0.0,
+          "actual_result": null,
+          "season_points": 0.0,
+          "season_games": 0
+        }
+      ],
       "projected_rank": 66
     }
   ],
   "league_teams": [
+    {
+      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
+      "projected": 4.653755428532429,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
     {
       "name": "Lang and Lloyd R0Bbed Sed in the windy Canadian Alps with a fork",
       "projected": 4.600925990181022,
@@ -5568,7 +5576,7 @@
     },
     {
       "name": "100 Suggestions You Must Know",
-      "projected": 4.421530948917974,
+      "projected": 4.421530948917973,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -5599,16 +5607,16 @@
       "eligible": false
     },
     {
-      "name": "Old but hoping for stratospheric improvement",
-      "projected": 4.187036680327484,
-      "actual": 0.0,
+      "name": "Morphy's Mates",
+      "projected": 4.243586602540605,
+      "actual": 1.0,
       "paired": 8,
-      "left": 8,
+      "left": 7,
       "eligible": false
     },
     {
-      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
-      "projected": 4.185373726360536,
+      "name": "Old but hoping for stratospheric improvement",
+      "projected": 4.187036680327484,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -5640,7 +5648,7 @@
     },
     {
       "name": "50 Shades of Swindles and Tricks",
-      "projected": 4.155256457655888,
+      "projected": 4.155256457655887,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -5705,14 +5713,6 @@
     {
       "name": "Operation Pawnstorm",
       "projected": 4.084774844503612,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Morphy's Mates",
-      "projected": 4.08276192039328,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -5815,14 +5815,6 @@
       "eligible": false
     },
     {
-      "name": "Silk Road Sacrifices",
-      "projected": 3.9172380796067197,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Leningrad School of Blunders",
       "projected": 3.9152251554963886,
       "actual": 0.0,
@@ -5919,19 +5911,19 @@
       "eligible": false
     },
     {
-      "name": "passed pawn patrol",
-      "projected": 3.814626273639463,
+      "name": "Rooky Horror Pawn Show fan club",
+      "projected": 3.812963319672516,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
       "eligible": false
     },
     {
-      "name": "Rooky Horror Pawn Show fan club",
-      "projected": 3.812963319672516,
+      "name": "Silk Road Sacrifices",
+      "projected": 3.7564133974593954,
       "actual": 0.0,
       "paired": 8,
-      "left": 8,
+      "left": 7,
       "eligible": false
     },
     {
@@ -5977,6 +5969,14 @@
     {
       "name": "What a team! And we managed to avoid Prosti",
       "projected": 3.3990740098189782,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "passed pawn patrol",
+      "projected": 3.3462445714675706,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
