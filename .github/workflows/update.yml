@@ -13,15 +13,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      # NEXT SEASON: add "- run: python scripts/update_s<NN>.py" here, and add
-      # the new data/standings-s<NN>.json to the git add line below.
-      - run: python scripts/update.py
+      # Archived seasons are immutable and must not run here. At rollover,
+      # freeze the final artifact as data/standings-s<NN>.json, point the
+      # archived s<NN>/ view at it, then replace this command with the new
+      # season generator and update the git add path below.
       - run: python scripts/update_s50.py
       - name: Commit changed data
         run: |
           git config user.name "standings-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/standings.json data/standings-s50.json
+          git add data/standings-s50.json
           git diff --cached --quiet || git commit -m "Update standings"
           # A human push can land between this job's checkout and its push;
           # a plain "git push" then fails and the whole run goes red. Rebase
