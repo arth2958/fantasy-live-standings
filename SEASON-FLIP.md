@@ -13,7 +13,36 @@ The five moving pieces:
 4. **GitHub Actions** - the robot that rebuilds the standings every 15 minutes.
 5. **GitHub Pages** - just serves whatever is in the repo. No setup needed.
 
-Below, `<NN>` means the new season number (for example 51).
+Below, `<OLD>` means the season ending (for example 50), and `<NN>` means
+the new season number (for example 51).
+
+## Step 0 - Freeze the season that just ended (do this before changing the sheet)
+
+This is the guardrail that keeps an archive from changing after rollover.
+
+1. Wait for the final standings update and verify the current `s<OLD>/` page
+   has the expected final teams, points, games and winner.
+2. Copy the current live artifact to an immutable archive name:
+   `data/standings-s<OLD>.json`. For S50 this file already has that name, so
+   verify and retain the final version rather than making another copy.
+3. Edit `s<OLD>/app.js` so it fetches only
+   `../data/standings-s<OLD>.json`. An archive must never fetch a shared,
+   mutable filename such as `data/standings.json`.
+4. Edit `.github/workflows/update.yml`: remove the old season generator and
+   remove its artifact from the `git add` line. The recurring job must contain
+   only the season being actively scored.
+5. Open the archived page from the season selector and confirm its team count,
+   winner and final update time. Run the standings workflow once, then confirm
+   the archived artifact did not change.
+6. Only after those checks pass should the shared entry spreadsheet be
+   duplicated, cleared or repointed for the new season.
+
+**Why this matters:** S49 used an older spreadsheet-read flow. Its page read
+`data/standings.json`, and its generator rebuilt that file from a shared sheet.
+When the sheet was repurposed for S50, the S49 generator saw only the new
+sheet's bot rows and erased the human teams from the archive. Current seasons
+are artifact-based (`data/standings-sNN.json`). Each archive must point to its
+own frozen artifact, and its generator must be retired before the sheet flips.
 
 ---
 
@@ -74,11 +103,13 @@ file) button; change the text, then **Commit changes** at the bottom.
 
 Edit `.github/workflows/update.yml`:
 
-1. Under the existing `- run: python scripts/update_s50.py` line, add
-   `- run: python scripts/update_s<NN>.py`.
-2. In the `git add` line, add `data/standings-s<NN>.json`.
+1. Replace the old season command with
+   `- run: python scripts/update_s<NN>.py`. Do not leave the archived season's
+   generator in the recurring job.
+2. Replace the old artifact in the `git add` line with
+   `data/standings-s<NN>.json`. Do not keep an archived artifact on this line.
 
-Commit. The robot now refreshes the new season every 15 minutes.
+Commit. The robot now refreshes only the active season every 15 minutes.
 
 ## Step 5 - Check it works
 
@@ -95,7 +126,7 @@ Commit. The robot now refreshes the new season every 15 minutes.
   layout and logic are season-independent.
 - The Apps Script `Settings` tab names, budget cap (16,000), and board count
   (8) - league constants.
-- Old season folders and files - they are the archive.
+- Old season folders and frozen `data/standings-sNN.json` files - they are the immutable archive. Never point an archive at `data/standings.json` or run its generator after rollover.
 
 ## If stuck
 
