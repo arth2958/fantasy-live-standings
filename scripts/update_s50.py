@@ -136,11 +136,19 @@ def parse_entries(csv_text):
     total_col = col(["total", "total price"])
 
     bot_owners = {"popularity", "cheapskate", "profligate", "arbitrary", "on the dot"}
+    unsafe_text = re.compile(r"^[=+\-@\t\r]")
+    text_max = 80
     out = []
     for row in rows[1:]:
         if len(row) <= max(owner_col, max(board_cols)) or not row[owner_col].strip():
             continue
         owner = row[owner_col].strip()
+        name = row[name_col].strip() if name_col is not None and len(row) > name_col else ""
+        # Defense in depth for legacy/manual rows: never publish spreadsheet-formula
+        # prefixes or oversized free-form labels to the public standings JSON.
+        if len(owner) > text_max or len(name) > text_max or unsafe_text.match(owner) or unsafe_text.match(name):
+            print(f"skip unsafe entry label for {owner[:20]!r}")
+            continue
         # rows owned by the synthetic entries (carried over when the tab was
         # duplicated from a prior season) are not real entries: they never
         # appear on the site from the sheet and never feed the popularity count
@@ -151,7 +159,6 @@ def parse_entries(csv_text):
         if total_col is not None and len(row) > total_col and row[total_col].strip():
             try: total = int(float(re.sub(r"[^\d.]", "", row[total_col])))
             except ValueError: total = None
-        name = row[name_col].strip() if name_col is not None and len(row) > name_col else ""
         out.append({"owner": owner,
                     "name": name or f"{owner}’s team",
                     "handles": roster, "total": total})
@@ -211,6 +218,7 @@ def main():
             pts = sum(players[p.casefold()]["points"] for p in roster)
             games = sum(players[p.casefold()]["games"] for p in roster)
             teams.append({"owner": owner, "name": name, "total": total, "points": pts, "games": games,
+                          "round_games": sum(cur_played_by.get(p.casefold(), 0) for p in roster),
                           "games_left": games_left(roster),
                           "ppg": pts / games if games else 0,
                           "roster": [{"handle": p, "points": players[p.casefold()]["points"],
@@ -220,7 +228,9 @@ def main():
         pts = sum(players[p.casefold()]["points"] for p in roster)
         games = sum(players[p.casefold()]["games"] for p in roster)
         teams.append({"owner": b["owner"], "name": b["name"], "bot": True, "total": b["total"],
-                      "points": pts, "games": games, "games_left": games_left(roster), "ppg": pts / games if games else 0,
+                      "points": pts, "games": games,
+                      "round_games": sum(cur_played_by.get(p.casefold(), 0) for p in roster),
+                      "games_left": games_left(roster), "ppg": pts / games if games else 0,
                       "roster": [{"handle": h, "points": players[h.casefold()]["points"],
                                   "games": players[h.casefold()]["games"]} for h in roster]})
     # League tiebreaks: 1) points per game, 2) lowest total price.
