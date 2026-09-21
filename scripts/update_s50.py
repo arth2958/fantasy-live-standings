@@ -182,7 +182,7 @@ def main():
             rnd_sched_by[right.casefold()] += 1
             raw_score = cells[1].replace(" ", "")
             scores = [raw_score[:len(raw_score)//2], raw_score[len(raw_score)//2:]]
-            if len(scores) != 2 or scores[0][0] not in "01½" or scores[1][0] not in "01½":
+            if len(scores) != 2 or not scores[0] or not scores[1] or scores[0][0] not in "01½" or scores[1][0] not in "01½":
                 continue
             total_pairings += 1
             rnd_played += 1
