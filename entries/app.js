@@ -1,7 +1,8 @@
 /* Season 50 fantasy entry form. */
 const SEASON = Number(document.body.dataset.season || 50);
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxIVFQQFFKTAmkjt03wSI5yxg5tSyCsLf1AiPyN3iAb7_DtCbjWLXvWLPwmaaOFcLVJeA/exec"; // <-- paste the deployed Apps Script web-app URL here
-const BUDGET = 16000, BOARDS = 8;
+const BUDGET = 16000, BOARDS = 8, TEXT_MAX = 80;
+const UNSAFE_TEXT = /^[=+\-@\t\r]/;
 const q = s => document.querySelector(s), euro = n => n.toLocaleString("en-US");
 let data = null;
 const picks = new Array(BOARDS).fill(null);
@@ -97,7 +98,11 @@ function validate() {
   const owner = q("#owner").value.trim();
   if (chosen().length !== BOARDS) return "Pick one player from each of the 8 boards.";
   if (total() > BUDGET) return `Over budget by ${euro(total() - BUDGET)}.`;
+  const team = q("#teamname").value.trim();
   if (!owner) return "Add your name so the league knows whose team this is.";
+  if (owner.length > TEXT_MAX) return `Owner name must be ${TEXT_MAX} characters or fewer.`;
+  if (team.length > TEXT_MAX) return `Team name must be ${TEXT_MAX} characters or fewer.`;
+  if (UNSAFE_TEXT.test(owner) || UNSAFE_TEXT.test(team)) return "Owner and team names cannot start with =, +, -, @, a tab, or a carriage return.";
   const handles = chosen().map(p => p.handle.toLowerCase());
   if (new Set(handles).size !== handles.length) return "The same player cannot be picked twice.";
   return null;
@@ -105,7 +110,8 @@ function validate() {
 
 function entry() {
   return {
-    season: SEASON, owner: q("#owner").value.trim(), team: q("#teamname").value.trim() || (q("#owner").value.trim() + "’s team"),
+    season: SEASON, owner: q("#owner").value.trim(), team: q("#teamname").value.trim(),
+    website: q("#website").value,
     picks: chosen().map(p => ({ board: p.board, handle: p.handle, rating: p.rating, price: p.price })),
     total: total(), prices_generated_at: data.generated_at,
   };
