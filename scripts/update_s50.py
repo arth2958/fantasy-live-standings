@@ -219,6 +219,7 @@ def main():
             games = sum(players[p.casefold()]["games"] for p in roster)
             teams.append({"owner": owner, "name": name, "total": total, "points": pts, "games": games,
                           "round_games": sum(cur_played_by.get(p.casefold(), 0) for p in roster),
+                          "round_scheduled": sum(cur_sched_by.get(p.casefold(), 0) for p in roster),
                           "games_left": games_left(roster),
                           "ppg": pts / games if games else 0,
                           "roster": [{"handle": p, "points": players[p.casefold()]["points"],
@@ -230,6 +231,7 @@ def main():
         teams.append({"owner": b["owner"], "name": b["name"], "bot": True, "total": b["total"],
                       "points": pts, "games": games,
                       "round_games": sum(cur_played_by.get(p.casefold(), 0) for p in roster),
+                          "round_scheduled": sum(cur_sched_by.get(p.casefold(), 0) for p in roster),
                       "games_left": games_left(roster), "ppg": pts / games if games else 0,
                       "roster": [{"handle": h, "points": players[h.casefold()]["points"],
                                   "games": players[h.casefold()]["games"]} for h in roster]})
