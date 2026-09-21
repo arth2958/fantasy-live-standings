@@ -10,6 +10,8 @@ const SHEET_NAME = 'S50Entries'; // <== UPDATE EACH SEASON
 const BUDGET_CAP = 16000;
 const BOARDS = 8;
 const REPLACE_EXISTING = false; // set true to let an owner resubmit (replaces the old row)
+const TEXT_MAX = 80;
+const UNSAFE_TEXT = /^[=+\-@\t\r]/;
 
 // Commissioner's close switch: a "Settings" tab in this spreadsheet,
 // A1 = SUBMISSIONS, B1 = OPEN or CLOSED. Checked on every submission.
@@ -44,7 +46,8 @@ function doPost(e) {
       sheet = ss.insertSheet(SHEET_NAME);
       sheet.appendRow(header());
     }
-    const owner = String(data.owner).trim();
+    const owner = cleanText(data.owner);
+    const team = cleanText(data.team || '');
     const rows = sheet.getDataRange().getValues();
     const ownerCol = columnOf(rows[0], ['owner'], 0);
     for (let i = 1; i < rows.length; i++) {
@@ -60,7 +63,7 @@ function doPost(e) {
     row[columnOf(hdr, ['timestamp', 'date submitted'], 0)] = new Date();
     row[columnOf(hdr, ['owner'], 0)] = owner;
     const ni = columnOf(hdr, ['team name', 'fantasy team'], -1);
-    if (ni >= 0) row[ni] = String(data.team || '').trim();
+    if (ni >= 0) row[ni] = team;
     for (const p of picks) {
       const i = columnOf(hdr, ['board ' + p.board], -1);
       if (i >= 0) row[i] = p.handle;
@@ -81,7 +84,14 @@ function doPost(e) {
 
 function validate(d) {
   if (!d || typeof d !== 'object') return 'Empty submission.';
-  if (!String(d.owner || '').trim()) return 'Missing owner name.';
+  const owner = cleanText(d.owner || '');
+  const team = cleanText(d.team || '');
+  if (!owner) return 'Missing owner name.';
+  if (owner.length > TEXT_MAX) return 'Owner name must be ' + TEXT_MAX + ' characters or fewer.';
+  if (team.length > TEXT_MAX) return 'Team name must be ' + TEXT_MAX + ' characters or fewer.';
+  if (UNSAFE_TEXT.test(owner) || UNSAFE_TEXT.test(team)) return 'Owner and team names cannot start with =, +, -, @, a tab, or a carriage return.';
+  // Cheap bot guard: real browsers leave the hidden field empty.
+  if (String(d.website || '').trim()) return 'Invalid submission.';
   if (!Array.isArray(d.picks) || d.picks.length !== BOARDS) return 'Entry must have exactly 8 players.';
   const boards = d.picks.map(p => p && p.board);
   for (let b = 1; b <= BOARDS; b++) if (boards.indexOf(b) === -1) return 'Missing a pick for board ' + b + '.';
@@ -111,6 +121,10 @@ function validate(d) {
     if (Number(p.price) !== listed[key]) return String(p.handle).trim() + ' does not have the listed Board ' + p.board + ' price.';
   }
   return null;
+}
+
+function cleanText(value) {
+  return String(value == null ? '' : value).trim();
 }
 
 // board|handle (lowercase) -> listed price, from the Prices tab.
