@@ -6,8 +6,9 @@
 <section class="boards" id="boards"></section>
 <section class="owner">
 <h2>Your entry</h2>
-<label>Your name (owner)<input id="owner" type="text" placeholder="The name the league knows you by" autocomplete="off"></label>
-<label>Fantasy team name <span class="optional">(optional)</span><input id="teamname" type="text" placeholder="Something magnificent" autocomplete="off"></label>
+<label>Your name (owner)<input id="owner" type="text" maxlength="80" placeholder="The name the league knows you by" autocomplete="off"></label>
+<label>Fantasy team name <span class="optional">(optional)</span><input id="teamname" type="text" maxlength="80" placeholder="Something magnificent" autocomplete="off"></label>
+<label style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true">Website<input id="website" type="text" tabindex="-1" autocomplete="off"></label>
 </section>
 <div class="note" id="queue-note" hidden></div>
 <section id="queued"></section>
