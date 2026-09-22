@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 1,
-  "updated_at": "2026-09-22T15:00:59.506666Z",
+  "round_in_progress": 2,
+  "updated_at": "2026-09-22T15:22:00.101206Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -884,8 +884,8 @@
       "owner": "rio2018",
       "name": "Something magnificant",
       "actual_points": 0.0,
-      "projected_points": 4.314675095209414,
-      "projected_round": 4.314675095209414,
+      "projected_points": 4.324286652478734,
+      "projected_round": 4.324286652478734,
       "left": 8,
       "in_progress": 0,
       "paired": 8,
@@ -992,7 +992,7 @@
           "handle": "DavidSifre",
           "status": "pending",
           "rating": 1549,
-          "expected_points": 0.7490830628775356,
+          "expected_points": 0.7586946201468556,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -4131,6 +4131,131 @@
       "projected_rank": 33
     },
     {
+      "owner": "super0jins",
+      "name": "Board 1 fit perfectly within my budget",
+      "actual_points": 0.0,
+      "projected_points": 3.880761575084744,
+      "projected_round": 3.880761575084744,
+      "left": 7,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "Kayrosas",
+          "status": "pending",
+          "rating": 2479,
+          "expected_points": 0.8010809398289456,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:kayrosas:slowroast",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "LloydRet",
+          "status": "pending",
+          "rating": 2065,
+          "expected_points": 0.3827749690950537,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:feet_barbie:lloydret",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "BlazedAndConfused",
+          "status": "lost",
+          "rating": 1933,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/rNv7LEm3",
+          "game_link_kind": "recent",
+          "round_game": "1:blazedandconfused:cowtone",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Llawlietnea",
+          "status": "pending",
+          "rating": 1874,
+          "expected_points": 0.4726840269935071,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:cluffas:llawlietnea",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "TTotr",
+          "status": "pending",
+          "rating": 1804,
+          "expected_points": 0.4441090388831469,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:jeb_al_gloke:ttotr",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "ztraynor",
+          "status": "pending",
+          "rating": 1804,
+          "expected_points": 0.554469374021676,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:cbpio:ztraynor",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Lexgrad",
+          "status": "pending",
+          "rating": 1616,
+          "expected_points": 0.46694860611555894,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:anonymousbozo:lexgrad",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "DavidSifre",
+          "status": "pending",
+          "rating": 1549,
+          "expected_points": 0.7586946201468556,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:davidsifre:mimrolls",
+          "season_points": 0.0,
+          "season_games": 0
+        }
+      ],
+      "projected_rank": 34
+    },
+    {
       "owner": "berndwind",
       "name": "Sweet perfection",
       "actual_points": 0.0,
@@ -4253,7 +4378,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 34
+      "projected_rank": 35
     },
     {
       "owner": "cinemashow",
@@ -4374,131 +4499,6 @@
           "game_url": null,
           "game_link_kind": null,
           "round_game": "1:mongreltiger:stumct",
-          "season_points": 0.0,
-          "season_games": 0
-        }
-      ],
-      "projected_rank": 35
-    },
-    {
-      "owner": "super0jins",
-      "name": "Board 1 fit perfectly within my budget",
-      "actual_points": 0.0,
-      "projected_points": 3.871150017815424,
-      "projected_round": 3.871150017815424,
-      "left": 7,
-      "in_progress": 0,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "Kayrosas",
-          "status": "pending",
-          "rating": 2479,
-          "expected_points": 0.8010809398289456,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:kayrosas:slowroast",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "LloydRet",
-          "status": "pending",
-          "rating": 2065,
-          "expected_points": 0.3827749690950537,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:feet_barbie:lloydret",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "BlazedAndConfused",
-          "status": "lost",
-          "rating": 1933,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/rNv7LEm3",
-          "game_link_kind": "recent",
-          "round_game": "1:blazedandconfused:cowtone",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Llawlietnea",
-          "status": "pending",
-          "rating": 1874,
-          "expected_points": 0.4726840269935071,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:cluffas:llawlietnea",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "TTotr",
-          "status": "pending",
-          "rating": 1804,
-          "expected_points": 0.4441090388831469,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:jeb_al_gloke:ttotr",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "ztraynor",
-          "status": "pending",
-          "rating": 1804,
-          "expected_points": 0.554469374021676,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:cbpio:ztraynor",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Lexgrad",
-          "status": "pending",
-          "rating": 1616,
-          "expected_points": 0.46694860611555894,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:anonymousbozo:lexgrad",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "DavidSifre",
-          "status": "pending",
-          "rating": 1549,
-          "expected_points": 0.7490830628775356,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:davidsifre:mimrolls",
           "season_points": 0.0,
           "season_games": 0
         }
@@ -5512,7 +5512,7 @@
       "projected_points": 3.7375745510270106,
       "projected_round": 3.7375745510270106,
       "left": 8,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -5523,8 +5523,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/VFiFRkjT",
+          "game_link_kind": "live",
           "round_game": "1:karasso:unknownprodigy",
           "season_points": 0.0,
           "season_games": 0
@@ -6509,8 +6509,8 @@
       "owner": "AceRb95",
       "name": "Blunnder masterss",
       "actual_points": 0.0,
-      "projected_points": 3.6573589867563916,
-      "projected_round": 3.6573589867563916,
+      "projected_points": 3.6669705440257117,
+      "projected_round": 3.6669705440257117,
       "left": 7,
       "in_progress": 0,
       "paired": 7,
@@ -6617,7 +6617,7 @@
           "handle": "DavidSifre",
           "status": "pending",
           "rating": 1549,
-          "expected_points": 0.7490830628775356,
+          "expected_points": 0.7586946201468556,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -8402,14 +8402,6 @@
       "eligible": false
     },
     {
-      "name": "Mating for Godot",
-      "projected": 4.096595295727826,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Illiterate Alliteration Explorers",
       "projected": 4.093357081060449,
       "actual": 0.0,
@@ -8420,6 +8412,14 @@
     {
       "name": "The kannjuring",
       "projected": 4.09150710297573,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 8,
+      "eligible": false
+    },
+    {
+      "name": "Mating for Godot",
+      "projected": 4.086983738458506,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8522,6 +8522,14 @@
       "eligible": false
     },
     {
+      "name": "Rooky Horror Pawn Show",
+      "projected": 3.913016261541494,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 8,
+      "eligible": false
+    },
+    {
       "name": "Wandering Knights",
       "projected": 3.90849289702427,
       "actual": 0.0,
@@ -8532,14 +8540,6 @@
     {
       "name": "Knights of the Round Tablebase",
       "projected": 3.9066429189395513,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Rooky Horror Pawn Show",
-      "projected": 3.903404704272174,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
