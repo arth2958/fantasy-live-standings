@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-22T18:44:03.805742Z",
+  "updated_at": "2026-09-22T18:54:03.885014Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 15,
+  "pairings_parsed": 16,
   "popular": [
     {
       "board": 1,
@@ -492,6 +492,61 @@
       "rank": 8
     },
     {
+      "owner": "arbitrary",
+      "name": "Random Team",
+      "bot": true,
+      "total": 13863,
+      "points": 1.0,
+      "games": 3,
+      "round_games": 3,
+      "round_scheduled": 8,
+      "games_left": 5,
+      "ppg": 0.3333333333333333,
+      "roster": [
+        {
+          "handle": "Kjar",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Narrenkind",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AlexGaul",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "BLang316",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Angrybird029",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "burner_account17",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "mmkgtc",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 9
+    },
+    {
       "owner": "NameGoesInHere",
       "name": "Is this the real team? Is this just fantasy?",
       "total": 15975,
@@ -543,7 +598,7 @@
           "games": 0
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "owner": "cheapskate",
@@ -598,7 +653,7 @@
           "games": 0
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "owner": "jg777",
@@ -650,61 +705,6 @@
           "handle": "macha1313",
           "points": 0.0,
           "games": 0
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "owner": "arbitrary",
-      "name": "Random Team",
-      "bot": true,
-      "total": 13863,
-      "points": 0.0,
-      "games": 2,
-      "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.0,
-      "roster": [
-        {
-          "handle": "Kjar",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Narrenkind",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AlexGaul",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "BLang316",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Angrybird029",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "burner_account17",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "mmkgtc",
-          "points": 0.0,
-          "games": 1
         }
       ],
       "rank": 12
@@ -761,7 +761,7 @@
           "games": 0
         }
       ],
-      "rank": 13
+      "rank": 12
     },
     {
       "owner": "rio2018",
@@ -815,7 +815,7 @@
           "games": 0
         }
       ],
-      "rank": 13
+      "rank": 12
     },
     {
       "owner": "macha1313",
@@ -3632,8 +3632,8 @@
       "points": 0.0,
       "games": 1,
       "round_games": 1,
-      "round_scheduled": 8,
-      "games_left": 7,
+      "round_scheduled": 7,
+      "games_left": 6,
       "ppg": 0.0,
       "roster": [
         {
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 15,
+    "played": 16,
     "total": 216
   }
 }
