@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-22T20:09:13.512062Z",
+  "updated_at": "2026-09-22T20:25:17.548252Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 20,
+  "pairings_parsed": 21,
   "popular": [
     {
       "board": 1,
@@ -168,6 +168,60 @@
       "rank": 2
     },
     {
+      "owner": "pykkis",
+      "name": "Something magnificent (I'm so creative)",
+      "total": 15940,
+      "points": 2.0,
+      "games": 2,
+      "round_games": 2,
+      "round_scheduled": 8,
+      "games_left": 6,
+      "ppg": 1.0,
+      "roster": [
+        {
+          "handle": "Petro2",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "GoneNowhere",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Minot",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "MrScribbles",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Chesspatzerswan",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "pykkis",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "IroncladUnicorn",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "DrRickinCT",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 3
+    },
+    {
       "owner": "GlennJamesMax",
       "name": "Beasts and Boarddroppers",
       "total": 15806,
@@ -219,7 +273,7 @@
           "games": 0
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -273,7 +327,7 @@
           "games": 0
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "owner": "tastypotatohead",
@@ -323,60 +377,6 @@
         },
         {
           "handle": "angborxley",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "owner": "pykkis",
-      "name": "Something magnificent (I'm so creative)",
-      "total": 15940,
-      "points": 1.0,
-      "games": 1,
-      "round_games": 1,
-      "round_scheduled": 8,
-      "games_left": 7,
-      "ppg": 1.0,
-      "roster": [
-        {
-          "handle": "Petro2",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "GoneNowhere",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Minot",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Chesspatzerswan",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "pykkis",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "IroncladUnicorn",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "DrRickinCT",
           "points": 0.0,
           "games": 0
         }
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 20,
+    "played": 21,
     "total": 216
   }
 }
