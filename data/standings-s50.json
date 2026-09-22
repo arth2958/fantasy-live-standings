@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-22T18:12:20.471767Z",
+  "updated_at": "2026-09-22T18:30:43.598806Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 14,
+  "pairings_parsed": 15,
   "popular": [
     {
       "board": 1,
@@ -3685,11 +3685,11 @@
       "bot": true,
       "total": 16000,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "BicKedag",
@@ -3719,7 +3719,7 @@
         {
           "handle": "Rusty_2003",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Vayne987",
@@ -3732,7 +3732,7 @@
           "games": 0
         }
       ],
-      "rank": 68
+      "rank": 67
     },
     {
       "owner": "super0jins",
@@ -3786,7 +3786,7 @@
           "games": 0
         }
       ],
-      "rank": 69
+      "rank": 67
     },
     {
       "owner": "popularity",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 14,
+    "played": 15,
     "total": 216
   }
 }
