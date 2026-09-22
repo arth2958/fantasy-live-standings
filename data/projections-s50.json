@@ -1,10 +1,135 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 4,
-  "updated_at": "2026-09-22T20:20:31.767648Z",
+  "round_in_progress": 3,
+  "updated_at": "2026-09-22T20:35:53.351321Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
+    {
+      "owner": "pykkis",
+      "name": "Something magnificent (I'm so creative)",
+      "actual_points": 2.0,
+      "projected_points": 5.500759922831773,
+      "projected_round": 5.500759922831773,
+      "left": 6,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "Petro2",
+          "status": "won",
+          "rating": 2166,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/B5yNOz1w",
+          "game_link_kind": "recent",
+          "round_game": "1:petro2:tommeketoch",
+          "season_points": 1.0,
+          "season_games": 1
+        },
+        {
+          "handle": "GoneNowhere",
+          "status": "pending",
+          "rating": 2180,
+          "expected_points": 0.6400649998028851,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:gonenowhere:rajjsinghh",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Minot",
+          "status": "won",
+          "rating": 2062,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/8uZj3p94",
+          "game_link_kind": "recent",
+          "round_game": "1:aguayo:minot",
+          "season_points": 1.0,
+          "season_games": 1
+        },
+        {
+          "handle": "MrScribbles",
+          "status": "pending",
+          "rating": 1906,
+          "expected_points": 0.46694860611555894,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:mrscribbles:simonwashere",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Chesspatzerswan",
+          "status": "pending",
+          "rating": 1814,
+          "expected_points": 0.42994717641601177,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:chesspatzerswan:glbert",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "pykkis",
+          "status": "pending",
+          "rating": 1752,
+          "expected_points": 0.5230095872975623,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:pykkis:voylento",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "IroncladUnicorn",
+          "status": "pending",
+          "rating": 1740,
+          "expected_points": 0.5014391117091529,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:ironcladunicorn:vayne987",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "DrRickinCT",
+          "status": "pending",
+          "rating": 1536,
+          "expected_points": 0.9393504414906022,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:chraki:drrickinct",
+          "season_points": 0.0,
+          "season_games": 0
+        }
+      ],
+      "projected_rank": 1
+    },
     {
       "owner": "Tranzoo",
       "name": "Shakalaka",
@@ -128,7 +253,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 1
+      "projected_rank": 2
     },
     {
       "owner": "GlennJamesMax",
@@ -253,7 +378,7 @@
           "season_games": 0
         }
       ],
-      "projected_rank": 2
+      "projected_rank": 3
     },
     {
       "owner": "baberle",
@@ -378,7 +503,7 @@
           "season_games": 1
         }
       ],
-      "projected_rank": 3
+      "projected_rank": 4
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -499,131 +624,6 @@
           "game_url": null,
           "game_link_kind": null,
           "round_game": "1:brilliantblunder:jcarmody",
-          "season_points": 0.0,
-          "season_games": 0
-        }
-      ],
-      "projected_rank": 4
-    },
-    {
-      "owner": "pykkis",
-      "name": "Something magnificent (I'm so creative)",
-      "actual_points": 1.0,
-      "projected_points": 4.500759922831773,
-      "projected_round": 5.500759922831773,
-      "left": 6,
-      "in_progress": 0,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "Petro2",
-          "status": "won",
-          "rating": 2166,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/B5yNOz1w",
-          "game_link_kind": "recent",
-          "round_game": "1:petro2:tommeketoch",
-          "season_points": 1.0,
-          "season_games": 1
-        },
-        {
-          "handle": "GoneNowhere",
-          "status": "pending",
-          "rating": 2180,
-          "expected_points": 0.6400649998028851,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:gonenowhere:rajjsinghh",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Minot",
-          "status": "won",
-          "rating": 2062,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/8uZj3p94",
-          "game_link_kind": "recent",
-          "round_game": "1:aguayo:minot",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "MrScribbles",
-          "status": "pending",
-          "rating": 1906,
-          "expected_points": 0.46694860611555894,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:mrscribbles:simonwashere",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Chesspatzerswan",
-          "status": "pending",
-          "rating": 1814,
-          "expected_points": 0.42994717641601177,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:chesspatzerswan:glbert",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "pykkis",
-          "status": "pending",
-          "rating": 1752,
-          "expected_points": 0.5230095872975623,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:pykkis:voylento",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "IroncladUnicorn",
-          "status": "pending",
-          "rating": 1740,
-          "expected_points": 0.5014391117091529,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:ironcladunicorn:vayne987",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "DrRickinCT",
-          "status": "pending",
-          "rating": 1536,
-          "expected_points": 0.9393504414906022,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:chraki:drrickinct",
           "season_points": 0.0,
           "season_games": 0
         }
@@ -8330,6 +8330,14 @@
       "eligible": false
     },
     {
+      "name": "J’adoube-Al-Blunder",
+      "projected": 4.3938365885487825,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Don't give a check your ascii can't cache",
       "projected": 4.389894367819589,
       "actual": 1.0,
@@ -8396,14 +8404,6 @@
     {
       "name": "50 Shades of Swindles and Tricks",
       "projected": 4.145205671693177,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "If anyone can refute it—don't show me",
-      "projected": 4.111919619862363,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8538,14 +8538,6 @@
       "eligible": false
     },
     {
-      "name": "J’adoube-Al-Blunder",
-      "projected": 3.8880803801376373,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Pirc and Roll",
       "projected": 3.8547943283068227,
       "actual": 0.0,
@@ -8563,7 +8555,7 @@
     },
     {
       "name": "oh those 64 squares can encompass such immensity",
-      "projected": 3.8291213427192456,
+      "projected": 3.829121342719246,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8612,6 +8604,14 @@
     {
       "name": "50 pawns of Giri",
       "projected": 3.610105632180411,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "If anyone can refute it—don't show me",
+      "projected": 3.6061634114512175,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
