@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-22T14:10:02.767355Z",
+  "updated_at": "2026-09-22T14:27:13.203315Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 10,
+  "pairings_parsed": 12,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "baberle",
+      "name": "Red Bull makes me hypermodern",
+      "total": 15875,
+      "points": 2.0,
+      "games": 2,
+      "round_games": 2,
+      "round_scheduled": 8,
+      "games_left": 6,
+      "ppg": 1.0,
+      "roster": [
+        {
+          "handle": "guitarspider",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "yellorambo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ysgwydd",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ecoarrivazumashoomzo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Airini_H",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "parziwal08",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "baberle",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "R0B-W",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "semlegesnev",
       "name": "Call it nationalism",
       "total": 15401,
@@ -111,7 +165,7 @@
           "games": 0
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "GlennJamesMax",
@@ -163,60 +217,6 @@
           "handle": "BLuesiDE617",
           "points": 0.0,
           "games": 0
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "owner": "baberle",
-      "name": "Red Bull makes me hypermodern",
-      "total": 15875,
-      "points": 1.0,
-      "games": 1,
-      "round_games": 1,
-      "round_scheduled": 8,
-      "games_left": 7,
-      "ppg": 1.0,
-      "roster": [
-        {
-          "handle": "guitarspider",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "yellorambo",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "ysgwydd",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "ecoarrivazumashoomzo",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Airini_H",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "parziwal08",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "baberle",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "R0B-W",
-          "points": 1.0,
-          "games": 1
         }
       ],
       "rank": 3
@@ -606,10 +606,10 @@
       "bot": true,
       "total": 13863,
       "points": 0.0,
-      "games": 1,
-      "round_games": 1,
+      "games": 2,
+      "round_games": 2,
       "round_scheduled": 8,
-      "games_left": 7,
+      "games_left": 6,
       "ppg": 0.0,
       "roster": [
         {
@@ -640,7 +640,7 @@
         {
           "handle": "kostasvl",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "burner_account17",
@@ -1362,11 +1362,11 @@
       "name": "King12-life’s team",
       "total": 15705,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "Duty5521",
@@ -1396,7 +1396,7 @@
         {
           "handle": "kostasvl",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Nairwolf",
@@ -1409,7 +1409,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 25
     },
     {
       "owner": "MatthewKCanada",
@@ -1463,7 +1463,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "GoldenRetrieverChess",
@@ -1517,7 +1517,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "ysgwydd",
@@ -1571,7 +1571,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "Lordziax",
@@ -1625,7 +1625,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "Okady",
@@ -1679,7 +1679,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "alp_arslan92",
@@ -1733,7 +1733,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "RPCX",
@@ -1787,7 +1787,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "adande1",
@@ -1841,7 +1841,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -1895,7 +1895,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "AceRb95",
@@ -1949,7 +1949,7 @@
           "games": 0
         }
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "owner": "Silkthewanderer",
@@ -2928,11 +2928,11 @@
       "name": "This is a really nice looking website, I like this",
       "total": 15977,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "jdannan",
@@ -2962,7 +2962,7 @@
         {
           "handle": "kostasvl",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "pawneater2020",
@@ -2975,18 +2975,18 @@
           "games": 0
         }
       ],
-      "rank": 48
+      "rank": 54
     },
     {
       "owner": "tomb85",
       "name": "50 reasons to give fantasy a try",
       "total": 15977,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -3016,7 +3016,7 @@
         {
           "handle": "kostasvl",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Rehbein",
@@ -3029,7 +3029,7 @@
           "games": 0
         }
       ],
-      "rank": 48
+      "rank": 54
     },
     {
       "owner": "Acebulf",
@@ -3083,7 +3083,7 @@
           "games": 0
         }
       ],
-      "rank": 48
+      "rank": 56
     },
     {
       "owner": "flipiflapi",
@@ -3630,11 +3630,11 @@
       "name": "Stinkfish 50",
       "total": 16000,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "alp_arslan92",
@@ -3664,7 +3664,7 @@
         {
           "handle": "kostasvl",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Nairwolf",
@@ -3732,7 +3732,7 @@
           "games": 0
         }
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "owner": "super0jins",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 10,
+    "played": 12,
     "total": 216
   }
 }
