@@ -10,3 +10,5 @@
 .pick[hidden]{display:none}
 
 .league-profile{display:inline!important;margin-left:3px!important;color:#777174!important;font-size:8px!important;font-weight:700!important;line-height:1!important;text-decoration:none!important;opacity:.62}.league-profile:hover{color:var(--teal)!important;opacity:1;text-decoration:none!important}
+
+.topnav{flex-wrap:wrap}.topnav a,.topnav .nav-disabled{white-space:nowrap}@media(max-width:620px){.topnav{gap:5px}.topnav a,header .topnav span.nav-disabled{padding:6px 9px;font-size:10px;letter-spacing:.04em}}
