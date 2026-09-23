@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-23T01:09:10.634692Z",
+  "updated_at": "2026-09-23T01:25:01.286266Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 26,
+  "pairings_parsed": 27,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "Inter-temporal",
+      "name": "This is the way.",
+      "total": 15948,
+      "points": 3.0,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.75,
+      "roster": [
+        {
+          "handle": "tommeketoch",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "irongalaxy",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Ciraid",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Oachkatzerlschwoaf",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Bpack",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "JokicInator15",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Pineapplechiffoncake",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Apidae",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "baberle",
       "name": "Red Bull makes me hypermodern",
       "total": 15875,
@@ -111,7 +165,7 @@
           "games": 1
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "Tranzoo",
@@ -165,7 +219,7 @@
           "games": 0
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "owner": "pykkis",
@@ -219,12 +273,12 @@
           "games": 0
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
-      "owner": "Inter-temporal",
-      "name": "This is the way.",
-      "total": 15948,
+      "owner": "Oachkatzerlschwoaf",
+      "name": "trust in all, but myself",
+      "total": 15879,
       "points": 2.0,
       "games": 3,
       "round_games": 3,
@@ -238,7 +292,7 @@
           "games": 1
         },
         {
-          "handle": "irongalaxy",
+          "handle": "Inter-temporal",
           "points": 0.0,
           "games": 0
         },
@@ -248,9 +302,9 @@
           "games": 0
         },
         {
-          "handle": "Oachkatzerlschwoaf",
-          "points": 1.0,
-          "games": 1
+          "handle": "ecoarrivazumashoomzo",
+          "points": 0.0,
+          "games": 0
         },
         {
           "handle": "Bpack",
@@ -259,11 +313,11 @@
         },
         {
           "handle": "JokicInator15",
-          "points": 0.0,
-          "games": 0
+          "points": 1.0,
+          "games": 1
         },
         {
-          "handle": "Pineapplechiffoncake",
+          "handle": "HighonPotnuse",
           "points": 0.0,
           "games": 0
         },
@@ -273,7 +327,7 @@
           "games": 0
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "owner": "Bennol",
@@ -327,7 +381,61 @@
           "games": 0
         }
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "owner": "gary0892",
+      "name": "gary0892’s team",
+      "total": 15355,
+      "points": 1.0,
+      "games": 1,
+      "round_games": 1,
+      "round_scheduled": 8,
+      "games_left": 7,
+      "ppg": 1.0,
+      "roster": [
+        {
+          "handle": "digvijay_sunil",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Lordziax",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AlexGaul",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Llawlietnea",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "gary0892",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "JokicInator15",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Masterpiece_KI",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "GLAYGHOST",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 7
     },
     {
       "owner": "GlennJamesMax",
@@ -381,7 +489,7 @@
           "games": 0
         }
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -435,7 +543,7 @@
           "games": 0
         }
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "owner": "tastypotatohead",
@@ -489,7 +597,7 @@
           "games": 0
         }
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "owner": "Monocarp",
@@ -543,7 +651,7 @@
           "games": 0
         }
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "owner": "macha1313",
@@ -597,7 +705,7 @@
           "games": 0
         }
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "owner": "fork2020",
@@ -651,12 +759,12 @@
           "games": 1
         }
       ],
-      "rank": 11
+      "rank": 13
     },
     {
-      "owner": "Oachkatzerlschwoaf",
-      "name": "trust in all, but myself",
-      "total": 15879,
+      "owner": "Silkthewanderer",
+      "name": "Why does the king the largest of the pieces not simpy eat the other ones?",
+      "total": 15874,
       "points": 1.0,
       "games": 2,
       "round_games": 2,
@@ -670,42 +778,42 @@
           "games": 1
         },
         {
-          "handle": "Inter-temporal",
+          "handle": "ben3536",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "Ciraid",
+          "handle": "aloo_bhaloo",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "ecoarrivazumashoomzo",
+          "handle": "MrScribbles",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "Bpack",
+          "handle": "glbert",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "JokicInator15",
           "points": 1.0,
           "games": 1
         },
         {
-          "handle": "JokicInator15",
+          "handle": "MatthewKCanada",
           "points": 0.0,
           "games": 0
         },
         {
-          "handle": "HighonPotnuse",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Apidae",
+          "handle": "jcarmody",
           "points": 0.0,
           "games": 0
         }
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "owner": "jwwells42",
@@ -759,7 +867,7 @@
           "games": 0
         }
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "owner": "tomb85",
@@ -813,7 +921,7 @@
           "games": 0
         }
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "owner": "super0jins",
@@ -867,61 +975,7 @@
           "games": 0
         }
       ],
-      "rank": 15
-    },
-    {
-      "owner": "semlegesnev",
-      "name": "Call it nationalism",
-      "total": 15401,
-      "points": 1.0,
-      "games": 3,
-      "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.3333333333333333,
-      "roster": [
-        {
-          "handle": "Petro2",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "mixxanber",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Paulze2000",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "zal667",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "KamagayaJiji",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Hylpen",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "BLuesiDE617",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 16
+      "rank": 17
     },
     {
       "owner": "arbitrary",
@@ -976,7 +1030,61 @@
           "games": 1
         }
       ],
-      "rank": 17
+      "rank": 18
+    },
+    {
+      "owner": "semlegesnev",
+      "name": "Call it nationalism",
+      "total": 15401,
+      "points": 1.0,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.25,
+      "roster": [
+        {
+          "handle": "Petro2",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "mixxanber",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Paulze2000",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "zal667",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "KamagayaJiji",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Hylpen",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "BLuesiDE617",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 19
     },
     {
       "owner": "NameGoesInHere",
@@ -1030,7 +1138,7 @@
           "games": 0
         }
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "owner": "cheapskate",
@@ -1085,7 +1193,7 @@
           "games": 0
         }
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "owner": "jg777",
@@ -1139,7 +1247,7 @@
           "games": 0
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "rio2018",
@@ -1193,7 +1301,7 @@
           "games": 0
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "guitarspider",
@@ -1247,7 +1355,7 @@
           "games": 0
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "berndwind",
@@ -1301,7 +1409,7 @@
           "games": 0
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "bufferunderrun",
@@ -1355,61 +1463,7 @@
           "games": 0
         }
       ],
-      "rank": 20
-    },
-    {
-      "owner": "gary0892",
-      "name": "gary0892’s team",
-      "total": 15355,
-      "points": 0.0,
-      "games": 0,
-      "round_games": 0,
-      "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
-      "roster": [
-        {
-          "handle": "digvijay_sunil",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Lordziax",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AlexGaul",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Llawlietnea",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "gary0892",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "JokicInator15",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Masterpiece_KI",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "GLAYGHOST",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "DavidSifre",
@@ -1463,7 +1517,7 @@
           "games": 0
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "owner": "mmkgtc",
@@ -1517,7 +1571,7 @@
           "games": 0
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "owner": "EnPriseWithEase",
@@ -1571,7 +1625,7 @@
           "games": 0
         }
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "owner": "MilsBees",
@@ -1625,18 +1679,18 @@
           "games": 0
         }
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "owner": "Bpack",
       "name": "int-T-ana Jones and the Tomple of Doom",
       "total": 15669,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "bXVrc2lh",
@@ -1666,7 +1720,7 @@
         {
           "handle": "KamagayaJiji",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Pineapplechiffoncake",
@@ -1679,7 +1733,7 @@
           "games": 0
         }
       ],
-      "rank": 29
+      "rank": 31
     },
     {
       "owner": "cinemashow",
@@ -1733,7 +1787,7 @@
           "games": 0
         }
       ],
-      "rank": 29
+      "rank": 32
     },
     {
       "owner": "King12-life",
@@ -1787,7 +1841,7 @@
           "games": 0
         }
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "owner": "MatthewKCanada",
@@ -1841,18 +1895,18 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "owner": "GoldenRetrieverChess",
       "name": "Frank & George’s S50 Celebration Squad",
       "total": 15725,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "alp_arslan92",
@@ -1882,7 +1936,7 @@
         {
           "handle": "KamagayaJiji",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "jdw10",
@@ -1895,7 +1949,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 35
     },
     {
       "owner": "ysgwydd",
@@ -1949,7 +2003,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 36
     },
     {
       "owner": "Lordziax",
@@ -2003,18 +2057,18 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 36
     },
     {
       "owner": "Okady",
       "name": "Okady s minions",
       "total": 15758,
       "points": 0.0,
-      "games": 0,
-      "round_games": 0,
+      "games": 1,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0,
+      "games_left": 7,
+      "ppg": 0.0,
       "roster": [
         {
           "handle": "rio2018",
@@ -2044,7 +2098,7 @@
         {
           "handle": "KamagayaJiji",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "cham",
@@ -2057,7 +2111,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 38
     },
     {
       "owner": "alp_arslan92",
@@ -2111,7 +2165,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 39
     },
     {
       "owner": "RPCX",
@@ -2165,7 +2219,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 39
     },
     {
       "owner": "adande1",
@@ -2219,7 +2273,7 @@
           "games": 0
         }
       ],
-      "rank": 33
+      "rank": 39
     },
     {
       "owner": "AceRb95",
@@ -2273,61 +2327,7 @@
           "games": 0
         }
       ],
-      "rank": 33
-    },
-    {
-      "owner": "Silkthewanderer",
-      "name": "Why does the king the largest of the pieces not simpy eat the other ones?",
-      "total": 15874,
-      "points": 0.0,
-      "games": 1,
-      "round_games": 1,
-      "round_scheduled": 8,
-      "games_left": 7,
-      "ppg": 0.0,
-      "roster": [
-        {
-          "handle": "tommeketoch",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "ben3536",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "aloo_bhaloo",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "glbert",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "JokicInator15",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "MatthewKCanada",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "jcarmody",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 42
+      "rank": 39
     },
     {
       "owner": "Asturc0n",
@@ -2381,7 +2381,7 @@
           "games": 0
         }
       ],
-      "rank": 43
+      "rank": 39
     },
     {
       "owner": "LosingIsTheBest",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 26,
+    "played": 27,
     "total": 216
   }
 }
