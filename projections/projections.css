@@ -8,3 +8,7 @@
 .projection-row .identity{min-width:0}.projection-row .identity strong{display:flex;align-items:center;gap:5px;min-width:0}.identity-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.type-badge{flex:0 0 auto}.type-badge.bot{background:#d8d1ef;color:#4e3a7a}
 
 .projection-row.tracking.detail{grid-template-columns:24px minmax(80px,1fr) 54px 46px 40px 20px}.projection-row.tracking.detail.open{opacity:1}.projection-row.tracking.detail.open .projection-roster{display:grid}@media(min-width:700px){.projection-row.tracking.detail{grid-template-columns:50px minmax(0,1fr) 88px 72px 72px 32px}}
+
+.roster b a,[class*=roster] b a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}.roster b a:hover,[class*=roster] b a:hover{border-bottom-style:solid}
+
+.season-total .actual-so-far{display:block;margin-top:2px;color:#8a8588;font-size:10px;font-weight:500;letter-spacing:0;text-transform:none;white-space:nowrap}
