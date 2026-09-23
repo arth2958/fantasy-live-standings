@@ -4,10 +4,23 @@ import json
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+import html
+import re
+from collections import Counter
 import requests
 SEASON=50
 GAMES=f"https://www.lichess4545.com/api/get_season_games/?league=team4545&include_unplayed=true&season={SEASON}"
 OUT=Path(f"data/league-s{SEASON}.json")
+PAIRINGS=f"https://www.lichess4545.com/team4545/season/{SEASON}/pairings/"
+def team_ids():
+    # Numeric team ids from the league site's own team filter. Names are only lookup keys; duplicate names get no id.
+    try:
+        r=requests.get(PAIRINGS,timeout=30); r.raise_for_status()
+        pairs=[(html.unescape(n).strip(),int(i)) for i,n in re.findall(rf'href="/team4545/season/{SEASON}/pairings/team/(\d+)/">([^<]+)</a>',r.text)]
+        count=Counter(n for n,_ in pairs)
+        return {n:i for n,i in pairs if count[n]==1}
+    except Exception as e:
+        print(f'team ids unavailable: {e}'); return {}
 def expectancy(a,b): return 1/(1+10**(-(a-b)/400))
 def score(v):
     v=str(v or '').strip().lower()
@@ -41,11 +54,13 @@ def main():
         for me,opp,team,oteam,color,i in ((w,b,wt,bt,'white',0),(b,w,bt,wt,'black',1)):
             a=None if d is None else d[i]
             teams[team]['players'].append({'handle':me,'color':color,'opponent':opp,'opponent_team':oteam,'rating':ratings.get(me.casefold()),'expected_points':exp[i],'actual_result':a,'status':'pending' if a is None else 'won' if a==1 else 'draw' if a==0.5 else 'lost','game_url':f'https://lichess.org/{gid}' if gid else None})
+    ids=team_ids()
     out={}
     for n in sorted(set(teams)|set(prior)):
         if not n: continue
         ps=teams[n]['players']
         out[n]={'prior_actual':prior[n],'round_projected':sum(p['expected_points'] for p in ps),'players':ps}
+        if n in ids: out[n]['team_id']=ids[n]
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps({'season':SEASON,'round':current,'updated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),'teams':out},separators=(',',':'),ensure_ascii=False)+'\n')
     print(f'League detail for {len(out)} teams, round {current}')
