@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+"""Per-player league detail for the projections page. Writes data/league-s50.json."""
+import json
+from collections import defaultdict
+from datetime import datetime, timezone
+from pathlib import Path
+import requests
+SEASON=50
+GAMES=f"https://www.lichess4545.com/api/get_season_games/?league=team4545&include_unplayed=true&season={SEASON}"
+OUT=Path(f"data/league-s{SEASON}.json")
+def expectancy(a,b): return 1/(1+10**(-(a-b)/400))
+def score(v):
+    v=str(v or '').strip().lower()
+    if v in ('1-0','1','1.0'): return (1.0,0.0)
+    if v in ('0-1','0'): return (0.0,1.0)
+    if v in ('1/2-1/2','½-½','0.5-0.5','draw'): return (0.5,0.5)
+    return None
+def main():
+    raw=requests.get(GAMES,timeout=30).json()['games']
+    current=max((int(g.get('round') or 0) for g in raw),default=0)
+    prior=defaultdict(float)
+    for g in raw:
+        r=int(g.get('round') or 0); d=score(g.get('result'))
+        if r<current and d:
+            prior[str(g.get('white_team') or '').strip()]+=d[0]; prior[str(g.get('black_team') or '').strip()]+=d[1]
+    games=[g for g in raw if int(g.get('round') or 0)==current]
+    handles=sorted({str(g.get(k) or '').strip() for g in games for k in ('white','black') if g.get(k)})
+    ratings={}
+    for i in range(0,len(handles),300):
+        r=requests.post('https://lichess.org/api/users',data=','.join(handles[i:i+300]),headers={'Accept':'application/json'},timeout=30); r.raise_for_status()
+        for u in r.json():
+            ratings[(u.get('username') or u.get('id','')).casefold()]=u.get('perfs',{}).get('classical',{}).get('rating',1500)
+    teams=defaultdict(lambda:{'players':[]})
+    for g in games:
+        w=str(g.get('white') or '').strip(); b=str(g.get('black') or '').strip(); wt=str(g.get('white_team') or '').strip(); bt=str(g.get('black_team') or '').strip()
+        if not w or not b: continue
+        d=score(g.get('result')); gid=str(g.get('game_id') or '').strip() or None
+        if d is None:
+            we=expectancy(ratings.get(w.casefold(),1500)+25,ratings.get(b.casefold(),1500)); exp=(we,1-we)
+        else: exp=d
+        for me,opp,team,oteam,color,i in ((w,b,wt,bt,'white',0),(b,w,bt,wt,'black',1)):
+            a=None if d is None else d[i]
+            teams[team]['players'].append({'handle':me,'color':color,'opponent':opp,'opponent_team':oteam,'rating':ratings.get(me.casefold()),'expected_points':exp[i],'actual_result':a,'status':'pending' if a is None else 'won' if a==1 else 'draw' if a==0.5 else 'lost','game_url':f'https://lichess.org/{gid}' if gid else None})
+    out={}
+    for n in sorted(set(teams)|set(prior)):
+        if not n: continue
+        ps=teams[n]['players']
+        out[n]={'prior_actual':prior[n],'round_projected':sum(p['expected_points'] for p in ps),'players':ps}
+    OUT.parent.mkdir(exist_ok=True)
+    OUT.write_text(json.dumps({'season':SEASON,'round':current,'updated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),'teams':out},separators=(',',':'),ensure_ascii=False)+'\n')
+    print(f'League detail for {len(out)} teams, round {current}')
+if __name__=='__main__': main()
