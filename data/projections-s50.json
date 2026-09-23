@@ -1,16 +1,16 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 3,
-  "updated_at": "2026-09-23T17:21:56.265256Z",
+  "round_in_progress": 2,
+  "updated_at": "2026-09-23T17:37:27.870613Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
       "owner": "pykkis",
       "name": "Something magnificent (I'm so creative)",
       "actual_points": 2.5,
-      "projected_points": 5.533811316716214,
-      "projected_round": 5.533811316716214,
+      "projected_points": 5.516557937829797,
+      "projected_round": 5.516557937829797,
       "left": 5,
       "in_progress": 0,
       "paired": 8,
@@ -88,8 +88,8 @@
         {
           "handle": "pykkis",
           "status": "pending",
-          "rating": 1752,
-          "expected_points": 0.5230095872975623,
+          "rating": 1740,
+          "expected_points": 0.5057562084111449,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -3881,131 +3881,6 @@
       "projected_rank": 31
     },
     {
-      "owner": "guitarspider",
-      "name": "and all I got was this lousy team name",
-      "actual_points": 0.0,
-      "projected_points": 4.048629625019525,
-      "projected_round": 4.048629625019525,
-      "left": 8,
-      "in_progress": 0,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "status": "pending",
-          "rating": 2359,
-          "expected_points": 0.6400649998028851,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:chatakkuma:rio2018",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Feet_Barbie",
-          "status": "pending",
-          "rating": 2123,
-          "expected_points": 0.6172250309049463,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:feet_barbie:lloydret",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "berndwind",
-          "status": "pending",
-          "rating": 2013,
-          "expected_points": 0.5330513938844411,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:berndwind:val1313",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Lou-E",
-          "status": "pending",
-          "rating": 1976,
-          "expected_points": 0.46265268283350724,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:lou-e:serenemoose",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "fork2020",
-          "status": "pending",
-          "rating": 1845,
-          "expected_points": 0.4769904127024377,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:fork2020:gary0892",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "pykkis",
-          "status": "pending",
-          "rating": 1752,
-          "expected_points": 0.5230095872975623,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:pykkis:voylento",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "fulmarsky",
-          "status": "pending",
-          "rating": 1620,
-          "expected_points": 0.525880930891169,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:chessishard101:fulmarsky",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "macha1313",
-          "status": "pending",
-          "rating": 1308,
-          "expected_points": 0.269754586702576,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:electricfalcon:macha1313",
-          "season_points": 0.0,
-          "season_games": 0
-        }
-      ],
-      "projected_rank": 32
-    },
-    {
       "owner": "AACtrl",
       "name": "I'm Mr Mieses, look at me!",
       "actual_points": 0.0,
@@ -4124,6 +3999,131 @@
           "game_url": null,
           "game_link_kind": null,
           "round_game": "1:acerb95:timefork",
+          "season_points": 0.0,
+          "season_games": 0
+        }
+      ],
+      "projected_rank": 32
+    },
+    {
+      "owner": "guitarspider",
+      "name": "and all I got was this lousy team name",
+      "actual_points": 0.0,
+      "projected_points": 4.0313762461331075,
+      "projected_round": 4.0313762461331075,
+      "left": 8,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "status": "pending",
+          "rating": 2359,
+          "expected_points": 0.6400649998028851,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:chatakkuma:rio2018",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Feet_Barbie",
+          "status": "pending",
+          "rating": 2123,
+          "expected_points": 0.6172250309049463,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:feet_barbie:lloydret",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "berndwind",
+          "status": "pending",
+          "rating": 2013,
+          "expected_points": 0.5330513938844411,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:berndwind:val1313",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Lou-E",
+          "status": "pending",
+          "rating": 1976,
+          "expected_points": 0.46265268283350724,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:lou-e:serenemoose",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "fork2020",
+          "status": "pending",
+          "rating": 1845,
+          "expected_points": 0.4769904127024377,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:fork2020:gary0892",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "pykkis",
+          "status": "pending",
+          "rating": 1740,
+          "expected_points": 0.5057562084111449,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:pykkis:voylento",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "fulmarsky",
+          "status": "pending",
+          "rating": 1620,
+          "expected_points": 0.525880930891169,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:chessishard101:fulmarsky",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "macha1313",
+          "status": "pending",
+          "rating": 1308,
+          "expected_points": 0.269754586702576,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:electricfalcon:macha1313",
           "season_points": 0.0,
           "season_games": 0
         }
@@ -8009,8 +8009,8 @@
       "owner": "voylento",
       "name": "legion of doom",
       "actual_points": 0.0,
-      "projected_points": 2.9118025307504434,
-      "projected_round": 2.9118025307504434,
+      "projected_points": 2.929055909636861,
+      "projected_round": 2.929055909636861,
       "left": 6,
       "in_progress": 0,
       "paired": 7,
@@ -8089,7 +8089,7 @@
           "handle": "voylento",
           "status": "pending",
           "rating": 1761,
-          "expected_points": 0.4769904127024377,
+          "expected_points": 0.4942437915888551,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -8266,14 +8266,6 @@
       "eligible": false
     },
     {
-      "name": "Knights of the Round Tablebase",
-      "projected": 4.871646612470716,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 6,
-      "eligible": false
-    },
-    {
       "name": "100 Suggestions You Must Know",
       "projected": 4.842914431801775,
       "actual": 1.0,
@@ -8323,7 +8315,7 @@
     },
     {
       "name": "Fork You Very Much",
-      "projected": 4.605681866964157,
+      "projected": 4.590121249331945,
       "actual": 1.5,
       "paired": 8,
       "left": 6,
@@ -8331,7 +8323,7 @@
     },
     {
       "name": "Not all who blunder are lost",
-      "projected": 4.521318944517118,
+      "projected": 4.538572323403535,
       "actual": 1.0,
       "paired": 8,
       "left": 7,
@@ -8339,7 +8331,7 @@
     },
     {
       "name": "Rooky Horror Pawn Show",
-      "projected": 4.471157921564857,
+      "projected": 4.471157921564858,
       "actual": 2.5,
       "paired": 8,
       "left": 4,
@@ -8347,7 +8339,7 @@
     },
     {
       "name": "Blunders Without Borders",
-      "projected": 4.425825827206582,
+      "projected": 4.425825827206583,
       "actual": 1.0,
       "paired": 8,
       "left": 7,
@@ -8363,7 +8355,7 @@
     },
     {
       "name": "Don't give a check your ascii can't cache",
-      "projected": 4.389894367819588,
+      "projected": 4.389894367819589,
       "actual": 1.0,
       "paired": 8,
       "left": 7,
@@ -8379,7 +8371,15 @@
     },
     {
       "name": "King's Landing",
-      "projected": 4.3727928420933,
+      "projected": 4.3727928420932995,
+      "actual": 2.0,
+      "paired": 8,
+      "left": 5,
+      "eligible": false
+    },
+    {
+      "name": "Knights of the Round Tablebase",
+      "projected": 4.358697467577851,
       "actual": 2.0,
       "paired": 8,
       "left": 5,
@@ -8411,7 +8411,7 @@
     },
     {
       "name": "50 Shades of Swindles and Tricks",
-      "projected": 4.142884258394399,
+      "projected": 4.1428842583944,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8443,7 +8443,7 @@
     },
     {
       "name": "Peaky Decliners: An Authoritative Commentary by Svidler, King et al. (50th edition)",
-      "projected": 4.059973612730372,
+      "projected": 4.0599736127303725,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8459,7 +8459,7 @@
     },
     {
       "name": "Fifty Shades of Time Trouble",
-      "projected": 4.0104076959807164,
+      "projected": 4.010407695980717,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8483,7 +8483,7 @@
     },
     {
       "name": "The horsey don't belong here",
-      "projected": 3.9895923040192836,
+      "projected": 3.989592304019284,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8499,7 +8499,7 @@
     },
     {
       "name": "The Woodpushers",
-      "projected": 3.9400263872696284,
+      "projected": 3.940026387269628,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8531,7 +8531,7 @@
     },
     {
       "name": "Pirc and Roll",
-      "projected": 3.8571157416056012,
+      "projected": 3.8571157416056003,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8562,6 +8562,14 @@
       "eligible": false
     },
     {
+      "name": "Illiterate Alliteration Explorers",
+      "projected": 3.6413025324221477,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 5,
+      "eligible": false
+    },
+    {
       "name": "fifty shades of black and white",
       "projected": 3.6272071579066996,
       "actual": 1.0,
@@ -8579,7 +8587,7 @@
     },
     {
       "name": "50 pawns of Giri",
-      "projected": 3.6101056321804115,
+      "projected": 3.610105632180411,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -8595,7 +8603,7 @@
     },
     {
       "name": "The Tarrasch Talkers",
-      "projected": 3.5741741727934175,
+      "projected": 3.574174172793417,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -8603,7 +8611,7 @@
     },
     {
       "name": "Mating for Godot",
-      "projected": 3.528842078435143,
+      "projected": 3.528842078435142,
       "actual": 1.5,
       "paired": 8,
       "left": 4,
@@ -8611,7 +8619,7 @@
     },
     {
       "name": "Pawn with the Sickness",
-      "projected": 3.4786810554828818,
+      "projected": 3.461427676596464,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -8619,7 +8627,7 @@
     },
     {
       "name": "Rookies Of The Year",
-      "projected": 3.394318133035843,
+      "projected": 3.409878750668055,
       "actual": 0.5,
       "paired": 8,
       "left": 6,
@@ -8671,14 +8679,6 @@
       "actual": 0.0,
       "paired": 8,
       "left": 7,
-      "eligible": false
-    },
-    {
-      "name": "Illiterate Alliteration Explorers",
-      "projected": 3.128353387529284,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 6,
       "eligible": false
     },
     {
