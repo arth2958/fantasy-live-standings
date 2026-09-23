@@ -15,10 +15,14 @@ jobs:
           python-version: '3.12'
       - run: pip install requests
       - run: python scripts/update_projections.py
+      - name: League player detail (optional)
+        continue-on-error: true
+        run: python scripts/build_league_players.py
       - name: Commit projection artifact only
         run: |
           git config user.name "projection-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/projections-s50.json
+          git add data/league-s50.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Update projections"
           git push || (git pull --rebase -X theirs && git push)
