@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-25T00:34:45.203294Z",
+  "updated_at": "2026-09-25T00:54:56.097059Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 71,
+  "pairings_parsed": 72,
   "popular": [
     {
       "board": 1,
@@ -222,6 +222,60 @@
       "rank": 3
     },
     {
+      "owner": "Monocarp",
+      "name": "Monocarp’s team",
+      "total": 15944,
+      "points": 3.5,
+      "games": 5,
+      "round_games": 5,
+      "round_scheduled": 8,
+      "games_left": 3,
+      "ppg": 0.7,
+      "roster": [
+        {
+          "handle": "pavonine",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Lordziax",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Bennol",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "gidged",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Monocarp",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "UpGoerFive",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "capturingbravo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "BLuesiDE617",
+          "points": 0.5,
+          "games": 1
+        }
+      ],
+      "rank": 4
+    },
+    {
       "owner": "Inter-temporal",
       "name": "This is the way.",
       "total": 15948,
@@ -273,7 +327,7 @@
           "games": 1
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "owner": "NameGoesInHere",
@@ -327,7 +381,7 @@
           "games": 1
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "owner": "baberle",
@@ -381,7 +435,7 @@
           "games": 1
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "owner": "mmkgtc",
@@ -435,7 +489,7 @@
           "games": 1
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "owner": "tomb85",
@@ -489,7 +543,7 @@
           "games": 1
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "owner": "voylento",
@@ -543,7 +597,7 @@
           "games": 0
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "owner": "GlennJamesMax",
@@ -597,7 +651,7 @@
           "games": 1
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "owner": "pawneater2020",
@@ -651,7 +705,7 @@
           "games": 1
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "owner": "mynameismund",
@@ -705,7 +759,7 @@
           "games": 1
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "owner": "Tactix47",
@@ -759,7 +813,7 @@
           "games": 1
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "owner": "MatthewKCanada",
@@ -813,7 +867,7 @@
           "games": 0
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "owner": "Oachkatzerlschwoaf",
@@ -863,60 +917,6 @@
         },
         {
           "handle": "Apidae",
-          "points": 0.5,
-          "games": 1
-        }
-      ],
-      "rank": 15
-    },
-    {
-      "owner": "Monocarp",
-      "name": "Monocarp’s team",
-      "total": 15944,
-      "points": 2.5,
-      "games": 4,
-      "round_games": 4,
-      "round_scheduled": 8,
-      "games_left": 4,
-      "ppg": 0.625,
-      "roster": [
-        {
-          "handle": "pavonine",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Lordziax",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Bennol",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "gidged",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Monocarp",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "UpGoerFive",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "capturingbravo",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "BLuesiDE617",
           "points": 0.5,
           "games": 1
         }
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 71,
+    "played": 72,
     "total": 216
   }
 }
