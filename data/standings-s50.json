@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-25T15:27:36.017056Z",
+  "updated_at": "2026-09-25T15:39:50.346897Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 78,
+  "pairings_parsed": 79,
   "popular": [
     {
       "board": 1,
@@ -654,6 +654,60 @@
       "rank": 11
     },
     {
+      "owner": "JohnJPershing",
+      "name": "Mate in 9 to 5",
+      "total": 15967,
+      "points": 3.0,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.75,
+      "roster": [
+        {
+          "handle": "guitarspider",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AACtrl",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "jwwells42",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "MrScribbles",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "GenTurgidson",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "cinemashow",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Gingersquirrelnuts",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "jcarmody",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 12
+    },
+    {
       "owner": "tomb85",
       "name": "50 reasons to give fantasy a try",
       "total": 15977,
@@ -705,7 +759,7 @@
           "games": 1
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "owner": "voylento",
@@ -759,7 +813,7 @@
           "games": 0
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "owner": "On the dot",
@@ -814,7 +868,7 @@
           "games": 0
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "owner": "pawneater2020",
@@ -868,7 +922,7 @@
           "games": 1
         }
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "owner": "time_lord19",
@@ -922,7 +976,7 @@
           "games": 0
         }
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "owner": "mynameismund",
@@ -967,60 +1021,6 @@
         },
         {
           "handle": "HighonPotnuse",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "jcarmody",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "owner": "JohnJPershing",
-      "name": "Mate in 9 to 5",
-      "total": 15967,
-      "points": 2.5,
-      "games": 3,
-      "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.8333333333333334,
-      "roster": [
-        {
-          "handle": "guitarspider",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AACtrl",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "jwwells42",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "GenTurgidson",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "cinemashow",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Gingersquirrelnuts",
           "points": 0.0,
           "games": 0
         },
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 78,
+    "played": 79,
     "total": 216
   }
 }
