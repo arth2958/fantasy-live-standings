@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-25T19:08:23.743407Z",
+  "updated_at": "2026-09-25T19:24:22.123841Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 92,
+  "pairings_parsed": 93,
   "popular": [
     {
       "board": 1,
@@ -276,60 +276,6 @@
       "rank": 4
     },
     {
-      "owner": "mynameismund",
-      "name": "Players who will play all 8 games.",
-      "total": 15956,
-      "points": 3.5,
-      "games": 4,
-      "round_games": 4,
-      "round_scheduled": 8,
-      "games_left": 4,
-      "ppg": 0.875,
-      "roster": [
-        {
-          "handle": "Mennonite",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "NameGoesInHere",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "gavalanche20",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "mynameismund",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Rolihlahla",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "lewinberg",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "HighonPotnuse",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "jcarmody",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 5
-    },
-    {
       "owner": "MilsBees",
       "name": "Mils Bee Hive",
       "total": 15661,
@@ -381,7 +327,7 @@
           "games": 1
         }
       ],
-      "rank": 6
+      "rank": 5
     },
     {
       "owner": "cinemashow",
@@ -435,7 +381,7 @@
           "games": 1
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "owner": "MatthewKCanada",
@@ -489,7 +435,7 @@
           "games": 1
         }
       ],
-      "rank": 8
+      "rank": 7
     },
     {
       "owner": "Okady",
@@ -543,7 +489,7 @@
           "games": 1
         }
       ],
-      "rank": 9
+      "rank": 8
     },
     {
       "owner": "GlennJamesMax",
@@ -597,7 +543,7 @@
           "games": 1
         }
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "owner": "Silkthewanderer",
@@ -651,7 +597,7 @@
           "games": 1
         }
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "owner": "pykkis",
@@ -705,7 +651,7 @@
           "games": 0
         }
       ],
-      "rank": 12
+      "rank": 11
     },
     {
       "owner": "Inter-temporal",
@@ -756,6 +702,60 @@
         {
           "handle": "Apidae",
           "points": 0.5,
+          "games": 1
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "owner": "mynameismund",
+      "name": "Players who will play all 8 games.",
+      "total": 15956,
+      "points": 3.5,
+      "games": 5,
+      "round_games": 5,
+      "round_scheduled": 8,
+      "games_left": 3,
+      "ppg": 0.7,
+      "roster": [
+        {
+          "handle": "Mennonite",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "NameGoesInHere",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "gavalanche20",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "mynameismund",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Rolihlahla",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "lewinberg",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "HighonPotnuse",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "jcarmody",
+          "points": 1.0,
           "games": 1
         }
       ],
@@ -1361,11 +1361,11 @@
       "bot": true,
       "total": 16000,
       "points": 3.0,
-      "games": 5,
-      "round_games": 5,
+      "games": 6,
+      "round_games": 6,
       "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.6,
+      "games_left": 2,
+      "ppg": 0.5,
       "roster": [
         {
           "handle": "BicKedag",
@@ -1375,7 +1375,7 @@
         {
           "handle": "NameGoesInHere",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "aloo_bhaloo",
@@ -2713,11 +2713,11 @@
       "name": "Fantasy8",
       "total": 15971,
       "points": 1.5,
-      "games": 3,
-      "round_games": 3,
+      "games": 4,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.5,
+      "games_left": 4,
+      "ppg": 0.375,
       "roster": [
         {
           "handle": "chatakkuma",
@@ -2727,7 +2727,7 @@
         {
           "handle": "NameGoesInHere",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "Ciraid",
@@ -3141,60 +3141,6 @@
       "rank": 57
     },
     {
-      "owner": "AACtrl",
-      "name": "I'm Mr Mieses, look at me!",
-      "total": 15971,
-      "points": 1.0,
-      "games": 2,
-      "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.5,
-      "roster": [
-        {
-          "handle": "drchessdad",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "NameGoesInHere",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "FunnyLikeAClown",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "thestormingeagle",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "pepepibote",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "STCLion",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "mqll",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AceRb95",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 58
-    },
-    {
       "owner": "jg777",
       "name": "Svidl, Svidler, Svidlest-Fantasy version",
       "total": 12656,
@@ -3246,7 +3192,115 @@
           "games": 1
         }
       ],
+      "rank": 58
+    },
+    {
+      "owner": "King12-life",
+      "name": "King12-life’s team",
+      "total": 15705,
+      "points": 1.0,
+      "games": 3,
+      "round_games": 3,
+      "round_scheduled": 8,
+      "games_left": 5,
+      "ppg": 0.3333333333333333,
+      "roster": [
+        {
+          "handle": "Duty5521",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "NaveenGeorge",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Ciraid",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Hesperian",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Alzaw",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Nairwolf",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AthenianKnight",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
       "rank": 59
+    },
+    {
+      "owner": "AACtrl",
+      "name": "I'm Mr Mieses, look at me!",
+      "total": 15971,
+      "points": 1.0,
+      "games": 3,
+      "round_games": 3,
+      "round_scheduled": 8,
+      "games_left": 5,
+      "ppg": 0.3333333333333333,
+      "roster": [
+        {
+          "handle": "drchessdad",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "NameGoesInHere",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "FunnyLikeAClown",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "thestormingeagle",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "pepepibote",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "STCLion",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "mqll",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AceRb95",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 60
     },
     {
       "owner": "bncl",
@@ -3300,7 +3354,7 @@
           "games": 1
         }
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "owner": "ShadowOfSelf",
@@ -3354,7 +3408,7 @@
           "games": 1
         }
       ],
-      "rank": 61
+      "rank": 62
     },
     {
       "owner": "arbitrary",
@@ -3409,7 +3463,7 @@
           "games": 1
         }
       ],
-      "rank": 62
+      "rank": 63
     },
     {
       "owner": "FinErik",
@@ -3463,18 +3517,18 @@
           "games": 1
         }
       ],
-      "rank": 63
+      "rank": 64
     },
     {
       "owner": "shurbz",
       "name": "Its like the Madden curse",
       "total": 15985,
       "points": 0.5,
-      "games": 3,
-      "round_games": 3,
+      "games": 4,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.16666666666666666,
+      "games_left": 4,
+      "ppg": 0.125,
       "roster": [
         {
           "handle": "drchessdad",
@@ -3484,7 +3538,7 @@
         {
           "handle": "NameGoesInHere",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "VanRoy",
@@ -3517,7 +3571,7 @@
           "games": 1
         }
       ],
-      "rank": 64
+      "rank": 65
     },
     {
       "owner": "cheapskate",
@@ -3572,7 +3626,7 @@
           "games": 0
         }
       ],
-      "rank": 65
+      "rank": 66
     },
     {
       "owner": "EnPriseWithEase",
@@ -3624,60 +3678,6 @@
           "handle": "MartinDanielsson",
           "points": 0.0,
           "games": 1
-        }
-      ],
-      "rank": 66
-    },
-    {
-      "owner": "King12-life",
-      "name": "King12-life’s team",
-      "total": 15705,
-      "points": 0.0,
-      "games": 2,
-      "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.0,
-      "roster": [
-        {
-          "handle": "Duty5521",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "NaveenGeorge",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Ciraid",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Hesperian",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Alzaw",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Nairwolf",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AthenianKnight",
-          "points": 0.0,
-          "games": 0
         }
       ],
       "rank": 67
@@ -3741,10 +3741,10 @@
       "name": "The Magnificent Nine",
       "total": 15941,
       "points": 0.0,
-      "games": 1,
-      "round_games": 1,
+      "games": 2,
+      "round_games": 2,
       "round_scheduled": 7,
-      "games_left": 6,
+      "games_left": 5,
       "ppg": 0.0,
       "roster": [
         {
@@ -3755,7 +3755,7 @@
         {
           "handle": "NameGoesInHere",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "BlazedAndConfused",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 92,
+    "played": 93,
     "total": 216
   }
 }
