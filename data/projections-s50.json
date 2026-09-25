@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 1,
-  "updated_at": "2026-09-25T01:04:02.751524Z",
+  "round_in_progress": 2,
+  "updated_at": "2026-09-25T01:20:52.979415Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -2887,7 +2887,7 @@
       "projected_points": 4.566392748359091,
       "projected_round": 4.566392748359091,
       "left": 7,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -2898,8 +2898,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/5lNDUzrP",
+          "game_link_kind": "live",
           "round_game": "1:bickedag:leverkuhn",
           "season_points": 0.0,
           "season_games": 0
@@ -7631,6 +7631,131 @@
       "projected_rank": 61
     },
     {
+      "owner": "mongreltiger",
+      "name": "Stinkfish 50",
+      "actual_points": 0.0,
+      "projected_points": 2.830590158710856,
+      "projected_round": 2.830590158710856,
+      "left": 5,
+      "in_progress": 0,
+      "paired": 7,
+      "roster": [
+        {
+          "handle": "alp_arslan92",
+          "status": "pending",
+          "rating": 2324,
+          "expected_points": 0.6648579785547648,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:alp_arslan92:itsasecret2000",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Maroczyy",
+          "status": "pending",
+          "rating": 2085,
+          "expected_points": 0.554469374021676,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:aactrl:maroczyy",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "KnightFury21",
+          "status": "pending",
+          "rating": 2038,
+          "expected_points": 0.5882899718631629,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:knightfury21:storybrooke",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "Moccy",
+          "status": "pending",
+          "rating": 1955,
+          "expected_points": 0.6347433350523167,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:moccy:papashirogane",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "JohnJPershing",
+          "status": "lost",
+          "rating": 1818,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/PSyswtjQ",
+          "game_link_kind": "recent",
+          "round_game": "1:johnjpershing:rolihlahla",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "kostasvl",
+          "status": "lost",
+          "rating": 1755,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/O5Q7tNzo",
+          "game_link_kind": "recent",
+          "round_game": "1:kostasvl:parziwal08",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Nairwolf",
+          "status": "pending",
+          "rating": 1657,
+          "expected_points": 0.3882294992189357,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:nairwolf:pawneater2020",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "DikiyDrozd",
+          "status": "unpaired",
+          "rating": null,
+          "expected_points": 0.0,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": null,
+          "season_points": 0.0,
+          "season_games": 0
+        }
+      ],
+      "projected_rank": 62
+    },
+    {
       "owner": "flipiflapi",
       "name": "everyone but me :(",
       "actual_points": 0.0,
@@ -7751,131 +7876,6 @@
           "round_game": "1:f1re_bunny:r0b-w",
           "season_points": 0.0,
           "season_games": 1
-        }
-      ],
-      "projected_rank": 62
-    },
-    {
-      "owner": "mongreltiger",
-      "name": "Stinkfish 50",
-      "actual_points": 0.0,
-      "projected_points": 2.8089836438116826,
-      "projected_round": 2.8089836438116826,
-      "left": 5,
-      "in_progress": 0,
-      "paired": 7,
-      "roster": [
-        {
-          "handle": "alp_arslan92",
-          "status": "pending",
-          "rating": 2324,
-          "expected_points": 0.6648579785547648,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:alp_arslan92:itsasecret2000",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Maroczyy",
-          "status": "pending",
-          "rating": 2085,
-          "expected_points": 0.554469374021676,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:aactrl:maroczyy",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "KnightFury21",
-          "status": "pending",
-          "rating": 2038,
-          "expected_points": 0.5882899718631629,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:knightfury21:storybrooke",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "Moccy",
-          "status": "pending",
-          "rating": 1955,
-          "expected_points": 0.6131368201531431,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:moccy:papashirogane",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "JohnJPershing",
-          "status": "lost",
-          "rating": 1818,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/PSyswtjQ",
-          "game_link_kind": "recent",
-          "round_game": "1:johnjpershing:rolihlahla",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "kostasvl",
-          "status": "lost",
-          "rating": 1755,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/O5Q7tNzo",
-          "game_link_kind": "recent",
-          "round_game": "1:kostasvl:parziwal08",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Nairwolf",
-          "status": "pending",
-          "rating": 1657,
-          "expected_points": 0.3882294992189357,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:nairwolf:pawneater2020",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "DikiyDrozd",
-          "status": "unpaired",
-          "rating": null,
-          "expected_points": 0.0,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": null,
-          "season_points": 0.0,
-          "season_games": 0
         }
       ],
       "projected_rank": 63
@@ -8259,7 +8259,7 @@
   "league_teams": [
     {
       "name": "Blunders Without Borders",
-      "projected": 5.448641269586241,
+      "projected": 5.470247784485414,
       "actual": 3.0,
       "paired": 8,
       "left": 5,
@@ -8347,7 +8347,7 @@
     },
     {
       "name": "Lang and Lloyd R0Bbed Sed in the windy Canadian Alps with a fork",
-      "projected": 4.5837950219566626,
+      "projected": 4.583795021956662,
       "actual": 1.0,
       "paired": 8,
       "left": 7,
@@ -8371,7 +8371,7 @@
     },
     {
       "name": "Pirc and Roll",
-      "projected": 4.4833836374061145,
+      "projected": 4.483383637406114,
       "actual": 1.5,
       "paired": 8,
       "left": 6,
@@ -8379,7 +8379,7 @@
     },
     {
       "name": "Rooky Horror Pawn Show",
-      "projected": 4.44977386940659,
+      "projected": 4.449773869406589,
       "actual": 2.5,
       "paired": 8,
       "left": 4,
@@ -8411,7 +8411,7 @@
     },
     {
       "name": "Old but hoping for stratospheric improvement",
-      "projected": 4.232829860967797,
+      "projected": 4.232829860967798,
       "actual": 1.0,
       "paired": 8,
       "left": 6,
@@ -8531,7 +8531,7 @@
     },
     {
       "name": "Rooky Horror Pawn Show fan club",
-      "projected": 3.7671701390322023,
+      "projected": 3.767170139032202,
       "actual": 1.0,
       "paired": 8,
       "left": 6,
@@ -8539,7 +8539,7 @@
     },
     {
       "name": "Illiterate Alliteration Explorers",
-      "projected": 3.6240761238024417,
+      "projected": 3.624076123802442,
       "actual": 1.0,
       "paired": 8,
       "left": 5,
@@ -8555,7 +8555,7 @@
     },
     {
       "name": "The horsey don't belong here",
-      "projected": 3.58561785620619,
+      "projected": 3.5856178562061896,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -8563,7 +8563,7 @@
     },
     {
       "name": "Mating for Godot",
-      "projected": 3.55022613059341,
+      "projected": 3.550226130593411,
       "actual": 1.5,
       "paired": 8,
       "left": 4,
@@ -8571,7 +8571,7 @@
     },
     {
       "name": "50 Shades of Swindles and Tricks",
-      "projected": 3.5166163625938855,
+      "projected": 3.516616362593886,
       "actual": 0.5,
       "paired": 8,
       "left": 6,
@@ -8595,7 +8595,7 @@
     },
     {
       "name": "What a team! And we managed to avoid Prosti",
-      "projected": 3.4162049780433374,
+      "projected": 3.4162049780433383,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -8683,7 +8683,7 @@
     },
     {
       "name": "The Tarrasch Talkers",
-      "projected": 2.5513587304137593,
+      "projected": 2.529752215514585,
       "actual": 0.0,
       "paired": 8,
       "left": 5,
