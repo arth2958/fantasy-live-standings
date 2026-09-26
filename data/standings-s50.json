@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-26T17:25:28.330897Z",
+  "updated_at": "2026-09-26T17:39:12.247933Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 143,
+  "pairings_parsed": 145,
   "popular": [
     {
       "board": 1,
@@ -222,60 +222,6 @@
       "rank": 3
     },
     {
-      "owner": "MilsBees",
-      "name": "Mils Bee Hive",
-      "total": 15661,
-      "points": 4.5,
-      "games": 6,
-      "round_games": 6,
-      "round_scheduled": 8,
-      "games_left": 2,
-      "ppg": 0.75,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "MilsBees",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Jg777",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "NirakuHakamura",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "fork2020",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "RBorja1980",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "fulmarsky",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "mongreltiger",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 4
-    },
-    {
       "owner": "pawneater2020",
       "name": "just give me my trophy already",
       "total": 15920,
@@ -327,7 +273,7 @@
           "games": 1
         }
       ],
-      "rank": 5
+      "rank": 4
     },
     {
       "owner": "NameGoesInHere",
@@ -377,6 +323,60 @@
         },
         {
           "handle": "angborxley",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "owner": "MilsBees",
+      "name": "Mils Bee Hive",
+      "total": 15661,
+      "points": 4.5,
+      "games": 7,
+      "round_games": 7,
+      "round_scheduled": 8,
+      "games_left": 1,
+      "ppg": 0.6428571428571429,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "MilsBees",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Jg777",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "NirakuHakamura",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "fork2020",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "RBorja1980",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "fulmarsky",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "mongreltiger",
           "points": 1.0,
           "games": 1
         }
@@ -3249,6 +3249,60 @@
       "rank": 59
     },
     {
+      "owner": "shurbz",
+      "name": "Its like the Madden curse",
+      "total": 15985,
+      "points": 1.5,
+      "games": 6,
+      "round_games": 6,
+      "round_scheduled": 8,
+      "games_left": 2,
+      "ppg": 0.25,
+      "roster": [
+        {
+          "handle": "drchessdad",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "NameGoesInHere",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "VanRoy",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "NirakuHakamura",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Chesspatzerswan",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "GoldenRetrieverChess",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Shurbz",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "MartinDanielsson",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 60
+    },
+    {
       "owner": "cheapskate",
       "name": "Lowest Cost Team",
       "bot": true,
@@ -3301,7 +3355,7 @@
           "games": 0
         }
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "owner": "EnPriseWithEase",
@@ -3355,7 +3409,7 @@
           "games": 1
         }
       ],
-      "rank": 61
+      "rank": 62
     },
     {
       "owner": "alp_arslan92",
@@ -3409,7 +3463,7 @@
           "games": 1
         }
       ],
-      "rank": 62
+      "rank": 63
     },
     {
       "owner": "jg777",
@@ -3463,7 +3517,7 @@
           "games": 1
         }
       ],
-      "rank": 63
+      "rank": 64
     },
     {
       "owner": "mongreltiger",
@@ -3517,7 +3571,7 @@
           "games": 0
         }
       ],
-      "rank": 64
+      "rank": 65
     },
     {
       "owner": "arbitrary",
@@ -3572,7 +3626,7 @@
           "games": 1
         }
       ],
-      "rank": 65
+      "rank": 66
     },
     {
       "owner": "King12-life",
@@ -3626,7 +3680,7 @@
           "games": 0
         }
       ],
-      "rank": 66
+      "rank": 67
     },
     {
       "owner": "fork2020",
@@ -3680,7 +3734,7 @@
           "games": 1
         }
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "owner": "FinErik",
@@ -3731,60 +3785,6 @@
         {
           "handle": "Apidae",
           "points": 0.5,
-          "games": 1
-        }
-      ],
-      "rank": 68
-    },
-    {
-      "owner": "shurbz",
-      "name": "Its like the Madden curse",
-      "total": 15985,
-      "points": 0.5,
-      "games": 5,
-      "round_games": 5,
-      "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.1,
-      "roster": [
-        {
-          "handle": "drchessdad",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "NameGoesInHere",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "VanRoy",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "NirakuHakamura",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Chesspatzerswan",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "GoldenRetrieverChess",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Shurbz",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "MartinDanielsson",
-          "points": 0.0,
           "games": 1
         }
       ],
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 143,
+    "played": 145,
     "total": 216
   }
 }
