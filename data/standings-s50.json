@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-26T12:54:39.043687Z",
+  "updated_at": "2026-09-26T13:08:39.579732Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 106,
+  "pairings_parsed": 108,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "tomb85",
+      "name": "50 reasons to give fantasy a try",
+      "total": 15977,
+      "points": 5.0,
+      "games": 6,
+      "round_games": 6,
+      "round_scheduled": 8,
+      "games_left": 2,
+      "ppg": 0.8333333333333334,
+      "roster": [
+        {
+          "handle": "Silkthewanderer",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Alikadhim2",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "titusalone91",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "McStudly",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "patk74",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Rehbein",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "jcarmody",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "Okady",
       "name": "Okady s minions",
       "total": 15758,
@@ -111,7 +165,7 @@
           "games": 1
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "GlennJamesMax",
@@ -165,7 +219,7 @@
           "games": 1
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "owner": "Monocarp",
@@ -219,7 +273,7 @@
           "games": 1
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "Inter-temporal",
@@ -273,7 +327,7 @@
           "games": 1
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "owner": "mmkgtc",
@@ -323,60 +377,6 @@
         },
         {
           "handle": "angborxley",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "owner": "tomb85",
-      "name": "50 reasons to give fantasy a try",
-      "total": 15977,
-      "points": 4.0,
-      "games": 5,
-      "round_games": 5,
-      "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.8,
-      "roster": [
-        {
-          "handle": "Silkthewanderer",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Alikadhim2",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "titusalone91",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "McStudly",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "patk74",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Rehbein",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "jcarmody",
           "points": 1.0,
           "games": 1
         }
@@ -492,6 +492,60 @@
       "rank": 8
     },
     {
+      "owner": "kayrosas",
+      "name": "just whimsical vibes",
+      "total": 15992,
+      "points": 4.0,
+      "games": 7,
+      "round_games": 7,
+      "round_scheduled": 8,
+      "games_left": 1,
+      "ppg": 0.5714285714285714,
+      "roster": [
+        {
+          "handle": "TBest",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "aldric123",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "lc69",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "NirakuHakamura",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "tomshko",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Fischerforlife",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "fulmarsky",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Computability",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 9
+    },
+    {
       "owner": "DavidSifre",
       "name": "Do not disappoint me",
       "total": 15398,
@@ -543,7 +597,7 @@
           "games": 1
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "owner": "pawneater2020",
@@ -597,7 +651,7 @@
           "games": 1
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "owner": "MilsBees",
@@ -651,7 +705,7 @@
           "games": 1
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "owner": "cinemashow",
@@ -705,7 +759,7 @@
           "games": 1
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "owner": "pykkis",
@@ -759,7 +813,7 @@
           "games": 0
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "owner": "mynameismund",
@@ -813,7 +867,7 @@
           "games": 1
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "owner": "NameGoesInHere",
@@ -867,7 +921,7 @@
           "games": 1
         }
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "owner": "Silkthewanderer",
@@ -921,7 +975,7 @@
           "games": 1
         }
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "owner": "adande1",
@@ -971,60 +1025,6 @@
         },
         {
           "handle": "angborxley",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "owner": "AceRb95",
-      "name": "Blunnder masterss",
-      "total": 15865,
-      "points": 3.0,
-      "games": 3,
-      "round_games": 3,
-      "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 1.0,
-      "roster": [
-        {
-          "handle": "digvijay_sunil",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Inter-temporal",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Zubenelgenubi",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Airini_H",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Nubro",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Pineapplechiffoncake",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "DavidSifre",
           "points": 1.0,
           "games": 1
         }
@@ -1194,6 +1194,60 @@
       "rank": 21
     },
     {
+      "owner": "AceRb95",
+      "name": "Blunnder masterss",
+      "total": 15865,
+      "points": 3.0,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 7,
+      "games_left": 3,
+      "ppg": 0.75,
+      "roster": [
+        {
+          "handle": "digvijay_sunil",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Inter-temporal",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Fischer_and_Chips88",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Zubenelgenubi",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Airini_H",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Nubro",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Pineapplechiffoncake",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "DavidSifre",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 22
+    },
+    {
       "owner": "baberle",
       "name": "Red Bull makes me hypermodern",
       "total": 15875,
@@ -1245,7 +1299,7 @@
           "games": 1
         }
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "owner": "voylento",
@@ -1299,7 +1353,7 @@
           "games": 0
         }
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "owner": "super0jins",
@@ -1353,7 +1407,61 @@
           "games": 1
         }
       ],
-      "rank": 24
+      "rank": 25
+    },
+    {
+      "owner": "jwwells42",
+      "name": "Subscribe to PowerPlayChess",
+      "total": 15891,
+      "points": 3.0,
+      "games": 5,
+      "round_games": 5,
+      "round_scheduled": 8,
+      "games_left": 3,
+      "ppg": 0.6,
+      "roster": [
+        {
+          "handle": "TBest",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "GlennJamesMax",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "jwwells42",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "adande1",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Tranzoo",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "prostidude",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "MatthewKCanada",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "dama_x_rey",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 26
     },
     {
       "owner": "JohnJPershing",
@@ -1407,7 +1515,7 @@
           "games": 1
         }
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "owner": "bncl",
@@ -1461,61 +1569,7 @@
           "games": 1
         }
       ],
-      "rank": 26
-    },
-    {
-      "owner": "kayrosas",
-      "name": "just whimsical vibes",
-      "total": 15992,
-      "points": 3.0,
-      "games": 5,
-      "round_games": 5,
-      "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.6,
-      "roster": [
-        {
-          "handle": "TBest",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "aldric123",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "lc69",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "NirakuHakamura",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "tomshko",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Fischerforlife",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "fulmarsky",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Computability",
-          "points": 0.0,
-          "games": 1
-        }
-      ],
-      "rank": 27
+      "rank": 28
     },
     {
       "owner": "On the dot",
@@ -1570,115 +1624,7 @@
           "games": 0
         }
       ],
-      "rank": 28
-    },
-    {
-      "owner": "gary0892",
-      "name": "gary0892’s team",
-      "total": 15355,
-      "points": 2.5,
-      "games": 3,
-      "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.8333333333333334,
-      "roster": [
-        {
-          "handle": "digvijay_sunil",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Lordziax",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "AlexGaul",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Llawlietnea",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "gary0892",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "JokicInator15",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Masterpiece_KI",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "GLAYGHOST",
-          "points": 0.5,
-          "games": 1
-        }
-      ],
       "rank": 29
-    },
-    {
-      "owner": "time_lord19",
-      "name": "Timelord's ocho locos",
-      "total": 15921,
-      "points": 2.5,
-      "games": 3,
-      "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.8333333333333334,
-      "roster": [
-        {
-          "handle": "JEEprep2374",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "ShadowOfSelf",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "MasterSRV",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "M0r1",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "tomshko",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "kygreek",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "mqll",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "nightsub",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 30
     },
     {
       "owner": "popularity",
@@ -1733,7 +1679,7 @@
           "games": 1
         }
       ],
-      "rank": 31
+      "rank": 30
     },
     {
       "owner": "berndwind",
@@ -1784,6 +1730,60 @@
         {
           "handle": "macha1313",
           "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 31
+    },
+    {
+      "owner": "gary0892",
+      "name": "gary0892’s team",
+      "total": 15355,
+      "points": 2.5,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.625,
+      "roster": [
+        {
+          "handle": "digvijay_sunil",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Lordziax",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "AlexGaul",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Llawlietnea",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "gary0892",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "JokicInator15",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Masterpiece_KI",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "GLAYGHOST",
+          "points": 0.5,
           "games": 1
         }
       ],
@@ -1844,6 +1844,60 @@
       "rank": 33
     },
     {
+      "owner": "time_lord19",
+      "name": "Timelord's ocho locos",
+      "total": 15921,
+      "points": 2.5,
+      "games": 4,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.625,
+      "roster": [
+        {
+          "handle": "JEEprep2374",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "ShadowOfSelf",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "MasterSRV",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "M0r1",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "tomshko",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "kygreek",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "mqll",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "nightsub",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 34
+    },
+    {
       "owner": "Tactix47",
       "name": "TheChosenOnes",
       "total": 15994,
@@ -1895,7 +1949,7 @@
           "games": 1
         }
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "owner": "Bennol",
@@ -1949,7 +2003,7 @@
           "games": 1
         }
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "owner": "Tranzoo",
@@ -2003,7 +2057,7 @@
           "games": 1
         }
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -2057,7 +2111,7 @@
           "games": 1
         }
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "owner": "Acebulf",
@@ -2111,7 +2165,7 @@
           "games": 1
         }
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "owner": "Zubenelgenubi",
@@ -2165,7 +2219,61 @@
           "games": 1
         }
       ],
-      "rank": 39
+      "rank": 40
+    },
+    {
+      "owner": "Pineapplechiffoncake",
+      "name": "Hedgehogs, Hippos, and Effin' Birds",
+      "total": 15995,
+      "points": 2.0,
+      "games": 2,
+      "round_games": 2,
+      "round_scheduled": 7,
+      "games_left": 5,
+      "ppg": 1.0,
+      "roster": [
+        {
+          "handle": "Silkthewanderer",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Astronominoff",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "Warvold",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "robertjackson",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "patk74",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "RBorja1980",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "HighonPotnuse",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "FranconianChess",
+          "points": 0.0,
+          "games": 0
+        }
+      ],
+      "rank": 41
     },
     {
       "owner": "RPCX",
@@ -2219,7 +2327,7 @@
           "games": 1
         }
       ],
-      "rank": 40
+      "rank": 42
     },
     {
       "owner": "Asturc0n",
@@ -2273,7 +2381,7 @@
           "games": 1
         }
       ],
-      "rank": 41
+      "rank": 43
     },
     {
       "owner": "Micomps",
@@ -2327,7 +2435,7 @@
           "games": 1
         }
       ],
-      "rank": 42
+      "rank": 44
     },
     {
       "owner": "bufferunderrun",
@@ -2381,61 +2489,7 @@
           "games": 1
         }
       ],
-      "rank": 43
-    },
-    {
-      "owner": "jwwells42",
-      "name": "Subscribe to PowerPlayChess",
-      "total": 15891,
-      "points": 2.0,
-      "games": 4,
-      "round_games": 4,
-      "round_scheduled": 8,
-      "games_left": 4,
-      "ppg": 0.5,
-      "roster": [
-        {
-          "handle": "TBest",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "GlennJamesMax",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "jwwells42",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "adande1",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Tranzoo",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "prostidude",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "MatthewKCanada",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "dama_x_rey",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 44
+      "rank": 45
     },
     {
       "owner": "AACtrl",
@@ -2489,7 +2543,7 @@
           "games": 0
         }
       ],
-      "rank": 45
+      "rank": 46
     },
     {
       "owner": "profligate",
@@ -2544,7 +2598,7 @@
           "games": 1
         }
       ],
-      "rank": 46
+      "rank": 47
     },
     {
       "owner": "macha1313",
@@ -2598,7 +2652,7 @@
           "games": 1
         }
       ],
-      "rank": 47
+      "rank": 48
     },
     {
       "owner": "ysgwydd",
@@ -2652,7 +2706,7 @@
           "games": 1
         }
       ],
-      "rank": 48
+      "rank": 49
     },
     {
       "owner": "somerapidplayer",
@@ -2706,7 +2760,7 @@
           "games": 0
         }
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "owner": "rio2018",
@@ -2760,7 +2814,7 @@
           "games": 1
         }
       ],
-      "rank": 50
+      "rank": 51
     },
     {
       "owner": "guitarspider",
@@ -2814,7 +2868,7 @@
           "games": 1
         }
       ],
-      "rank": 51
+      "rank": 52
     },
     {
       "owner": "Bpack",
@@ -2868,7 +2922,7 @@
           "games": 1
         }
       ],
-      "rank": 52
+      "rank": 53
     },
     {
       "owner": "Sussasun",
@@ -2922,7 +2976,7 @@
           "games": 0
         }
       ],
-      "rank": 53
+      "rank": 54
     },
     {
       "owner": "Bxvrc2lh",
@@ -2976,7 +3030,7 @@
           "games": 1
         }
       ],
-      "rank": 54
+      "rank": 55
     },
     {
       "owner": "semlegesnev",
@@ -3030,7 +3084,7 @@
           "games": 1
         }
       ],
-      "rank": 55
+      "rank": 56
     },
     {
       "owner": "GoldenRetrieverChess",
@@ -3084,7 +3138,7 @@
           "games": 1
         }
       ],
-      "rank": 56
+      "rank": 57
     },
     {
       "owner": "alp_arslan92",
@@ -3136,60 +3190,6 @@
           "handle": "mongreltiger",
           "points": 1.0,
           "games": 1
-        }
-      ],
-      "rank": 57
-    },
-    {
-      "owner": "Pineapplechiffoncake",
-      "name": "Hedgehogs, Hippos, and Effin' Birds",
-      "total": 15995,
-      "points": 1.0,
-      "games": 1,
-      "round_games": 1,
-      "round_scheduled": 7,
-      "games_left": 6,
-      "ppg": 1.0,
-      "roster": [
-        {
-          "handle": "Silkthewanderer",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Astronominoff",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Warvold",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "robertjackson",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "patk74",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "RBorja1980",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "HighonPotnuse",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "FranconianChess",
-          "points": 0.0,
-          "games": 0
         }
       ],
       "rank": 58
@@ -3849,16 +3849,16 @@
       "name": "The Magnificent Nine",
       "total": 15941,
       "points": 0.0,
-      "games": 3,
-      "round_games": 3,
+      "games": 4,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
+      "games_left": 4,
       "ppg": 0.0,
       "roster": [
         {
           "handle": "digvijay_sunil",
           "points": 0.0,
-          "games": 0
+          "games": 1
         },
         {
           "handle": "NameGoesInHere",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 106,
+    "played": 108,
     "total": 216
   }
 }
