@@ -1,0 +1,50 @@
+name: Publish S50 frozen Elo once
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply reviewed preview to production pages
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import urllib.request, hashlib, re
+          dev='https://raw.githubusercontent.com/arth2958/fantasy-live-standings-dev/dfb2b74707494c963345c2cb96622423815ccbd1/'
+          def get(path): return urllib.request.urlopen(dev+path,timeout=30).read().decode('utf8')
+          def check(path, sha):
+              real=hashlib.sha256(Path(path).read_bytes()).hexdigest()
+              if real!=sha: raise SystemExit(f'Stale production file: {path}: {real}')
+          check('s50/index.html','51c92cb69fa676e56b9c1c50caa74441bf8a344a35b41176f9aee4999ae52ea7')
+          check('projections/index.html','60f7536f40f65fed1a327613b37a1487fd631f3d6b9ce14041857d0bb4a978a7')
+          check('projections/app.js','64cae092327448955139814a29240aac02f662ab5eb476e7d4b961930cd946b3')
+          check('scripts/build_league_players.py','14d63a020c9f1c22c34841c477f78b6663f9122548e8d143da255e7b356da780')
+          Path('scripts/build_league_players.py').write_text(get('scripts/build_league_players.py').replace('"""DEV only. Per-player','"""Per-player'))
+          Path('data/league-s50.json').write_text(get('data/league-s50.json'))
+          Path('s50/standings-odds.js').write_text(get('s50/standings-odds.js'))
+          Path('projections/pregame-odds.js').write_text(get('pregame-odds.js').replace('`data/league-s50.json?', '`../data/league-s50.json?'))
+          s=Path('s50/index.html').read_text().replace('style.css?v=final19','style.css?v=final20').replace('app.js?v=18','app.js?v=19').replace('</body></html>','<script src="standings-odds.js?v=1"></script></body></html>')
+          Path('s50/index.html').write_text(s)
+          preview=get('projections.html')
+          a=preview.index('const leagueSeasonActual='); b=preview.index('</script>',a)
+          js=preview[a:b].replace("fetch('data/projections-s50.json?", "fetch('../data/projections-s50.json?").replace("fetch('data/league-s50.json?", "fetch('../data/league-s50.json?").replace("fetch('https://arth2958.github.io/fantasy-live-standings/data/standings-s50.json?", "fetch('../data/standings-s50.json?")
+          if 'fantasy-live-standings/data' in js or "fetch('data/" in js: raise SystemExit('Unexpected projection data path')
+          Path('projections/app.js').write_text(js)
+          html=preview.replace('<meta name="robots" content="noindex,nofollow">','').replace('<div style="background:#f4c943;color:#332b10;text-align:center;padding:8px;font-weight:900">DEV PREVIEW - PRODUCTION UNCHANGED</div>','')
+          html=html.replace('<a href="./#current">Standings</a>','<a href="../s50/">Standings</a>').replace('<a class="on" href="projections.html">Projections</a>','<a class="on" href="./">Projections</a>').replace('<a href="./#hall-of-fame">Hall of Fame</a>','<a href="../hall-of-fame/">Hall of Fame</a>').replace('<a href="./#current">Official fantasy standings</a>','<a href="../s50/">Official fantasy standings</a>')
+          html=re.sub(r'<style>.*?</style>\s*<style>.*?</style>','<link rel="stylesheet" href="../style.css?v=final20"><link rel="stylesheet" href="projections.css?v=10">',html,count=1,flags=re.S)
+          html=html[:html.rfind('<script>',0,html.index('const leagueSeasonActual='))]+html[html.index('</script>',html.index('const leagueSeasonActual='))+len('</script>'):]
+          html=html.replace('<script src="pregame-odds.js">','<script src="app.js?v=11"></script><script src="pregame-odds.js?v=1">')
+          if '<script><script' in html or 'DEV PREVIEW' in html or './#' in html or '<iframe' in html: raise SystemExit('Unexpected HTML')
+          Path('projections/index.html').write_text(html)
+          PY
+      - name: Commit feature only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898699+github-actions[bot]@users.noreply.github.com'
+          git add s50/index.html s50/standings-odds.js projections/index.html projections/app.js projections/pregame-odds.js scripts/build_league_players.py data/league-s50.json
+          git diff --cached --quiet || git commit -m 'Show frozen pre-game Elo on S50 standings and projections'
+          git push || (git pull --rebase -X theirs && git push)
