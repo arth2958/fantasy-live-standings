@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 8,
-  "updated_at": "2026-09-26T16:59:50.069931Z",
+  "round_in_progress": 10,
+  "updated_at": "2026-09-26T17:19:39.258498Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1889,7 +1889,7 @@
       "projected_points": 4.937291897825202,
       "projected_round": 4.937291897825202,
       "left": 6,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 9,
       "roster": [
         {
@@ -1916,8 +1916,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/OvNdc9f0",
+          "game_link_kind": "live",
           "round_game": "1:far1108:neothehero",
           "season_points": 0.0,
           "season_games": 0
@@ -3095,7 +3095,7 @@
       "projected_points": 4.556040616489548,
       "projected_round": 4.556040616489548,
       "left": 2,
-      "in_progress": 1,
+      "in_progress": 2,
       "paired": 8,
       "roster": [
         {
@@ -3122,8 +3122,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/QFJqLMCI",
+          "game_link_kind": "live",
           "round_game": "1:hanzo_19:igor_jamnik",
           "season_points": 0.0,
           "season_games": 0
@@ -3765,7 +3765,7 @@
       "projected_points": 4.4405886166164805,
       "projected_round": 4.4405886166164805,
       "left": 3,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -3852,8 +3852,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/R0bXU2eq",
+          "game_link_kind": "live",
           "round_game": "1:pykkis:voylento",
           "season_points": 0.0,
           "season_games": 0
@@ -4033,7 +4033,7 @@
       "projected_points": 4.412472501544584,
       "projected_round": 4.412472501544584,
       "left": 4,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -4120,8 +4120,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/R0bXU2eq",
+          "game_link_kind": "live",
           "round_game": "1:pykkis:voylento",
           "season_points": 0.0,
           "season_games": 0
@@ -4301,7 +4301,7 @@
       "projected_points": 4.39976249641211,
       "projected_round": 4.39976249641211,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -4388,8 +4388,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/R0bXU2eq",
+          "game_link_kind": "live",
           "round_game": "1:pykkis:voylento",
           "season_points": 0.0,
           "season_games": 0
@@ -9004,6 +9004,14 @@
       "eligible": false
     },
     {
+      "name": "The Last Shall be the First",
+      "projected": 4.481213851397843,
+      "actual": 2.5,
+      "paired": 8,
+      "left": 4,
+      "eligible": false
+    },
+    {
       "name": "oh those 64 squares can encompass such immensity",
       "projected": 4.445368505216562,
       "actual": 3.5,
@@ -9014,14 +9022,6 @@
     {
       "name": "J’adoube-Al-Blunder",
       "projected": 4.428296041612328,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 5,
-      "eligible": false
-    },
-    {
-      "name": "The Last Shall be the First",
-      "projected": 4.370811429303154,
       "actual": 2.0,
       "paired": 8,
       "left": 5,
@@ -9077,7 +9077,7 @@
     },
     {
       "name": "Pawn with the Sickness",
-      "projected": 3.9496785979602813,
+      "projected": 3.9496785979602818,
       "actual": 3.0,
       "paired": 8,
       "left": 2,
@@ -9108,14 +9108,6 @@
       "eligible": false
     },
     {
-      "name": "The Greek Gifty Nifty Fifty",
-      "projected": 3.6291885706968463,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 5,
-      "eligible": false
-    },
-    {
       "name": "If anyone can refute it—don't show me",
       "projected": 3.5717039583876717,
       "actual": 1.0,
@@ -9129,6 +9121,14 @@
       "actual": 2.5,
       "paired": 8,
       "left": 2,
+      "eligible": false
+    },
+    {
+      "name": "The Greek Gifty Nifty Fifty",
+      "projected": 3.5187861486021568,
+      "actual": 1.5,
+      "paired": 8,
+      "left": 4,
       "eligible": false
     },
     {
@@ -9229,7 +9229,7 @@
     },
     {
       "name": "The horsey don't belong here",
-      "projected": 2.581314107093456,
+      "projected": 2.5813141070934567,
       "actual": 0.0,
       "paired": 8,
       "left": 5,
