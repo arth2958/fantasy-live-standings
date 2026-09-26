@@ -25,7 +25,7 @@ def expectancy(a,b): return 1/(1+10**(-(a-b)/400))
 def score(v):
     v=str(v or '').strip().lower()
     if v in ('1-0','1x-0f','1','1.0'): return (1.0,0.0)
-    if v in ('0-1','0'): return (0.0,1.0)
+    if v in ('0-1','0f-1x','0'): return (0.0,1.0)
     if v in ('1/2-1/2','1/2z-1/2z','½-½','0.5-0.5','draw'): return (0.5,0.5)
     return None
 def main():
