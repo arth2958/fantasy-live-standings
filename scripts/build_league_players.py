@@ -84,7 +84,7 @@ def main():
         start=pregames.get(gid) if gid else None
         before=expectancy(start['white']+25,start['black']) if start else None
         live_estimate=(expectancy(ratings[w.casefold()]+25,ratings[b.casefold()])
-                       if before is None and w.casefold() in rated_handles and b.casefold() in rated_handles else None)
+                       if d is None and before is None and w.casefold() in rated_handles and b.casefold() in rated_handles else None)
         if d is None:
             we=expectancy(ratings.get(w.casefold(),1500)+25,ratings.get(b.casefold(),1500)); exp=(we,1-we)
         else: exp=d
