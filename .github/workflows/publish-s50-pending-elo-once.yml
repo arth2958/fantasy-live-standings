@@ -1,0 +1,39 @@
+name: Publish S50 all-games Elo once
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy approved dev preview files to production
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import urllib.request,hashlib,json
+          def check(path,sha):
+              got=hashlib.sha256(Path(path).read_bytes()).hexdigest()
+              if got!=sha:raise SystemExit(f'Stale production file: {path}: {got}')
+          check('s50/index.html','005f6bd1b2888ffdab976ca500721353b4a00b11f601a333351d842a47e89c64')
+          check('s50/standings-odds.js','a4744323d76b7734806a5f3b5f9eab8d58692cd64a4f18f348fbec7fbe8bd625')
+          check('scripts/build_league_players.py','a64082bf8630a5a6e329d46cf70cac70c2542b7f79009a0c4f08056a8349c4c7')
+          source='https://raw.githubusercontent.com/arth2958/fantasy-live-standings-dev/a3520d9e754f6e2b60a8fa6e14cc7ef1b44f8870/'
+          for name in ('s50/index.html','s50/standings-odds.js','scripts/build_league_players.py','data/league-s50.json'):
+              req=urllib.request.Request(source+name,headers={'User-Agent':'fantasy-elo-release'})
+              with urllib.request.urlopen(req,timeout=35) as response: body=response.read()
+              if name.endswith('.json'):
+                  data=json.loads(body);ps=[p for t in data['teams'].values() for p in t['players']]
+                  if data['round']!=1 or len(ps)<400 or sum(p['pregame_expectation'] is None and p.get('live_elo_estimate') is not None for p in ps)<100:raise SystemExit('Unexpected preview data')
+              if name.endswith('index.html') and b'standings-odds.js?v=2' not in body:raise SystemExit('Missing cache bump')
+              if name.endswith('standings-odds.js') and body.count(b'Elo estimate')!=2:raise SystemExit('Missing labels')
+              Path(name).write_bytes(body)
+          PY
+      - name: Commit only the approved feature
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898699+github-actions[bot]@users.noreply.github.com'
+          git add s50/index.html s50/standings-odds.js scripts/build_league_players.py data/league-s50.json
+          git diff --cached --quiet || git commit -m 'Show live Elo estimates for unstarted S50 pairings'
+          git push || (git pull --rebase -X theirs && git push)
