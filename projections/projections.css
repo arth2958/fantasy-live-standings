@@ -3,7 +3,7 @@
 
 .type-badge{display:inline-flex;border-radius:999px;padding:3px 6px;font-size:8px;font-weight:900;letter-spacing:.06em;vertical-align:middle}.type-badge.fantasy{background:#dcefe8;color:#155e4a}.type-badge.league{background:#e4e1df;color:#5f595c}
 
-.projection-filters{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 12px}.projection-filters button{border:1px solid #8ba59f;border-radius:999px;background:#fff;color:var(--teal);padding:7px 11px;font-size:10px;font-weight:900;letter-spacing:.05em}.projection-filters button.on{background:var(--teal);color:#fff}
+.projection-search{display:flex;align-items:end;gap:10px;margin:4px 0 12px}.projection-search label{font-size:12px;font-weight:700;flex:1}.projection-search input{display:block;width:100%;margin-top:7px;border:1px solid #cbc6c4;border-radius:8px;padding:12px 13px;font:inherit}.projection-filters{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 12px}.projection-filters button{border:1px solid #8ba59f;border-radius:999px;background:#fff;color:var(--teal);padding:7px 11px;font-size:10px;font-weight:900;letter-spacing:.05em}.projection-filters button.on{background:var(--teal);color:#fff}
 
 .projection-row .identity{min-width:0}.projection-row .identity strong{display:flex;align-items:center;gap:5px;min-width:0}.identity-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.identity-name a{color:inherit;text-decoration:underline;text-decoration-color:rgba(23,59,53,.35);text-underline-offset:2px}.type-badge{flex:0 0 auto}.type-badge.bot{background:#d8d1ef;color:#4e3a7a}
 
