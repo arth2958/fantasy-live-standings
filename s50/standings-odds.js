@@ -19,11 +19,13 @@
       const handle = card.querySelector('b')?.querySelector('a:not(.league-profile)')?.textContent?.trim()
         || card.querySelector('b')?.childNodes[0]?.textContent?.trim();
       const player = byHandle.get((handle || '').toLowerCase());
-      if (!player || player.pregame_expectation == null) return;
+      if (!player || (player.pregame_expectation == null && player.live_elo_estimate == null)) return;
       const note = document.createElement('small');
       note.className = 'pregame-note';
       note.style.cssText = 'display:block;font-size:11px;font-weight:700;margin-top:4px';
-      note.textContent = `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`;
+      note.textContent = player.pregame_expectation != null
+        ? `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`
+        : `Elo estimate ${Math.round(player.live_elo_estimate * 100)}%`;
       card.append(note);
       card.dataset.pregameShown = 'true';
     });
@@ -34,10 +36,12 @@
         || name.textContent.replace('↗', '').trim();
       const player = byHandle.get(handle.toLowerCase());
       if (!player) return;
-      if (player.pregame_expectation == null) return;
+      if (player.pregame_expectation == null && player.live_elo_estimate == null) return;
       const note = document.createElement('small');
       note.className = 'pregame-note';
-      note.textContent = `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`;
+      note.textContent = player.pregame_expectation != null
+        ? `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`
+        : `Elo estimate ${Math.round(player.live_elo_estimate * 100)}%`;
       row.append(note);
       row.dataset.pregameShown = 'true';
     });

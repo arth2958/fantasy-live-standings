@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Per-player league detail for the projections page. Writes data/league-s50.json."""
+"""DEV only. Per-player league detail for the projections page. Writes data/league-s50.json."""
 import json
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 import html
 import re
-import math
 from collections import Counter
 import requests
 SEASON=50
@@ -66,10 +65,15 @@ def main():
     games=[g for g in raw if int(g.get('round') or 0)==current]
     handles=sorted({str(g.get(k) or '').strip() for g in games for k in ('white','black') if g.get(k)})
     ratings={}
+    rated_handles=set()
     for i in range(0,len(handles),300):
         r=requests.post('https://lichess.org/api/users',data=','.join(handles[i:i+300]),headers={'Accept':'application/json'},timeout=30); r.raise_for_status()
         for u in r.json():
-            ratings[(u.get('username') or u.get('id','')).casefold()]=u.get('perfs',{}).get('classical',{}).get('rating',1500)
+            handle=(u.get('username') or u.get('id','')).casefold()
+            rating=u.get('perfs',{}).get('classical',{}).get('rating')
+            if isinstance(rating,(int,float)) and 0<rating<4000:
+                rated_handles.add(handle)
+            ratings[handle]=rating if rating is not None else 1500
     game_ids={str(g.get('game_id') or '').strip() for g in games if g.get('game_id')}
     pregames=pregame_ratings(game_ids)
     teams=defaultdict(lambda:{'players':[]})
@@ -79,12 +83,14 @@ def main():
         d=score(g.get('result')); gid=str(g.get('game_id') or '').strip() or None
         start=pregames.get(gid) if gid else None
         before=expectancy(start['white']+25,start['black']) if start else None
+        live_estimate=(expectancy(ratings[w.casefold()]+25,ratings[b.casefold()])
+                       if before is None and w.casefold() in rated_handles and b.casefold() in rated_handles else None)
         if d is None:
             we=expectancy(ratings.get(w.casefold(),1500)+25,ratings.get(b.casefold(),1500)); exp=(we,1-we)
         else: exp=d
         for me,opp,team,oteam,color,i in ((w,b,wt,bt,'white',0),(b,w,bt,wt,'black',1)):
             a=None if d is None else d[i]
-            teams[team]['players'].append({'handle':me,'color':color,'opponent':opp,'opponent_team':oteam,'rating':ratings.get(me.casefold()),'expected_points':exp[i],'pregame_expectation':(before if i==0 else 1-before) if before is not None else None,'pregame_ratings':start,'actual_result':a,'status':'pending' if a is None else 'won' if a==1 else 'draw' if a==0.5 else 'lost','game_url':f'https://lichess.org/{gid}' if gid else None})
+            teams[team]['players'].append({'handle':me,'color':color,'opponent':opp,'opponent_team':oteam,'rating':ratings.get(me.casefold()),'expected_points':exp[i],'pregame_expectation':(before if i==0 else 1-before) if before is not None else None,'live_elo_estimate':(live_estimate if i==0 else 1-live_estimate) if live_estimate is not None else None,'pregame_ratings':start,'actual_result':a,'status':'pending' if a is None else 'won' if a==1 else 'draw' if a==0.5 else 'lost','game_url':f'https://lichess.org/{gid}' if gid else None})
     ids,boards=pairing_details(current)
     out={}
     for n in sorted(set(teams)|set(prior)):
