@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-27T17:24:29.341442Z",
+  "updated_at": "2026-09-27T17:38:29.926619Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 187,
+  "pairings_parsed": 189,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "guitarspider",
+      "name": "and all I got was this lousy team name",
+      "total": 15051,
+      "points": 6.0,
+      "games": 8,
+      "round_games": 8,
+      "round_scheduled": 8,
+      "games_left": 0,
+      "ppg": 0.75,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "Feet_Barbie",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "berndwind",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "Lou-E",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "fork2020",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "pykkis",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "fulmarsky",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "macha1313",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "adande1",
       "name": "Picked by the AI That Built This Site. Watch Out",
       "total": 15831,
@@ -111,7 +165,7 @@
           "games": 1
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "JohnJPershing",
@@ -165,7 +219,7 @@
           "games": 1
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "owner": "bncl",
@@ -219,7 +273,7 @@
           "games": 1
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "tomb85",
@@ -273,7 +327,7 @@
           "games": 1
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "pawneater2020",
@@ -323,60 +377,6 @@
         },
         {
           "handle": "electricfalcon",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "owner": "NameGoesInHere",
-      "name": "Is this the real team? Is this just fantasy?",
-      "total": 15975,
-      "points": 5.5,
-      "games": 7,
-      "round_games": 7,
-      "round_scheduled": 8,
-      "games_left": 1,
-      "ppg": 0.7857142857142857,
-      "roster": [
-        {
-          "handle": "tommeketoch",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "akristjansson",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "Jg777",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "serenemoose",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "Joonaf",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "cinemashow",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Kborman",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "angborxley",
           "points": 1.0,
           "games": 1
         }
@@ -492,6 +492,60 @@
       "rank": 8
     },
     {
+      "owner": "NameGoesInHere",
+      "name": "Is this the real team? Is this just fantasy?",
+      "total": 15975,
+      "points": 5.5,
+      "games": 8,
+      "round_games": 8,
+      "round_scheduled": 8,
+      "games_left": 0,
+      "ppg": 0.6875,
+      "roster": [
+        {
+          "handle": "tommeketoch",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "akristjansson",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "Jg777",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "serenemoose",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Joonaf",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "cinemashow",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Kborman",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "angborxley",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 9
+    },
+    {
       "owner": "popularity",
       "name": "Most Popular Players Team",
       "bot": true,
@@ -541,60 +595,6 @@
         {
           "handle": "mongreltiger",
           "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "owner": "guitarspider",
-      "name": "and all I got was this lousy team name",
-      "total": 15051,
-      "points": 5.0,
-      "games": 7,
-      "round_games": 7,
-      "round_scheduled": 8,
-      "games_left": 1,
-      "ppg": 0.7142857142857143,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "Feet_Barbie",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "berndwind",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "Lou-E",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "fork2020",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "pykkis",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "fulmarsky",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "macha1313",
-          "points": 0.0,
           "games": 1
         }
       ],
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 1,
-    "played": 187,
+    "played": 189,
     "total": 216
   }
 }
