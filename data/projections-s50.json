@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 1,
-  "updated_at": "2026-09-27T11:00:19.342163Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-09-27T11:20:59.281624Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1884,7 +1884,7 @@
     {
       "owner": "GlennJamesMax",
       "name": "Beasts and Boarddroppers",
-      "actual_points": 4.5,
+      "actual_points": 5.0,
       "actual_round": 5.0,
       "projected_points": 5.0,
       "projected_round": 5.0,
@@ -1934,8 +1934,8 @@
           "game_url": "https://lichess.org/HEtBrmFv",
           "game_link_kind": "recent",
           "round_game": "1:knightfury21:storybrooke",
-          "season_points": 0.0,
-          "season_games": 0
+          "season_points": 0.5,
+          "season_games": 1
         },
         {
           "handle": "M0r1",
@@ -7780,7 +7780,7 @@
     {
       "owner": "mongreltiger",
       "name": "Stinkfish 50",
-      "actual_points": 1.0,
+      "actual_points": 1.5,
       "actual_round": 1.5,
       "projected_points": 2.7193273525764408,
       "projected_round": 2.7193273525764408,
@@ -7830,8 +7830,8 @@
           "game_url": "https://lichess.org/HEtBrmFv",
           "game_link_kind": "recent",
           "round_game": "1:knightfury21:storybrooke",
-          "season_points": 0.0,
-          "season_games": 0
+          "season_points": 0.5,
+          "season_games": 1
         },
         {
           "handle": "Moccy",
@@ -9012,14 +9012,6 @@
       "eligible": false
     },
     {
-      "name": "Fork You Very Much",
-      "projected": 4.422907524174671,
-      "actual": 4.0,
-      "paired": 8,
-      "left": 1,
-      "eligible": false
-    },
-    {
       "name": "my english needs work",
       "projected": 4.316118158635012,
       "actual": 2.5,
@@ -9060,6 +9052,14 @@
       "eligible": false
     },
     {
+      "name": "Fork You Very Much",
+      "projected": 4.0,
+      "actual": 4.0,
+      "paired": 8,
+      "left": 0,
+      "eligible": false
+    },
+    {
       "name": "King's Landing",
       "projected": 4.0,
       "actual": 4.0,
@@ -9077,6 +9077,14 @@
     },
     {
       "name": "Pawn with the Sickness",
+      "projected": 4.0,
+      "actual": 4.0,
+      "paired": 8,
+      "left": 0,
+      "eligible": false
+    },
+    {
+      "name": "Rookies Of The Year",
       "projected": 4.0,
       "actual": 4.0,
       "paired": 8,
@@ -9113,14 +9121,6 @@
       "actual": 1.5,
       "paired": 8,
       "left": 4,
-      "eligible": false
-    },
-    {
-      "name": "Rookies Of The Year",
-      "projected": 3.577092475825329,
-      "actual": 3.0,
-      "paired": 8,
-      "left": 1,
       "eligible": false
     },
     {
