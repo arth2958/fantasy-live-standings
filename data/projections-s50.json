@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 12,
-  "updated_at": "2026-09-27T17:34:46.316816Z",
+  "round_in_progress": 11,
+  "updated_at": "2026-09-27T17:47:46.310219Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -276,7 +276,7 @@
     {
       "owner": "guitarspider",
       "name": "and all I got was this lousy team name",
-      "actual_points": 5.0,
+      "actual_points": 6.0,
       "actual_round": 6.0,
       "projected_points": 6.0,
       "projected_round": 6.0,
@@ -341,8 +341,8 @@
           "game_url": "https://lichess.org/6KmeSOZy",
           "game_link_kind": "recent",
           "round_game": "1:lou-e:serenemoose",
-          "season_points": 0.0,
-          "season_games": 0
+          "season_points": 1.0,
+          "season_games": 1
         },
         {
           "handle": "fork2020",
@@ -1414,7 +1414,7 @@
           "game_link_kind": "recent",
           "round_game": "1:lou-e:serenemoose",
           "season_points": 0.0,
-          "season_games": 0
+          "season_games": 1
         },
         {
           "handle": "Joonaf",
@@ -1576,7 +1576,7 @@
           "round_games": 1,
           "game_url": "https://lichess.org/RdJw1Xu5",
           "game_link_kind": "live",
-          "round_game": "1:acebulf:rpcx",
+          "round_game": "1:acebulf:moonspawn",
           "season_points": 0.0,
           "season_games": 1
         },
@@ -7740,7 +7740,7 @@
           "round_games": 1,
           "game_url": "https://lichess.org/RdJw1Xu5",
           "game_link_kind": "live",
-          "round_game": "1:acebulf:rpcx",
+          "round_game": "1:acebulf:moonspawn",
           "season_points": 0.0,
           "season_games": 1
         },
@@ -8860,6 +8860,14 @@
       "eligible": false
     },
     {
+      "name": "Pirc and Roll",
+      "projected": 6.7164236941029385,
+      "actual": 6.0,
+      "paired": 8,
+      "left": 1,
+      "eligible": false
+    },
+    {
       "name": "100 Suggestions You Must Know",
       "projected": 6.618584122089031,
       "actual": 6.0,
@@ -8873,14 +8881,6 @@
       "actual": 6.5,
       "paired": 8,
       "left": 0,
-      "eligible": false
-    },
-    {
-      "name": "Pirc and Roll",
-      "projected": 6.170501771322455,
-      "actual": 5.0,
-      "paired": 8,
-      "left": 2,
       "eligible": false
     },
     {
@@ -9125,7 +9125,7 @@
     },
     {
       "name": "50 Ways to Fork Your Lover",
-      "projected": 3.683881841364988,
+      "projected": 3.6838818413649883,
       "actual": 1.5,
       "paired": 8,
       "left": 4,
@@ -9252,14 +9252,6 @@
       "eligible": false
     },
     {
-      "name": "50 Shades of Swindles and Tricks",
-      "projected": 1.829498228677545,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 2,
-      "eligible": false
-    },
-    {
       "name": "The kannjuring",
       "projected": 1.5,
       "actual": 1.5,
@@ -9270,6 +9262,14 @@
     {
       "name": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "projected": 1.3814158779109693,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 1,
+      "eligible": false
+    },
+    {
+      "name": "50 Shades of Swindles and Tricks",
+      "projected": 1.2835763058970613,
       "actual": 1.0,
       "paired": 8,
       "left": 1,
