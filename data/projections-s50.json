@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 5,
-  "updated_at": "2026-09-27T13:50:28.861912Z",
+  "round_in_progress": 6,
+  "updated_at": "2026-09-27T14:03:57.055392Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -10,23 +10,23 @@
       "name": "Picked by the AI That Built This Site. Watch Out",
       "actual_points": 6.0,
       "actual_round": 6.0,
-      "projected_points": 6.651912039874664,
-      "projected_round": 6.651912039874664,
-      "left": 1,
-      "in_progress": 1,
+      "projected_points": 6.0,
+      "projected_round": 6.0,
+      "left": 0,
+      "in_progress": 0,
       "paired": 8,
       "roster": [
         {
           "handle": "PlanetChessClub",
-          "status": "pending",
-          "rating": 2237,
+          "status": "lost",
+          "rating": 2223,
           "decided_without_play": false,
-          "expected_points": 0.6519120398746636,
-          "actual_result": null,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
           "round_points": 0.0,
-          "round_games": 0,
+          "round_games": 1,
           "game_url": "https://lichess.org/JBAH2agf",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "1:crapablanca91:planetchessclub",
           "season_points": 0.0,
           "season_games": 0
@@ -415,7 +415,7 @@
       "projected_points": 5.598915256140139,
       "projected_round": 5.598915256140139,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -502,8 +502,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -1487,7 +1487,7 @@
       "projected_points": 5.061567938973646,
       "projected_round": 5.061567938973646,
       "left": 1,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -1574,8 +1574,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -1621,7 +1621,7 @@
       "projected_points": 5.007098564951971,
       "projected_round": 5.007098564951971,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -1708,8 +1708,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -4435,7 +4435,7 @@
       "projected_points": 4.0946193328580875,
       "projected_round": 4.0946193328580875,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -4522,8 +4522,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -5105,7 +5105,7 @@
       "projected_points": 4.032979495843139,
       "projected_round": 4.032979495843139,
       "left": 3,
-      "in_progress": 1,
+      "in_progress": 2,
       "paired": 8,
       "roster": [
         {
@@ -5192,8 +5192,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -8589,7 +8589,7 @@
       "projected_points": 1.6363414334655597,
       "projected_round": 1.6363414334655597,
       "left": 3,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -8676,8 +8676,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/twcHUNTw",
+          "game_link_kind": "live",
           "round_game": "1:cinemashow:its_ck",
           "season_points": 0.0,
           "season_games": 0
@@ -8869,7 +8869,7 @@
     },
     {
       "name": "Pirc and Roll",
-      "projected": 6.183450916215318,
+      "projected": 6.183450916215319,
       "actual": 4.5,
       "paired": 8,
       "left": 3,
@@ -8964,14 +8964,6 @@
       "eligible": false
     },
     {
-      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
-      "projected": 4.767886786239136,
-      "actual": 3.0,
-      "paired": 8,
-      "left": 3,
-      "eligible": false
-    },
-    {
       "name": "Season 50 midlife crisis",
       "projected": 4.507329624655745,
       "actual": 3.0,
@@ -9005,7 +8997,7 @@
     },
     {
       "name": "Illiterate Alliteration Explorers",
-      "projected": 4.392156536143888,
+      "projected": 4.392156536143889,
       "actual": 3.0,
       "paired": 8,
       "left": 2,
@@ -9017,6 +9009,14 @@
       "actual": 2.5,
       "paired": 8,
       "left": 4,
+      "eligible": false
+    },
+    {
+      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
+      "projected": 4.115974746364472,
+      "actual": 3.0,
+      "paired": 8,
+      "left": 2,
       "eligible": false
     },
     {
@@ -9116,6 +9116,14 @@
       "eligible": false
     },
     {
+      "name": "passed pawn patrol",
+      "projected": 3.884025253635528,
+      "actual": 3.0,
+      "paired": 8,
+      "left": 2,
+      "eligible": false
+    },
+    {
       "name": "50 Ways to Fork Your Lover",
       "projected": 3.683881841364988,
       "actual": 1.5,
@@ -9158,14 +9166,6 @@
     {
       "name": "Svidl, Svidler, Svidlest",
       "projected": 3.4926703753442547,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 3,
-      "eligible": false
-    },
-    {
-      "name": "passed pawn patrol",
-      "projected": 3.232113213760864,
       "actual": 2.0,
       "paired": 8,
       "left": 3,
