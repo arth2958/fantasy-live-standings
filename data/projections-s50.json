@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 1,
-  "round_in_progress": 4,
-  "updated_at": "2026-09-27T09:37:25.933464Z",
+  "round_in_progress": 3,
+  "updated_at": "2026-09-27T09:51:25.476989Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -5772,10 +5772,10 @@
       "name": "legion of doom",
       "actual_points": 3.0,
       "actual_round": 3.0,
-      "projected_points": 3.9104039366125782,
-      "projected_round": 3.9104039366125782,
-      "left": 2,
-      "in_progress": 1,
+      "projected_points": 3.664857978554765,
+      "projected_round": 3.664857978554765,
+      "left": 1,
+      "in_progress": 0,
       "paired": 7,
       "roster": [
         {
@@ -5885,18 +5885,18 @@
         },
         {
           "handle": "AthenianKnight",
-          "status": "pending",
-          "rating": 1377,
+          "status": "lost",
+          "rating": 1362,
           "decided_without_play": false,
-          "expected_points": 0.24554595805781354,
-          "actual_result": null,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
           "round_points": 0.0,
-          "round_games": 0,
+          "round_games": 1,
           "game_url": "https://lichess.org/5IecxNNf",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "1:athenianknight:skulm93",
           "season_points": 0.0,
-          "season_games": 0
+          "season_games": 1
         }
       ],
       "projected_rank": 44
@@ -8448,140 +8448,6 @@
       "projected_rank": 63
     },
     {
-      "owner": "King12-life",
-      "name": "King12-life’s team",
-      "actual_points": 1.0,
-      "actual_round": 1.0,
-      "projected_points": 1.7785973519422544,
-      "projected_round": 1.7785973519422544,
-      "left": 2,
-      "in_progress": 1,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "Duty5521",
-          "status": "pending",
-          "rating": 2350,
-          "decided_without_play": false,
-          "expected_points": 0.533051393884441,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "1:betolini:duty5521",
-          "season_points": 0.0,
-          "season_games": 0
-        },
-        {
-          "handle": "NaveenGeorge",
-          "status": "won",
-          "rating": 2079,
-          "decided_without_play": false,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/SnmbeV9n",
-          "game_link_kind": "recent",
-          "round_game": "1:namegoesinhere:naveengeorge",
-          "season_points": 1.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Ciraid",
-          "status": "lost",
-          "rating": 2007,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/7RqmyAHY",
-          "game_link_kind": "recent",
-          "round_game": "1:ciraid:mixxanber",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Hesperian",
-          "status": "lost",
-          "rating": 1939,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/ilOYaGYz",
-          "game_link_kind": "recent",
-          "round_game": "1:hesperian:rabbier",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Alzaw",
-          "status": "lost",
-          "rating": 1863,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/BMM6jS93",
-          "game_link_kind": "recent",
-          "round_game": "1:alzaw:marekw78",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "kostasvl",
-          "status": "lost",
-          "rating": 1755,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/O5Q7tNzo",
-          "game_link_kind": "recent",
-          "round_game": "1:kostasvl:parziwal08",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "Nairwolf",
-          "status": "lost",
-          "rating": 1643,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/d0lRPJpk",
-          "game_link_kind": "recent",
-          "round_game": "1:nairwolf:pawneater2020",
-          "season_points": 0.0,
-          "season_games": 1
-        },
-        {
-          "handle": "AthenianKnight",
-          "status": "pending",
-          "rating": 1377,
-          "decided_without_play": false,
-          "expected_points": 0.24554595805781354,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": "https://lichess.org/5IecxNNf",
-          "game_link_kind": "live",
-          "round_game": "1:athenianknight:skulm93",
-          "season_points": 0.0,
-          "season_games": 0
-        }
-      ],
-      "projected_rank": 64
-    },
-    {
       "owner": "FinErik",
       "name": "50 ways to cook with Pineapple",
       "actual_points": 0.5,
@@ -8713,7 +8579,7 @@
           "season_games": 1
         }
       ],
-      "projected_rank": 65
+      "projected_rank": 64
     },
     {
       "owner": "LosingIsTheBest",
@@ -8847,6 +8713,140 @@
           "season_games": 0
         }
       ],
+      "projected_rank": 65
+    },
+    {
+      "owner": "King12-life",
+      "name": "King12-life’s team",
+      "actual_points": 1.0,
+      "actual_round": 1.0,
+      "projected_points": 1.533051393884441,
+      "projected_round": 1.533051393884441,
+      "left": 1,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "Duty5521",
+          "status": "pending",
+          "rating": 2350,
+          "decided_without_play": false,
+          "expected_points": 0.533051393884441,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "1:betolini:duty5521",
+          "season_points": 0.0,
+          "season_games": 0
+        },
+        {
+          "handle": "NaveenGeorge",
+          "status": "won",
+          "rating": 2079,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/SnmbeV9n",
+          "game_link_kind": "recent",
+          "round_game": "1:namegoesinhere:naveengeorge",
+          "season_points": 1.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Ciraid",
+          "status": "lost",
+          "rating": 2007,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/7RqmyAHY",
+          "game_link_kind": "recent",
+          "round_game": "1:ciraid:mixxanber",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Hesperian",
+          "status": "lost",
+          "rating": 1939,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/ilOYaGYz",
+          "game_link_kind": "recent",
+          "round_game": "1:hesperian:rabbier",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Alzaw",
+          "status": "lost",
+          "rating": 1863,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/BMM6jS93",
+          "game_link_kind": "recent",
+          "round_game": "1:alzaw:marekw78",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "kostasvl",
+          "status": "lost",
+          "rating": 1755,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/O5Q7tNzo",
+          "game_link_kind": "recent",
+          "round_game": "1:kostasvl:parziwal08",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "Nairwolf",
+          "status": "lost",
+          "rating": 1643,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/d0lRPJpk",
+          "game_link_kind": "recent",
+          "round_game": "1:nairwolf:pawneater2020",
+          "season_points": 0.0,
+          "season_games": 1
+        },
+        {
+          "handle": "AthenianKnight",
+          "status": "lost",
+          "rating": 1362,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/5IecxNNf",
+          "game_link_kind": "recent",
+          "round_game": "1:athenianknight:skulm93",
+          "season_points": 0.0,
+          "season_games": 1
+        }
+      ],
       "projected_rank": 66
     }
   ],
@@ -8964,16 +8964,16 @@
       "eligible": false
     },
     {
-      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
-      "projected": 4.767886786239136,
-      "actual": 3.0,
+      "name": "50-50 my next move is a blunder",
+      "projected": 4.902531327169573,
+      "actual": 4.0,
       "paired": 8,
-      "left": 3,
+      "left": 2,
       "eligible": false
     },
     {
-      "name": "50-50 my next move is a blunder",
-      "projected": 4.656985369111759,
+      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
+      "projected": 4.767886786239136,
       "actual": 3.0,
       "paired": 8,
       "left": 3,
@@ -9156,19 +9156,19 @@
       "eligible": false
     },
     {
-      "name": "50th Parallel Pawns",
-      "projected": 3.3430146308882405,
+      "name": "passed pawn patrol",
+      "projected": 3.232113213760864,
       "actual": 2.0,
       "paired": 8,
       "left": 3,
       "eligible": false
     },
     {
-      "name": "passed pawn patrol",
-      "projected": 3.232113213760864,
+      "name": "50th Parallel Pawns",
+      "projected": 3.097468672830427,
       "actual": 2.0,
       "paired": 8,
-      "left": 3,
+      "left": 2,
       "eligible": false
     },
     {
