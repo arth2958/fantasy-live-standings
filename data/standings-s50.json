@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-28T14:48:11.558023Z",
+  "updated_at": "2026-09-28T15:01:20.204592Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 216,
+  "pairings_parsed": 217,
   "popular": [
     {
       "board": 1,
@@ -2226,11 +2226,11 @@
       "bot": true,
       "total": 25834,
       "points": 4.5,
-      "games": 8,
-      "round_games": 0,
+      "games": 9,
+      "round_games": 1,
       "round_scheduled": 6,
-      "games_left": 6,
-      "ppg": 0.5625,
+      "games_left": 5,
+      "ppg": 0.5,
       "roster": [
         {
           "handle": "Kayrosas",
@@ -2250,7 +2250,7 @@
         {
           "handle": "michaeld",
           "points": 1.0,
-          "games": 1
+          "games": 2
         },
         {
           "handle": "diecast_illusion",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 0,
+    "played": 1,
     "total": 216
   }
 }
