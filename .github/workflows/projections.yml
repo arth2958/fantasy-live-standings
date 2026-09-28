@@ -18,6 +18,9 @@ jobs:
       - name: League player detail (optional)
         continue-on-error: true
         run: python scripts/build_league_players.py
+      - name: Cross-check actual league scores against official pairings (advisory)
+        continue-on-error: true
+        run: python scripts/check_pairing_scores.py
       - name: Commit projection artifact only
         run: |
           git config user.name "projection-bot"
