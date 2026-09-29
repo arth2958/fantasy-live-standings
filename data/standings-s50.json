@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-29T09:45:59.347200Z",
+  "updated_at": "2026-09-29T09:57:31.470346Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 220,
+  "pairings_parsed": 221,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "adande1",
+      "name": "Picked by the AI That Built This Site. Watch Out",
+      "total": 15831,
+      "points": 6.5,
+      "games": 9,
+      "round_games": 1,
+      "round_scheduled": 8,
+      "games_left": 7,
+      "ppg": 0.7222222222222222,
+      "roster": [
+        {
+          "handle": "PlanetChessClub",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "qrs",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "adande1",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Raindy",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Welpe",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "capturingbravo",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "angborxley",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "guitarspider",
       "name": "and all I got was this lousy team name",
       "total": 15051,
@@ -111,7 +165,7 @@
           "games": 1
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "alp_arslan92",
@@ -161,60 +215,6 @@
         },
         {
           "handle": "mongreltiger",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "owner": "adande1",
-      "name": "Picked by the AI That Built This Site. Watch Out",
-      "total": 15831,
-      "points": 6.0,
-      "games": 8,
-      "round_games": 0,
-      "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.75,
-      "roster": [
-        {
-          "handle": "PlanetChessClub",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "qrs",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "adande1",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Raindy",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Welpe",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "capturingbravo",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "angborxley",
           "points": 1.0,
           "games": 1
         }
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 4,
+    "played": 5,
     "total": 216
   }
 }
