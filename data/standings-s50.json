@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-30T17:54:52.631748Z",
+  "updated_at": "2026-09-30T18:12:02.002695Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 246,
+  "pairings_parsed": 248,
   "popular": [
     {
       "board": 1,
@@ -1897,60 +1897,6 @@
       "rank": 34
     },
     {
-      "owner": "voylento",
-      "name": "legion of doom",
-      "total": 15983,
-      "points": 5.0,
-      "games": 9,
-      "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.5555555555555556,
-      "roster": [
-        {
-          "handle": "alp_arslan92",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "EndgameAmateur42",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "lc69",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "eight_x_eight",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "asimovfoundation",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "voylento",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "TheRealDivider",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "AthenianKnight",
-          "points": 0.0,
-          "games": 1
-        }
-      ],
-      "rank": 35
-    },
-    {
       "owner": "Pineapplechiffoncake",
       "name": "Hedgehogs, Hippos, and Effin' Birds",
       "total": 15995,
@@ -2002,7 +1948,7 @@
           "games": 1
         }
       ],
-      "rank": 36
+      "rank": 35
     },
     {
       "owner": "super0jins",
@@ -2056,7 +2002,7 @@
           "games": 1
         }
       ],
-      "rank": 37
+      "rank": 36
     },
     {
       "owner": "RPCX",
@@ -2107,6 +2053,60 @@
         {
           "handle": "mongreltiger",
           "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 37
+    },
+    {
+      "owner": "voylento",
+      "name": "legion of doom",
+      "total": 15983,
+      "points": 5.0,
+      "games": 10,
+      "round_games": 3,
+      "round_scheduled": 8,
+      "games_left": 5,
+      "ppg": 0.5,
+      "roster": [
+        {
+          "handle": "alp_arslan92",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "EndgameAmateur42",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "lc69",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "eight_x_eight",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "asimovfoundation",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "voylento",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "TheRealDivider",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "AthenianKnight",
+          "points": 0.0,
           "games": 1
         }
       ],
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 30,
+    "played": 32,
     "total": 216
   }
 }
