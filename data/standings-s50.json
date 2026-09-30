@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-09-30T23:08:26.556863Z",
+  "updated_at": "2026-09-30T23:26:02.851207Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 257,
+  "pairings_parsed": 258,
   "popular": [
     {
       "board": 1,
@@ -2600,6 +2600,61 @@
       "rank": 47
     },
     {
+      "owner": "On the dot",
+      "name": "A random 16,000 Team",
+      "bot": true,
+      "total": 16000,
+      "points": 4.5,
+      "games": 9,
+      "round_games": 1,
+      "round_scheduled": 8,
+      "games_left": 7,
+      "ppg": 0.5,
+      "roster": [
+        {
+          "handle": "BicKedag",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "NameGoesInHere",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "aloo_bhaloo",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "schittering06",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Anupam1213",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Rusty_2003",
+          "points": 0.5,
+          "games": 2
+        },
+        {
+          "handle": "Vayne987",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "AthenianKnight",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 48
+    },
+    {
       "owner": "ysgwydd",
       "name": "All players were handpicked with care",
       "total": 15734,
@@ -2651,7 +2706,7 @@
           "games": 1
         }
       ],
-      "rank": 48
+      "rank": 49
     },
     {
       "owner": "Inter-temporal",
@@ -2705,7 +2760,7 @@
           "games": 1
         }
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "owner": "time_lord19",
@@ -2759,7 +2814,7 @@
           "games": 2
         }
       ],
-      "rank": 50
+      "rank": 51
     },
     {
       "owner": "jg777",
@@ -2809,61 +2864,6 @@
         },
         {
           "handle": "macha1313",
-          "points": 0.0,
-          "games": 1
-        }
-      ],
-      "rank": 51
-    },
-    {
-      "owner": "On the dot",
-      "name": "A random 16,000 Team",
-      "bot": true,
-      "total": 16000,
-      "points": 4.0,
-      "games": 8,
-      "round_games": 0,
-      "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.5,
-      "roster": [
-        {
-          "handle": "BicKedag",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "NameGoesInHere",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "aloo_bhaloo",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "schittering06",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Anupam1213",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Rusty_2003",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Vayne987",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "AthenianKnight",
           "points": 0.0,
           "games": 1
         }
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 41,
+    "played": 42,
     "total": 216
   }
 }
