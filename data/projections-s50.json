@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 2,
-  "round_in_progress": 2,
-  "updated_at": "2026-10-01T22:05:39.510452Z",
+  "round_in_progress": 1,
+  "updated_at": "2026-10-01T22:23:28.844360Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -6306,12 +6306,12 @@
     {
       "owner": "super0jins",
       "name": "Board 1 fit perfectly within my budget",
-      "actual_points": 5.0,
-      "actual_round": 0.0,
-      "projected_points": 7.200920938368492,
-      "projected_round": 2.200920938368492,
-      "left": 5,
-      "in_progress": 1,
+      "actual_points": 6.0,
+      "actual_round": 1.0,
+      "projected_points": 7.6764754772478305,
+      "projected_round": 2.6764754772478305,
+      "left": 4,
+      "in_progress": 0,
       "paired": 7,
       "roster": [
         {
@@ -6391,18 +6391,18 @@
         },
         {
           "handle": "ztraynor",
-          "status": "pending",
-          "rating": 1825,
+          "status": "won",
+          "rating": 1846,
           "decided_without_play": false,
-          "expected_points": 0.5244454611206614,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
           "game_url": "https://lichess.org/8ZiJaSYm",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "2:sixtin06:ztraynor",
-          "season_points": 1.0,
-          "season_games": 1
+          "season_points": 2.0,
+          "season_games": 2
         },
         {
           "handle": "Lexgrad",
@@ -8924,6 +8924,14 @@
       "eligible": false
     },
     {
+      "name": "King's Landing",
+      "projected": 4.54746475692074,
+      "actual": 2.5,
+      "paired": 8,
+      "left": 4,
+      "eligible": false
+    },
+    {
       "name": "Mating for Godot",
       "projected": 4.543974197260609,
       "actual": 1.0,
@@ -9044,14 +9052,6 @@
       "eligible": false
     },
     {
-      "name": "King's Landing",
-      "projected": 4.071910218041402,
-      "actual": 1.5,
-      "paired": 8,
-      "left": 5,
-      "eligible": false
-    },
-    {
       "name": "Fifty Shades of Time Trouble",
       "projected": 4.047272767466109,
       "actual": 1.0,
@@ -9081,14 +9081,6 @@
       "actual": 1.0,
       "paired": 8,
       "left": 6,
-      "eligible": false
-    },
-    {
-      "name": "If anyone can refute it—don't show me",
-      "projected": 3.9280897819585987,
-      "actual": 1.5,
-      "paired": 8,
-      "left": 5,
       "eligible": false
     },
     {
@@ -9209,6 +9201,14 @@
       "actual": 0.0,
       "paired": 8,
       "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "If anyone can refute it—don't show me",
+      "projected": 3.45253524307926,
+      "actual": 1.5,
+      "paired": 8,
+      "left": 4,
       "eligible": false
     },
     {
