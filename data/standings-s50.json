@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-01T22:41:28.653275Z",
+  "updated_at": "2026-10-01T22:54:10.188617Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 286,
+  "pairings_parsed": 287,
   "popular": [
     {
       "board": 1,
@@ -492,60 +492,6 @@
       "rank": 8
     },
     {
-      "owner": "JohnJPershing",
-      "name": "Mate in 9 to 5",
-      "total": 15967,
-      "points": 7.0,
-      "games": 9,
-      "round_games": 1,
-      "round_scheduled": 9,
-      "games_left": 8,
-      "ppg": 0.7777777777777778,
-      "roster": [
-        {
-          "handle": "guitarspider",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "AACtrl",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "jwwells42",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "GenTurgidson",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "cinemashow",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Gingersquirrelnuts",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "jcarmody",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 9
-    },
-    {
       "owner": "bncl",
       "name": "This is a really nice looking website, I like this",
       "total": 15977,
@@ -597,7 +543,7 @@
           "games": 1
         }
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "owner": "Tactix47",
@@ -651,7 +597,7 @@
           "games": 2
         }
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "owner": "tastypotatohead",
@@ -701,6 +647,60 @@
         },
         {
           "handle": "angborxley",
+          "points": 1.0,
+          "games": 1
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "owner": "JohnJPershing",
+      "name": "Mate in 9 to 5",
+      "total": 15967,
+      "points": 7.0,
+      "games": 10,
+      "round_games": 2,
+      "round_scheduled": 9,
+      "games_left": 7,
+      "ppg": 0.7,
+      "roster": [
+        {
+          "handle": "guitarspider",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "AACtrl",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "jwwells42",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "MrScribbles",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "GenTurgidson",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "cinemashow",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Gingersquirrelnuts",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "jcarmody",
           "points": 1.0,
           "games": 1
         }
@@ -2496,11 +2496,11 @@
       "name": "Something magnificant",
       "total": 14931,
       "points": 5.5,
-      "games": 12,
-      "round_games": 4,
+      "games": 13,
+      "round_games": 5,
       "round_scheduled": 7,
-      "games_left": 3,
-      "ppg": 0.4583333333333333,
+      "games_left": 2,
+      "ppg": 0.4230769230769231,
       "roster": [
         {
           "handle": "Mennonite",
@@ -2535,7 +2535,7 @@
         {
           "handle": "Gingersquirrelnuts",
           "points": 0.0,
-          "games": 1
+          "games": 2
         },
         {
           "handle": "DavidSifre",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 70,
+    "played": 71,
     "total": 216
   }
 }
