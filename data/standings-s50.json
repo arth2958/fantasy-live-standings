@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-01T02:28:02.203962Z",
+  "updated_at": "2026-10-01T02:43:05.713203Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 261,
+  "pairings_parsed": 262,
   "popular": [
     {
       "board": 1,
@@ -2496,11 +2496,11 @@
       "name": "i just picked the first names i saw",
       "total": 15971,
       "points": 4.5,
-      "games": 6,
-      "round_games": 0,
+      "games": 7,
+      "round_games": 1,
       "round_scheduled": 7,
-      "games_left": 7,
-      "ppg": 0.75,
+      "games_left": 6,
+      "ppg": 0.6428571428571429,
       "roster": [
         {
           "handle": "rio2018",
@@ -2540,7 +2540,7 @@
         {
           "handle": "K5KGC",
           "points": 1.0,
-          "games": 1
+          "games": 2
         }
       ],
       "rank": 46
@@ -3195,61 +3195,6 @@
       "rank": 58
     },
     {
-      "owner": "cheapskate",
-      "name": "Lowest Cost Team",
-      "bot": true,
-      "total": 7463,
-      "points": 3.0,
-      "games": 8,
-      "round_games": 1,
-      "round_scheduled": 8,
-      "games_left": 7,
-      "ppg": 0.375,
-      "roster": [
-        {
-          "handle": "drchessdad",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "OhDearPleaseNo",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "BlazedAndConfused",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Llawlietnea",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "TTotr",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "MakeMyMove",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Lexgrad",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "K5KGC",
-          "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 59
-    },
-    {
       "owner": "arbitrary",
       "name": "Random Team",
       "bot": true,
@@ -3302,7 +3247,7 @@
           "games": 1
         }
       ],
-      "rank": 60
+      "rank": 59
     },
     {
       "owner": "EnPriseWithEase",
@@ -3354,6 +3299,61 @@
           "handle": "MartinDanielsson",
           "points": 0.0,
           "games": 1
+        }
+      ],
+      "rank": 60
+    },
+    {
+      "owner": "cheapskate",
+      "name": "Lowest Cost Team",
+      "bot": true,
+      "total": 7463,
+      "points": 3.0,
+      "games": 9,
+      "round_games": 2,
+      "round_scheduled": 8,
+      "games_left": 6,
+      "ppg": 0.3333333333333333,
+      "roster": [
+        {
+          "handle": "drchessdad",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "OhDearPleaseNo",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "BlazedAndConfused",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Llawlietnea",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "TTotr",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "MakeMyMove",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Lexgrad",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "K5KGC",
+          "points": 1.0,
+          "games": 2
         }
       ],
       "rank": 61
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 45,
+    "played": 46,
     "total": 216
   }
 }
