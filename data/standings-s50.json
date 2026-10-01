@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-01T20:56:16.872050Z",
+  "updated_at": "2026-10-01T21:09:55.597053Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 280,
+  "pairings_parsed": 283,
   "popular": [
     {
       "board": 1,
@@ -60,6 +60,60 @@
   ],
   "teams": [
     {
+      "owner": "Lordziax",
+      "name": "I just pressed some buttons and this is what happened",
+      "total": 15739,
+      "points": 8.5,
+      "games": 12,
+      "round_games": 5,
+      "round_scheduled": 8,
+      "games_left": 3,
+      "ppg": 0.7083333333333334,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "Lordziax",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Fischer_and_Chips88",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "M0r1",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "diecast_illusion",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "Nubro",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Lexgrad",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "GLAYGHOST",
+          "points": 0.5,
+          "games": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
       "owner": "Okady",
       "name": "Okady s minions",
       "total": 15758,
@@ -111,7 +165,7 @@
           "games": 2
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "owner": "guitarspider",
@@ -165,7 +219,7 @@
           "games": 2
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "owner": "pawneater2020",
@@ -219,7 +273,7 @@
           "games": 2
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "Bennol",
@@ -273,7 +327,7 @@
           "games": 2
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "owner": "DavidSifre",
@@ -327,7 +381,7 @@
           "games": 1
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "owner": "cinemashow",
@@ -378,60 +432,6 @@
         {
           "handle": "mongreltiger",
           "points": 1.0,
-          "games": 1
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "owner": "Lordziax",
-      "name": "I just pressed some buttons and this is what happened",
-      "total": 15739,
-      "points": 7.5,
-      "games": 11,
-      "round_games": 4,
-      "round_scheduled": 8,
-      "games_left": 4,
-      "ppg": 0.6818181818181818,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "Lordziax",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "M0r1",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "diecast_illusion",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "Nubro",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Lexgrad",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "GLAYGHOST",
-          "points": 0.5,
           "games": 1
         }
       ],
@@ -1249,6 +1249,61 @@
       "rank": 22
     },
     {
+      "owner": "profligate",
+      "name": "Highest Cost Team",
+      "bot": true,
+      "total": 25834,
+      "points": 6.5,
+      "games": 11,
+      "round_games": 3,
+      "round_scheduled": 6,
+      "games_left": 3,
+      "ppg": 0.5909090909090909,
+      "roster": [
+        {
+          "handle": "Kayrosas",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "GoneNowhere",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "pemula64",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "michaeld",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "diecast_illusion",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "BigPig93",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "eldotore",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "MartinDanielsson",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 23
+    },
+    {
       "owner": "alp_arslan92",
       "name": "The Brave Lions",
       "total": 15769,
@@ -1300,7 +1355,7 @@
           "games": 1
         }
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "owner": "jwwells42",
@@ -1354,7 +1409,7 @@
           "games": 1
         }
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "owner": "GlennJamesMax",
@@ -1408,7 +1463,7 @@
           "games": 1
         }
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "owner": "Tranzoo",
@@ -1462,7 +1517,7 @@
           "games": 1
         }
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "owner": "Micomps",
@@ -1516,7 +1571,7 @@
           "games": 2
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "owner": "mmkgtc",
@@ -1570,7 +1625,7 @@
           "games": 1
         }
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "owner": "MatthewKCanada",
@@ -1624,7 +1679,7 @@
           "games": 1
         }
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "owner": "voylento",
@@ -1678,7 +1733,7 @@
           "games": 1
         }
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "owner": "ecoarrivazumashoomzo",
@@ -1732,7 +1787,7 @@
           "games": 1
         }
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "owner": "Silkthewanderer",
@@ -1786,7 +1841,7 @@
           "games": 1
         }
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "owner": "Monocarp",
@@ -1840,7 +1895,7 @@
           "games": 1
         }
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "owner": "mynameismund",
@@ -1894,7 +1949,7 @@
           "games": 1
         }
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "owner": "pykkis",
@@ -1948,7 +2003,7 @@
           "games": 1
         }
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "owner": "NameGoesInHere",
@@ -2002,7 +2057,7 @@
           "games": 1
         }
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "owner": "Acebulf",
@@ -2056,7 +2111,7 @@
           "games": 1
         }
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "owner": "kayrosas",
@@ -2110,7 +2165,7 @@
           "games": 1
         }
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "owner": "Bxvrc2lh",
@@ -2162,61 +2217,6 @@
           "handle": "f1re_bunny",
           "points": 0.0,
           "games": 2
-        }
-      ],
-      "rank": 39
-    },
-    {
-      "owner": "profligate",
-      "name": "Highest Cost Team",
-      "bot": true,
-      "total": 25834,
-      "points": 5.5,
-      "games": 10,
-      "round_games": 2,
-      "round_scheduled": 6,
-      "games_left": 4,
-      "ppg": 0.55,
-      "roster": [
-        {
-          "handle": "Kayrosas",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "GoneNowhere",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "pemula64",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "michaeld",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "diecast_illusion",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "BigPig93",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "eldotore",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "MartinDanielsson",
-          "points": 0.0,
-          "games": 1
         }
       ],
       "rank": 40
@@ -3521,60 +3521,6 @@
       "rank": 64
     },
     {
-      "owner": "mongreltiger",
-      "name": "Stinkfish 50",
-      "total": 16000,
-      "points": 2.5,
-      "games": 7,
-      "round_games": 0,
-      "round_scheduled": 5,
-      "games_left": 5,
-      "ppg": 0.35714285714285715,
-      "roster": [
-        {
-          "handle": "alp_arslan92",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Maroczyy",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "KnightFury21",
-          "points": 0.5,
-          "games": 1
-        },
-        {
-          "handle": "Moccy",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "JohnJPershing",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Nairwolf",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "DikiyDrozd",
-          "points": 0.0,
-          "games": 0
-        }
-      ],
-      "rank": 65
-    },
-    {
       "owner": "Sussasun",
       "name": "Fantasy8",
       "total": 15971,
@@ -3626,7 +3572,7 @@
           "games": 1
         }
       ],
-      "rank": 66
+      "rank": 65
     },
     {
       "owner": "shurbz",
@@ -3678,6 +3624,60 @@
           "handle": "MartinDanielsson",
           "points": 0.0,
           "games": 1
+        }
+      ],
+      "rank": 66
+    },
+    {
+      "owner": "mongreltiger",
+      "name": "Stinkfish 50",
+      "total": 16000,
+      "points": 2.5,
+      "games": 8,
+      "round_games": 1,
+      "round_scheduled": 5,
+      "games_left": 4,
+      "ppg": 0.3125,
+      "roster": [
+        {
+          "handle": "alp_arslan92",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "Maroczyy",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "KnightFury21",
+          "points": 0.5,
+          "games": 1
+        },
+        {
+          "handle": "Moccy",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "JohnJPershing",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Nairwolf",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "DikiyDrozd",
+          "points": 0.0,
+          "games": 0
         }
       ],
       "rank": 67
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 64,
+    "played": 67,
     "total": 216
   }
 }
