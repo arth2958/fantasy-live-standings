@@ -34,7 +34,9 @@ def main():
     current=max((int(g.get('round') or 0) for g in raw),default=0)
     games=[g for g in raw if int(g.get('round') or 0)==current]
     live_game={}; recent_game={}
-    for g in sorted(raw,key=lambda x:int(x.get('round') or 0)):
+    # CURRENT-ROUND LINKS: names must never link to an older round's game.
+    # Keep completed games from this round, but do not use last round as a fallback.
+    for g in games:
         gid=str(g.get('game_id') or '').strip(); done=score(g.get('result'))
         if not gid: continue
         for k in ('white','black'):
