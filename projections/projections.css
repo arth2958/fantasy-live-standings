@@ -28,3 +28,6 @@
 .projection-roster .round-state{color:var(--muted);font-size:9px;font-weight:inherit;margin-top:2px}
 .projection-roster b a{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:2px;border-bottom:0}
 .projection-roster b a:hover{text-decoration-thickness:3px;border-bottom:0}
+
+/* Match top picks: Elo is darker, scores/status stay light gray; names keep result colors. */
+.projection-roster .elo-detail{color:var(--ink);font-size:9px;font-weight:700;margin-top:4px}
