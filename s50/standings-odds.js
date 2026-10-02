@@ -22,7 +22,7 @@
       if (!player || (player.pregame_expectation == null && player.live_elo_estimate == null)) return;
       const note = document.createElement('small');
       note.className = 'pregame-note';
-      note.style.cssText = 'display:block;font-size:11px;font-weight:700;margin-top:4px';
+      
       note.textContent = player.pregame_expectation != null
         ? `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`
         : `Elo estimate ${Math.round(player.live_elo_estimate * 100)}%`;
