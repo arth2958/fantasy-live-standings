@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 2,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-02T22:22:29.868672Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-10-02T22:40:33.349703Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1434,7 +1434,7 @@
         {
           "handle": "pykkis",
           "status": "lost",
-          "rating": 1722,
+          "rating": 1725,
           "decided_without_play": false,
           "expected_points": 0.0,
           "actual_result": 0.0,
@@ -5052,7 +5052,7 @@
         {
           "handle": "pykkis",
           "status": "lost",
-          "rating": 1722,
+          "rating": 1725,
           "decided_without_play": false,
           "expected_points": 0.0,
           "actual_result": 0.0,
@@ -8980,14 +8980,6 @@
       "eligible": false
     },
     {
-      "name": "Not all who blunder are lost",
-      "projected": 4.412840167842601,
-      "actual": 3.0,
-      "paired": 8,
-      "left": 3,
-      "eligible": false
-    },
-    {
       "name": "Mating for Godot",
       "projected": 4.3632053909382424,
       "actual": 2.0,
@@ -9001,6 +8993,14 @@
       "actual": 1.0,
       "paired": 8,
       "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "50th Parallel Pawns",
+      "projected": 4.15862294956578,
+      "actual": 3.0,
+      "paired": 8,
+      "left": 2,
       "eligible": false
     },
     {
@@ -9132,6 +9132,14 @@
       "eligible": false
     },
     {
+      "name": "Not all who blunder are lost",
+      "projected": 3.84137705043422,
+      "actual": 3.0,
+      "paired": 8,
+      "left": 2,
+      "eligible": false
+    },
+    {
       "name": "Lang and Lloyd R0Bbed Sed in the windy Canadian Alps with a fork",
       "projected": 3.6414733560075296,
       "actual": 0.0,
@@ -9145,14 +9153,6 @@
       "actual": 1.0,
       "paired": 8,
       "left": 5,
-      "eligible": false
-    },
-    {
-      "name": "50th Parallel Pawns",
-      "projected": 3.5871598321573988,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 3,
       "eligible": false
     },
     {
