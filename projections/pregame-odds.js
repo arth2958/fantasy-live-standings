@@ -14,16 +14,22 @@
   }));
   const annotate = () => {
     table.querySelectorAll('.projection-roster > span').forEach(row => {
-      // Keep Elo odds in the detail line, not in the current-round status word.
-      const label = row.querySelector('small:not(.round-state)');
-      const handle = row.querySelector('b a')?.textContent?.trim();
-      if (!label || !handle || label.dataset.pregameShown) return;
+      // ELO DETAIL: its own darker line, separate from the lighter score and status.
+      // Plain-text names also need estimates before a current-round game link exists.
+      const name = row.querySelector('b');
+      const handle = name?.querySelector('a:not(.league-profile)')?.textContent?.trim()
+        || name?.textContent.replace('↗', '').trim();
+      if (!handle || row.dataset.pregameShown) return;
       const player = byHandle.get(handle.toLowerCase());
       if (!player) return;
-      if (player.pregame_expectation == null) return;
-      const note = `pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`;
-      label.append(document.createTextNode(` · ${note}`));
-      label.dataset.pregameShown = 'true';
+      if (player.pregame_expectation == null && player.live_elo_estimate == null) return;
+      const note = document.createElement('small');
+      note.className = 'elo-detail';
+      note.textContent = player.pregame_expectation != null
+        ? `Pre-game Elo ${Math.round(player.pregame_expectation * 100)}%`
+        : `Elo estimate ${Math.round(player.live_elo_estimate * 100)}%`;
+      row.append(note);
+      row.dataset.pregameShown = 'true';
     });
   };
   annotate();
