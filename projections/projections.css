@@ -13,3 +13,18 @@
 
 .projected .round-actual{display:block;margin-top:2px;color:#4a4447;font-size:10px;font-weight:600;line-height:1.2;letter-spacing:0;text-transform:none;white-space:normal}.season-total .actual-so-far{display:block;margin-top:2px;color:#4a4447;font-size:11px;font-weight:600;letter-spacing:0;text-transform:none;white-space:nowrap}
 @media(max-width:699px){.projection-row,.projection-row.tracking,.projection-row.tracking.detail{grid-template-columns:22px minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) 26px;gap:7px;align-items:start;padding:14px 0}.projection-row .rank{grid-column:1;grid-row:1}.projection-row .identity{grid-column:2/5;grid-row:1}.projection-row .season-total{grid-column:2;grid-row:2}.projection-row .projected{grid-column:3;grid-row:2}.projection-row .left{grid-column:4;grid-row:2}.projection-row .expand{grid-column:5;grid-row:1}.projection-roster{grid-column:2/-1}.projection-row .metric{text-align:left}.projected .round-actual{font-size:10px}}
+
+/* CURRENT-ROUND PLAYER CARDS: match standings so pending green is not mistaken for a win.
+   The status word and border describe the current round; the underline only marks a game link. */
+.projection-roster{background:#f6f8f7}
+.projection-roster > span{position:relative;border:1px solid #d3cfd1;border-radius:7px;padding:8px 9px;font-size:12px;background:#fff}
+.projection-roster > .won{border-color:#148958;background:#e8f7ef}
+.projection-roster > .pending{border-color:#78c7a3;background:#f2fbf6}
+.projection-roster > .draw{border-color:#e39a4a;background:#fff7ec}
+.projection-roster > .lost{border-color:#d27b69;background:#fff2ef}
+.projection-roster > .unpaired{border-color:#d3cfd1;background:#f8f7f7}
+.projection-roster > .no-longer-rostered{border-color:#686265;background:#efeeee}
+/* Status words use the same quiet font as the actual/projected score line below. */
+.projection-roster .round-state{color:var(--muted);font-size:9px;font-weight:inherit;margin-top:2px}
+.projection-roster b a{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:2px;border-bottom:0}
+.projection-roster b a:hover{text-decoration-thickness:3px;border-bottom:0}
