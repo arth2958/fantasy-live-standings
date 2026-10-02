@@ -14,7 +14,8 @@
   }));
   const annotate = () => {
     table.querySelectorAll('.projection-roster > span').forEach(row => {
-      const label = row.querySelector('small');
+      // Keep Elo odds in the detail line, not in the current-round status word.
+      const label = row.querySelector('small:not(.round-state)');
       const handle = row.querySelector('b a')?.textContent?.trim();
       if (!label || !handle || label.dataset.pregameShown) return;
       const player = byHandle.get(handle.toLowerCase());
