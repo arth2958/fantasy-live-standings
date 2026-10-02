@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-02T14:14:44.897559Z",
+  "updated_at": "2026-10-02T14:33:13.098148Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 296,
+  "pairings_parsed": 299,
   "popular": [
     {
       "board": 1,
@@ -2060,60 +2060,6 @@
       "rank": 37
     },
     {
-      "owner": "Monocarp",
-      "name": "Monocarp’s team",
-      "total": 15944,
-      "points": 5.5,
-      "games": 9,
-      "round_games": 1,
-      "round_scheduled": 7,
-      "games_left": 6,
-      "ppg": 0.6111111111111112,
-      "roster": [
-        {
-          "handle": "pavonine",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "Lordziax",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Bennol",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "gidged",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "Monocarp",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "UpGoerFive",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "capturingbravo",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "BLuesiDE617",
-          "points": 0.5,
-          "games": 1
-        }
-      ],
-      "rank": 38
-    },
-    {
       "owner": "mynameismund",
       "name": "Players who will play all 8 games.",
       "total": 15956,
@@ -2165,7 +2111,7 @@
           "games": 1
         }
       ],
-      "rank": 39
+      "rank": 38
     },
     {
       "owner": "Silkthewanderer",
@@ -2219,7 +2165,7 @@
           "games": 1
         }
       ],
-      "rank": 40
+      "rank": 39
     },
     {
       "owner": "pykkis",
@@ -2270,6 +2216,60 @@
         {
           "handle": "DrRickinCT",
           "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "owner": "Monocarp",
+      "name": "Monocarp’s team",
+      "total": 15944,
+      "points": 5.5,
+      "games": 10,
+      "round_games": 2,
+      "round_scheduled": 7,
+      "games_left": 5,
+      "ppg": 0.55,
+      "roster": [
+        {
+          "handle": "pavonine",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "Lordziax",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Bennol",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "gidged",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Monocarp",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "UpGoerFive",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "capturingbravo",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "BLuesiDE617",
+          "points": 0.5,
           "games": 1
         }
       ],
@@ -2712,11 +2712,11 @@
       "name": "^_~",
       "total": 15792,
       "points": 5.0,
-      "games": 10,
-      "round_games": 1,
+      "games": 11,
+      "round_games": 2,
       "round_scheduled": 8,
-      "games_left": 7,
-      "ppg": 0.5,
+      "games_left": 6,
+      "ppg": 0.45454545454545453,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -2741,7 +2741,7 @@
         {
           "handle": "RPCX",
           "points": 2.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "prostidude",
@@ -3901,7 +3901,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 80,
+    "played": 83,
     "total": 216
   }
 }
