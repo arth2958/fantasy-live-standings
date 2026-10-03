@@ -166,6 +166,7 @@ def parse_entries(csv_text):
 
 def main():
     players = defaultdict(lambda: {"points": 0.0, "games": 0})
+    by_round = {}
     total_pairings = 0
     cur_round = 0
     cur_played = 0
@@ -176,6 +177,7 @@ def main():
         if not html:
             continue
         p = Tables(); p.feed(html)
+        round_players = defaultdict(lambda: {"points": 0.0, "games": 0, "paired": 0})
         rnd_sched = 0
         rnd_played = 0
         rnd_sched_by = defaultdict(int)
@@ -187,6 +189,8 @@ def main():
             rnd_sched += 1
             rnd_sched_by[left.casefold()] += 1
             rnd_sched_by[right.casefold()] += 1
+            for handle in (left, right):
+                round_players[handle.casefold()]["paired"] += 1
             raw_score = cells[1].replace(" ", "")
             scores = [raw_score[:len(raw_score)//2], raw_score[len(raw_score)//2:]]
             if len(scores) != 2 or not scores[0] or not scores[1] or scores[0][0] not in "01½" or scores[1][0] not in "01½":
@@ -198,7 +202,10 @@ def main():
                 players[key]["points"] += {"0": 0.0, "½": 0.5, "1": 1.0}[raw[0]]
                 players[key]["games"] += 1
                 rnd_played_by[key] += 1
+                round_players[key]["points"] += {"0": 0.0, "½": 0.5, "1": 1.0}[raw[0]]
+                round_players[key]["games"] += 1
         if rnd_sched:
+            by_round[rnd] = dict(round_players)
             cur_round, cur_sched, cur_played = rnd, rnd_sched, rnd_played
             cur_sched_by = rnd_sched_by
             cur_played_by = rnd_played_by
@@ -262,6 +269,21 @@ def main():
         if key != last:
             rank = i; last = key
         t["rank"] = rank
+    # History is built from exactly the same pairing pass as season totals.
+    for team in teams:
+        team["round_scores"] = []
+        for rnd in range(1, ROUNDS + 1):
+            source = by_round.get(rnd)
+            sums = {field: sum((source or {}).get(p["handle"].casefold(), {}).get(field, 0) for p in team["roster"])
+                    for field in ("points", "games", "paired")}
+            team["round_scores"].append({"round": rnd, "points": sums["points"] if source else None,
+                "finished": sums["games"], "paired": sums["paired"],
+                "state": "upcoming" if not source else "final" if sums["games"] == sums["paired"] else "so_far"})
+        if sum(r["points"] or 0 for r in team["round_scores"]) != team["points"]:
+            raise ValueError("Round point sums differ from season total")
+        if sum(r["finished"] for r in team["round_scores"]) != team["games"]:
+            raise ValueError("Round game sums differ from season games")
+    print(f"Round history checks passed for {len(teams)} teams")
     payload = {
         "season": SEASON, "rounds": ROUNDS,
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
