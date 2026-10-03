@@ -7,3 +7,6 @@
 .player .pregame-note,.popcell .pregame-note{display:block;color:var(--ink);font-size:9px;font-weight:700;line-height:1.35;margin-top:2px}
 .popcell>span{color:var(--muted)!important}
 .status-key{color:var(--muted)}
+
+/* Live round-history dev preview */
+.round-scores{grid-column:1/-1;color:var(--ink);padding:3px 0 8px}.round-scores h3{font-size:10px;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin:0 0 7px}.round-score-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.round-score{background:white;border:1px solid #ded9d7;border-radius:6px;padding:7px;text-align:center}.round-score label,.round-score small{display:block;font-size:9px;color:var(--muted)}.round-score b{display:block;font-size:15px;margin:3px 0}.round-score.future{opacity:.48}.round-score.current{border-color:#777174}.round-score-note{font-size:11px;color:var(--muted);margin:7px 0 0}@media(min-width:700px){.round-score-grid{grid-template-columns:repeat(8,minmax(0,1fr))}}
