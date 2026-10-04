@@ -2,7 +2,7 @@
   "season": 50,
   "round": 2,
   "round_in_progress": 3,
-  "updated_at": "2026-10-04T22:59:59.923928Z",
+  "updated_at": "2026-10-04T23:21:12.868157Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -2961,7 +2961,7 @@
       "projected_points": 9.461221907942829,
       "projected_round": 3.9612219079428286,
       "left": 1,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 6,
       "roster": [
         {
@@ -3048,8 +3048,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/ZOgt1pXb",
+          "game_link_kind": "live",
           "round_game": "2:ascannerdarkly:goldenretrieverchess",
           "season_points": 1.0,
           "season_games": 1
@@ -4435,7 +4435,7 @@
       "projected_points": 8.461221907942829,
       "projected_round": 4.461221907942829,
       "left": 1,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -4522,8 +4522,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/ZOgt1pXb",
+          "game_link_kind": "live",
           "round_game": "2:ascannerdarkly:goldenretrieverchess",
           "season_points": 1.0,
           "season_games": 1
@@ -7383,7 +7383,7 @@
       "projected_points": 5.961221907942829,
       "projected_round": 3.4612219079428286,
       "left": 1,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -7470,8 +7470,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/ZOgt1pXb",
+          "game_link_kind": "live",
           "round_game": "2:ascannerdarkly:goldenretrieverchess",
           "season_points": 1.0,
           "season_games": 1
@@ -9020,14 +9020,6 @@
       "eligible": false
     },
     {
-      "name": "There Will Be Blunders",
-      "projected": 4.429919496407179,
-      "actual": 3.5,
-      "paired": 8,
-      "left": 2,
-      "eligible": false
-    },
-    {
       "name": "Riding with the King",
       "projected": 4.114501361008558,
       "actual": 3.5,
@@ -9038,6 +9030,14 @@
     {
       "name": "Mating for Godot",
       "projected": 4.0287505638922685,
+      "actual": 3.5,
+      "paired": 8,
+      "left": 1,
+      "eligible": false
+    },
+    {
+      "name": "Svidler? I hardly know her",
+      "projected": 4.0014391117091535,
       "actual": 3.5,
       "paired": 8,
       "left": 1,
@@ -9092,6 +9092,14 @@
       "eligible": false
     },
     {
+      "name": "There Will Be Blunders",
+      "projected": 3.998560888290847,
+      "actual": 3.5,
+      "paired": 8,
+      "left": 1,
+      "eligible": false
+    },
+    {
       "name": "Leningrad School of Blunders",
       "projected": 3.9712494361077315,
       "actual": 3.5,
@@ -9105,14 +9113,6 @@
       "actual": 3.5,
       "paired": 8,
       "left": 1,
-      "eligible": false
-    },
-    {
-      "name": "Svidler? I hardly know her",
-      "projected": 3.5700805035928207,
-      "actual": 2.5,
-      "paired": 8,
-      "left": 2,
       "eligible": false
     },
     {
