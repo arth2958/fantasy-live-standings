@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-05T01:17:33.330213Z",
+  "updated_at": "2026-10-05T01:33:00.744524Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 429,
+  "pairings_parsed": 430,
   "popular": [
     {
       "board": 1,
@@ -4430,118 +4430,6 @@
       ]
     },
     {
-      "owner": "adande1",
-      "name": "Picked by the AI That Built This Site. Watch Out",
-      "total": 15831,
-      "points": 7.5,
-      "games": 14,
-      "round_games": 6,
-      "round_scheduled": 7,
-      "games_left": 1,
-      "ppg": 0.5357142857142857,
-      "roster": [
-        {
-          "handle": "PlanetChessClub",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "qrs",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "adande1",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Raindy",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "Welpe",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "capturingbravo",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "angborxley",
-          "points": 1.0,
-          "games": 2
-        }
-      ],
-      "rank": 40,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 6.0,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 1.5,
-          "finished": 6,
-          "paired": 7,
-          "state": "so_far"
-        },
-        {
-          "round": 3,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "profligate",
       "name": "Highest Cost Team",
       "bot": true,
@@ -4594,7 +4482,7 @@
           "games": 2
         }
       ],
-      "rank": 41,
+      "rank": 40,
       "round_scores": [
         {
           "round": 1,
@@ -4608,6 +4496,118 @@
           "points": 3.0,
           "finished": 6,
           "paired": 6,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "adande1",
+      "name": "Picked by the AI That Built This Site. Watch Out",
+      "total": 15831,
+      "points": 7.5,
+      "games": 15,
+      "round_games": 7,
+      "round_scheduled": 7,
+      "games_left": 0,
+      "ppg": 0.5,
+      "roster": [
+        {
+          "handle": "PlanetChessClub",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "qrs",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "adande1",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Raindy",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "Welpe",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "capturingbravo",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "angborxley",
+          "points": 1.0,
+          "games": 2
+        }
+      ],
+      "rank": 41,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 6.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 1.5,
+          "finished": 7,
+          "paired": 7,
           "state": "final"
         },
         {
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 213,
+    "played": 214,
     "total": 216
   }
 }
