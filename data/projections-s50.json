@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 2,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-05T04:05:40.782334Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-10-05T04:28:58.568006Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -6174,10 +6174,10 @@
       "name": "The chonkers",
       "actual_points": 6.5,
       "actual_round": 1.0,
-      "projected_points": 6.9712494361077315,
-      "projected_round": 1.4712494361077315,
-      "left": 1,
-      "in_progress": 1,
+      "projected_points": 6.5,
+      "projected_round": 1.0,
+      "left": 0,
+      "in_progress": 0,
       "paired": 6,
       "roster": [
         {
@@ -6257,15 +6257,15 @@
         },
         {
           "handle": "Acebulf",
-          "status": "pending",
-          "rating": 1746,
+          "status": "lost",
+          "rating": 1735,
           "decided_without_play": false,
-          "expected_points": 0.4712494361077314,
-          "actual_result": null,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
           "round_points": 0.0,
-          "round_games": 0,
+          "round_games": 1,
           "game_url": "https://lichess.org/Txm674jR",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "2:acebulf:scrytop",
           "season_points": 0.0,
           "season_games": 2
@@ -6308,10 +6308,10 @@
       "name": "50 Shadows",
       "actual_points": 6.5,
       "actual_round": 4.5,
-      "projected_points": 6.9712494361077315,
-      "projected_round": 4.9712494361077315,
-      "left": 1,
-      "in_progress": 1,
+      "projected_points": 6.5,
+      "projected_round": 4.5,
+      "left": 0,
+      "in_progress": 0,
       "paired": 7,
       "roster": [
         {
@@ -6391,15 +6391,15 @@
         },
         {
           "handle": "Acebulf",
-          "status": "pending",
-          "rating": 1746,
+          "status": "lost",
+          "rating": 1735,
           "decided_without_play": false,
-          "expected_points": 0.4712494361077314,
-          "actual_result": null,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
           "round_points": 0.0,
-          "round_games": 0,
+          "round_games": 1,
           "game_url": "https://lichess.org/Txm674jR",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "2:acebulf:scrytop",
           "season_points": 0.0,
           "season_games": 2
@@ -8980,6 +8980,14 @@
       "eligible": false
     },
     {
+      "name": "Mating for Godot",
+      "projected": 4.5,
+      "actual": 4.5,
+      "paired": 8,
+      "left": 0,
+      "eligible": false
+    },
+    {
       "name": "my english needs work",
       "projected": 4.5,
       "actual": 4.5,
@@ -9009,14 +9017,6 @@
       "actual": 4.5,
       "paired": 8,
       "left": 0,
-      "eligible": false
-    },
-    {
-      "name": "Mating for Godot",
-      "projected": 4.0287505638922685,
-      "actual": 3.5,
-      "paired": 8,
-      "left": 1,
       "eligible": false
     },
     {
@@ -9116,15 +9116,15 @@
       "eligible": false
     },
     {
-      "name": "Leningrad School of Blunders",
-      "projected": 3.9712494361077315,
+      "name": "King's Landing",
+      "projected": 3.5,
       "actual": 3.5,
       "paired": 8,
-      "left": 1,
+      "left": 0,
       "eligible": false
     },
     {
-      "name": "King's Landing",
+      "name": "Leningrad School of Blunders",
       "projected": 3.5,
       "actual": 3.5,
       "paired": 8,
