@@ -2,7 +2,7 @@
   "season": 50,
   "round": 2,
   "round_in_progress": 1,
-  "updated_at": "2026-10-05T02:25:53.384627Z",
+  "updated_at": "2026-10-05T02:52:14.460486Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -143,12 +143,12 @@
       "owner": "Bennol",
       "name": "Candidudes",
       "actual_points": 10.5,
-      "actual_round": 6.0,
+      "actual_round": 5.0,
       "projected_points": 10.5,
-      "projected_round": 6.0,
+      "projected_round": 5.0,
       "left": 0,
       "in_progress": 0,
-      "paired": 9,
+      "paired": 8,
       "roster": [
         {
           "handle": "rio2018",
@@ -227,13 +227,13 @@
         },
         {
           "handle": "UpGoerFive",
-          "status": "won",
+          "status": "draw",
           "rating": 1823,
           "decided_without_play": false,
-          "expected_points": 1.5,
-          "actual_result": 1.5,
-          "round_points": 1.5,
-          "round_games": 2,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
           "game_url": "https://lichess.org/XzG7476O",
           "game_link_kind": "recent",
           "round_game": "2:prostidude:upgoerfive",
@@ -4029,12 +4029,12 @@
       "owner": "Monocarp",
       "name": "Monocarp’s team",
       "actual_points": 8.5,
-      "actual_round": 4.0,
+      "actual_round": 3.0,
       "projected_points": 8.5,
-      "projected_round": 4.0,
+      "projected_round": 3.0,
       "left": 0,
       "in_progress": 0,
-      "paired": 8,
+      "paired": 7,
       "roster": [
         {
           "handle": "pavonine",
@@ -4113,13 +4113,13 @@
         },
         {
           "handle": "UpGoerFive",
-          "status": "won",
+          "status": "draw",
           "rating": 1823,
           "decided_without_play": false,
-          "expected_points": 1.5,
-          "actual_result": 1.5,
-          "round_points": 1.5,
-          "round_games": 2,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
           "game_url": "https://lichess.org/XzG7476O",
           "game_link_kind": "recent",
           "round_game": "2:prostidude:upgoerfive",
@@ -8853,10 +8853,10 @@
   "league_teams": [
     {
       "name": "100 Suggestions You Must Know",
-      "projected": 6.5,
-      "actual": 6.5,
+      "projected": 6.144033853822293,
+      "actual": 5.5,
       "paired": 8,
-      "left": 0,
+      "left": 1,
       "eligible": false
     },
     {
@@ -9277,15 +9277,15 @@
     },
     {
       "name": "Old but hoping for stratospheric improvement",
-      "projected": 1.5,
+      "projected": 1.8559661461777073,
       "actual": 1.5,
       "paired": 8,
-      "left": 0,
+      "left": 1,
       "eligible": false
     }
   ],
   "ratings": {
     "pool": "classical",
-    "players": 429
+    "players": 430
   }
 }
