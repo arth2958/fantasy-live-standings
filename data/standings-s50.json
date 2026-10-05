@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-05T04:13:06.559886Z",
+  "updated_at": "2026-10-05T04:31:56.091211Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 430,
+  "pairings_parsed": 431,
   "popular": [
     {
       "board": 1,
@@ -5668,11 +5668,11 @@
       "name": "The chonkers",
       "total": 15978,
       "points": 6.5,
-      "games": 14,
-      "round_games": 5,
+      "games": 15,
+      "round_games": 6,
       "round_scheduled": 6,
-      "games_left": 1,
-      "ppg": 0.4642857142857143,
+      "games_left": 0,
+      "ppg": 0.43333333333333335,
       "roster": [
         {
           "handle": "betolini",
@@ -5702,7 +5702,7 @@
         {
           "handle": "Acebulf",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "Pineapplechiffoncake",
@@ -5727,121 +5727,9 @@
         {
           "round": 2,
           "points": 1.0,
-          "finished": 5,
-          "paired": 6,
-          "state": "so_far"
-        },
-        {
-          "round": 3,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "ShadowOfSelf",
-      "name": "50 Shadows",
-      "total": 15986,
-      "points": 6.5,
-      "games": 15,
-      "round_games": 6,
-      "round_scheduled": 7,
-      "games_left": 1,
-      "ppg": 0.43333333333333335,
-      "roster": [
-        {
-          "handle": "sylvlondon",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "RajjSinghh",
-          "points": 0.5,
-          "games": 2
-        },
-        {
-          "handle": "jwwells42",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "ecoarrivazumashoomzo",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "TTotr",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Acebulf",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "Pineapplechiffoncake",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "Ezze_13",
-          "points": 0.0,
-          "games": 1
-        }
-      ],
-      "rank": 52,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 2.0,
-          "finished": 9,
-          "paired": 9,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.5,
           "finished": 6,
-          "paired": 7,
-          "state": "so_far"
+          "paired": 6,
+          "state": "final"
         },
         {
           "round": 3,
@@ -5939,7 +5827,7 @@
           "games": 2
         }
       ],
-      "rank": 53,
+      "rank": 52,
       "round_scores": [
         {
           "round": 1,
@@ -5953,6 +5841,118 @@
           "points": 4.0,
           "finished": 8,
           "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "ShadowOfSelf",
+      "name": "50 Shadows",
+      "total": 15986,
+      "points": 6.5,
+      "games": 16,
+      "round_games": 7,
+      "round_scheduled": 7,
+      "games_left": 0,
+      "ppg": 0.40625,
+      "roster": [
+        {
+          "handle": "sylvlondon",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "RajjSinghh",
+          "points": 0.5,
+          "games": 2
+        },
+        {
+          "handle": "jwwells42",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "ecoarrivazumashoomzo",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "TTotr",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Acebulf",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "Pineapplechiffoncake",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "Ezze_13",
+          "points": 0.0,
+          "games": 1
+        }
+      ],
+      "rank": 53,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 2.0,
+          "finished": 9,
+          "paired": 9,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.5,
+          "finished": 7,
+          "paired": 7,
           "state": "final"
         },
         {
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 2,
-    "played": 214,
+    "played": 215,
     "total": 216
   }
 }
