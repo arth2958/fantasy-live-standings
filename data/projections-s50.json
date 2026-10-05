@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 2,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-05T01:24:26.161564Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-10-05T01:50:53.491611Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -4968,26 +4968,26 @@
       "name": "Picked by the AI That Built This Site. Watch Out",
       "actual_points": 7.5,
       "actual_round": 1.5,
-      "projected_points": 7.885498638991442,
-      "projected_round": 1.885498638991442,
-      "left": 1,
-      "in_progress": 1,
+      "projected_points": 7.5,
+      "projected_round": 1.5,
+      "left": 0,
+      "in_progress": 0,
       "paired": 7,
       "roster": [
         {
           "handle": "PlanetChessClub",
-          "status": "pending",
-          "rating": 2223,
+          "status": "lost",
+          "rating": 2214,
           "decided_without_play": false,
-          "expected_points": 0.3854986389914422,
-          "actual_result": null,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
           "round_points": 0.0,
-          "round_games": 0,
+          "round_games": 1,
           "game_url": "https://lichess.org/QUEdtM86",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "2:planetchessclub:sooneroo",
           "season_points": 0.0,
-          "season_games": 1
+          "season_games": 2
         },
         {
           "handle": "semlegesnev",
@@ -5603,7 +5603,7 @@
         {
           "handle": "Bortvinik",
           "status": "won",
-          "rating": 1713,
+          "rating": 1721,
           "decided_without_play": false,
           "expected_points": 1.0,
           "actual_result": 1.0,
@@ -9005,10 +9005,10 @@
     },
     {
       "name": "Riding with the King",
-      "projected": 4.114501361008558,
-      "actual": 3.5,
+      "projected": 4.5,
+      "actual": 4.5,
       "paired": 8,
-      "left": 1,
+      "left": 0,
       "eligible": false
     },
     {
@@ -9124,15 +9124,15 @@
       "eligible": false
     },
     {
-      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
-      "projected": 3.885498638991442,
+      "name": "King's Landing",
+      "projected": 3.5,
       "actual": 3.5,
       "paired": 8,
-      "left": 1,
+      "left": 0,
       "eligible": false
     },
     {
-      "name": "King's Landing",
+      "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
       "projected": 3.5,
       "actual": 3.5,
       "paired": 8,
