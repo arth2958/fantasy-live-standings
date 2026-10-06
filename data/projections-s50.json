@@ -2,7 +2,7 @@
   "season": 50,
   "round": 3,
   "round_in_progress": 1,
-  "updated_at": "2026-10-06T18:01:22.642563Z",
+  "updated_at": "2026-10-06T18:26:37.656275Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1621,7 +1621,7 @@
       "projected_points": 13.514690676780631,
       "projected_round": 4.014690676780632,
       "left": 8,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -1708,8 +1708,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/o9RLvXpS",
+          "game_link_kind": "live",
           "round_game": "3:lewinberg:nubro",
           "season_points": 1.0,
           "season_games": 1
@@ -2425,7 +2425,7 @@
       "projected_points": 13.193802955074407,
       "projected_round": 3.6938029550744074,
       "left": 7,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -2512,8 +2512,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/o9RLvXpS",
+          "game_link_kind": "live",
           "round_game": "3:lewinberg:nubro",
           "season_points": 0.5,
           "season_games": 2
@@ -7517,7 +7517,7 @@
       "projected_points": 9.47102443622417,
       "projected_round": 3.9710244362241687,
       "left": 8,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -7604,8 +7604,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/o9RLvXpS",
+          "game_link_kind": "live",
           "round_game": "3:lewinberg:nubro",
           "season_points": 1.0,
           "season_games": 1
@@ -7919,7 +7919,7 @@
       "projected_points": 8.827006782118733,
       "projected_round": 3.8270067821187337,
       "left": 7,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -8006,8 +8006,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/o9RLvXpS",
+          "game_link_kind": "live",
           "round_game": "3:lewinberg:nubro",
           "season_points": 1.0,
           "season_games": 1
@@ -8908,6 +8908,14 @@
       "eligible": false
     },
     {
+      "name": "Operation Pawnstorm",
+      "projected": 4.3086930923627556,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Lang and Lloyd R0Bbed Sed in the windy Canadian Alps with a fork",
       "projected": 4.298770309747627,
       "actual": 0.0,
@@ -8921,14 +8929,6 @@
       "actual": 0.0,
       "paired": 8,
       "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Operation Pawnstorm",
-      "projected": 4.288839622032304,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 7,
       "eligible": false
     },
     {
@@ -8969,6 +8969,14 @@
       "actual": 0.0,
       "paired": 8,
       "left": 8,
+      "eligible": false
+    },
+    {
+      "name": "Rooky Horror Pawn Show",
+      "projected": 4.172100103655826,
+      "actual": 0.5,
+      "paired": 8,
+      "left": 7,
       "eligible": false
     },
     {
@@ -9044,14 +9052,6 @@
       "eligible": false
     },
     {
-      "name": "Rooky Horror Pawn Show",
-      "projected": 4.032035103852941,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Wandering Knights",
       "projected": 4.027159256413667,
       "actual": 1.0,
@@ -9081,14 +9081,6 @@
       "actual": 1.0,
       "paired": 8,
       "left": 6,
-      "eligible": false
-    },
-    {
-      "name": "Rookies Of The Year",
-      "projected": 3.9679648961470595,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
       "eligible": false
     },
     {
@@ -9164,6 +9156,14 @@
       "eligible": false
     },
     {
+      "name": "Rookies Of The Year",
+      "projected": 3.8278998963441744,
+      "actual": 0.5,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Pawn with the Sickness",
       "projected": 3.8256352662477626,
       "actual": 0.0,
@@ -9204,14 +9204,6 @@
       "eligible": false
     },
     {
-      "name": "fifty shades of black and white",
-      "projected": 3.7111603779676963,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 7,
-      "eligible": false
-    },
-    {
       "name": "King's Landing",
       "projected": 3.7089137544515807,
       "actual": 0.0,
@@ -9225,6 +9217,14 @@
       "actual": 0.0,
       "paired": 8,
       "left": 8,
+      "eligible": false
+    },
+    {
+      "name": "fifty shades of black and white",
+      "projected": 3.691306907637245,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
       "eligible": false
     },
     {
