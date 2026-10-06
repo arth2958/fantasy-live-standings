@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-06T20:30:28.072278Z",
+  "updated_at": "2026-10-06T20:45:10.025214Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 441,
+  "pairings_parsed": 442,
   "popular": [
     {
       "board": 1,
@@ -3534,118 +3534,6 @@
       ]
     },
     {
-      "owner": "Tranzoo",
-      "name": "Shakalaka",
-      "total": 15935,
-      "points": 9.0,
-      "games": 16,
-      "round_games": 0,
-      "round_scheduled": 7,
-      "games_left": 7,
-      "ppg": 0.5625,
-      "roster": [
-        {
-          "handle": "Unknownprodigy",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "Hanzo_19",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Ciraid",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "KirkD",
-          "points": 0.5,
-          "games": 2
-        },
-        {
-          "handle": "MarekW78",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "Lotus_62",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "PatrickVrielink",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "Ezze_13",
-          "points": 0.5,
-          "games": 2
-        }
-      ],
-      "rank": 32,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 0.0,
-          "finished": 0,
-          "paired": 7,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "Silkthewanderer",
       "name": "Why does the king the largest of the pieces not simpy eat the other ones?",
       "total": 15874,
@@ -3697,7 +3585,7 @@
           "games": 2
         }
       ],
-      "rank": 33,
+      "rank": 32,
       "round_scores": [
         {
           "round": 1,
@@ -3718,6 +3606,118 @@
           "points": 0.5,
           "finished": 1,
           "paired": 8,
+          "state": "so_far"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "Tranzoo",
+      "name": "Shakalaka",
+      "total": 15935,
+      "points": 9.0,
+      "games": 17,
+      "round_games": 1,
+      "round_scheduled": 7,
+      "games_left": 6,
+      "ppg": 0.5294117647058824,
+      "roster": [
+        {
+          "handle": "Unknownprodigy",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "Hanzo_19",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Ciraid",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "KirkD",
+          "points": 0.5,
+          "games": 2
+        },
+        {
+          "handle": "MarekW78",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "Lotus_62",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "PatrickVrielink",
+          "points": 1.5,
+          "games": 3
+        },
+        {
+          "handle": "Ezze_13",
+          "points": 0.5,
+          "games": 2
+        }
+      ],
+      "rank": 33,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 0.0,
+          "finished": 1,
+          "paired": 7,
           "state": "so_far"
         },
         {
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 3,
-    "played": 9,
+    "played": 10,
     "total": 216
   }
 }
