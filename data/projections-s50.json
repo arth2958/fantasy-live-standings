@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 3,
-  "round_in_progress": 5,
-  "updated_at": "2026-10-07T14:26:54.079128Z",
+  "round_in_progress": 3,
+  "updated_at": "2026-10-07T14:52:39.707259Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1884,12 +1884,12 @@
     {
       "owner": "Okady",
       "name": "Okady s minions",
-      "actual_points": 9.5,
-      "actual_round": 0.0,
-      "projected_points": 13.253696092902722,
-      "projected_round": 3.753696092902721,
-      "left": 8,
-      "in_progress": 2,
+      "actual_points": 10.0,
+      "actual_round": 0.5,
+      "projected_points": 13.23068650560516,
+      "projected_round": 3.730686505605159,
+      "left": 7,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -1909,18 +1909,18 @@
         },
         {
           "handle": "irongalaxy",
-          "status": "pending",
+          "status": "draw",
           "rating": 2100,
           "decided_without_play": false,
-          "expected_points": 0.5230095872975623,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
           "game_url": "https://lichess.org/kbONRrr9",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "3:irongalaxy:likespace_bot",
-          "season_points": 1.0,
-          "season_games": 2
+          "season_points": 1.5,
+          "season_games": 3
         },
         {
           "handle": "scarff",
@@ -4564,12 +4564,12 @@
     {
       "owner": "Inter-temporal",
       "name": "This is the way.",
-      "actual_points": 8.5,
-      "actual_round": 1.5,
-      "projected_points": 11.691126829851921,
-      "projected_round": 4.69112682985192,
-      "left": 6,
-      "in_progress": 1,
+      "actual_points": 9.0,
+      "actual_round": 2.0,
+      "projected_points": 11.66811724255436,
+      "projected_round": 4.6681172425543584,
+      "left": 5,
+      "in_progress": 0,
       "paired": 8,
       "roster": [
         {
@@ -4589,18 +4589,18 @@
         },
         {
           "handle": "irongalaxy",
-          "status": "pending",
+          "status": "draw",
           "rating": 2100,
           "decided_without_play": false,
-          "expected_points": 0.5230095872975623,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
           "game_url": "https://lichess.org/kbONRrr9",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "3:irongalaxy:likespace_bot",
-          "season_points": 1.0,
-          "season_games": 2
+          "season_points": 1.5,
+          "season_games": 3
         },
         {
           "handle": "Ciraid",
@@ -8860,6 +8860,14 @@
       "eligible": false
     },
     {
+      "name": "50 Ways to Fork Your Lover",
+      "projected": 4.712735879985194,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Old but hoping for stratospheric improvement",
       "projected": 4.669168413653476,
       "actual": 1.0,
@@ -8933,7 +8941,7 @@
     },
     {
       "name": "There Will Be Blunders",
-      "projected": 4.326774166507477,
+      "projected": 4.324616435851301,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8988,6 +8996,14 @@
       "eligible": false
     },
     {
+      "name": "Rooky Horror Pawn Show fan club",
+      "projected": 4.1651204448355115,
+      "actual": 0.5,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
       "projected": 4.161065904290774,
       "actual": 1.0,
@@ -9004,24 +9020,8 @@
       "eligible": false
     },
     {
-      "name": "Rooky Horror Pawn Show fan club",
-      "projected": 4.142110857537949,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Morphy's Mates",
       "projected": 4.136943995010648,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "50 Ways to Fork Your Lover",
-      "projected": 4.132836119627313,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9108,24 +9108,8 @@
       "eligible": false
     },
     {
-      "name": "Don't give a check your ascii can't cache",
-      "projected": 3.8671638803726873,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "The Last Shall be the First",
       "projected": 3.8630560049893523,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Pawn with the Sickness",
-      "projected": 3.857889142462051,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9145,6 +9129,14 @@
       "actual": 1.0,
       "paired": 8,
       "left": 6,
+      "eligible": false
+    },
+    {
+      "name": "Pawn with the Sickness",
+      "projected": 3.834879555164489,
+      "actual": 0.5,
+      "paired": 8,
+      "left": 7,
       "eligible": false
     },
     {
@@ -9197,7 +9189,7 @@
     },
     {
       "name": "King's Landing",
-      "projected": 3.673225833492523,
+      "projected": 3.675383564148698,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9270,6 +9262,14 @@
     {
       "name": "Mating for Godot",
       "projected": 3.330831586346524,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "Don't give a check your ascii can't cache",
+      "projected": 3.2872641200148056,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
