@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 3,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-07T12:59:32.790221Z",
+  "round_in_progress": 3,
+  "updated_at": "2026-10-07T13:28:07.855474Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -2023,7 +2023,7 @@
       "projected_points": 13.253696092902722,
       "projected_round": 3.753696092902721,
       "left": 8,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -2050,8 +2050,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/kbONRrr9",
+          "game_link_kind": "live",
           "round_game": "3:irongalaxy:likespace_bot",
           "season_points": 1.0,
           "season_games": 2
@@ -2690,8 +2690,8 @@
       "name": "AngrySwedes",
       "actual_points": 10.0,
       "actual_round": 1.0,
-      "projected_points": 12.854982403514875,
-      "projected_round": 3.854982403514874,
+      "projected_points": 12.868563296041346,
+      "projected_round": 3.8685632960413465,
       "left": 6,
       "in_progress": 0,
       "paired": 8,
@@ -2699,9 +2699,9 @@
         {
           "handle": "chatakkuma",
           "status": "pending",
-          "rating": 2250,
+          "rating": 2260,
           "decided_without_play": false,
-          "expected_points": 0.37464860669246325,
+          "expected_points": 0.3882294992189357,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -4301,7 +4301,7 @@
       "projected_points": 11.831225093803935,
       "projected_round": 2.8312250938039356,
       "left": 6,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -4313,8 +4313,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/s83lvZWQ",
+          "game_link_kind": "live",
           "round_game": "3:rajuppi:unknownprodigy",
           "season_points": 2.0,
           "season_games": 2
@@ -4569,7 +4569,7 @@
       "projected_points": 11.691126829851921,
       "projected_round": 4.69112682985192,
       "left": 6,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -4596,8 +4596,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/kbONRrr9",
+          "game_link_kind": "live",
           "round_game": "3:irongalaxy:likespace_bot",
           "season_points": 1.0,
           "season_games": 2
@@ -6844,8 +6844,8 @@
       "name": "The chonkers",
       "actual_points": 6.5,
       "actual_round": 0.0,
-      "projected_points": 9.940317514736083,
-      "projected_round": 3.4403175147360843,
+      "projected_points": 9.926736622209612,
+      "projected_round": 3.426736622209612,
       "left": 7,
       "in_progress": 0,
       "paired": 7,
@@ -6855,7 +6855,7 @@
           "status": "pending",
           "rating": 2314,
           "decided_without_play": false,
-          "expected_points": 0.6253513933075368,
+          "expected_points": 0.6117705007810643,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -7246,8 +7246,8 @@
       "name": "Fantasy8",
       "actual_points": 6.0,
       "actual_round": 0.0,
-      "projected_points": 9.592381333520859,
-      "projected_round": 3.5923813335208594,
+      "projected_points": 9.605962226047332,
+      "projected_round": 3.605962226047332,
       "left": 8,
       "in_progress": 0,
       "paired": 8,
@@ -7255,9 +7255,9 @@
         {
           "handle": "chatakkuma",
           "status": "pending",
-          "rating": 2250,
+          "rating": 2260,
           "decided_without_play": false,
-          "expected_points": 0.37464860669246325,
+          "expected_points": 0.3882294992189357,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -8933,7 +8933,7 @@
     },
     {
       "name": "There Will Be Blunders",
-      "projected": 4.334227993120622,
+      "projected": 4.334227993120621,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -8996,6 +8996,14 @@
       "eligible": false
     },
     {
+      "name": "Rooky Horror Pawn Show fan club",
+      "projected": 4.142110857537949,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 8,
+      "eligible": false
+    },
+    {
       "name": "Morphy's Mates",
       "projected": 4.136943995010648,
       "actual": 0.0,
@@ -9012,14 +9020,6 @@
       "eligible": false
     },
     {
-      "name": "Rooky Horror Pawn Show fan club",
-      "projected": 4.126808279291571,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Peaky Decliners: An Authoritative Commentary by Svidler, King et al. (50th edition)",
       "projected": 4.0776278440712295,
       "actual": 0.0,
@@ -9029,7 +9029,7 @@
     },
     {
       "name": "Leningrad School of Blunders",
-      "projected": 4.070937901357936,
+      "projected": 4.057357008831463,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9061,7 +9061,7 @@
     },
     {
       "name": "J’adoube-Al-Blunder",
-      "projected": 4.008208946350729,
+      "projected": 4.008208946350727,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9069,7 +9069,7 @@
     },
     {
       "name": "Season 50 midlife crisis",
-      "projected": 3.9917910536492713,
+      "projected": 3.9917910536492722,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9101,7 +9101,7 @@
     },
     {
       "name": "The kannjuring",
-      "projected": 3.9290620986420643,
+      "projected": 3.942642991168537,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9110,14 +9110,6 @@
     {
       "name": "Silk Road Sacrifices",
       "projected": 3.92237215592877,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Pawn with the Sickness",
-      "projected": 3.8731917207084297,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9134,6 +9126,14 @@
     {
       "name": "The Last Shall be the First",
       "projected": 3.8630560049893523,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 8,
+      "eligible": false
+    },
+    {
+      "name": "Pawn with the Sickness",
+      "projected": 3.857889142462051,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9197,7 +9197,7 @@
     },
     {
       "name": "King's Landing",
-      "projected": 3.6657720068793784,
+      "projected": 3.665772006879379,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
