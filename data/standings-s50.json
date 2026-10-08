@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-08T18:34:14.640411Z",
+  "updated_at": "2026-10-08T19:00:07.840215Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 478,
+  "pairings_parsed": 479,
   "popular": [
     {
       "board": 1,
@@ -1852,118 +1852,6 @@
       ]
     },
     {
-      "owner": "pykkis",
-      "name": "Something magnificent (I'm so creative)",
-      "total": 15940,
-      "points": 10.5,
-      "games": 18,
-      "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.5833333333333334,
-      "roster": [
-        {
-          "handle": "Petro2",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "GoneNowhere",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "Minot",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "Chesspatzerswan",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "pykkis",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "IroncladUnicorn",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "DrRickinCT",
-          "points": 0.0,
-          "games": 3
-        }
-      ],
-      "rank": 17,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 5.0,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 1.0,
-          "finished": 2,
-          "paired": 8,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "cinemashow",
       "name": "Can they do it on a cold wet windy night in Stoke?",
       "total": 15703,
@@ -2015,7 +1903,7 @@
           "games": 2
         }
       ],
-      "rank": 18,
+      "rank": 17,
       "round_scores": [
         {
           "round": 1,
@@ -2036,6 +1924,118 @@
           "points": 1.0,
           "finished": 3,
           "paired": 7,
+          "state": "so_far"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "pykkis",
+      "name": "Something magnificent (I'm so creative)",
+      "total": 15940,
+      "points": 10.5,
+      "games": 19,
+      "round_games": 3,
+      "round_scheduled": 8,
+      "games_left": 5,
+      "ppg": 0.5526315789473685,
+      "roster": [
+        {
+          "handle": "Petro2",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "GoneNowhere",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "Minot",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "MrScribbles",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "Chesspatzerswan",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "pykkis",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "IroncladUnicorn",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "DrRickinCT",
+          "points": 0.0,
+          "games": 3
+        }
+      ],
+      "rank": 18,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 5.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 1.0,
+          "finished": 3,
+          "paired": 8,
           "state": "so_far"
         },
         {
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 3,
-    "played": 46,
+    "played": 47,
     "total": 216
   }
 }
