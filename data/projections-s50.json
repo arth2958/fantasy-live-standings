@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 3,
-  "round_in_progress": 9,
-  "updated_at": "2026-10-09T18:27:07.444647Z",
+  "round_in_progress": 8,
+  "updated_at": "2026-10-09T18:55:22.005792Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -10,8 +10,8 @@
       "name": "Mate in 9 to 5",
       "actual_points": 13.5,
       "actual_round": 1.0,
-      "projected_points": 16.90033235424315,
-      "projected_round": 4.400332354243151,
+      "projected_points": 16.898893385587066,
+      "projected_round": 4.3988933855870656,
       "left": 6,
       "in_progress": 0,
       "paired": 8,
@@ -36,7 +36,7 @@
           "status": "pending",
           "rating": 2099,
           "decided_without_play": false,
-          "expected_points": 0.4956827602449402,
+          "expected_points": 0.4942437915888551,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -1642,7 +1642,7 @@
         {
           "handle": "yellorambo",
           "status": "draw",
-          "rating": 2096,
+          "rating": 2090,
           "decided_without_play": false,
           "expected_points": 0.5,
           "actual_result": 0.5,
@@ -2923,7 +2923,7 @@
         {
           "handle": "PatrickVrielink",
           "status": "lost",
-          "rating": 1679,
+          "rating": 1688,
           "decided_without_play": false,
           "expected_points": 0.0,
           "actual_result": 0.0,
@@ -4347,7 +4347,7 @@
           "game_link_kind": "recent",
           "round_game": "3:lc69:sideshow_bob",
           "season_points": 1.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "MrScribbles",
@@ -4749,7 +4749,7 @@
           "game_link_kind": "recent",
           "round_game": "3:lc69:sideshow_bob",
           "season_points": 1.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "NirakuHakamura",
@@ -5126,7 +5126,7 @@
         {
           "handle": "yellorambo",
           "status": "draw",
-          "rating": 2096,
+          "rating": 2090,
           "decided_without_play": false,
           "expected_points": 0.5,
           "actual_result": 0.5,
@@ -5236,8 +5236,8 @@
       "name": "Picked by the AI That Built This Site. Watch Out",
       "actual_points": 8.5,
       "actual_round": 1.0,
-      "projected_points": 10.85096433705575,
-      "projected_round": 3.35096433705575,
+      "projected_points": 10.852403305711835,
+      "projected_round": 3.352403305711835,
       "left": 4,
       "in_progress": 0,
       "paired": 6,
@@ -5260,9 +5260,9 @@
         {
           "handle": "semlegesnev",
           "status": "pending",
-          "rating": 2077,
+          "rating": 2078,
           "decided_without_play": false,
-          "expected_points": 0.5043172397550598,
+          "expected_points": 0.5057562084111449,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -5394,7 +5394,7 @@
         {
           "handle": "yellorambo",
           "status": "draw",
-          "rating": 2096,
+          "rating": 2090,
           "decided_without_play": false,
           "expected_points": 0.5,
           "actual_result": 0.5,
@@ -6442,8 +6442,8 @@
       "name": "Call it nationalism",
       "actual_points": 8.0,
       "actual_round": 2.0,
-      "projected_points": 10.107734551654657,
-      "projected_round": 4.107734551654657,
+      "projected_points": 10.10917352031074,
+      "projected_round": 4.109173520310741,
       "left": 4,
       "in_progress": 0,
       "paired": 8,
@@ -6466,9 +6466,9 @@
         {
           "handle": "semlegesnev",
           "status": "pending",
-          "rating": 2077,
+          "rating": 2078,
           "decided_without_play": false,
-          "expected_points": 0.5043172397550598,
+          "expected_points": 0.5057562084111449,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -7161,7 +7161,7 @@
           "game_link_kind": "recent",
           "round_game": "3:lc69:sideshow_bob",
           "season_points": 1.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "eight_x_eight",
@@ -7246,8 +7246,8 @@
       "name": "int-T-ana Jones and the Tomple of Doom",
       "actual_points": 7.0,
       "actual_round": 2.0,
-      "projected_points": 9.32181608030004,
-      "projected_round": 4.3218160803000405,
+      "projected_points": 9.323255048956124,
+      "projected_round": 4.323255048956125,
       "left": 5,
       "in_progress": 1,
       "paired": 7,
@@ -7270,9 +7270,9 @@
         {
           "handle": "semlegesnev",
           "status": "pending",
-          "rating": 2077,
+          "rating": 2078,
           "decided_without_play": false,
-          "expected_points": 0.5043172397550598,
+          "expected_points": 0.5057562084111449,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -8932,6 +8932,14 @@
       "eligible": false
     },
     {
+      "name": "Illiterate Alliteration Explorers",
+      "projected": 4.508237616788563,
+      "actual": 2.0,
+      "paired": 8,
+      "left": 5,
+      "eligible": false
+    },
+    {
       "name": "Wandering Knights",
       "projected": 4.476987555239702,
       "actual": 3.5,
@@ -9013,7 +9021,7 @@
     },
     {
       "name": "50 first mates",
-      "projected": 4.107734551654657,
+      "projected": 4.109173520310741,
       "actual": 2.0,
       "paired": 8,
       "left": 4,
@@ -9041,14 +9049,6 @@
       "actual": 2.5,
       "paired": 8,
       "left": 3,
-      "eligible": false
-    },
-    {
-      "name": "50-50 my next move is a blunder",
-      "projected": 4.014771970509,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 6,
       "eligible": false
     },
     {
@@ -9084,14 +9084,6 @@
       "eligible": false
     },
     {
-      "name": "Illiterate Alliteration Explorers",
-      "projected": 3.985228029491,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 6,
-      "eligible": false
-    },
-    {
       "name": "Svidl, Svidler, Svidlest",
       "projected": 3.9567210646058655,
       "actual": 2.5,
@@ -9117,7 +9109,7 @@
     },
     {
       "name": "The Greek Gifty Nifty Fifty",
-      "projected": 3.8922654483453436,
+      "projected": 3.8908264796892587,
       "actual": 2.0,
       "paired": 8,
       "left": 4,
@@ -9201,6 +9193,14 @@
       "actual": 2.5,
       "paired": 8,
       "left": 2,
+      "eligible": false
+    },
+    {
+      "name": "50-50 my next move is a blunder",
+      "projected": 3.4917623832114377,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 5,
       "eligible": false
     },
     {
