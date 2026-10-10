@@ -2,7 +2,7 @@
   "season": 50,
   "round": 3,
   "round_in_progress": 1,
-  "updated_at": "2026-10-10T21:00:51.603013Z",
+  "updated_at": "2026-10-10T21:22:21.039586Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -1480,6 +1480,140 @@
       "projected_rank": 11
     },
     {
+      "owner": "Lordziax",
+      "name": "I just pressed some buttons and this is what happened",
+      "actual_points": 13.5,
+      "actual_round": 4.0,
+      "projected_points": 13.845480005617535,
+      "projected_round": 4.345480005617534,
+      "left": 1,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "status": "won",
+          "rating": 2369,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/zjv733tG",
+          "game_link_kind": "recent",
+          "round_game": "3:itsasecret2000:rio2018",
+          "season_points": 2.5,
+          "season_games": 3
+        },
+        {
+          "handle": "Lordziax",
+          "status": "draw",
+          "rating": 2070,
+          "decided_without_play": false,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
+          "game_url": "https://lichess.org/mPpemxWD",
+          "game_link_kind": "recent",
+          "round_game": "3:aldric123:lordziax",
+          "season_points": 1.5,
+          "season_games": 3
+        },
+        {
+          "handle": "Fischer_and_Chips88",
+          "status": "lost",
+          "rating": 2006,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/mSwTDBgl",
+          "game_link_kind": "recent",
+          "round_game": "3:fischer_and_chips88:mgold",
+          "season_points": 0.0,
+          "season_games": 3
+        },
+        {
+          "handle": "M0r1",
+          "status": "won",
+          "rating": 1980,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/QVysYLT5",
+          "game_link_kind": "recent",
+          "round_game": "3:m-p-d:m0r1",
+          "season_points": 3.0,
+          "season_games": 3
+        },
+        {
+          "handle": "diecast_illusion",
+          "status": "draw",
+          "rating": 1910,
+          "decided_without_play": false,
+          "expected_points": 0.5,
+          "actual_result": 0.5,
+          "round_points": 0.5,
+          "round_games": 1,
+          "game_url": "https://lichess.org/hpSPLFyl",
+          "game_link_kind": "recent",
+          "round_game": "3:diecast_illusion:iwishiweredecent",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "Nubro",
+          "status": "lost",
+          "rating": 1741,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/o9RLvXpS",
+          "game_link_kind": "recent",
+          "round_game": "3:lewinberg:nubro",
+          "season_points": 1.0,
+          "season_games": 2
+        },
+        {
+          "handle": "Lexgrad",
+          "status": "won",
+          "rating": 1649,
+          "decided_without_play": true,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "3:lexgrad:rehbein",
+          "season_points": 3.0,
+          "season_games": 3
+        },
+        {
+          "handle": "GLAYGHOST",
+          "status": "pending",
+          "rating": 1464,
+          "decided_without_play": false,
+          "expected_points": 0.345480005617534,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "3:davidsifre:glayghost",
+          "season_points": 0.5,
+          "season_games": 2
+        }
+      ],
+      "projected_rank": 12
+    },
+    {
       "owner": "Silkthewanderer",
       "name": "Why does the king the largest of the pieces not simpy eat the other ones?",
       "actual_points": 12.0,
@@ -1611,7 +1745,7 @@
           "season_games": 2
         }
       ],
-      "projected_rank": 12
+      "projected_rank": 13
     },
     {
       "owner": "mynameismund",
@@ -1745,7 +1879,7 @@
           "season_games": 2
         }
       ],
-      "projected_rank": 13
+      "projected_rank": 14
     },
     {
       "owner": "Zubenelgenubi",
@@ -1771,7 +1905,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "Magagna",
@@ -1879,7 +2013,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 14
+      "projected_rank": 15
     },
     {
       "owner": "Pineapplechiffoncake",
@@ -1905,7 +2039,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "Astronominoff",
@@ -2013,7 +2147,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 15
+      "projected_rank": 16
     },
     {
       "owner": "Bennol",
@@ -2147,7 +2281,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 16
+      "projected_rank": 17
     },
     {
       "owner": "MilsBees",
@@ -2279,140 +2413,6 @@
           "round_game": "3:mongreltiger:tomb85",
           "season_points": 1.0,
           "season_games": 3
-        }
-      ],
-      "projected_rank": 17
-    },
-    {
-      "owner": "Lordziax",
-      "name": "I just pressed some buttons and this is what happened",
-      "actual_points": 13.0,
-      "actual_round": 4.0,
-      "projected_points": 13.345480005617535,
-      "projected_round": 4.345480005617534,
-      "left": 1,
-      "in_progress": 0,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "status": "won",
-          "rating": 2369,
-          "decided_without_play": false,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/zjv733tG",
-          "game_link_kind": "recent",
-          "round_game": "3:itsasecret2000:rio2018",
-          "season_points": 2.5,
-          "season_games": 3
-        },
-        {
-          "handle": "Lordziax",
-          "status": "draw",
-          "rating": 2070,
-          "decided_without_play": false,
-          "expected_points": 0.5,
-          "actual_result": 0.5,
-          "round_points": 0.5,
-          "round_games": 1,
-          "game_url": "https://lichess.org/mPpemxWD",
-          "game_link_kind": "recent",
-          "round_game": "3:aldric123:lordziax",
-          "season_points": 1.5,
-          "season_games": 3
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "status": "lost",
-          "rating": 2006,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/mSwTDBgl",
-          "game_link_kind": "recent",
-          "round_game": "3:fischer_and_chips88:mgold",
-          "season_points": 0.0,
-          "season_games": 3
-        },
-        {
-          "handle": "M0r1",
-          "status": "won",
-          "rating": 1980,
-          "decided_without_play": false,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/QVysYLT5",
-          "game_link_kind": "recent",
-          "round_game": "3:m-p-d:m0r1",
-          "season_points": 3.0,
-          "season_games": 3
-        },
-        {
-          "handle": "diecast_illusion",
-          "status": "draw",
-          "rating": 1910,
-          "decided_without_play": false,
-          "expected_points": 0.5,
-          "actual_result": 0.5,
-          "round_points": 0.5,
-          "round_games": 1,
-          "game_url": "https://lichess.org/hpSPLFyl",
-          "game_link_kind": "recent",
-          "round_game": "3:diecast_illusion:iwishiweredecent",
-          "season_points": 1.5,
-          "season_games": 2
-        },
-        {
-          "handle": "Nubro",
-          "status": "lost",
-          "rating": 1741,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/o9RLvXpS",
-          "game_link_kind": "recent",
-          "round_game": "3:lewinberg:nubro",
-          "season_points": 1.0,
-          "season_games": 2
-        },
-        {
-          "handle": "Lexgrad",
-          "status": "won",
-          "rating": 1649,
-          "decided_without_play": true,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "3:lexgrad:rehbein",
-          "season_points": 3.0,
-          "season_games": 3
-        },
-        {
-          "handle": "GLAYGHOST",
-          "status": "pending",
-          "rating": 1464,
-          "decided_without_play": false,
-          "expected_points": 0.345480005617534,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "3:davidsifre:glayghost",
-          "season_points": 0.5,
-          "season_games": 2
         }
       ],
       "projected_rank": 18
@@ -2709,7 +2709,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "GlennJamesMax",
@@ -3111,7 +3111,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "Alikadhim2",
@@ -4317,7 +4317,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "Feet_Barbie",
@@ -5255,7 +5255,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "Inter-temporal",
@@ -8203,7 +8203,7 @@
           "game_link_kind": "recent",
           "round_game": "3:mieskepillae:silkthewanderer",
           "season_points": 0.0,
-          "season_games": 2
+          "season_games": 3
         },
         {
           "handle": "bufferunderrun",
