@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-10T03:10:29.290186Z",
+  "updated_at": "2026-10-10T03:29:36.746097Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 530,
+  "pairings_parsed": 531,
   "popular": [
     {
       "board": 1,
@@ -624,11 +624,11 @@
       "name": "I just pressed some buttons and this is what happened",
       "total": 15739,
       "points": 13.0,
-      "games": 20,
-      "round_games": 5,
+      "games": 21,
+      "round_games": 6,
       "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.65,
+      "games_left": 2,
+      "ppg": 0.6190476190476191,
       "roster": [
         {
           "handle": "rio2018",
@@ -643,7 +643,7 @@
         {
           "handle": "Fischer_and_Chips88",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "M0r1",
@@ -690,7 +690,7 @@
         {
           "round": 3,
           "points": 3.5,
-          "finished": 5,
+          "finished": 6,
           "paired": 8,
           "state": "so_far"
         },
@@ -3198,118 +3198,6 @@
       ]
     },
     {
-      "owner": "berndwind",
-      "name": "Sweet perfection",
-      "total": 15159,
-      "points": 10.5,
-      "games": 19,
-      "round_games": 3,
-      "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.5526315789473685,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 2.5,
-          "games": 3
-        },
-        {
-          "handle": "GoneNowhere",
-          "points": 1.5,
-          "games": 3
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "mynameismund",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "TristanBrown17",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "MakeMyMove",
-          "points": 0.5,
-          "games": 2
-        },
-        {
-          "handle": "Marco_Chess13",
-          "points": 2.0,
-          "games": 2
-        },
-        {
-          "handle": "macha1313",
-          "points": 1.0,
-          "games": 3
-        }
-      ],
-      "rank": 29,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 1.5,
-          "finished": 3,
-          "paired": 7,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "Tactix47",
       "name": "TheChosenOnes",
       "total": 15994,
@@ -3361,7 +3249,7 @@
           "games": 3
         }
       ],
-      "rank": 30,
+      "rank": 29,
       "round_scores": [
         {
           "round": 1,
@@ -3381,6 +3269,118 @@
           "round": 3,
           "points": 1.5,
           "finished": 6,
+          "paired": 7,
+          "state": "so_far"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "berndwind",
+      "name": "Sweet perfection",
+      "total": 15159,
+      "points": 10.5,
+      "games": 20,
+      "round_games": 4,
+      "round_scheduled": 7,
+      "games_left": 3,
+      "ppg": 0.525,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "GoneNowhere",
+          "points": 1.5,
+          "games": 3
+        },
+        {
+          "handle": "Fischer_and_Chips88",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "mynameismund",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "TristanBrown17",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "MakeMyMove",
+          "points": 0.5,
+          "games": 2
+        },
+        {
+          "handle": "Marco_Chess13",
+          "points": 2.0,
+          "games": 2
+        },
+        {
+          "handle": "macha1313",
+          "points": 1.0,
+          "games": 3
+        }
+      ],
+      "rank": 30,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 1.5,
+          "finished": 4,
           "paired": 7,
           "state": "so_far"
         },
@@ -4882,11 +4882,11 @@
       "name": "My other team is coming in 53rd place",
       "total": 15946,
       "points": 9.5,
-      "games": 21,
-      "round_games": 5,
+      "games": 22,
+      "round_games": 6,
       "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.4523809523809524,
+      "games_left": 2,
+      "ppg": 0.4318181818181818,
       "roster": [
         {
           "handle": "NLance",
@@ -4901,7 +4901,7 @@
         {
           "handle": "Fischer_and_Chips88",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "flipiflapi",
@@ -4948,7 +4948,7 @@
         {
           "round": 3,
           "points": 2.5,
-          "finished": 5,
+          "finished": 6,
           "paired": 8,
           "state": "so_far"
         },
@@ -6564,11 +6564,11 @@
       "name": "int-T-ana Jones and the Tomple of Doom",
       "total": 15669,
       "points": 7.0,
-      "games": 16,
-      "round_games": 3,
+      "games": 17,
+      "round_games": 4,
       "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.4375,
+      "games_left": 3,
+      "ppg": 0.4117647058823529,
       "roster": [
         {
           "handle": "bXVrc2lh",
@@ -6583,7 +6583,7 @@
         {
           "handle": "Fischer_and_Chips88",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "TheDifferenceOfTier5",
@@ -6630,7 +6630,7 @@
         {
           "round": 3,
           "points": 2.0,
-          "finished": 3,
+          "finished": 4,
           "paired": 7,
           "state": "so_far"
         },
@@ -7124,11 +7124,11 @@
       "name": "^_~",
       "total": 15792,
       "points": 6.5,
-      "games": 20,
-      "round_games": 3,
+      "games": 21,
+      "round_games": 4,
       "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.325,
+      "games_left": 3,
+      "ppg": 0.30952380952380953,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -7143,7 +7143,7 @@
         {
           "handle": "Fischer_and_Chips88",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "Zubenelgenubi",
@@ -7190,7 +7190,7 @@
         {
           "round": 3,
           "points": 1.0,
-          "finished": 3,
+          "finished": 4,
           "paired": 7,
           "state": "so_far"
         },
@@ -7797,11 +7797,11 @@
       "name": "Blunnder masterss",
       "total": 15865,
       "points": 5.0,
-      "games": 15,
-      "round_games": 1,
+      "games": 16,
+      "round_games": 2,
       "round_scheduled": 6,
-      "games_left": 5,
-      "ppg": 0.3333333333333333,
+      "games_left": 4,
+      "ppg": 0.3125,
       "roster": [
         {
           "handle": "digvijay_sunil",
@@ -7816,7 +7816,7 @@
         {
           "handle": "Fischer_and_Chips88",
           "points": 0.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "Zubenelgenubi",
@@ -7863,7 +7863,7 @@
         {
           "round": 3,
           "points": 0.0,
-          "finished": 1,
+          "finished": 2,
           "paired": 6,
           "state": "so_far"
         },
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 3,
-    "played": 98,
+    "played": 99,
     "total": 216
   }
 }
