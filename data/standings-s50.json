@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-11T19:09:25.493589Z",
+  "updated_at": "2026-10-11T19:27:50.849100Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 632,
+  "pairings_parsed": 634,
   "popular": [
     {
       "board": 1,
@@ -400,11 +400,11 @@
       "name": "Mate in 9 to 5",
       "total": 15967,
       "points": 15.0,
-      "games": 23,
-      "round_games": 6,
+      "games": 24,
+      "round_games": 7,
       "round_scheduled": 8,
-      "games_left": 2,
-      "ppg": 0.6521739130434783,
+      "games_left": 1,
+      "ppg": 0.625,
       "roster": [
         {
           "handle": "guitarspider",
@@ -414,7 +414,7 @@
         {
           "handle": "AACtrl",
           "points": 2.0,
-          "games": 2
+          "games": 3
         },
         {
           "handle": "jwwells42",
@@ -466,7 +466,7 @@
         {
           "round": 3,
           "points": 2.5,
-          "finished": 6,
+          "finished": 7,
           "paired": 8,
           "state": "so_far"
         },
@@ -3646,6 +3646,118 @@
       ]
     },
     {
+      "owner": "adande1",
+      "name": "Picked by the AI That Built This Site. Watch Out",
+      "total": 15831,
+      "points": 11.5,
+      "games": 21,
+      "round_games": 6,
+      "round_scheduled": 6,
+      "games_left": 0,
+      "ppg": 0.5476190476190477,
+      "roster": [
+        {
+          "handle": "PlanetChessClub",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "qrs",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "adande1",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "Raindy",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "Welpe",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "capturingbravo",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "angborxley",
+          "points": 1.0,
+          "games": 3
+        }
+      ],
+      "rank": 33,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 6.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 1.5,
+          "finished": 7,
+          "paired": 7,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.0,
+          "finished": 6,
+          "paired": 6,
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
       "owner": "jg777",
       "name": "Svidl, Svidler, Svidlest-Fantasy version",
       "total": 12656,
@@ -3697,7 +3809,7 @@
           "games": 3
         }
       ],
-      "rank": 33,
+      "rank": 34,
       "round_scores": [
         {
           "round": 1,
@@ -3809,7 +3921,7 @@
           "games": 3
         }
       ],
-      "rank": 34,
+      "rank": 35,
       "round_scores": [
         {
           "round": 1,
@@ -3921,7 +4033,7 @@
           "games": 2
         }
       ],
-      "rank": 35,
+      "rank": 36,
       "round_scores": [
         {
           "round": 1,
@@ -4033,7 +4145,7 @@
           "games": 3
         }
       ],
-      "rank": 36,
+      "rank": 37,
       "round_scores": [
         {
           "round": 1,
@@ -4145,7 +4257,7 @@
           "games": 3
         }
       ],
-      "rank": 37,
+      "rank": 38,
       "round_scores": [
         {
           "round": 1,
@@ -4258,7 +4370,7 @@
           "games": 3
         }
       ],
-      "rank": 38,
+      "rank": 39,
       "round_scores": [
         {
           "round": 1,
@@ -4370,7 +4482,7 @@
           "games": 3
         }
       ],
-      "rank": 39,
+      "rank": 40,
       "round_scores": [
         {
           "round": 1,
@@ -4482,7 +4594,7 @@
           "games": 3
         }
       ],
-      "rank": 40,
+      "rank": 41,
       "round_scores": [
         {
           "round": 1,
@@ -4594,7 +4706,7 @@
           "games": 3
         }
       ],
-      "rank": 41,
+      "rank": 42,
       "round_scores": [
         {
           "round": 1,
@@ -4706,7 +4818,7 @@
           "games": 3
         }
       ],
-      "rank": 42,
+      "rank": 43,
       "round_scores": [
         {
           "round": 1,
@@ -4818,7 +4930,7 @@
           "games": 3
         }
       ],
-      "rank": 43,
+      "rank": 44,
       "round_scores": [
         {
           "round": 1,
@@ -4930,7 +5042,7 @@
           "games": 3
         }
       ],
-      "rank": 44,
+      "rank": 45,
       "round_scores": [
         {
           "round": 1,
@@ -5042,139 +5154,27 @@
           "games": 3
         }
       ],
-      "rank": 45,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 2.0,
-          "finished": 7,
-          "paired": 8,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "adande1",
-      "name": "Picked by the AI That Built This Site. Watch Out",
-      "total": 15831,
-      "points": 10.5,
-      "games": 20,
-      "round_games": 5,
-      "round_scheduled": 6,
-      "games_left": 1,
-      "ppg": 0.525,
-      "roster": [
-        {
-          "handle": "PlanetChessClub",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "qrs",
-          "points": 2.5,
-          "games": 3
-        },
-        {
-          "handle": "adande1",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "Raindy",
-          "points": 2.5,
-          "games": 3
-        },
-        {
-          "handle": "Welpe",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "capturingbravo",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "angborxley",
-          "points": 1.0,
-          "games": 3
-        }
-      ],
       "rank": 46,
       "round_scores": [
         {
           "round": 1,
-          "points": 6.0,
+          "points": 4.5,
           "finished": 8,
           "paired": 8,
           "state": "final"
         },
         {
           "round": 2,
-          "points": 1.5,
-          "finished": 7,
-          "paired": 7,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
           "state": "final"
         },
         {
           "round": 3,
-          "points": 3.0,
-          "finished": 5,
-          "paired": 6,
+          "points": 2.0,
+          "finished": 7,
+          "paired": 8,
           "state": "so_far"
         },
         {
@@ -5775,6 +5775,118 @@
       ]
     },
     {
+      "owner": "Bpack",
+      "name": "int-T-ana Jones and the Tomple of Doom",
+      "total": 15669,
+      "points": 10.0,
+      "games": 20,
+      "round_games": 7,
+      "round_scheduled": 7,
+      "games_left": 0,
+      "ppg": 0.5,
+      "roster": [
+        {
+          "handle": "bXVrc2lh",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "Fischer_and_Chips88",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "TheDifferenceOfTier5",
+          "points": 0.0,
+          "games": 0
+        },
+        {
+          "handle": "glbert",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "KamagayaJiji",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "Pineapplechiffoncake",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "mongreltiger",
+          "points": 1.0,
+          "games": 3
+        }
+      ],
+      "rank": 52,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 3.5,
+          "finished": 7,
+          "paired": 7,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 1.5,
+          "finished": 6,
+          "paired": 6,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 5.0,
+          "finished": 7,
+          "paired": 7,
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
       "owner": "Kborman",
       "name": "The Magnificent Nine",
       "total": 15941,
@@ -5826,7 +5938,7 @@
           "games": 3
         }
       ],
-      "rank": 52,
+      "rank": 53,
       "round_scores": [
         {
           "round": 1,
@@ -5848,6 +5960,118 @@
           "finished": 6,
           "paired": 6,
           "state": "final"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "semlegesnev",
+      "name": "Call it nationalism",
+      "total": 15401,
+      "points": 10.0,
+      "games": 23,
+      "round_games": 7,
+      "round_scheduled": 8,
+      "games_left": 1,
+      "ppg": 0.43478260869565216,
+      "roster": [
+        {
+          "handle": "Petro2",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "semlegesnev",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "mixxanber",
+          "points": 1.5,
+          "games": 3
+        },
+        {
+          "handle": "Paulze2000",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "zal667",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "KamagayaJiji",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "Hylpen",
+          "points": 0.5,
+          "games": 3
+        },
+        {
+          "handle": "BLuesiDE617",
+          "points": 1.5,
+          "games": 3
+        }
+      ],
+      "rank": 54,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 3.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 2.5,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.0,
+          "finished": 7,
+          "paired": 8,
+          "state": "so_far"
         },
         {
           "round": 4,
@@ -5938,7 +6162,7 @@
           "games": 3
         }
       ],
-      "rank": 53,
+      "rank": 55,
       "round_scores": [
         {
           "round": 1,
@@ -6050,7 +6274,7 @@
           "games": 3
         }
       ],
-      "rank": 54,
+      "rank": 56,
       "round_scores": [
         {
           "round": 1,
@@ -6163,7 +6387,7 @@
           "games": 3
         }
       ],
-      "rank": 55,
+      "rank": 57,
       "round_scores": [
         {
           "round": 1,
@@ -6275,7 +6499,7 @@
           "games": 3
         }
       ],
-      "rank": 56,
+      "rank": 58,
       "round_scores": [
         {
           "round": 1,
@@ -6387,7 +6611,7 @@
           "games": 3
         }
       ],
-      "rank": 57,
+      "rank": 59,
       "round_scores": [
         {
           "round": 1,
@@ -6499,7 +6723,7 @@
           "games": 3
         }
       ],
-      "rank": 58,
+      "rank": 60,
       "round_scores": [
         {
           "round": 1,
@@ -6521,118 +6745,6 @@
           "finished": 8,
           "paired": 8,
           "state": "final"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "Bpack",
-      "name": "int-T-ana Jones and the Tomple of Doom",
-      "total": 15669,
-      "points": 9.0,
-      "games": 19,
-      "round_games": 6,
-      "round_scheduled": 7,
-      "games_left": 1,
-      "ppg": 0.47368421052631576,
-      "roster": [
-        {
-          "handle": "bXVrc2lh",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "Fischer_and_Chips88",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "TheDifferenceOfTier5",
-          "points": 0.0,
-          "games": 0
-        },
-        {
-          "handle": "glbert",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "KamagayaJiji",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "Pineapplechiffoncake",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "mongreltiger",
-          "points": 1.0,
-          "games": 3
-        }
-      ],
-      "rank": 59,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 3.5,
-          "finished": 7,
-          "paired": 7,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 1.5,
-          "finished": 6,
-          "paired": 6,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 4.0,
-          "finished": 6,
-          "paired": 7,
-          "state": "so_far"
         },
         {
           "round": 4,
@@ -6723,132 +6835,20 @@
           "games": 3
         }
       ],
-      "rank": 60,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 3.0,
-          "finished": 7,
-          "paired": 7,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 3.0,
-          "finished": 7,
-          "paired": 7,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 3.0,
-          "finished": 6,
-          "paired": 8,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "semlegesnev",
-      "name": "Call it nationalism",
-      "total": 15401,
-      "points": 9.0,
-      "games": 22,
-      "round_games": 6,
-      "round_scheduled": 8,
-      "games_left": 2,
-      "ppg": 0.4090909090909091,
-      "roster": [
-        {
-          "handle": "Petro2",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "semlegesnev",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "mixxanber",
-          "points": 1.5,
-          "games": 3
-        },
-        {
-          "handle": "Paulze2000",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "zal667",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "KamagayaJiji",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "Hylpen",
-          "points": 0.5,
-          "games": 3
-        },
-        {
-          "handle": "BLuesiDE617",
-          "points": 1.5,
-          "games": 3
-        }
-      ],
       "rank": 61,
       "round_scores": [
         {
           "round": 1,
-          "points": 3.5,
-          "finished": 8,
-          "paired": 8,
+          "points": 3.0,
+          "finished": 7,
+          "paired": 7,
           "state": "final"
         },
         {
           "round": 2,
-          "points": 2.5,
-          "finished": 8,
-          "paired": 8,
+          "points": 3.0,
+          "finished": 7,
+          "paired": 7,
           "state": "final"
         },
         {
@@ -7568,6 +7568,119 @@
       ]
     },
     {
+      "owner": "arbitrary",
+      "name": "Random Team",
+      "bot": true,
+      "total": 13863,
+      "points": 7.0,
+      "games": 20,
+      "round_games": 7,
+      "round_scheduled": 7,
+      "games_left": 0,
+      "ppg": 0.35,
+      "roster": [
+        {
+          "handle": "Kjar",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "Narrenkind",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "AlexGaul",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "BLang316",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "Angrybird029",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "burner_account17",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "mmkgtc",
+          "points": 1.0,
+          "games": 3
+        }
+      ],
+      "rank": 68,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 3.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 2.0,
+          "finished": 5,
+          "paired": 5,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 2.0,
+          "finished": 7,
+          "paired": 7,
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
       "owner": "LosingIsTheBest",
       "name": "Gods Of Survivors",
       "total": 15912,
@@ -7619,7 +7732,7 @@
           "games": 2
         }
       ],
-      "rank": 68,
+      "rank": 69,
       "round_scores": [
         {
           "round": 1,
@@ -7633,119 +7746,6 @@
           "points": 4.0,
           "finished": 7,
           "paired": 7,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 1.0,
-          "finished": 6,
-          "paired": 7,
-          "state": "so_far"
-        },
-        {
-          "round": 4,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "arbitrary",
-      "name": "Random Team",
-      "bot": true,
-      "total": 13863,
-      "points": 6.0,
-      "games": 19,
-      "round_games": 6,
-      "round_scheduled": 7,
-      "games_left": 1,
-      "ppg": 0.3157894736842105,
-      "roster": [
-        {
-          "handle": "Kjar",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "Narrenkind",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "AlexGaul",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "BLang316",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "Angrybird029",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "burner_account17",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "mmkgtc",
-          "points": 1.0,
-          "games": 3
-        }
-      ],
-      "rank": 69,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 3.0,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 2.0,
-          "finished": 5,
-          "paired": 5,
           "state": "final"
         },
         {
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 3,
-    "played": 200,
+    "played": 202,
     "total": 216
   }
 }
