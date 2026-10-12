@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-12T14:17:36.998988Z",
+  "updated_at": "2026-10-12T14:43:03.112260Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 648,
+  "pairings_parsed": 649,
   "popular": [
     {
       "board": 1,
@@ -60,118 +60,6 @@
   ],
   "teams": [
     {
-      "owner": "jwwells42",
-      "name": "Subscribe to PowerPlayChess",
-      "total": 15891,
-      "points": 16.5,
-      "games": 23,
-      "round_games": 0,
-      "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.717391304347826,
-      "roster": [
-        {
-          "handle": "TBest",
-          "points": 3.0,
-          "games": 3
-        },
-        {
-          "handle": "GlennJamesMax",
-          "points": 2.5,
-          "games": 3
-        },
-        {
-          "handle": "jwwells42",
-          "points": 3.0,
-          "games": 3
-        },
-        {
-          "handle": "adande1",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "Tranzoo",
-          "points": 1.5,
-          "games": 3
-        },
-        {
-          "handle": "prostidude",
-          "points": 1.5,
-          "games": 2
-        },
-        {
-          "handle": "MatthewKCanada",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "dama_x_rey",
-          "points": 2.0,
-          "games": 3
-        }
-      ],
-      "rank": 1,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 5.0,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 5.0,
-          "finished": 8,
-          "paired": 8,
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 6.5,
-          "finished": 7,
-          "paired": 7,
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 0.0,
-          "finished": 0,
-          "paired": 8,
-          "state": "so_far"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "super0jins",
       "name": "Board 1 fit perfectly within my budget",
       "total": 16000,
@@ -223,7 +111,7 @@
           "games": 3
         }
       ],
-      "rank": 2,
+      "rank": 1,
       "round_scores": [
         {
           "round": 1,
@@ -250,6 +138,118 @@
           "round": 4,
           "points": 0.0,
           "finished": 0,
+          "paired": 8,
+          "state": "so_far"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "jwwells42",
+      "name": "Subscribe to PowerPlayChess",
+      "total": 15891,
+      "points": 16.5,
+      "games": 24,
+      "round_games": 1,
+      "round_scheduled": 8,
+      "games_left": 7,
+      "ppg": 0.6875,
+      "roster": [
+        {
+          "handle": "TBest",
+          "points": 3.0,
+          "games": 3
+        },
+        {
+          "handle": "GlennJamesMax",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "jwwells42",
+          "points": 3.0,
+          "games": 3
+        },
+        {
+          "handle": "adande1",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "Tranzoo",
+          "points": 1.5,
+          "games": 3
+        },
+        {
+          "handle": "prostidude",
+          "points": 1.5,
+          "games": 2
+        },
+        {
+          "handle": "MatthewKCanada",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "dama_x_rey",
+          "points": 2.0,
+          "games": 3
+        }
+      ],
+      "rank": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 5.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 5.0,
+          "finished": 8,
+          "paired": 8,
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 6.5,
+          "finished": 7,
+          "paired": 7,
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 0.0,
+          "finished": 1,
           "paired": 8,
           "state": "so_far"
         },
@@ -2642,11 +2642,11 @@
       "name": "Beasts and Boarddroppers",
       "total": 15806,
       "points": 12.5,
-      "games": 21,
-      "round_games": 0,
+      "games": 22,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.5952380952380952,
+      "games_left": 7,
+      "ppg": 0.5681818181818182,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -2656,7 +2656,7 @@
         {
           "handle": "GlennJamesMax",
           "points": 2.5,
-          "games": 3
+          "games": 4
         },
         {
           "handle": "KnightFury21",
@@ -2715,7 +2715,7 @@
         {
           "round": 4,
           "points": 0.0,
-          "finished": 0,
+          "finished": 1,
           "paired": 8,
           "state": "so_far"
         },
@@ -8019,7 +8019,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 0,
+    "played": 1,
     "total": 216
   }
 }
