@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 4,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-12T23:10:17.325006Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-10-12T23:37:41.780529Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -276,12 +276,12 @@
     {
       "owner": "JohnJPershing",
       "name": "Mate in 9 to 5",
-      "actual_points": 16.0,
-      "actual_round": 0.0,
-      "projected_points": 19.954907318964203,
-      "projected_round": 3.9549073189642034,
-      "left": 8,
-      "in_progress": 1,
+      "actual_points": 17.0,
+      "actual_round": 1.0,
+      "projected_points": 20.536208797333117,
+      "projected_round": 4.536208797333118,
+      "left": 7,
+      "in_progress": 0,
       "paired": 8,
       "roster": [
         {
@@ -376,18 +376,18 @@
         },
         {
           "handle": "Gingersquirrelnuts",
-          "status": "pending",
-          "rating": 1738,
+          "status": "won",
+          "rating": 1749,
           "decided_without_play": false,
-          "expected_points": 0.418698521631085,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
           "game_url": "https://lichess.org/R2bBTQaS",
-          "game_link_kind": "live",
+          "game_link_kind": "recent",
           "round_game": "4:gingersquirrelnuts:naturesaccomplice",
-          "season_points": 1.0,
-          "season_games": 3
+          "season_points": 2.0,
+          "season_games": 4
         },
         {
           "handle": "jcarmody",
@@ -4026,6 +4026,140 @@
       "projected_rank": 30
     },
     {
+      "owner": "rio2018",
+      "name": "Something magnificant",
+      "actual_points": 12.5,
+      "actual_round": 1.0,
+      "projected_points": 15.599129059946135,
+      "projected_round": 4.099129059946135,
+      "left": 7,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "Mennonite",
+          "status": "pending",
+          "rating": 2128,
+          "decided_without_play": false,
+          "expected_points": 0.43135860811633236,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:mennonite:slowroast",
+          "season_points": 0.0,
+          "season_games": 3
+        },
+        {
+          "handle": "Feet_Barbie",
+          "status": "pending",
+          "rating": 2140,
+          "decided_without_play": false,
+          "expected_points": 0.6226501957872621,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:feet_barbie:nikker33",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "berndwind",
+          "status": "pending",
+          "rating": 2012,
+          "decided_without_play": false,
+          "expected_points": 0.4398498547680971,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:berndwind:cowtone",
+          "season_points": 1.5,
+          "season_games": 2
+        },
+        {
+          "handle": "Llawlietnea",
+          "status": "pending",
+          "rating": 1866,
+          "decided_without_play": false,
+          "expected_points": 0.332581578126777,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:llawlietnea:tuomas01",
+          "season_points": 1.0,
+          "season_games": 3
+        },
+        {
+          "handle": "glbert",
+          "status": "pending",
+          "rating": 1835,
+          "decided_without_play": false,
+          "expected_points": 0.3937121762145719,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:glbert:marekw78",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "pezzo17",
+          "status": "pending",
+          "rating": 1781,
+          "decided_without_play": false,
+          "expected_points": 0.4769904127024377,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:lewinberg:pezzo17",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "Gingersquirrelnuts",
+          "status": "won",
+          "rating": 1749,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/R2bBTQaS",
+          "game_link_kind": "recent",
+          "round_game": "4:gingersquirrelnuts:naturesaccomplice",
+          "season_points": 2.0,
+          "season_games": 4
+        },
+        {
+          "handle": "DavidSifre",
+          "status": "pending",
+          "rating": 1560,
+          "decided_without_play": false,
+          "expected_points": 0.4019862342306564,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:davidsifre:keeto",
+          "season_points": 2.0,
+          "season_games": 3
+        }
+      ],
+      "projected_rank": 31
+    },
+    {
       "owner": "Feet_barbie",
       "name": "here to beat gary0892",
       "actual_points": 12.0,
@@ -4157,7 +4291,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 31
+      "projected_rank": 32
     },
     {
       "owner": "mmkgtc",
@@ -4291,7 +4425,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 32
+      "projected_rank": 33
     },
     {
       "owner": "somerapidplayer",
@@ -4425,7 +4559,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 33
+      "projected_rank": 34
     },
     {
       "owner": "gary0892",
@@ -4559,7 +4693,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 34
+      "projected_rank": 35
     },
     {
       "owner": "jg777",
@@ -4693,7 +4827,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 35
+      "projected_rank": 36
     },
     {
       "owner": "semlegesnev",
@@ -4824,140 +4958,6 @@
           "game_link_kind": null,
           "round_game": "4:blueside617:sutoneigt",
           "season_points": 1.5,
-          "season_games": 3
-        }
-      ],
-      "projected_rank": 36
-    },
-    {
-      "owner": "rio2018",
-      "name": "Something magnificant",
-      "actual_points": 11.5,
-      "actual_round": 0.0,
-      "projected_points": 15.017827581577219,
-      "projected_round": 3.5178275815772198,
-      "left": 8,
-      "in_progress": 1,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "Mennonite",
-          "status": "pending",
-          "rating": 2128,
-          "decided_without_play": false,
-          "expected_points": 0.43135860811633236,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:mennonite:slowroast",
-          "season_points": 0.0,
-          "season_games": 3
-        },
-        {
-          "handle": "Feet_Barbie",
-          "status": "pending",
-          "rating": 2140,
-          "decided_without_play": false,
-          "expected_points": 0.6226501957872621,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:feet_barbie:nikker33",
-          "season_points": 2.0,
-          "season_games": 3
-        },
-        {
-          "handle": "berndwind",
-          "status": "pending",
-          "rating": 2012,
-          "decided_without_play": false,
-          "expected_points": 0.4398498547680971,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:berndwind:cowtone",
-          "season_points": 1.5,
-          "season_games": 2
-        },
-        {
-          "handle": "Llawlietnea",
-          "status": "pending",
-          "rating": 1866,
-          "decided_without_play": false,
-          "expected_points": 0.332581578126777,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:llawlietnea:tuomas01",
-          "season_points": 1.0,
-          "season_games": 3
-        },
-        {
-          "handle": "glbert",
-          "status": "pending",
-          "rating": 1835,
-          "decided_without_play": false,
-          "expected_points": 0.3937121762145719,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:glbert:marekw78",
-          "season_points": 2.0,
-          "season_games": 3
-        },
-        {
-          "handle": "pezzo17",
-          "status": "pending",
-          "rating": 1781,
-          "decided_without_play": false,
-          "expected_points": 0.4769904127024377,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:lewinberg:pezzo17",
-          "season_points": 2.0,
-          "season_games": 3
-        },
-        {
-          "handle": "Gingersquirrelnuts",
-          "status": "pending",
-          "rating": 1738,
-          "decided_without_play": false,
-          "expected_points": 0.418698521631085,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": "https://lichess.org/R2bBTQaS",
-          "game_link_kind": "live",
-          "round_game": "4:gingersquirrelnuts:naturesaccomplice",
-          "season_points": 1.0,
-          "season_games": 3
-        },
-        {
-          "handle": "DavidSifre",
-          "status": "pending",
-          "rating": 1560,
-          "decided_without_play": false,
-          "expected_points": 0.4019862342306564,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:davidsifre:keeto",
-          "season_points": 2.0,
           "season_games": 3
         }
       ],
@@ -8852,6 +8852,14 @@
   ],
   "league_teams": [
     {
+      "name": "Rooky Horror Pawn Show fan club",
+      "projected": 4.693222522973494,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Riding with the King",
       "projected": 4.638291548467942,
       "actual": 1.0,
@@ -8934,14 +8942,6 @@
     {
       "name": "my english needs work",
       "projected": 4.122875565066599,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Rooky Horror Pawn Show fan club",
-      "projected": 4.111921044604579,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9188,14 +9188,6 @@
       "eligible": false
     },
     {
-      "name": "Not all who blunder are lost",
-      "projected": 3.8880789553954207,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "pspspspspsps",
       "projected": 3.8771244349334006,
       "actual": 0.0,
@@ -9278,6 +9270,14 @@
     {
       "name": "Old but hoping for stratospheric improvement",
       "projected": 3.361708451532058,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "Not all who blunder are lost",
+      "projected": 3.3067774770265057,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
