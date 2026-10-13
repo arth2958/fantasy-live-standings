@@ -39,18 +39,22 @@ def try_fetch(url):
         return None
 
 class Tables(HTMLParser):
-    def __init__(self): super().__init__(); self.depth=0; self.row=None; self.cell=None; self.rows=[]
+    def __init__(self): super().__init__(); self.depth=0; self.row=None; self.cell=None; self.rows=[]; self.row_urls=[]; self.game_url=None
     def handle_starttag(self,tag,attrs):
         if tag=="table": self.depth+=1
-        elif self.depth and tag=="tr": self.row=[]
+        elif self.depth and tag=="tr": self.row=[]; self.game_url=None
         elif self.row is not None and tag in ("td","th"): self.cell=[]
+        # Keep only real game links, never team labels or arbitrary external URLs.
+        if self.row is not None and tag=="a":
+            href=dict(attrs).get("href", "")
+            if re.fullmatch(r"https://lichess\.org/[A-Za-z0-9]{8,12}", href): self.game_url=href
     def handle_data(self,data):
         if self.cell is not None: self.cell.append(data)
     def handle_endtag(self,tag):
         if tag in ("td","th") and self.cell is not None:
             self.row.append(" ".join("".join(self.cell).split())); self.cell=None
         elif tag=="tr" and self.row is not None:
-            if self.row: self.rows.append(self.row)
+            if self.row: self.rows.append(self.row); self.row_urls.append(self.game_url)
             self.row=None
         elif tag=="table" and self.depth: self.depth-=1
 
@@ -177,12 +181,12 @@ def main():
         if not html:
             continue
         p = Tables(); p.feed(html)
-        round_players = defaultdict(lambda: {"points": 0.0, "games": 0, "paired": 0})
+        round_players = defaultdict(lambda: {"points": 0.0, "games": 0, "paired": 0, "results": []})
         rnd_sched = 0
         rnd_played = 0
         rnd_sched_by = defaultdict(int)
         rnd_played_by = defaultdict(int)
-        for cells in p.rows:
+        for cells, game_url in zip(p.rows, p.row_urls):
             if len(cells) != 4 or not re.search(r" \(\d+\)$", cells[0]) or not re.search(r" \(\d+\)$", cells[2]):
                 continue
             left = re.sub(r" \(\d+\)$", "", cells[0]); right = re.sub(r" \(\d+\)$", "", cells[2])
@@ -193,7 +197,17 @@ def main():
                 round_players[handle.casefold()]["paired"] += 1
             raw_score = cells[1].replace(" ", "")
             scores = [raw_score[:len(raw_score)//2], raw_score[len(raw_score)//2:]]
-            if len(scores) != 2 or not scores[0] or not scores[1] or scores[0][0] not in "01½" or scores[1][0] not in "01½":
+            # ROUND DRILL-DOWN: save each pairing separately. A player can play
+            # twice in a round, so never overwrite a result keyed by username.
+            decided = len(scores) == 2 and all(raw and raw[0] in "01½" for raw in scores)
+            for i, (handle, opponent) in enumerate(((left, right), (right, left))):
+                result = {"0": 0.0, "½": 0.5, "1": 1.0}[scores[i][0]] if decided else None
+                round_players[handle.casefold()]["results"].append({
+                    "opponent": opponent, "actual_result": result, "game_url": game_url,
+                    "status": ("won" if result == 1 else "draw" if result == .5 else "lost")
+                              if result is not None else "pending",
+                    "no_play": decided and any(c in raw_score.upper() for c in "XFZ")})
+            if not decided:
                 continue
             total_pairings += 1
             rnd_played += 1
@@ -270,6 +284,7 @@ def main():
             rank = i; last = key
         t["rank"] = rank
     # History is built from exactly the same pairing pass as season totals.
+    # Each history card is checked against its round total before publishing.
     for team in teams:
         team["round_scores"] = []
         for rnd in range(1, ROUNDS + 1):
@@ -278,7 +293,17 @@ def main():
                     for field in ("points", "games", "paired")}
             team["round_scores"].append({"round": rnd, "points": sums["points"] if source else None,
                 "finished": sums["games"], "paired": sums["paired"],
+                # Fantasy rosters stay fixed at their original drafted handles.
+                "players": [{"handle": p["handle"],
+                    "points": (source or {}).get(p["handle"].casefold(), {}).get("points", 0),
+                    "games": (source or {}).get(p["handle"].casefold(), {}).get("results", [])}
+                    for p in team["roster"]] if source else [],
                 "state": "upcoming" if not source else "final" if sums["games"] == sums["paired"] else "so_far"})
+        for round_score in team["round_scores"]:
+            if sum(p["points"] for p in round_score["players"]) != (round_score["points"] or 0):
+                raise ValueError("Round player points differ from round total")
+            if sum(g["actual_result"] is not None for p in round_score["players"] for g in p["games"]) != round_score["finished"]:
+                raise ValueError("Round player games differ from round total")
         if sum(r["points"] or 0 for r in team["round_scores"]) != team["points"]:
             raise ValueError("Round point sums differ from season total")
         if sum(r["finished"] for r in team["round_scores"]) != team["games"]:
