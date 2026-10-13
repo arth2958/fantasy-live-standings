@@ -41,7 +41,7 @@ window.roundHistory = function(scores, current) {
   note.textContent = 'Actual points only. Tap a round to see player results.';
   const panel = document.createElement('div'); panel.className = 'round-result-panel'; panel.hidden = true;
   const reset = document.createElement('button'); reset.className = 'round-reset';
-  reset.textContent = 'Back to current roster'; reset.hidden = true;
+  reset.textContent = 'Back to current round'; reset.hidden = true;
   const number = n => String(Number(n));
   const buttons = [];
   const gameURL = u => /^https:\/\/lichess\.org\/[A-Za-z0-9]{8,12}(\/(white|black))?$/.test(String(u || ''));
