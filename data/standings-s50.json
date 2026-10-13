@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-13T15:02:23.282153Z",
+  "updated_at": "2026-10-13T15:22:25.429534Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 654,
+  "pairings_parsed": 655,
   "popular": [
     {
       "board": 1,
@@ -25413,11 +25413,11 @@
       "name": "Call it nationalism",
       "total": 15401,
       "points": 11.0,
-      "games": 24,
-      "round_games": 0,
+      "games": 25,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.4583333333333333,
+      "games_left": 7,
+      "ppg": 0.44,
       "roster": [
         {
           "handle": "Petro2",
@@ -25442,7 +25442,7 @@
         {
           "handle": "zal667",
           "points": 0.0,
-          "games": 3
+          "games": 4
         },
         {
           "handle": "KamagayaJiji",
@@ -25804,7 +25804,7 @@
         {
           "round": 4,
           "points": 0.0,
-          "finished": 0,
+          "finished": 1,
           "paired": 8,
           "players": [
             {
@@ -25865,9 +25865,9 @@
               "games": [
                 {
                   "opponent": "Angrybird029",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/Imdl95Xs",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -34823,6 +34823,515 @@
       ]
     },
     {
+      "owner": "arbitrary",
+      "name": "Random Team",
+      "bot": true,
+      "total": 13863,
+      "points": 8.0,
+      "games": 21,
+      "round_games": 1,
+      "round_scheduled": 8,
+      "games_left": 7,
+      "ppg": 0.38095238095238093,
+      "roster": [
+        {
+          "handle": "Kjar",
+          "points": 1.0,
+          "games": 3
+        },
+        {
+          "handle": "Narrenkind",
+          "points": 1.0,
+          "games": 2
+        },
+        {
+          "handle": "AlexGaul",
+          "points": 2.0,
+          "games": 3
+        },
+        {
+          "handle": "BLang316",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "Angrybird029",
+          "points": 2.0,
+          "games": 4
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 2
+        },
+        {
+          "handle": "burner_account17",
+          "points": 1.0,
+          "games": 1
+        },
+        {
+          "handle": "mmkgtc",
+          "points": 1.0,
+          "games": 3
+        }
+      ],
+      "rank": 67,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 3.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "Kjar",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Qudit",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/zbCCLmpi",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Narrenkind",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Le_Merovingien",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/0rzhonak",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "AlexGaul",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ananimalstolemypants",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/gLDY1Ls4",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BLang316",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "flipiflapi",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/GZew5QdB",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Angrybird029",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "gmat20020",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Vtozrpze",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "parziwal08",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/O5Q7tNzo",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "burner_account17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "jamgrass741",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/oL6wyrke",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mmkgtc",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "keeto",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/Y7RLfv0m",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 2.0,
+          "finished": 5,
+          "paired": 5,
+          "players": [
+            {
+              "handle": "Kjar",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "TheCrackedTherom",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/L6s5hwzl",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Narrenkind",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AlexGaul",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "cowtone",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/ZcXa7z4f",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BLang316",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ButterPecan",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/tJgDIdVy",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Angrybird029",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "rcstinson",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/4k0UN1y4",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "burner_account17",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "mmkgtc",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "KendragonX",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/dGhpwz7h",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 2.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "Kjar",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ChemEngineeer",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/i6z8aBeE",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Narrenkind",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "GroneN",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/FkhQu6lt",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "AlexGaul",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Ciraid",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/KjJFkSKA",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BLang316",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Fexxox",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/HuYU0e2Q",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Angrybird029",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "asimovfoundation",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/AshY9mi9",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "kygreek",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/SdOgzXjj",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "burner_account17",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "mmkgtc",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "hpors",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/eXdF07Iw",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 1.0,
+          "finished": 1,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "Kjar",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Unknownprodigy",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Narrenkind",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "irongalaxy",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "AlexGaul",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Imen001",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BLang316",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Hesperian",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Angrybird029",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "zal667",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Imdl95Xs",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RBorja1980",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "burner_account17",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ekramymedad",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mmkgtc",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "AthenianKnight",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
       "owner": "fork2020",
       "name": "Finally a Website League.",
       "total": 15784,
@@ -34874,7 +35383,7 @@
           "games": 3
         }
       ],
-      "rank": 67,
+      "rank": 68,
       "round_scores": [
         {
           "round": 1,
@@ -35406,7 +35915,7 @@
           "games": 2
         }
       ],
-      "rank": 68,
+      "rank": 69,
       "round_scores": [
         {
           "round": 1,
@@ -35826,515 +36335,6 @@
               "games": [
                 {
                   "opponent": "chraki",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "arbitrary",
-      "name": "Random Team",
-      "bot": true,
-      "total": 13863,
-      "points": 7.0,
-      "games": 20,
-      "round_games": 0,
-      "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.35,
-      "roster": [
-        {
-          "handle": "Kjar",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "Narrenkind",
-          "points": 1.0,
-          "games": 2
-        },
-        {
-          "handle": "AlexGaul",
-          "points": 2.0,
-          "games": 3
-        },
-        {
-          "handle": "BLang316",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "Angrybird029",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 2
-        },
-        {
-          "handle": "burner_account17",
-          "points": 1.0,
-          "games": 1
-        },
-        {
-          "handle": "mmkgtc",
-          "points": 1.0,
-          "games": 3
-        }
-      ],
-      "rank": 69,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 3.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "Kjar",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Qudit",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/zbCCLmpi",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Narrenkind",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Le_Merovingien",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/0rzhonak",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "AlexGaul",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ananimalstolemypants",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/gLDY1Ls4",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BLang316",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "flipiflapi",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/GZew5QdB",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Angrybird029",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "gmat20020",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/Vtozrpze",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "parziwal08",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/O5Q7tNzo",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "burner_account17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "jamgrass741",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/oL6wyrke",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mmkgtc",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "keeto",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/Y7RLfv0m",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 2.0,
-          "finished": 5,
-          "paired": 5,
-          "players": [
-            {
-              "handle": "Kjar",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "TheCrackedTherom",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/L6s5hwzl",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Narrenkind",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AlexGaul",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "cowtone",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/ZcXa7z4f",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BLang316",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ButterPecan",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/tJgDIdVy",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Angrybird029",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "rcstinson",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/4k0UN1y4",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "burner_account17",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "mmkgtc",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "KendragonX",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/dGhpwz7h",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 2.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "Kjar",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ChemEngineeer",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/i6z8aBeE",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Narrenkind",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "GroneN",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/FkhQu6lt",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "AlexGaul",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Ciraid",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/KjJFkSKA",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BLang316",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Fexxox",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/HuYU0e2Q",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Angrybird029",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "asimovfoundation",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/AshY9mi9",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "kygreek",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/SdOgzXjj",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "burner_account17",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "mmkgtc",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "hpors",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/eXdF07Iw",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 0.0,
-          "finished": 0,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "Kjar",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Unknownprodigy",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Narrenkind",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "irongalaxy",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "AlexGaul",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Imen001",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BLang316",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Hesperian",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Angrybird029",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "zal667",
-                  "actual_result": null,
-                  "game_url": "https://lichess.org/Imdl95Xs",
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RBorja1980",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "burner_account17",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ekramymedad",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mmkgtc",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "AthenianKnight",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -37382,7 +37382,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 6,
+    "played": 7,
     "total": 216
   }
 }
