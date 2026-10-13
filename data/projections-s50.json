@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 4,
-  "round_in_progress": 1,
-  "updated_at": "2026-10-13T01:41:47.090961Z",
+  "round_in_progress": 0,
+  "updated_at": "2026-10-13T02:04:04.453559Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -6036,6 +6036,140 @@
       "projected_rank": 45
     },
     {
+      "owner": "Asturc0n",
+      "name": "Rushing picker",
+      "actual_points": 12.0,
+      "actual_round": 1.0,
+      "projected_points": 14.257798106963996,
+      "projected_round": 3.2577981069639965,
+      "left": 6,
+      "in_progress": 0,
+      "paired": 7,
+      "roster": [
+        {
+          "handle": "Silkthewanderer",
+          "status": "pending",
+          "rating": 2216,
+          "decided_without_play": false,
+          "expected_points": 0.3746486066924632,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:betolini:silkthewanderer",
+          "season_points": 0.0,
+          "season_games": 3
+        },
+        {
+          "handle": "Inter-temporal",
+          "status": "pending",
+          "rating": 2023,
+          "decided_without_play": false,
+          "expected_points": 0.2520004588039456,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:gonenowhere:inter-temporal",
+          "season_points": 0.5,
+          "season_games": 3
+        },
+        {
+          "handle": "AlexGaul",
+          "status": "pending",
+          "rating": 2027,
+          "decided_without_play": false,
+          "expected_points": 0.4784266669488545,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:alexgaul:imen001",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "NirakuHakamura",
+          "status": "unpaired",
+          "rating": null,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": null,
+          "season_points": 1.0,
+          "season_games": 3
+        },
+        {
+          "handle": "glbert",
+          "status": "pending",
+          "rating": 1835,
+          "decided_without_play": false,
+          "expected_points": 0.3937121762145719,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:glbert:marekw78",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "mkubecek",
+          "status": "pending",
+          "rating": 1810,
+          "decided_without_play": false,
+          "expected_points": 0.3950870979920431,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:mkubecek:ztraynor",
+          "season_points": 2.0,
+          "season_games": 2
+        },
+        {
+          "handle": "Bortvinik",
+          "status": "won",
+          "rating": 1679,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/cx3SYI6D",
+          "game_link_kind": "recent",
+          "round_game": "4:bortvinik:city21",
+          "season_points": 2.0,
+          "season_games": 3
+        },
+        {
+          "handle": "electricfalcon",
+          "status": "pending",
+          "rating": 1534,
+          "decided_without_play": false,
+          "expected_points": 0.36392310031211805,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "4:electricfalcon:spacebaristaken",
+          "season_points": 2.5,
+          "season_games": 3
+        }
+      ],
+      "projected_rank": 46
+    },
+    {
       "owner": "kayrosas",
       "name": "just whimsical vibes",
       "actual_points": 11.0,
@@ -6167,7 +6301,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 46
+      "projected_rank": 47
     },
     {
       "owner": "tomb85",
@@ -6301,7 +6435,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 47
+      "projected_rank": 48
     },
     {
       "owner": "Bpack",
@@ -6435,7 +6569,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 48
+      "projected_rank": 49
     },
     {
       "owner": "AACtrl",
@@ -6569,7 +6703,7 @@
           "season_games": 3
         }
       ],
-      "projected_rank": 49
+      "projected_rank": 50
     },
     {
       "owner": "time_lord19",
@@ -6700,140 +6834,6 @@
           "game_link_kind": null,
           "round_game": "4:jimq0:nightsub",
           "season_points": 0.5,
-          "season_games": 3
-        }
-      ],
-      "projected_rank": 50
-    },
-    {
-      "owner": "Asturc0n",
-      "name": "Rushing picker",
-      "actual_points": 11.0,
-      "actual_round": 0.0,
-      "projected_points": 13.782243568084658,
-      "projected_round": 2.782243568084658,
-      "left": 7,
-      "in_progress": 1,
-      "paired": 7,
-      "roster": [
-        {
-          "handle": "Silkthewanderer",
-          "status": "pending",
-          "rating": 2216,
-          "decided_without_play": false,
-          "expected_points": 0.3746486066924632,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:betolini:silkthewanderer",
-          "season_points": 0.0,
-          "season_games": 3
-        },
-        {
-          "handle": "Inter-temporal",
-          "status": "pending",
-          "rating": 2023,
-          "decided_without_play": false,
-          "expected_points": 0.2520004588039456,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:gonenowhere:inter-temporal",
-          "season_points": 0.5,
-          "season_games": 3
-        },
-        {
-          "handle": "AlexGaul",
-          "status": "pending",
-          "rating": 2027,
-          "decided_without_play": false,
-          "expected_points": 0.4784266669488545,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:alexgaul:imen001",
-          "season_points": 2.0,
-          "season_games": 3
-        },
-        {
-          "handle": "NirakuHakamura",
-          "status": "unpaired",
-          "rating": null,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": null,
-          "season_points": 1.0,
-          "season_games": 3
-        },
-        {
-          "handle": "glbert",
-          "status": "pending",
-          "rating": 1835,
-          "decided_without_play": false,
-          "expected_points": 0.3937121762145719,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:glbert:marekw78",
-          "season_points": 2.0,
-          "season_games": 3
-        },
-        {
-          "handle": "mkubecek",
-          "status": "pending",
-          "rating": 1810,
-          "decided_without_play": false,
-          "expected_points": 0.3950870979920431,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:mkubecek:ztraynor",
-          "season_points": 2.0,
-          "season_games": 2
-        },
-        {
-          "handle": "Bortvinik",
-          "status": "pending",
-          "rating": 1670,
-          "decided_without_play": false,
-          "expected_points": 0.5244454611206614,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": "https://lichess.org/cx3SYI6D",
-          "game_link_kind": "live",
-          "round_game": "4:bortvinik:city21",
-          "season_points": 1.0,
-          "season_games": 2
-        },
-        {
-          "handle": "electricfalcon",
-          "status": "pending",
-          "rating": 1534,
-          "decided_without_play": false,
-          "expected_points": 0.36392310031211805,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "4:electricfalcon:spacebaristaken",
-          "season_points": 2.5,
           "season_games": 3
         }
       ],
@@ -8876,6 +8876,14 @@
       "eligible": false
     },
     {
+      "name": "Silk Road Sacrifices",
+      "projected": 4.4484957309487285,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
       "projected": 4.420590587935331,
       "actual": 0.0,
@@ -9044,14 +9052,6 @@
       "eligible": false
     },
     {
-      "name": "50th Parallel Pawns",
-      "projected": 4.02705880793061,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
       "name": "Pawn with the Sickness",
       "projected": 4.022604047429598,
       "actual": 0.0,
@@ -9078,14 +9078,6 @@
     {
       "name": "The Tarrasch Talkers",
       "projected": 3.9773959525704017,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 8,
-      "eligible": false
-    },
-    {
-      "name": "Silk Road Sacrifices",
-      "projected": 3.9729411920693902,
       "actual": 0.0,
       "paired": 8,
       "left": 8,
@@ -9257,6 +9249,14 @@
       "actual": 0.0,
       "paired": 8,
       "left": 8,
+      "eligible": false
+    },
+    {
+      "name": "50th Parallel Pawns",
+      "projected": 3.551504269051271,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
       "eligible": false
     },
     {
