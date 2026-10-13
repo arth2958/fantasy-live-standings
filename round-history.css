@@ -1,0 +1,47 @@
+/* Shared actual-round strip and drill-down. Keep this stylesheet on both pages
+   next season; no color, score, or roster logic needs a season-specific edit. */
+.round-history{grid-column:1/-1;min-width:0;width:100%}
+.round-history h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px;color:var(--muted)}
+.round-history .round-score-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.round-history .round-score{display:flex;flex-direction:column;align-items:center;justify-content:center;border:1px solid #cbcfcf;border-radius:7px;padding:8px 3px;min-height:64px;background:#fff;color:var(--ink);font:inherit;cursor:pointer}
+.round-history .round-score label{font-size:11px;font-weight:700;cursor:inherit}
+.round-history .round-score b{font-size:18px;line-height:1.3;white-space:normal;color:var(--teal)}
+.round-history .round-score b::before{display:none}
+.round-history .round-score small{font-size:9px;color:var(--muted)}
+.round-history .round-score.current{border-color:var(--teal);background:#eaf4f1}
+.round-history .round-score.selected{outline:2px solid var(--teal);outline-offset:1px;background:#dcefe8}
+.round-history .round-score:disabled{color:#777;cursor:default;background:#f4f4f4}
+.round-history .round-score:disabled b{color:#777}
+.round-history .round-score:focus-visible,.round-reset:focus-visible{outline:3px solid #268cbb;outline-offset:2px}
+.round-history .round-score-note{font-size:11px;line-height:1.4;color:var(--muted);margin:8px 0}
+.round-reset{border:1px solid #8ba59f;border-radius:6px;padding:7px 10px;background:#fff;color:var(--teal);font-size:11px;margin:0 0 10px;cursor:pointer}
+.round-result-panel h4{font-size:12px;line-height:1.5;margin:4px 0 9px;color:var(--ink)}
+.round-result-players{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.history-player{border:1px solid #bcc6c2;border-radius:7px;padding:8px;min-width:0;background:white;color:var(--ink)}
+.history-player b{display:block;font-size:12px;overflow-wrap:anywhere;line-height:1.4}
+.history-player small{display:block;font-size:10px;line-height:1.5;margin-top:3px;color:#555}
+.history-player .history-game a{color:inherit;text-underline-offset:2px;overflow-wrap:anywhere}
+.history-player.won{background:rgb(var(--result-win) / 50%);border-color:rgb(var(--result-win))}
+.history-player.draw{background:rgb(var(--result-draw) / 60%);border-color:rgb(var(--result-draw))}
+.history-player.lost{background:rgb(var(--result-loss) / 40%);border-color:rgb(var(--result-loss))}
+.history-player.pending{background:rgb(var(--result-pending) / 45%);border-color:rgb(var(--result-pending))}
+.history-player.unpaired{background:#fff;border-color:#bcc6c2}
+.history-player small{color:#333;font-weight:400}
+.roster.view-history > .player,.projection-roster.view-history > span{display:none}
+@media(min-width:700px){.round-history .round-score-grid{grid-template-columns:repeat(8,minmax(0,1fr))}.round-result-players{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* Explicit hidden rule prevents generic grid/display styles from revealing it. */
+.round-result-panel[hidden],.round-reset[hidden]{display:none}
+
+/* Match the current roster: linked colored name/dot, quiet status and score,
+   then a darker bold Elo line. Percentages use the same label on both views. */
+.history-player{padding:8px 9px;font-size:12px}
+.history-player b{font-size:12px;font-weight:800;line-height:1.4;color:var(--ink)}
+.history-player b::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:#beb9bc}
+.history-player.won b::before{background:rgb(var(--result-win))}
+.history-player.draw b::before{background:rgb(var(--result-draw))}
+.history-player.lost b::before{background:rgb(var(--result-loss))}
+.history-player.pending b::before{background:rgb(var(--result-pending))}
+.history-player b a{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:2px;border:0}
+.history-player .history-game,.history-player .history-detail{font-size:9px;color:var(--muted);font-weight:700;line-height:1.35;margin-top:2px}
+.history-player .history-game a{text-decoration:none}
+.history-player .history-elo{font-size:9px;color:var(--ink);font-weight:700;line-height:1.35;margin-top:4px}
