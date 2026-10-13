@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""DEV only. Per-player league detail for the projections page. Writes data/league-s50.json."""
+"""Per-player league detail for the projections page. Writes data/league-s50.json."""
 import json
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -74,7 +74,7 @@ def main():
             if isinstance(rating,(int,float)) and 0<rating<4000:
                 rated_handles.add(handle)
             ratings[handle]=rating if rating is not None else 1500
-    game_ids={str(g.get('game_id') or '').strip() for g in games if g.get('game_id')}
+    game_ids={str(g.get('game_id') or '').strip() for g in raw if g.get('game_id')}  # Preserve/backfill every published round's game-start ratings.
     pregames=pregame_ratings(game_ids)
     teams=defaultdict(lambda:{'players':[]})
     for g in games:
@@ -91,6 +91,33 @@ def main():
         for me,opp,team,oteam,color,i in ((w,b,wt,bt,'white',0),(b,w,bt,wt,'black',1)):
             a=None if d is None else d[i]
             teams[team]['players'].append({'handle':me,'color':color,'opponent':opp,'opponent_team':oteam,'rating':ratings.get(me.casefold()),'expected_points':exp[i],'pregame_expectation':(before if i==0 else 1-before) if before is not None else None,'live_elo_estimate':(live_estimate if i==0 else 1-live_estimate) if live_estimate is not None else None,'pregame_ratings':start,'actual_result':a,'status':'pending' if a is None else 'won' if a==1 else 'draw' if a==0.5 else 'lost','game_url':f'https://lichess.org/{gid}' if gid else None})
+    # ROUND DRILL-DOWN: use the actual team from each game's round, not today's
+    # roster. Replacements and board moves therefore stay in the correct round.
+    # SEASON above is the only season number used by this history builder.
+    history = defaultdict(dict)
+    for rnd in sorted({int(g.get('round') or 0) for g in raw}):
+        _, historical_boards = pairing_details(rnd)
+        round_teams = defaultdict(list)
+        for g in raw:
+            if int(g.get('round') or 0) != rnd: continue
+            result = score(g.get('result')); gid = str(g.get('game_id') or '').strip()
+            # Historical Elo uses only the game's fixed PGN ratings, never live ratings.
+            no_play = bool(result and any(c in str(g.get('result') or '').upper() for c in 'XFZ'))
+            start = pregames.get(gid) if gid and not no_play else None
+            before = expectancy(start['white'] + 25, start['black']) if start else None
+            for i, (side, other) in enumerate((('white', 'black'), ('black', 'white'))):
+                handle = str(g.get(side) or '').strip(); name = str(g.get(side + '_team') or '').strip()
+                if not handle or not name: continue
+                actual = result[i] if result else None
+                round_teams[name].append({'handle': handle, 'board': historical_boards.get(handle.casefold(), 99),
+                    'opponent': str(g.get(other) or '').strip(), 'actual_result': actual,
+                    'status': ('won' if actual == 1 else 'draw' if actual == .5 else 'lost') if actual is not None else 'pending',
+                    'game_url': f'https://lichess.org/{gid}' if re.fullmatch(r'[A-Za-z0-9]{8,12}', gid) else None,
+                    'no_play': no_play,
+                    'pregame_expectation': (before if i == 0 else 1 - before) if before is not None else None})
+        for name, records in round_teams.items():
+            records.sort(key=lambda p: (p['board'], p['handle'].casefold()))
+            history[name][rnd] = records
     ids,boards=pairing_details(current)
     out={}
     for n in sorted(set(teams)|set(prior)):
@@ -99,6 +126,21 @@ def main():
         ps.sort(key=lambda p:(boards.get(p['handle'].casefold(),99),p['handle'].casefold()))
         out[n]={'prior_actual':prior[n],'round_projected':sum(p['expected_points'] for p in ps),'players':ps}
         if n in ids: out[n]['team_id']=ids[n]
+        out[n]['round_scores'] = []
+        for rnd in range(1, 9):  # <== UPDATE if next season has a different round count.
+            records = history[n].get(rnd, [])
+            players_by_handle = {}
+            for record in records:
+                player = players_by_handle.setdefault(record['handle'].casefold(), {'handle': record['handle'], 'points': 0, 'games': []})
+                player['points'] += record['actual_result'] or 0
+                player['games'].append({k: v for k, v in record.items() if k not in ('handle', 'board')})
+            finished = sum(p['actual_result'] is not None for p in records)
+            out[n]['round_scores'].append({'round': rnd, 'points': sum(p['actual_result'] or 0 for p in records) if records else None,
+                'finished': finished, 'paired': len(records),
+                'state': 'upcoming' if rnd > current else 'unavailable' if not records else 'final' if finished == len(records) else 'so_far',
+                'players': list(players_by_handle.values())})
+        if abs(sum(r['points'] or 0 for r in out[n]['round_scores'] if r['round'] < current) - prior[n]) > 1e-9:
+            raise ValueError(f'League history differs from prior total: {n}')
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps({'season':SEASON,'round':current,'updated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),'teams':out,'pregame_games':pregames},separators=(',',':'),ensure_ascii=False)+'\n')
     print(f'League detail for {len(out)} teams, round {current}')
