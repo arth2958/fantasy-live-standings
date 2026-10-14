@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-14T21:09:55.963403Z",
+  "updated_at": "2026-10-14T21:41:24.830620Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 685,
+  "pairings_parsed": 686,
   "popular": [
     {
       "board": 1,
@@ -1651,11 +1651,11 @@
       "name": "Subscribe to PowerPlayChess",
       "total": 15891,
       "points": 16.5,
-      "games": 25,
-      "round_games": 2,
+      "games": 26,
+      "round_games": 3,
       "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.66,
+      "games_left": 5,
+      "ppg": 0.6346153846153846,
       "roster": [
         {
           "handle": "TBest",
@@ -1680,7 +1680,7 @@
         {
           "handle": "Tranzoo",
           "points": 1.5,
-          "games": 3
+          "games": 4
         },
         {
           "handle": "prostidude",
@@ -2034,7 +2034,7 @@
         {
           "round": 4,
           "points": 0.0,
-          "finished": 2,
+          "finished": 3,
           "paired": 8,
           "players": [
             {
@@ -2095,9 +2095,9 @@
               "games": [
                 {
                   "opponent": "caodanny",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/QtPJgZXz",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -25909,11 +25909,11 @@
       "name": "in da fantasy club",
       "total": 15401,
       "points": 11.5,
-      "games": 25,
-      "round_games": 2,
+      "games": 26,
+      "round_games": 3,
       "round_scheduled": 8,
-      "games_left": 6,
-      "ppg": 0.46,
+      "games_left": 5,
+      "ppg": 0.4423076923076923,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -25938,7 +25938,7 @@
         {
           "handle": "Tranzoo",
           "points": 1.5,
-          "games": 3
+          "games": 4
         },
         {
           "handle": "mkubecek",
@@ -26292,7 +26292,7 @@
         {
           "round": 4,
           "points": 0.0,
-          "finished": 2,
+          "finished": 3,
           "paired": 8,
           "players": [
             {
@@ -26353,9 +26353,9 @@
               "games": [
                 {
                   "opponent": "caodanny",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/QtPJgZXz",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -37364,7 +37364,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 37,
+    "played": 38,
     "total": 216
   }
 }
