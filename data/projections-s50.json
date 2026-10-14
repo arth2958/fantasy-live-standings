@@ -2,7 +2,7 @@
   "season": 50,
   "round": 4,
   "round_in_progress": 4,
-  "updated_at": "2026-10-14T22:06:49.486781Z",
+  "updated_at": "2026-10-14T22:38:38.333432Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -4565,9 +4565,9 @@
       "owner": "adande1",
       "name": "Picked by the AI That Built This Site. Watch Out",
       "actual_points": 11.5,
-      "actual_round": 0.0,
+      "actual_round": 1.0,
       "projected_points": 14.889817518786304,
-      "projected_round": 3.389817518786303,
+      "projected_round": 4.3898175187863036,
       "left": 7,
       "in_progress": 0,
       "paired": 8,
@@ -4604,12 +4604,12 @@
         },
         {
           "handle": "qrs",
-          "status": "lost",
-          "rating": 2048,
+          "status": "won",
+          "rating": 2064,
           "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
           "round_games": 1,
           "game_url": "https://lichess.org/sLm8CtLG",
           "game_link_kind": "recent",
@@ -8924,6 +8924,14 @@
       "eligible": false
     },
     {
+      "name": "fifty shades of black and white",
+      "projected": 4.616587133682677,
+      "actual": 1.0,
+      "paired": 8,
+      "left": 7,
+      "eligible": false
+    },
+    {
       "name": "Rooky Horror Pawn Show fan club",
       "projected": 4.593246862882165,
       "actual": 1.5,
@@ -8958,14 +8966,6 @@
     {
       "name": "The Last Shall be the First",
       "projected": 4.3975143291306535,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 7,
-      "eligible": false
-    },
-    {
-      "name": "Inexplicable Fianchetto Agenda",
-      "projected": 4.3834128663173235,
       "actual": 1.0,
       "paired": 8,
       "left": 7,
@@ -9164,14 +9164,6 @@
       "eligible": false
     },
     {
-      "name": "fifty shades of black and white",
-      "projected": 3.6165871336826774,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 7,
-      "eligible": false
-    },
-    {
       "name": "50 first mates",
       "projected": 3.6024856708693465,
       "actual": 0.0,
@@ -9209,6 +9201,14 @@
       "actual": 0.5,
       "paired": 8,
       "left": 6,
+      "eligible": false
+    },
+    {
+      "name": "Inexplicable Fianchetto Agenda",
+      "projected": 3.383412866317323,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 7,
       "eligible": false
     },
     {
