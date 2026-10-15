@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-15T19:40:04.918466Z",
+  "updated_at": "2026-10-15T20:07:51.281479Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 706,
+  "pairings_parsed": 707,
   "popular": [
     {
       "board": 1,
@@ -533,7 +533,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "playforfun18",
+                  "opponent": "baberle",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -8503,7 +8503,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "playforfun18",
+                  "opponent": "baberle",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -8568,8 +8568,8 @@
       "points": 14.0,
       "games": 25,
       "round_games": 2,
-      "round_scheduled": 7,
-      "games_left": 5,
+      "round_scheduled": 8,
+      "games_left": 6,
       "ppg": 0.56,
       "roster": [
         {
@@ -8950,7 +8950,7 @@
           "round": 4,
           "points": 1.0,
           "finished": 2,
-          "paired": 7,
+          "paired": 8,
           "players": [
             {
               "handle": "alp_arslan92",
@@ -9032,8 +9032,16 @@
             },
             {
               "handle": "baberle",
-              "points": 0,
-              "games": []
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lexgrad",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
             },
             {
               "handle": "mongreltiger",
@@ -13893,8 +13901,8 @@
       "points": 13.5,
       "games": 27,
       "round_games": 4,
-      "round_scheduled": 7,
-      "games_left": 3,
+      "round_scheduled": 8,
+      "games_left": 4,
       "ppg": 0.5,
       "roster": [
         {
@@ -14275,7 +14283,7 @@
           "round": 4,
           "points": 3.0,
           "finished": 4,
-          "paired": 7,
+          "paired": 8,
           "players": [
             {
               "handle": "rio2018",
@@ -14357,8 +14365,16 @@
             },
             {
               "handle": "baberle",
-              "points": 0,
-              "games": []
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lexgrad",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
             },
             {
               "handle": "mongreltiger",
@@ -16988,7 +17004,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "playforfun18",
+                  "opponent": "baberle",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -27911,7 +27927,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "playforfun18",
+                  "opponent": "baberle",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -28427,7 +28443,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "playforfun18",
+                  "opponent": "baberle",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -28492,8 +28508,8 @@
       "points": 11.0,
       "games": 24,
       "round_games": 2,
-      "round_scheduled": 7,
-      "games_left": 5,
+      "round_scheduled": 8,
+      "games_left": 6,
       "ppg": 0.4583333333333333,
       "roster": [
         {
@@ -28866,7 +28882,7 @@
           "round": 4,
           "points": 0.0,
           "finished": 2,
-          "paired": 7,
+          "paired": 8,
           "players": [
             {
               "handle": "guitarspider",
@@ -28948,8 +28964,16 @@
             },
             {
               "handle": "baberle",
-              "points": 0,
-              "games": []
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lexgrad",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
             },
             {
               "handle": "R0B-W",
@@ -35243,7 +35267,7 @@
                 {
                   "opponent": "SixTiN06",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/DlfbClQB",
                   "status": "pending",
                   "no_play": false
                 }
@@ -37340,7 +37364,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 58,
+    "played": 59,
     "total": 216
   }
 }
