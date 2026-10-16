@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-16T14:44:25.542271Z",
+  "updated_at": "2026-10-16T15:11:35.714574Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 722,
+  "pairings_parsed": 723,
   "popular": [
     {
       "board": 1,
@@ -6289,7 +6289,7 @@
                 {
                   "opponent": "darkfl0me",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/2tHU3yBn",
                   "status": "pending",
                   "no_play": false
                 }
@@ -36881,12 +36881,12 @@
       "owner": "mongreltiger",
       "name": "Stinkfish 50",
       "total": 16000,
-      "points": 5.5,
-      "games": 19,
-      "round_games": 1,
+      "points": 6.5,
+      "games": 20,
+      "round_games": 2,
       "round_scheduled": 7,
-      "games_left": 6,
-      "ppg": 0.2894736842105263,
+      "games_left": 5,
+      "ppg": 0.325,
       "roster": [
         {
           "handle": "alp_arslan92",
@@ -36910,8 +36910,8 @@
         },
         {
           "handle": "JohnJPershing",
-          "points": 0.0,
-          "games": 3
+          "points": 1.0,
+          "games": 4
         },
         {
           "handle": "kostasvl",
@@ -37224,8 +37224,8 @@
         },
         {
           "round": 4,
-          "points": 0.0,
-          "finished": 1,
+          "points": 1.0,
+          "finished": 2,
           "paired": 7,
           "players": [
             {
@@ -37274,13 +37274,13 @@
             },
             {
               "handle": "JohnJPershing",
-              "points": 0.0,
+              "points": 1.0,
               "games": [
                 {
                   "opponent": "tranfunzel",
-                  "actual_result": null,
+                  "actual_result": 1.0,
                   "game_url": "https://lichess.org/2nD1aFIX",
-                  "status": "pending",
+                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -37364,7 +37364,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 74,
+    "played": 75,
     "total": 216
   }
 }
