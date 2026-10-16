@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 4,
-  "round_in_progress": 5,
-  "updated_at": "2026-10-16T19:49:25.722980Z",
+  "round_in_progress": 8,
+  "updated_at": "2026-10-16T20:10:06.241342Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -546,18 +546,18 @@
       "name": "This is a really nice looking website, I like this",
       "actual_points": 16.0,
       "actual_round": 1.0,
-      "projected_points": 19.100907646040202,
-      "projected_round": 4.100907646040201,
+      "projected_points": 19.095412857204533,
+      "projected_round": 4.095412857204532,
       "left": 6,
-      "in_progress": 1,
+      "in_progress": 2,
       "paired": 8,
       "roster": [
         {
           "handle": "jdannan",
           "status": "pending",
-          "rating": 2092,
+          "rating": 2087,
           "decided_without_play": false,
-          "expected_points": 0.25967158048516964,
+          "expected_points": 0.2541767916495005,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -666,8 +666,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cYDavFyN",
+          "game_link_kind": "live",
           "round_game": "4:computability:perspikace",
           "season_points": 2.0,
           "season_games": 3
@@ -2020,8 +2020,8 @@
       "name": "Candidudes",
       "actual_points": 13.5,
       "actual_round": 0.0,
-      "projected_points": 17.148620015206912,
-      "projected_round": 3.648620015206912,
+      "projected_points": 17.137258834414276,
+      "projected_round": 3.6372588344142764,
       "left": 8,
       "in_progress": 1,
       "paired": 9,
@@ -2104,9 +2104,9 @@
         {
           "handle": "UpGoerFive",
           "status": "pending",
-          "rating": 1813,
+          "rating": 1805,
           "decided_without_play": false,
-          "expected_points": 0.5629847281035958,
+          "expected_points": 0.5516235473109605,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -3494,8 +3494,8 @@
       "name": "Monocarp’s team",
       "actual_points": 12.0,
       "actual_round": 0.0,
-      "projected_points": 15.872809007110025,
-      "projected_round": 3.8728090071100256,
+      "projected_points": 15.86144782631739,
+      "projected_round": 3.86144782631739,
       "left": 8,
       "in_progress": 1,
       "paired": 9,
@@ -3578,9 +3578,9 @@
         {
           "handle": "UpGoerFive",
           "status": "pending",
-          "rating": 1813,
+          "rating": 1805,
           "decided_without_play": false,
-          "expected_points": 0.5629847281035958,
+          "expected_points": 0.5516235473109605,
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
@@ -6043,7 +6043,7 @@
       "projected_points": 14.003689029487004,
       "projected_round": 3.003689029487005,
       "left": 4,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 6,
       "roster": [
         {
@@ -6160,8 +6160,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cYDavFyN",
+          "game_link_kind": "live",
           "round_game": "4:computability:perspikace",
           "season_points": 2.0,
           "season_games": 3
@@ -8868,19 +8868,19 @@
       "eligible": false
     },
     {
-      "name": "100 Suggestions You Must Know",
-      "projected": 5.18462534684162,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 6,
-      "eligible": false
-    },
-    {
       "name": "oh those 64 squares can encompass such immensity",
       "projected": 5.177108095961436,
       "actual": 3.0,
       "paired": 8,
       "left": 5,
+      "eligible": false
+    },
+    {
+      "name": "100 Suggestions You Must Know",
+      "projected": 5.173264166048985,
+      "actual": 2.0,
+      "paired": 8,
+      "left": 6,
       "eligible": false
     },
     {
@@ -8949,7 +8949,7 @@
     },
     {
       "name": "Rooky Horror Pawn Show fan club",
-      "projected": 4.573733028429617,
+      "projected": 4.579227817265286,
       "actual": 2.5,
       "paired": 8,
       "left": 4,
@@ -9181,7 +9181,7 @@
     },
     {
       "name": "Not all who blunder are lost",
-      "projected": 3.4262669715703833,
+      "projected": 3.420772182734714,
       "actual": 1.5,
       "paired": 8,
       "left": 4,
@@ -9252,19 +9252,19 @@
       "eligible": false
     },
     {
+      "name": "Season 50 midlife crisis",
+      "projected": 2.8267358339510147,
+      "actual": 0.0,
+      "paired": 8,
+      "left": 6,
+      "eligible": false
+    },
+    {
       "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
       "projected": 2.8228919040385643,
       "actual": 0.0,
       "paired": 8,
       "left": 5,
-      "eligible": false
-    },
-    {
-      "name": "Season 50 midlife crisis",
-      "projected": 2.8153746531583796,
-      "actual": 0.0,
-      "paired": 8,
-      "left": 6,
       "eligible": false
     },
     {
