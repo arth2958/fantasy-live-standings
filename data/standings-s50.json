@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-16T14:09:55.390934Z",
+  "updated_at": "2026-10-16T14:44:25.542271Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 721,
+  "pairings_parsed": 722,
   "popular": [
     {
       "board": 1,
@@ -26449,11 +26449,11 @@
       "name": "i just picked the first names i saw",
       "total": 15971,
       "points": 11.5,
-      "games": 20,
-      "round_games": 1,
+      "games": 21,
+      "round_games": 2,
       "round_scheduled": 7,
-      "games_left": 6,
-      "ppg": 0.575,
+      "games_left": 5,
+      "ppg": 0.5476190476190477,
       "roster": [
         {
           "handle": "rio2018",
@@ -26483,7 +26483,7 @@
         {
           "handle": "PratikBora",
           "points": 2.0,
-          "games": 3
+          "games": 4
         },
         {
           "handle": "mqll",
@@ -26800,7 +26800,7 @@
         {
           "round": 4,
           "points": 0.0,
-          "finished": 1,
+          "finished": 2,
           "paired": 7,
           "players": [
             {
@@ -26866,9 +26866,9 @@
               "games": [
                 {
                   "opponent": "PawnziScheme5280",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/FQ4VqS8v",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -37364,7 +37364,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 73,
+    "played": 74,
     "total": 216
   }
 }
