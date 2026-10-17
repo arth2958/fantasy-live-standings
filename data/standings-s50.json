@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-17T07:54:42.045244Z",
+  "updated_at": "2026-10-17T08:17:59.710878Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 747,
+  "pairings_parsed": 749,
   "popular": [
     {
       "board": 1,
@@ -587,12 +587,12 @@
       "owner": "bncl",
       "name": "This is a really nice looking website, I like this",
       "total": 15977,
-      "points": 17.5,
-      "games": 27,
-      "round_games": 5,
+      "points": 18.0,
+      "games": 28,
+      "round_games": 6,
       "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.6481481481481481,
+      "games_left": 2,
+      "ppg": 0.6428571428571429,
       "roster": [
         {
           "handle": "jdannan",
@@ -601,8 +601,8 @@
         },
         {
           "handle": "timothyha",
-          "points": 2.0,
-          "games": 3
+          "points": 2.5,
+          "games": 4
         },
         {
           "handle": "jwwells42",
@@ -962,8 +962,8 @@
         },
         {
           "round": 4,
-          "points": 2.5,
-          "finished": 5,
+          "points": 3.0,
+          "finished": 6,
           "paired": 8,
           "players": [
             {
@@ -981,13 +981,13 @@
             },
             {
               "handle": "timothyha",
-              "points": 0.0,
+              "points": 0.5,
               "games": [
                 {
                   "opponent": "Gideon7",
-                  "actual_result": null,
+                  "actual_result": 0.5,
                   "game_url": "https://lichess.org/RsiMYJqf",
-                  "status": "pending",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -37340,7 +37340,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 99,
+    "played": 101,
     "total": 216
   }
 }
