@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-17T09:08:23.258475Z",
+  "updated_at": "2026-10-17T09:39:33.130103Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 749,
+  "pairings_parsed": 751,
   "popular": [
     {
       "board": 1,
@@ -36857,12 +36857,12 @@
       "owner": "mongreltiger",
       "name": "Stinkfish 50",
       "total": 16000,
-      "points": 6.5,
-      "games": 20,
-      "round_games": 2,
+      "points": 7.0,
+      "games": 21,
+      "round_games": 3,
       "round_scheduled": 7,
-      "games_left": 5,
-      "ppg": 0.325,
+      "games_left": 4,
+      "ppg": 0.3333333333333333,
       "roster": [
         {
           "handle": "alp_arslan92",
@@ -36881,8 +36881,8 @@
         },
         {
           "handle": "Moccy",
-          "points": 1.0,
-          "games": 1
+          "points": 1.5,
+          "games": 2
         },
         {
           "handle": "JohnJPershing",
@@ -37200,8 +37200,8 @@
         },
         {
           "round": 4,
-          "points": 1.0,
-          "finished": 2,
+          "points": 1.5,
+          "finished": 3,
           "paired": 7,
           "players": [
             {
@@ -37237,13 +37237,13 @@
             },
             {
               "handle": "Moccy",
-              "points": 0.0,
+              "points": 0.5,
               "games": [
                 {
                   "opponent": "MaxViktorY",
-                  "actual_result": null,
+                  "actual_result": 0.5,
                   "game_url": "https://lichess.org/oCCxSwia",
-                  "status": "pending",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -37340,7 +37340,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 101,
+    "played": 103,
     "total": 216
   }
 }
