@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-18T18:21:13.898723Z",
+  "updated_at": "2026-10-18T18:55:33.586845Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 845,
+  "pairings_parsed": 847,
   "popular": [
     {
       "board": 1,
@@ -587,12 +587,12 @@
       "owner": "Pineapplechiffoncake",
       "name": "Hedgehogs, Hippos, and Effin' Birds",
       "total": 15995,
-      "points": 19.0,
-      "games": 29,
-      "round_games": 6,
+      "points": 20.0,
+      "games": 30,
+      "round_games": 7,
       "round_scheduled": 8,
-      "games_left": 2,
-      "ppg": 0.6551724137931034,
+      "games_left": 1,
+      "ppg": 0.6666666666666666,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -611,8 +611,8 @@
         },
         {
           "handle": "robertjackson",
-          "points": 2.5,
-          "games": 3
+          "points": 3.5,
+          "games": 4
         },
         {
           "handle": "patk74",
@@ -970,8 +970,8 @@
         },
         {
           "round": 4,
-          "points": 5.0,
-          "finished": 6,
+          "points": 6.0,
+          "finished": 7,
           "paired": 8,
           "players": [
             {
@@ -1015,13 +1015,13 @@
             },
             {
               "handle": "robertjackson",
-              "points": 0.0,
+              "points": 1.0,
               "games": [
                 {
                   "opponent": "m-p-d",
-                  "actual_result": null,
+                  "actual_result": 1.0,
                   "game_url": "https://lichess.org/ZHWxH0Gw",
-                  "status": "pending",
+                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -37340,7 +37340,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 197,
+    "played": 199,
     "total": 216
   }
 }
