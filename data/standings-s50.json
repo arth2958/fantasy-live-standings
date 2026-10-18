@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-18T14:44:09.324267Z",
+  "updated_at": "2026-10-18T15:03:55.547566Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 820,
+  "pairings_parsed": 822,
   "popular": [
     {
       "board": 1,
@@ -1116,6 +1116,530 @@
       ]
     },
     {
+      "owner": "bncl",
+      "name": "This is a really nice looking website, I like this",
+      "total": 15977,
+      "points": 18.5,
+      "games": 29,
+      "round_games": 7,
+      "round_scheduled": 8,
+      "games_left": 1,
+      "ppg": 0.6379310344827587,
+      "roster": [
+        {
+          "handle": "jdannan",
+          "points": 1.5,
+          "games": 4
+        },
+        {
+          "handle": "timothyha",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "jwwells42",
+          "points": 3.0,
+          "games": 3
+        },
+        {
+          "handle": "lorb",
+          "points": 4.0,
+          "games": 4
+        },
+        {
+          "handle": "TristanBrown17",
+          "points": 2.5,
+          "games": 3
+        },
+        {
+          "handle": "kostasvl",
+          "points": 0.0,
+          "games": 3
+        },
+        {
+          "handle": "pawneater2020",
+          "points": 2.0,
+          "games": 4
+        },
+        {
+          "handle": "Computability",
+          "points": 3.0,
+          "games": 4
+        }
+      ],
+      "rank": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 6.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "sivakumarr",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/pb92wZiV",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "terrormt",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/vBs80cpI",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ORIONfull",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/0NzVvfvG",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "bagelkh",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/YAAThEwu",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Immortality",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/vIYGwXYM",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "parziwal08",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/O5Q7tNzo",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Nairwolf",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/d0lRPJpk",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "wtm22",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/simLoeQc",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "BicKedag",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/Pdup2wb8",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "pavonine",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/nIfxzQ8C",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Ciraid",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/8zTuBuyb",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "thestormingeagle",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/tcOGVmeG",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Welpe",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/hkjMPTRs",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "eldotore",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/phg674gJ",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "AthenianKnight",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/ZDepem1b",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 5.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "DiegoAlatriste",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/BwvqP1qt",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ATrueRavenclaw",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/jHd8tDRa",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "aguayo",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/9XZaeSLa",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ecoarrivazumashoomzo",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/UQA8ZwLJ",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "kygreek",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/SdOgzXjj",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ProfessorMethane",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Wf8ByPGU",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "DrRickinCT",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/p6Yiwslw",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 3.5,
+          "finished": 7,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "MrMatt96",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/qLBpuu5R",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Gideon7",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/RsiMYJqf",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Versaumnisgrund",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "asian42",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/TqGjgwfm",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Gabreke",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/S1yBF5r1",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RBorja1980",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/ZgNEoHlQ",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "momor",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/0rv2SUWh",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "perspikace",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/cYDavFyN",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        },
+        {
+          "round": 5,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
       "owner": "guitarspider",
       "name": "and all I got was this lousy team name",
       "total": 15051,
@@ -1167,7 +1691,7 @@
           "games": 4
         }
       ],
-      "rank": 3,
+      "rank": 4,
       "round_scores": [
         {
           "round": 1,
@@ -1598,530 +2122,6 @@
                   "actual_result": 0.0,
                   "game_url": "https://lichess.org/eTildoGk",
                   "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        },
-        {
-          "round": 5,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
-      "owner": "bncl",
-      "name": "This is a really nice looking website, I like this",
-      "total": 15977,
-      "points": 18.0,
-      "games": 28,
-      "round_games": 6,
-      "round_scheduled": 8,
-      "games_left": 2,
-      "ppg": 0.6428571428571429,
-      "roster": [
-        {
-          "handle": "jdannan",
-          "points": 1.0,
-          "games": 3
-        },
-        {
-          "handle": "timothyha",
-          "points": 2.5,
-          "games": 4
-        },
-        {
-          "handle": "jwwells42",
-          "points": 3.0,
-          "games": 3
-        },
-        {
-          "handle": "lorb",
-          "points": 4.0,
-          "games": 4
-        },
-        {
-          "handle": "TristanBrown17",
-          "points": 2.5,
-          "games": 3
-        },
-        {
-          "handle": "kostasvl",
-          "points": 0.0,
-          "games": 3
-        },
-        {
-          "handle": "pawneater2020",
-          "points": 2.0,
-          "games": 4
-        },
-        {
-          "handle": "Computability",
-          "points": 3.0,
-          "games": 4
-        }
-      ],
-      "rank": 4,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 6.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "sivakumarr",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/pb92wZiV",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "terrormt",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/vBs80cpI",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ORIONfull",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/0NzVvfvG",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "bagelkh",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/YAAThEwu",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Immortality",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/vIYGwXYM",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "parziwal08",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/O5Q7tNzo",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Nairwolf",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/d0lRPJpk",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "wtm22",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/simLoeQc",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "BicKedag",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/Pdup2wb8",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "pavonine",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/nIfxzQ8C",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Ciraid",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/8zTuBuyb",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "thestormingeagle",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/tcOGVmeG",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Welpe",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/hkjMPTRs",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "eldotore",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/phg674gJ",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "AthenianKnight",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/ZDepem1b",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 5.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "DiegoAlatriste",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/BwvqP1qt",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ATrueRavenclaw",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/jHd8tDRa",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "aguayo",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/9XZaeSLa",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ecoarrivazumashoomzo",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/UQA8ZwLJ",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "kygreek",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/SdOgzXjj",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ProfessorMethane",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/Wf8ByPGU",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "DrRickinCT",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/p6Yiwslw",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 3.0,
-          "finished": 6,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "MrMatt96",
-                  "actual_result": null,
-                  "game_url": "https://lichess.org/qLBpuu5R",
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Gideon7",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/RsiMYJqf",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Versaumnisgrund",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "asian42",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/TqGjgwfm",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Gabreke",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/S1yBF5r1",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RBorja1980",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/ZgNEoHlQ",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "momor",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/0rv2SUWh",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "perspikace",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/cYDavFyN",
-                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -37340,7 +37340,7 @@
   ],
   "round": {
     "number": 4,
-    "played": 172,
+    "played": 174,
     "total": 216
   }
 }
