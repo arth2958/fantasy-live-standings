@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 5,
-  "round_in_progress": 0,
-  "updated_at": "2026-10-22T22:44:13.589849Z",
+  "round_in_progress": 1,
+  "updated_at": "2026-10-23T01:02:50.789587Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -2284,6 +2284,140 @@
       "projected_rank": 17
     },
     {
+      "owner": "NameGoesInHere",
+      "name": "Is this the real team? Is this just fantasy?",
+      "actual_points": 19.0,
+      "actual_round": 2.0,
+      "projected_points": 21.051126448739584,
+      "projected_round": 4.051126448739585,
+      "left": 4,
+      "in_progress": 0,
+      "paired": 8,
+      "roster": [
+        {
+          "handle": "tommeketoch",
+          "status": "lost",
+          "rating": 2170,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/FZgE3bFN",
+          "game_link_kind": "recent",
+          "round_game": "5:bobbyfischer153:tommeketoch",
+          "season_points": 0.5,
+          "season_games": 5
+        },
+        {
+          "handle": "akristjansson",
+          "status": "won",
+          "rating": 2119,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/rv4tx3hQ",
+          "game_link_kind": "recent",
+          "round_game": "5:akristjansson:capestgeorge",
+          "season_points": 4.0,
+          "season_games": 5
+        },
+        {
+          "handle": "Jg777",
+          "status": "pending",
+          "rating": 2064,
+          "decided_without_play": false,
+          "expected_points": 0.5373473171664929,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "5:jg777:mekumcu",
+          "season_points": 3.0,
+          "season_games": 4
+        },
+        {
+          "handle": "serenemoose",
+          "status": "pending",
+          "rating": 1961,
+          "decided_without_play": false,
+          "expected_points": 0.584100958813678,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "5:diecast_illusion:serenemoose",
+          "season_points": 2.0,
+          "season_games": 4
+        },
+        {
+          "handle": "Joonaf",
+          "status": "lost",
+          "rating": 1865,
+          "decided_without_play": false,
+          "expected_points": 0.0,
+          "actual_result": 0.0,
+          "round_points": 0.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/HP1HGLxw",
+          "game_link_kind": "recent",
+          "round_game": "5:joonaf:retiredseahorse",
+          "season_points": 2.0,
+          "season_games": 5
+        },
+        {
+          "handle": "cinemashow",
+          "status": "pending",
+          "rating": 1804,
+          "decided_without_play": false,
+          "expected_points": 0.5854986786718095,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "5:burner_account17:cinemashow",
+          "season_points": 3.0,
+          "season_games": 5
+        },
+        {
+          "handle": "Kborman",
+          "status": "pending",
+          "rating": 1652,
+          "decided_without_play": false,
+          "expected_points": 0.34417949408760495,
+          "actual_result": null,
+          "round_points": 0.0,
+          "round_games": 0,
+          "game_url": null,
+          "game_link_kind": null,
+          "round_game": "5:gingersquirrelnuts:kborman",
+          "season_points": 1.5,
+          "season_games": 4
+        },
+        {
+          "handle": "angborxley",
+          "status": "won",
+          "rating": 1518,
+          "decided_without_play": false,
+          "expected_points": 1.0,
+          "actual_result": 1.0,
+          "round_points": 1.0,
+          "round_games": 1,
+          "game_url": "https://lichess.org/LQ4UJUKF",
+          "game_link_kind": "recent",
+          "round_game": "5:angborxley:kendragonx",
+          "season_points": 3.0,
+          "season_games": 5
+        }
+      ],
+      "projected_rank": 18
+    },
+    {
       "owner": "ecoarrivazumashoomzo",
       "name": "Freed From The Sire",
       "actual_points": 20.0,
@@ -2415,7 +2549,7 @@
           "season_games": 4
         }
       ],
-      "projected_rank": 18
+      "projected_rank": 19
     },
     {
       "owner": "tastypotatohead",
@@ -2532,140 +2666,6 @@
           "round_game": "5:cham:nubro",
           "season_points": 2.0,
           "season_games": 5
-        },
-        {
-          "handle": "angborxley",
-          "status": "won",
-          "rating": 1518,
-          "decided_without_play": false,
-          "expected_points": 1.0,
-          "actual_result": 1.0,
-          "round_points": 1.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/LQ4UJUKF",
-          "game_link_kind": "recent",
-          "round_game": "5:angborxley:kendragonx",
-          "season_points": 3.0,
-          "season_games": 5
-        }
-      ],
-      "projected_rank": 19
-    },
-    {
-      "owner": "NameGoesInHere",
-      "name": "Is this the real team? Is this just fantasy?",
-      "actual_points": 18.0,
-      "actual_round": 1.0,
-      "projected_points": 20.490976303507683,
-      "projected_round": 3.4909763035076824,
-      "left": 5,
-      "in_progress": 0,
-      "paired": 8,
-      "roster": [
-        {
-          "handle": "tommeketoch",
-          "status": "lost",
-          "rating": 2170,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/FZgE3bFN",
-          "game_link_kind": "recent",
-          "round_game": "5:bobbyfischer153:tommeketoch",
-          "season_points": 0.5,
-          "season_games": 5
-        },
-        {
-          "handle": "akristjansson",
-          "status": "pending",
-          "rating": 2101,
-          "decided_without_play": false,
-          "expected_points": 0.4398498547680971,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "5:akristjansson:capestgeorge",
-          "season_points": 3.0,
-          "season_games": 4
-        },
-        {
-          "handle": "Jg777",
-          "status": "pending",
-          "rating": 2064,
-          "decided_without_play": false,
-          "expected_points": 0.5373473171664929,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "5:jg777:mekumcu",
-          "season_points": 3.0,
-          "season_games": 4
-        },
-        {
-          "handle": "serenemoose",
-          "status": "pending",
-          "rating": 1961,
-          "decided_without_play": false,
-          "expected_points": 0.584100958813678,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "5:diecast_illusion:serenemoose",
-          "season_points": 2.0,
-          "season_games": 4
-        },
-        {
-          "handle": "Joonaf",
-          "status": "lost",
-          "rating": 1865,
-          "decided_without_play": false,
-          "expected_points": 0.0,
-          "actual_result": 0.0,
-          "round_points": 0.0,
-          "round_games": 1,
-          "game_url": "https://lichess.org/HP1HGLxw",
-          "game_link_kind": "recent",
-          "round_game": "5:joonaf:retiredseahorse",
-          "season_points": 2.0,
-          "season_games": 5
-        },
-        {
-          "handle": "cinemashow",
-          "status": "pending",
-          "rating": 1804,
-          "decided_without_play": false,
-          "expected_points": 0.5854986786718095,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "5:burner_account17:cinemashow",
-          "season_points": 3.0,
-          "season_games": 5
-        },
-        {
-          "handle": "Kborman",
-          "status": "pending",
-          "rating": 1652,
-          "decided_without_play": false,
-          "expected_points": 0.34417949408760495,
-          "actual_result": null,
-          "round_points": 0.0,
-          "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
-          "round_game": "5:gingersquirrelnuts:kborman",
-          "season_points": 1.5,
-          "season_games": 4
         },
         {
           "handle": "angborxley",
@@ -8853,7 +8853,7 @@
   "league_teams": [
     {
       "name": "Pantless to the Max on a Metal Mund Jeep over Planet Lewinberg in Style",
-      "projected": 5.387266990930028,
+      "projected": 5.387266990930027,
       "actual": 2.5,
       "paired": 8,
       "left": 5,
@@ -9004,14 +9004,6 @@
       "eligible": false
     },
     {
-      "name": "Season 50 midlife crisis",
-      "projected": 4.518328653411255,
-      "actual": 2.0,
-      "paired": 8,
-      "left": 5,
-      "eligible": false
-    },
-    {
       "name": "passed pawn patrol",
       "projected": 4.443305688101376,
       "actual": 2.5,
@@ -9060,6 +9052,14 @@
       "eligible": false
     },
     {
+      "name": "Operation Pawnstorm",
+      "projected": 4.041821491820648,
+      "actual": 2.0,
+      "paired": 8,
+      "left": 4,
+      "eligible": false
+    },
+    {
       "name": "Rookies Of The Year",
       "projected": 4.040376435696266,
       "actual": 0.5,
@@ -9073,6 +9073,14 @@
       "actual": 0.5,
       "paired": 8,
       "left": 7,
+      "eligible": false
+    },
+    {
+      "name": "Season 50 midlife crisis",
+      "projected": 3.958178508179352,
+      "actual": 2.0,
+      "paired": 8,
+      "left": 4,
       "eligible": false
     },
     {
@@ -9124,14 +9132,6 @@
       "eligible": false
     },
     {
-      "name": "Operation Pawnstorm",
-      "projected": 3.4816713465887448,
-      "actual": 1.0,
-      "paired": 8,
-      "left": 5,
-      "eligible": false
-    },
-    {
       "name": "Mating for Godot",
       "projected": 3.4792794262530533,
       "actual": 0.0,
@@ -9149,7 +9149,7 @@
     },
     {
       "name": "The Tarrasch Talkers",
-      "projected": 3.448716606837507,
+      "projected": 3.4487166068375066,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -9157,7 +9157,7 @@
     },
     {
       "name": "J’adoube-Al-Blunder",
-      "projected": 3.39160451120085,
+      "projected": 3.3916045112008493,
       "actual": 0.0,
       "paired": 8,
       "left": 7,
@@ -9165,7 +9165,7 @@
     },
     {
       "name": "50-50 my next move is a blunder",
-      "projected": 3.370528153613472,
+      "projected": 3.3705281536134724,
       "actual": 1.5,
       "paired": 8,
       "left": 4,
@@ -9197,7 +9197,7 @@
     },
     {
       "name": "50 first mates",
-      "projected": 3.2840611697702724,
+      "projected": 3.284061169770272,
       "actual": 1.0,
       "paired": 8,
       "left": 5,
