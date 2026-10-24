@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-24T00:56:51.906895Z",
+  "updated_at": "2026-10-24T05:22:47.683317Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 977,
+  "pairings_parsed": 979,
   "popular": [
     {
       "board": 1,
@@ -1314,11 +1314,11 @@
       "name": "in da fantasy club",
       "total": 15401,
       "points": 22.5,
-      "games": 38,
-      "round_games": 7,
+      "games": 39,
+      "round_games": 8,
       "round_scheduled": 8,
-      "games_left": 1,
-      "ppg": 0.5921052631578947,
+      "games_left": 0,
+      "ppg": 0.5769230769230769,
       "roster": [
         {
           "handle": "Silkthewanderer",
@@ -1333,7 +1333,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "M0r1",
@@ -1810,7 +1810,7 @@
         {
           "round": 5,
           "points": 6.0,
-          "finished": 7,
+          "finished": 8,
           "paired": 8,
           "players": [
             {
@@ -1845,9 +1845,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -1918,7 +1918,7 @@
               ]
             }
           ],
-          "state": "so_far"
+          "state": "final"
         },
         {
           "round": 6,
@@ -2480,7 +2480,7 @@
                 {
                   "opponent": "cluffas",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/x2Tb4KBz",
                   "status": "pending",
                   "no_play": false
                 }
@@ -4988,7 +4988,7 @@
                 {
                   "opponent": "cluffas",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/x2Tb4KBz",
                   "status": "pending",
                   "no_play": false
                 }
@@ -6310,642 +6310,6 @@
       ]
     },
     {
-      "owner": "bufferunderrun",
-      "name": "Peter's Pan, duh!",
-      "total": 15330,
-      "points": 20.5,
-      "games": 35,
-      "round_games": 3,
-      "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.5857142857142857,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 2.5,
-          "games": 4
-        },
-        {
-          "handle": "Feet_Barbie",
-          "points": 4.0,
-          "games": 5
-        },
-        {
-          "handle": "Jg777",
-          "points": 3.0,
-          "games": 4
-        },
-        {
-          "handle": "MrScribbles",
-          "points": 2.5,
-          "games": 4
-        },
-        {
-          "handle": "TristanBrown17",
-          "points": 2.5,
-          "games": 4
-        },
-        {
-          "handle": "cinemashow",
-          "points": 3.0,
-          "games": 5
-        },
-        {
-          "handle": "cham",
-          "points": 2.0,
-          "games": 5
-        },
-        {
-          "handle": "macha1313",
-          "points": 1.0,
-          "games": 4
-        }
-      ],
-      "rank": 11,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 5.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "chatakkuma",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/FiTktkaG",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "LloydRet",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/xL1k2b4e",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "asian42",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/NvQ1tARH",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MrScribbles",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "simonWasHere",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/zYX3jkzz",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Immortality",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/vIYGwXYM",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "its_ck",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/twcHUNTw",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cham",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Kborman",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/f2eulrYi",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "macha1313",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "electricfalcon",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/oo3ZrdIg",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 5.0,
-          "finished": 9,
-          "paired": 9,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Tellerwascher",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/OeqzskFH",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "SP1389",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/JxN4DayB",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "FunnyLikeAClown",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/HP5jLMAM",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MrScribbles",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "octacle",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/zhoIPzMS",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Welpe",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/hkjMPTRs",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "patk74",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/GibhAgi6",
-                  "status": "lost",
-                  "no_play": false
-                },
-                {
-                  "opponent": "Jbyrd11",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/Wu5DJFFh",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cham",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "HighonPotnuse",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/C8aXrh13",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "macha1313",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Skulm93",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/3bavXVbx",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 4.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ItsASecret2000",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/zjv733tG",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "bufferunderrun",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/PWgKpcNF",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MasterSRV",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/B324K0qk",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MrScribbles",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "thestormingeagle",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/x3JEYAI9",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "cinemashow",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RBorja1980",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/nMGpIjIJ",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cham",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "TheRealDivider",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/53SUlInL",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "macha1313",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "time_lord19",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/4vILdQBA",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "antazhi8",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/D0fJEENt",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "nikker33",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/BbMpZSwz",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "SeleneDeAfrodita",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/ZkMzUf2r",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MrScribbles",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "cvillian",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/qfEo9fWT",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Gabreke",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/S1yBF5r1",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "kygreek",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/3NakWQVo",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cham",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Marco_Chess13",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/V36WIk0p",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "macha1313",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "LeporEd",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/eTildoGk",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 5,
-          "points": 2.0,
-          "finished": 3,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Minot",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/iOssVjtk",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "mekumcu",
-                  "actual_result": null,
-                  "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MrScribbles",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "BlazedAndConfused",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "McStudly",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/YcLl2eHr",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "burner_account17",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cham",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Nubro",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/Nsv2QVPT",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "macha1313",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Ezze_13",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "Bennol",
       "name": "Candidudes",
       "total": 14910,
@@ -6997,7 +6361,7 @@
           "games": 4
         }
       ],
-      "rank": 12,
+      "rank": 11,
       "round_scores": [
         {
           "round": 1,
@@ -7511,6 +6875,642 @@
               "games": [
                 {
                   "opponent": "xMacxO",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cham",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Nubro",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Nsv2QVPT",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "macha1313",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Ezze_13",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "bufferunderrun",
+      "name": "Peter's Pan, duh!",
+      "total": 15330,
+      "points": 20.5,
+      "games": 36,
+      "round_games": 4,
+      "round_scheduled": 7,
+      "games_left": 3,
+      "ppg": 0.5694444444444444,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "Feet_Barbie",
+          "points": 4.0,
+          "games": 5
+        },
+        {
+          "handle": "Jg777",
+          "points": 3.0,
+          "games": 5
+        },
+        {
+          "handle": "MrScribbles",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "TristanBrown17",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "cinemashow",
+          "points": 3.0,
+          "games": 5
+        },
+        {
+          "handle": "cham",
+          "points": 2.0,
+          "games": 5
+        },
+        {
+          "handle": "macha1313",
+          "points": 1.0,
+          "games": 4
+        }
+      ],
+      "rank": 12,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 5.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "chatakkuma",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/FiTktkaG",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "LloydRet",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/xL1k2b4e",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "asian42",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/NvQ1tARH",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MrScribbles",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "simonWasHere",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/zYX3jkzz",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Immortality",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/vIYGwXYM",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "its_ck",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/twcHUNTw",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cham",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Kborman",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/f2eulrYi",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "macha1313",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "electricfalcon",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/oo3ZrdIg",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 5.0,
+          "finished": 9,
+          "paired": 9,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Tellerwascher",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/OeqzskFH",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "SP1389",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/JxN4DayB",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "FunnyLikeAClown",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/HP5jLMAM",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MrScribbles",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "octacle",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/zhoIPzMS",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Welpe",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/hkjMPTRs",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "patk74",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/GibhAgi6",
+                  "status": "lost",
+                  "no_play": false
+                },
+                {
+                  "opponent": "Jbyrd11",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Wu5DJFFh",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cham",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "HighonPotnuse",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/C8aXrh13",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "macha1313",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Skulm93",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/3bavXVbx",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ItsASecret2000",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/zjv733tG",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "bufferunderrun",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/PWgKpcNF",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MasterSRV",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/B324K0qk",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MrScribbles",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "thestormingeagle",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/x3JEYAI9",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "cinemashow",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RBorja1980",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/nMGpIjIJ",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cham",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "TheRealDivider",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/53SUlInL",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "macha1313",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "time_lord19",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/4vILdQBA",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "antazhi8",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/D0fJEENt",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "nikker33",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/BbMpZSwz",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "SeleneDeAfrodita",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/ZkMzUf2r",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MrScribbles",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "cvillian",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/qfEo9fWT",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Gabreke",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/S1yBF5r1",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "kygreek",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/3NakWQVo",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cham",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Marco_Chess13",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/V36WIk0p",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "macha1313",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "LeporEd",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/eTildoGk",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 5,
+          "points": 2.0,
+          "finished": 4,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Minot",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/iOssVjtk",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "mekumcu",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/dbSroRrn",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MrScribbles",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "BlazedAndConfused",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "McStudly",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/YcLl2eHr",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "burner_account17",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -10706,11 +10706,11 @@
       "name": "Is this the real team? Is this just fantasy?",
       "total": 15975,
       "points": 20.0,
-      "games": 38,
-      "round_games": 5,
+      "games": 39,
+      "round_games": 6,
       "round_scheduled": 8,
-      "games_left": 3,
-      "ppg": 0.5263157894736842,
+      "games_left": 2,
+      "ppg": 0.5128205128205128,
       "roster": [
         {
           "handle": "tommeketoch",
@@ -10725,7 +10725,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "serenemoose",
@@ -11217,7 +11217,7 @@
         {
           "round": 5,
           "points": 3.0,
-          "finished": 5,
+          "finished": 6,
           "paired": 8,
           "players": [
             {
@@ -11252,9 +11252,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -12003,11 +12003,11 @@
       "name": "Mils Bee Hive",
       "total": 15661,
       "points": 19.0,
-      "games": 33,
-      "round_games": 3,
+      "games": 34,
+      "round_games": 4,
       "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.5757575757575758,
+      "games_left": 3,
+      "ppg": 0.5588235294117647,
       "roster": [
         {
           "handle": "rio2018",
@@ -12022,7 +12022,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "NirakuHakamura",
@@ -12491,7 +12491,7 @@
         {
           "round": 5,
           "points": 1.5,
-          "finished": 3,
+          "finished": 4,
           "paired": 7,
           "players": [
             {
@@ -12518,9 +12518,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -14537,651 +14537,6 @@
       ]
     },
     {
-      "owner": "popularity",
-      "name": "Most Popular Players Team",
-      "bot": true,
-      "total": 17216,
-      "points": 19.0,
-      "games": 36,
-      "round_games": 3,
-      "round_scheduled": 7,
-      "games_left": 4,
-      "ppg": 0.5277777777777778,
-      "roster": [
-        {
-          "handle": "rio2018",
-          "points": 2.5,
-          "games": 4
-        },
-        {
-          "handle": "Feet_Barbie",
-          "points": 4.0,
-          "games": 5
-        },
-        {
-          "handle": "Jg777",
-          "points": 3.0,
-          "games": 4
-        },
-        {
-          "handle": "ecoarrivazumashoomzo",
-          "points": 1.0,
-          "games": 5
-        },
-        {
-          "handle": "fork2020",
-          "points": 2.0,
-          "games": 4
-        },
-        {
-          "handle": "cinemashow",
-          "points": 3.0,
-          "games": 5
-        },
-        {
-          "handle": "Pineapplechiffoncake",
-          "points": 1.0,
-          "games": 4
-        },
-        {
-          "handle": "mongreltiger",
-          "points": 2.5,
-          "games": 5
-        }
-      ],
-      "rank": 24,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 5.5,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "chatakkuma",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/FiTktkaG",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "LloydRet",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/xL1k2b4e",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "asian42",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/NvQ1tARH",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "ecoarrivazumashoomzo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "chesstricksandtraps",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/4k06IzM4",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "fork2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "gary0892",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/77Kt7A78",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "its_ck",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/twcHUNTw",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Pineapplechiffoncake",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "mmorrisohio",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/ZUFYljsb",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mongreltiger",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "stumct",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/paY5KCBp",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.0,
-          "finished": 9,
-          "paired": 9,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Tellerwascher",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/OeqzskFH",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "SP1389",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/JxN4DayB",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "FunnyLikeAClown",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/HP5jLMAM",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "ecoarrivazumashoomzo",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Zubenelgenubi",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/aUjc6AG5",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "fork2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "pepepibote",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/n7yDHKQo",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "patk74",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/GibhAgi6",
-                  "status": "lost",
-                  "no_play": false
-                },
-                {
-                  "opponent": "Jbyrd11",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/Wu5DJFFh",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Pineapplechiffoncake",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lexgrad",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/SyqeKk0F",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mongreltiger",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "scoobysnack19",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/QuBWmwdT",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 4.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ItsASecret2000",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/zjv733tG",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "bufferunderrun",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/PWgKpcNF",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MasterSRV",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/B324K0qk",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "ecoarrivazumashoomzo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "lorb",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/UQA8ZwLJ",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "fork2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "NirakuHakamura",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/hsOrvaT8",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RBorja1980",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/nMGpIjIJ",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Pineapplechiffoncake",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "COSMOAPS",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/1jgPPP0I",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mongreltiger",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "tomb85",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/2OCQNBIy",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 4.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "antazhi8",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/D0fJEENt",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "nikker33",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/BbMpZSwz",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "SeleneDeAfrodita",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/ZkMzUf2r",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "ecoarrivazumashoomzo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lou-E",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/dpyqXWpj",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "fork2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "gmat20020",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/d45QkPuO",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "kygreek",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/3NakWQVo",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Pineapplechiffoncake",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ProfessorMethane",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/9eXRqbnN",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mongreltiger",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "mimrolls",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/4UM5THaj",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 5,
-          "points": 1.5,
-          "finished": 3,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "rio2018",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Feet_Barbie",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Minot",
-                  "actual_result": 1.0,
-                  "game_url": "https://lichess.org/iOssVjtk",
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Jg777",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "mekumcu",
-                  "actual_result": null,
-                  "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "ecoarrivazumashoomzo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Rolihlahla",
-                  "actual_result": 0.0,
-                  "game_url": "https://lichess.org/QRiti5MY",
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "fork2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "owlfn62025",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "cinemashow",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "burner_account17",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Pineapplechiffoncake",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "nrv773",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "mongreltiger",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "WelshKebab",
-                  "actual_result": 0.5,
-                  "game_url": "https://lichess.org/sI5U4iv0",
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        },
-        {
-          "round": 6,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 7,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        },
-        {
-          "round": 8,
-          "points": null,
-          "finished": 0,
-          "paired": 0,
-          "players": [],
-          "state": "upcoming"
-        }
-      ]
-    },
-    {
       "owner": "Inter-temporal",
       "name": "This is the way.",
       "total": 15948,
@@ -15233,7 +14588,7 @@
           "games": 5
         }
       ],
-      "rank": 25,
+      "rank": 24,
       "round_scores": [
         {
           "round": 1,
@@ -15777,6 +15132,651 @@
                   "actual_result": 1.0,
                   "game_url": "https://lichess.org/LAPjjbD1",
                   "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        },
+        {
+          "round": 6,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 7,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        },
+        {
+          "round": 8,
+          "points": null,
+          "finished": 0,
+          "paired": 0,
+          "players": [],
+          "state": "upcoming"
+        }
+      ]
+    },
+    {
+      "owner": "popularity",
+      "name": "Most Popular Players Team",
+      "bot": true,
+      "total": 17216,
+      "points": 19.0,
+      "games": 37,
+      "round_games": 4,
+      "round_scheduled": 7,
+      "games_left": 3,
+      "ppg": 0.5135135135135135,
+      "roster": [
+        {
+          "handle": "rio2018",
+          "points": 2.5,
+          "games": 4
+        },
+        {
+          "handle": "Feet_Barbie",
+          "points": 4.0,
+          "games": 5
+        },
+        {
+          "handle": "Jg777",
+          "points": 3.0,
+          "games": 5
+        },
+        {
+          "handle": "ecoarrivazumashoomzo",
+          "points": 1.0,
+          "games": 5
+        },
+        {
+          "handle": "fork2020",
+          "points": 2.0,
+          "games": 4
+        },
+        {
+          "handle": "cinemashow",
+          "points": 3.0,
+          "games": 5
+        },
+        {
+          "handle": "Pineapplechiffoncake",
+          "points": 1.0,
+          "games": 4
+        },
+        {
+          "handle": "mongreltiger",
+          "points": 2.5,
+          "games": 5
+        }
+      ],
+      "rank": 25,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 5.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "chatakkuma",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/FiTktkaG",
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "LloydRet",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/xL1k2b4e",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "asian42",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/NvQ1tARH",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "ecoarrivazumashoomzo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "chesstricksandtraps",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/4k06IzM4",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "fork2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "gary0892",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/77Kt7A78",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "its_ck",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/twcHUNTw",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Pineapplechiffoncake",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "mmorrisohio",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/ZUFYljsb",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mongreltiger",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "stumct",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/paY5KCBp",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.0,
+          "finished": 9,
+          "paired": 9,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Tellerwascher",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/OeqzskFH",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "SP1389",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/JxN4DayB",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "FunnyLikeAClown",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/HP5jLMAM",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "ecoarrivazumashoomzo",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Zubenelgenubi",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/aUjc6AG5",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "fork2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "pepepibote",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/n7yDHKQo",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "patk74",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/GibhAgi6",
+                  "status": "lost",
+                  "no_play": false
+                },
+                {
+                  "opponent": "Jbyrd11",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/Wu5DJFFh",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Pineapplechiffoncake",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lexgrad",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/SyqeKk0F",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mongreltiger",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "scoobysnack19",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/QuBWmwdT",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ItsASecret2000",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/zjv733tG",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "bufferunderrun",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/PWgKpcNF",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MasterSRV",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/B324K0qk",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "ecoarrivazumashoomzo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "lorb",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/UQA8ZwLJ",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "fork2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "NirakuHakamura",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/hsOrvaT8",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RBorja1980",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/nMGpIjIJ",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Pineapplechiffoncake",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "COSMOAPS",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/1jgPPP0I",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mongreltiger",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "tomb85",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/2OCQNBIy",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 4.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "antazhi8",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/D0fJEENt",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "nikker33",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/BbMpZSwz",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "SeleneDeAfrodita",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/ZkMzUf2r",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "ecoarrivazumashoomzo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lou-E",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/dpyqXWpj",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "fork2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "gmat20020",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/d45QkPuO",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "kygreek",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/3NakWQVo",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Pineapplechiffoncake",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ProfessorMethane",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/9eXRqbnN",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mongreltiger",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "mimrolls",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/4UM5THaj",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 5,
+          "points": 1.5,
+          "finished": 4,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "rio2018",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Feet_Barbie",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Minot",
+                  "actual_result": 1.0,
+                  "game_url": "https://lichess.org/iOssVjtk",
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Jg777",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "mekumcu",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/dbSroRrn",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "ecoarrivazumashoomzo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Rolihlahla",
+                  "actual_result": 0.0,
+                  "game_url": "https://lichess.org/QRiti5MY",
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "fork2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "owlfn62025",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "cinemashow",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "burner_account17",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Pineapplechiffoncake",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "nrv773",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "mongreltiger",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "WelshKebab",
+                  "actual_result": 0.5,
+                  "game_url": "https://lichess.org/sI5U4iv0",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -22661,11 +22661,11 @@
       "name": "Frank & George’s S50 Celebration Squad",
       "total": 15725,
       "points": 17.0,
-      "games": 35,
-      "round_games": 3,
+      "games": 36,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.4857142857142857,
+      "games_left": 4,
+      "ppg": 0.4722222222222222,
       "roster": [
         {
           "handle": "alp_arslan92",
@@ -22680,7 +22680,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "simonWasHere",
@@ -23165,7 +23165,7 @@
         {
           "round": 5,
           "points": 1.0,
-          "finished": 3,
+          "finished": 4,
           "paired": 8,
           "players": [
             {
@@ -23200,9 +23200,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -31321,7 +31321,7 @@
                 {
                   "opponent": "cluffas",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/x2Tb4KBz",
                   "status": "pending",
                   "no_play": false
                 }
@@ -36387,11 +36387,11 @@
       "name": "Svidl, Svidler, Svidlest-Fantasy version",
       "total": 12656,
       "points": 14.5,
-      "games": 34,
-      "round_games": 3,
+      "games": 35,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.4264705882352941,
+      "games_left": 4,
+      "ppg": 0.4142857142857143,
       "roster": [
         {
           "handle": "Mennonite",
@@ -36406,7 +36406,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "schittering06",
@@ -36883,7 +36883,7 @@
         {
           "round": 5,
           "points": 0.0,
-          "finished": 3,
+          "finished": 4,
           "paired": 8,
           "players": [
             {
@@ -36918,9 +36918,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -37024,11 +37024,11 @@
       "name": "Order of the Knights Who Say \"Ni!\"",
       "total": 15719,
       "points": 14.5,
-      "games": 34,
-      "round_games": 4,
+      "games": 35,
+      "round_games": 5,
       "round_scheduled": 6,
-      "games_left": 2,
-      "ppg": 0.4264705882352941,
+      "games_left": 1,
+      "ppg": 0.4142857142857143,
       "roster": [
         {
           "handle": "rio2018",
@@ -37043,7 +37043,7 @@
         {
           "handle": "Jg777",
           "points": 3.0,
-          "games": 4
+          "games": 5
         },
         {
           "handle": "ecoarrivazumashoomzo",
@@ -37512,7 +37512,7 @@
         {
           "round": 5,
           "points": 0.5,
-          "finished": 4,
+          "finished": 5,
           "paired": 6,
           "players": [
             {
@@ -37539,9 +37539,9 @@
               "games": [
                 {
                   "opponent": "mekumcu",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": "https://lichess.org/dbSroRrn",
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -41191,7 +41191,7 @@
                 {
                   "opponent": "cluffas",
                   "actual_result": null,
-                  "game_url": null,
+                  "game_url": "https://lichess.org/x2Tb4KBz",
                   "status": "pending",
                   "no_play": false
                 }
@@ -44299,7 +44299,7 @@
   ],
   "round": {
     "number": 5,
-    "played": 113,
+    "played": 115,
     "total": 216
   }
 }
