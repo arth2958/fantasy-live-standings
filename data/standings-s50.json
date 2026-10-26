@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-10-26T20:03:14.365604Z",
+  "updated_at": "2026-10-26T23:44:37.063708Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 1082,
+  "pairings_parsed": 1083,
   "popular": [
     {
       "board": 1,
@@ -1524,11 +1524,11 @@
       "name": "Picked by the AI That Built This Site. Watch Out",
       "total": 15831,
       "points": 24.0,
-      "games": 37,
-      "round_games": 0,
+      "games": 38,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.6486486486486487,
+      "games_left": 7,
+      "ppg": 0.631578947368421,
       "roster": [
         {
           "handle": "PlanetChessClub",
@@ -1543,7 +1543,7 @@
         {
           "handle": "qrs",
           "points": 4.5,
-          "games": 5
+          "games": 6
         },
         {
           "handle": "adande1",
@@ -2117,7 +2117,7 @@
         {
           "round": 6,
           "points": 0.0,
-          "finished": 0,
+          "finished": 1,
           "paired": 8,
           "players": [
             {
@@ -2152,9 +2152,9 @@
               "games": [
                 {
                   "opponent": "king_killer333",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -22001,8 +22001,8 @@
       "points": 19.5,
       "games": 38,
       "round_games": 0,
-      "round_scheduled": 7,
-      "games_left": 7,
+      "round_scheduled": 6,
+      "games_left": 6,
       "ppg": 0.5131578947368421,
       "roster": [
         {
@@ -22601,7 +22601,7 @@
           "round": 6,
           "points": 0.0,
           "finished": 0,
-          "paired": 7,
+          "paired": 6,
           "players": [
             {
               "handle": "BicKedag",
@@ -22657,16 +22657,8 @@
             },
             {
               "handle": "Anupam1213",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "jtschuwirth",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
+              "points": 0,
+              "games": []
             },
             {
               "handle": "Rusty_2003",
@@ -51474,7 +51466,7 @@
   ],
   "round": {
     "number": 6,
-    "played": 2,
+    "played": 3,
     "total": 216
   }
 }
