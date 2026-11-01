@@ -1,8 +1,8 @@
 {
   "season": 50,
   "round": 6,
-  "round_in_progress": 0,
-  "updated_at": "2026-11-01T01:27:42.965367Z",
+  "round_in_progress": 3,
+  "updated_at": "2026-11-01T08:06:05.604843Z",
   "method": "Expected game points from live Lichess Classical ratings (Elo, +25 for White); completed games use actual results.",
   "fantasy_teams": [
     {
@@ -2693,7 +2693,7 @@
       "projected_points": 24.90958350413651,
       "projected_round": 3.9095835041365086,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -2705,8 +2705,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cWDhcna2",
+          "game_link_kind": "live",
           "round_game": "6:checkmate_insurance:petro2",
           "season_points": 3.0,
           "season_games": 5
@@ -5641,7 +5641,7 @@
       "projected_points": 21.57950718553466,
       "projected_round": 2.579507185534659,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -5653,8 +5653,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cWDhcna2",
+          "game_link_kind": "live",
           "round_game": "6:checkmate_insurance:petro2",
           "season_points": 3.0,
           "season_games": 5
@@ -6177,7 +6177,7 @@
       "projected_points": 21.388276821007302,
       "projected_round": 4.388276821007301,
       "left": 2,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -6189,8 +6189,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cWDhcna2",
+          "game_link_kind": "live",
           "round_game": "6:checkmate_insurance:petro2",
           "season_points": 1.5,
           "season_games": 4
@@ -6445,7 +6445,7 @@
       "projected_points": 21.10792579751434,
       "projected_round": 3.607925797514342,
       "left": 3,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 8,
       "roster": [
         {
@@ -6472,8 +6472,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/Yyj7Vr7d",
+          "game_link_kind": "live",
           "round_game": "6:ascoliloko:ohdearpleaseno",
           "season_points": 1.0,
           "season_games": 3
@@ -6847,7 +6847,7 @@
       "projected_points": 20.935518383621243,
       "projected_round": 2.9355183836212433,
       "left": 3,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -6874,8 +6874,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/Yyj7Vr7d",
+          "game_link_kind": "live",
           "round_game": "6:ascoliloko:ohdearpleaseno",
           "season_points": 1.0,
           "season_games": 3
@@ -7517,7 +7517,7 @@
       "projected_points": 19.48019693695272,
       "projected_round": 2.980196936952719,
       "left": 3,
-      "in_progress": 0,
+      "in_progress": 1,
       "paired": 7,
       "roster": [
         {
@@ -7529,8 +7529,8 @@
           "actual_result": null,
           "round_points": 0.0,
           "round_games": 0,
-          "game_url": null,
-          "game_link_kind": null,
+          "game_url": "https://lichess.org/cWDhcna2",
+          "game_link_kind": "live",
           "round_game": "6:checkmate_insurance:petro2",
           "season_points": 1.5,
           "season_games": 4
@@ -8949,10 +8949,18 @@
     },
     {
       "name": "Morphy's Mates",
-      "projected": 4.668370545046197,
+      "projected": 4.689231311970325,
       "actual": 3.0,
       "paired": 8,
       "left": 3,
+      "eligible": false
+    },
+    {
+      "name": "Pawn with the Sickness",
+      "projected": 4.60766106412682,
+      "actual": 4.0,
+      "paired": 8,
+      "left": 1,
       "eligible": false
     },
     {
@@ -9009,14 +9017,6 @@
       "actual": 3.5,
       "paired": 8,
       "left": 2,
-      "eligible": false
-    },
-    {
-      "name": "oh those 64 squares can encompass such immensity",
-      "projected": 4.39233893587318,
-      "actual": 4.0,
-      "paired": 8,
-      "left": 1,
       "eligible": false
     },
     {
@@ -9116,14 +9116,6 @@
       "eligible": false
     },
     {
-      "name": "Pawn with the Sickness",
-      "projected": 3.6076610641268196,
-      "actual": 3.0,
-      "paired": 8,
-      "left": 1,
-      "eligible": false
-    },
-    {
       "name": "What a team! And we managed to avoid Prosti",
       "projected": 3.5821678101810726,
       "actual": 2.5,
@@ -9180,8 +9172,16 @@
       "eligible": false
     },
     {
+      "name": "oh those 64 squares can encompass such immensity",
+      "projected": 3.3923389358731804,
+      "actual": 3.0,
+      "paired": 8,
+      "left": 1,
+      "eligible": false
+    },
+    {
       "name": "Yeah, well, that's just like, your opening, man.",
-      "projected": 3.331629454953803,
+      "projected": 3.3107686880296754,
       "actual": 2.0,
       "paired": 8,
       "left": 3,
