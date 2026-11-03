@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-11-03T01:35:33.599932Z",
+  "updated_at": "2026-11-03T08:34:58.865387Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 1299,
+  "pairings_parsed": 1300,
   "popular": [
     {
       "board": 1,
@@ -1648,7 +1648,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "rustyvm",
+                  "opponent": "markmarkedymarkmark",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -11687,7 +11687,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "rustyvm",
+                  "opponent": "markmarkedymarkmark",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -33225,7 +33225,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "rustyvm",
+                  "opponent": "markmarkedymarkmark",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -40642,8 +40642,8 @@
       "points": 21.0,
       "games": 39,
       "round_games": 0,
-      "round_scheduled": 6,
-      "games_left": 6,
+      "round_scheduled": 5,
+      "games_left": 5,
       "ppg": 0.5384615384615384,
       "roster": [
         {
@@ -41299,7 +41299,7 @@
           "round": 7,
           "points": 0.0,
           "finished": 0,
-          "paired": 6,
+          "paired": 5,
           "players": [
             {
               "handle": "rio2018",
@@ -41321,16 +41321,8 @@
             },
             {
               "handle": "rustyvm",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "adande1",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
+              "points": 0,
+              "games": []
             },
             {
               "handle": "TheDifferenceOfTier5",
@@ -44613,7 +44605,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "rustyvm",
+                  "opponent": "markmarkedymarkmark",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -48781,12 +48773,12 @@
       "owner": "Micomps",
       "name": "My other team is coming in 53rd place",
       "total": 15946,
-      "points": 20.0,
-      "games": 48,
-      "round_games": 0,
+      "points": 20.5,
+      "games": 49,
+      "round_games": 1,
       "round_scheduled": 8,
-      "games_left": 8,
-      "ppg": 0.4166666666666667,
+      "games_left": 7,
+      "ppg": 0.41836734693877553,
       "roster": [
         {
           "handle": "NLance",
@@ -48805,8 +48797,8 @@
         },
         {
           "handle": "flipiflapi",
-          "points": 3.5,
-          "games": 6
+          "points": 4.0,
+          "games": 7
         },
         {
           "handle": "fork2020",
@@ -49510,8 +49502,8 @@
         },
         {
           "round": 7,
-          "points": 0.0,
-          "finished": 0,
+          "points": 0.5,
+          "finished": 1,
           "paired": 8,
           "players": [
             {
@@ -49555,13 +49547,13 @@
             },
             {
               "handle": "flipiflapi",
-              "points": 0.0,
+              "points": 0.5,
               "games": [
                 {
                   "opponent": "morganbp",
-                  "actual_result": null,
+                  "actual_result": 0.5,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -58437,7 +58429,7 @@
   ],
   "round": {
     "number": 7,
-    "played": 3,
+    "played": 4,
     "total": 216
   }
 }
