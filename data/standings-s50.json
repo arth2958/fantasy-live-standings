@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-11-06T03:27:24.225325Z",
+  "updated_at": "2026-11-06T11:18:45.546569Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 1360,
+  "pairings_parsed": 1361,
   "popular": [
     {
       "board": 1,
@@ -64,11 +64,11 @@
       "name": "I have horsey vibes again, therefore gary0892",
       "total": 15956,
       "points": 31.5,
-      "games": 49,
-      "round_games": 4,
+      "games": 50,
+      "round_games": 5,
       "round_scheduled": 9,
-      "games_left": 5,
-      "ppg": 0.6428571428571429,
+      "games_left": 4,
+      "ppg": 0.63,
       "roster": [
         {
           "handle": "JEEprep2374",
@@ -88,7 +88,7 @@
         {
           "handle": "lorb",
           "points": 6.0,
-          "games": 6
+          "games": 7
         },
         {
           "handle": "gary0892",
@@ -770,7 +770,7 @@
         {
           "round": 7,
           "points": 2.0,
-          "finished": 4,
+          "finished": 5,
           "paired": 9,
           "players": [
             {
@@ -825,9 +825,9 @@
               "games": [
                 {
                   "opponent": "mobusel",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -1694,7 +1694,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Bortvinik",
+                  "opponent": "rickerw",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -5094,11 +5094,11 @@
       "name": "This is a really nice looking website, I like this",
       "total": 15977,
       "points": 28.5,
-      "games": 48,
-      "round_games": 2,
+      "games": 49,
+      "round_games": 3,
       "round_scheduled": 9,
-      "games_left": 7,
-      "ppg": 0.59375,
+      "games_left": 6,
+      "ppg": 0.5816326530612245,
       "roster": [
         {
           "handle": "jdannan",
@@ -5118,7 +5118,7 @@
         {
           "handle": "lorb",
           "points": 6.0,
-          "games": 6
+          "games": 7
         },
         {
           "handle": "TristanBrown17",
@@ -5808,7 +5808,7 @@
         {
           "round": 7,
           "points": 2.0,
-          "finished": 2,
+          "finished": 3,
           "paired": 9,
           "players": [
             {
@@ -5863,9 +5863,9 @@
               "games": [
                 {
                   "opponent": "mobusel",
-                  "actual_result": null,
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -19961,7 +19961,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "ShadowOfSelf",
+                  "opponent": "Versaumnisgrund",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -21671,7 +21671,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Bortvinik",
+                  "opponent": "rickerw",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -21712,8 +21712,8 @@
       "points": 25.0,
       "games": 47,
       "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
+      "round_scheduled": 7,
+      "games_left": 4,
       "ppg": 0.5319148936170213,
       "roster": [
         {
@@ -22409,7 +22409,7 @@
           "round": 7,
           "points": 2.0,
           "finished": 3,
-          "paired": 8,
+          "paired": 7,
           "players": [
             {
               "handle": "Silkthewanderer",
@@ -22429,7 +22429,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "ShadowOfSelf",
+                  "opponent": "Versaumnisgrund",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -22491,16 +22491,8 @@
             },
             {
               "handle": "Bortvinik",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lexgrad",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
+              "points": 0,
+              "games": []
             },
             {
               "handle": "electricfalcon",
@@ -25784,7 +25776,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "BaffoDacciaio",
+                  "opponent": "Real_VMD",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -29907,7 +29899,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Bortvinik",
+                  "opponent": "rickerw",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -30681,7 +30673,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "ShadowOfSelf",
+                  "opponent": "Versaumnisgrund",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -34093,8 +34085,8 @@
       "points": 23.0,
       "games": 48,
       "round_games": 2,
-      "round_scheduled": 8,
-      "games_left": 6,
+      "round_scheduled": 7,
+      "games_left": 5,
       "ppg": 0.4791666666666667,
       "roster": [
         {
@@ -34806,7 +34798,7 @@
           "round": 7,
           "points": 0.0,
           "finished": 2,
-          "paired": 8,
+          "paired": 7,
           "players": [
             {
               "handle": "JEEprep2374",
@@ -34823,16 +34815,8 @@
             },
             {
               "handle": "ShadowOfSelf",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Inter-temporal",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
+              "points": 0,
+              "games": []
             },
             {
               "handle": "MasterSRV",
@@ -36482,7 +36466,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Bortvinik",
+                  "opponent": "rickerw",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -40508,7 +40492,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "ShadowOfSelf",
+                  "opponent": "Versaumnisgrund",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -41396,7 +41380,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Bortvinik",
+                  "opponent": "rickerw",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -54399,7 +54383,7 @@
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "ShadowOfSelf",
+                  "opponent": "Versaumnisgrund",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -58456,7 +58440,7 @@
   ],
   "round": {
     "number": 7,
-    "played": 64,
+    "played": 65,
     "total": 216
   }
 }
