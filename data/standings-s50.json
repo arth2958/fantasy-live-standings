@@ -1,13 +1,13 @@
 {
   "season": 50,
   "rounds": 8,
-  "updated_at": "2026-11-14T03:37:15.699385Z",
+  "updated_at": "2026-11-14T10:56:53.764024Z",
   "source": {
     "pairings": "https://www.lichess4545.com/team4545/season/50/pairings/",
     "entries": "https://docs.google.com/spreadsheets/d/1l4XTRMISXTYiFgV_vD68v3svJnI-Yroo0_q8MaSGYL4/gviz/tq?tqx=out:csv&sheet=S50Entries"
   },
   "method": "Everyone starts at 0 until round 1 pairings are published. Points from live pairings; ties: points per game, then lowest total team price.",
-  "pairings_parsed": 1607,
+  "pairings_parsed": 1611,
   "popular": [
     {
       "board": 1,
@@ -63,12 +63,12 @@
       "owner": "super0jins",
       "name": "Board 1 fit perfectly within my budget",
       "total": 16000,
-      "points": 34.5,
-      "games": 56,
-      "round_games": 3,
+      "points": 35.5,
+      "games": 57,
+      "round_games": 4,
       "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.6160714285714286,
+      "games_left": 4,
+      "ppg": 0.6228070175438597,
       "roster": [
         {
           "handle": "Kayrosas",
@@ -82,8 +82,8 @@
         },
         {
           "handle": "BlazedAndConfused",
-          "points": 3.5,
-          "games": 7
+          "points": 4.5,
+          "games": 8
         },
         {
           "handle": "Llawlietnea",
@@ -882,8 +882,8 @@
         },
         {
           "round": 8,
-          "points": 1.0,
-          "finished": 3,
+          "points": 2.0,
+          "finished": 4,
           "paired": 8,
           "players": [
             {
@@ -914,13 +914,13 @@
             },
             {
               "handle": "BlazedAndConfused",
-              "points": 0.0,
+              "points": 1.0,
               "games": [
                 {
                   "opponent": "sandy0889",
-                  "actual_result": null,
+                  "actual_result": 1.0,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -996,6 +996,957 @@
       ]
     },
     {
+      "owner": "bncl",
+      "name": "This is a really nice looking website, I like this",
+      "total": 15977,
+      "points": 35.0,
+      "games": 59,
+      "round_games": 4,
+      "round_scheduled": 8,
+      "games_left": 4,
+      "ppg": 0.5932203389830508,
+      "roster": [
+        {
+          "handle": "jdannan",
+          "points": 3.5,
+          "games": 7
+        },
+        {
+          "handle": "timothyha",
+          "points": 4.5,
+          "games": 8
+        },
+        {
+          "handle": "jwwells42",
+          "points": 7.0,
+          "games": 8
+        },
+        {
+          "handle": "lorb",
+          "points": 6.0,
+          "games": 8
+        },
+        {
+          "handle": "TristanBrown17",
+          "points": 3.5,
+          "games": 7
+        },
+        {
+          "handle": "kostasvl",
+          "points": 2.0,
+          "games": 7
+        },
+        {
+          "handle": "pawneater2020",
+          "points": 3.5,
+          "games": 7
+        },
+        {
+          "handle": "Computability",
+          "points": 5.0,
+          "games": 7
+        }
+      ],
+      "rank": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 6.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "sivakumarr",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "terrormt",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ORIONfull",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "bagelkh",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Immortality",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "parziwal08",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Nairwolf",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "wtm22",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 4.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "BicKedag",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "pavonine",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Ciraid",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "thestormingeagle",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Welpe",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "eldotore",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "AthenianKnight",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 5.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "DiegoAlatriste",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ATrueRavenclaw",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "aguayo",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ecoarrivazumashoomzo",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "kygreek",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "ProfessorMethane",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "DrRickinCT",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "MrMatt96",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Gideon7",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Versaumnisgrund",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "asian42",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Gabreke",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RBorja1980",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "momor",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "perspikace",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 5,
+          "points": 2.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "alp_arslan92",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ShadowOfSelf",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Nestor3690",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "G3HUL",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "McStudly",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "WordRearrangment",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Polivolitis",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "R0B-W",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 6,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "RatHotdog",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Antisana",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "lc69",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "titusalone91",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "chesstricksandtraps",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "GoldenRetrieverChess",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "its_ck",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "beisn",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 7,
+          "points": 7.0,
+          "finished": 9,
+          "paired": 9,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Crapablanca91",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "far1108",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 2.0,
+              "games": [
+                {
+                  "opponent": "drchessdad",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                },
+                {
+                  "opponent": "Fischer_and_Chips88",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "mobusel",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "matman",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "KlausZA",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "rajib_r_c",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "nightsub",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 8,
+          "points": 1.5,
+          "finished": 4,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "jdannan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "guitarspider",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "timothyha",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "king_killer333",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "jwwells42",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "bufferunderrun",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "lorb",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "sideshow_bob",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TristanBrown17",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "flipiflapi",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "kostasvl",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "IckyDemon",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "pawneater2020",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "SedNomini",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Computability",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "fulmarsky",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        }
+      ]
+    },
+    {
       "owner": "JEEprep2374",
       "name": "I have horsey vibes again, therefore gary0892",
       "total": 15956,
@@ -1047,7 +1998,7 @@
           "games": 7
         }
       ],
-      "rank": 2,
+      "rank": 3,
       "round_scores": [
         {
           "round": 1,
@@ -1990,7 +2941,7 @@
           "games": 7
         }
       ],
-      "rank": 3,
+      "rank": 4,
       "round_scores": [
         {
           "round": 1,
@@ -2862,957 +3813,6 @@
               "games": [
                 {
                   "opponent": "Apidae",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        }
-      ]
-    },
-    {
-      "owner": "bncl",
-      "name": "This is a really nice looking website, I like this",
-      "total": 15977,
-      "points": 34.0,
-      "games": 58,
-      "round_games": 3,
-      "round_scheduled": 8,
-      "games_left": 5,
-      "ppg": 0.5862068965517241,
-      "roster": [
-        {
-          "handle": "jdannan",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "timothyha",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "jwwells42",
-          "points": 7.0,
-          "games": 8
-        },
-        {
-          "handle": "lorb",
-          "points": 6.0,
-          "games": 8
-        },
-        {
-          "handle": "TristanBrown17",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "kostasvl",
-          "points": 2.0,
-          "games": 7
-        },
-        {
-          "handle": "pawneater2020",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "Computability",
-          "points": 5.0,
-          "games": 7
-        }
-      ],
-      "rank": 4,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 6.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "sivakumarr",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "terrormt",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ORIONfull",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "bagelkh",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Immortality",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "parziwal08",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Nairwolf",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "wtm22",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "BicKedag",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "pavonine",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Ciraid",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "thestormingeagle",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Welpe",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "eldotore",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "AthenianKnight",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 5.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "DiegoAlatriste",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ATrueRavenclaw",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "aguayo",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ecoarrivazumashoomzo",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "kygreek",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "ProfessorMethane",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "DrRickinCT",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "MrMatt96",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Gideon7",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Versaumnisgrund",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "asian42",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Gabreke",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RBorja1980",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "momor",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "perspikace",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 5,
-          "points": 2.5,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "alp_arslan92",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ShadowOfSelf",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Nestor3690",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "G3HUL",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "McStudly",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "WordRearrangment",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Polivolitis",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "R0B-W",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 6,
-          "points": 4.5,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "RatHotdog",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Antisana",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "lc69",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "titusalone91",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "chesstricksandtraps",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "GoldenRetrieverChess",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "its_ck",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "beisn",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 7,
-          "points": 7.0,
-          "finished": 9,
-          "paired": 9,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Crapablanca91",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "far1108",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 2.0,
-              "games": [
-                {
-                  "opponent": "drchessdad",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                },
-                {
-                  "opponent": "Fischer_and_Chips88",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "mobusel",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "matman",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "KlausZA",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "rajib_r_c",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "nightsub",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 8,
-          "points": 0.5,
-          "finished": 3,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "jdannan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "guitarspider",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "timothyha",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "king_killer333",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "jwwells42",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "bufferunderrun",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "lorb",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "sideshow_bob",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TristanBrown17",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "flipiflapi",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "kostasvl",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "IckyDemon",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "pawneater2020",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "SedNomini",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Computability",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "fulmarsky",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -33764,6 +33764,902 @@
       ]
     },
     {
+      "owner": "EnPriseWithEase",
+      "name": "Oh, such are the highs and lows of chess!",
+      "total": 15516,
+      "points": 28.0,
+      "games": 53,
+      "round_games": 3,
+      "round_scheduled": 6,
+      "games_left": 3,
+      "ppg": 0.5283018867924528,
+      "roster": [
+        {
+          "handle": "Kayrosas",
+          "points": 4.0,
+          "games": 6
+        },
+        {
+          "handle": "OhDearPleaseNo",
+          "points": 1.5,
+          "games": 5
+        },
+        {
+          "handle": "BlazedAndConfused",
+          "points": 4.5,
+          "games": 8
+        },
+        {
+          "handle": "Llawlietnea",
+          "points": 4.0,
+          "games": 8
+        },
+        {
+          "handle": "TTotr",
+          "points": 4.5,
+          "games": 7
+        },
+        {
+          "handle": "MakeMyMove",
+          "points": 1.5,
+          "games": 4
+        },
+        {
+          "handle": "Lexgrad",
+          "points": 5.0,
+          "games": 7
+        },
+        {
+          "handle": "MartinDanielsson",
+          "points": 3.0,
+          "games": 8
+        }
+      ],
+      "rank": 37,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 3.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "SlowRoast",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "cowtone",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "cluffas",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Jeb_al_Gloke",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "GoldenRetrieverChess",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Chess_with_Anay_YT",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Mtsundance",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 3.0,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "yellorambo",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Analogue_Man",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "m-p-d",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "NirakuHakamura",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "IckyDemon",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Pineapplechiffoncake",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "AceRb95",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Leverkuhn",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Fierolocchio",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "KirkD",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "flipiflapi",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Alzaw",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lotus_62",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Rehbein",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "WelshKebab",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 3.5,
+          "finished": 6,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Chesstrix01",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Paulze2000",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "tuomas01",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Airini_H",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "baberle",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "beisn",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 5,
+          "points": 4.5,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "karasso",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Fischer_and_Chips88",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MrScribbles",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Banshee3333",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "gary0892",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "moonspawn",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "eldotore",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Jimq0",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 6,
+          "points": 2.5,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Micomps",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ascoliloko",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "morganbp",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MEGALODON777hs",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "gpetris",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ekopp2000",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "HiddenGrandmaster92",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 7,
+          "points": 5.5,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Silkthewanderer",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Kartoffe1",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Aryan99",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Drotciv",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Joonaf",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "rickerw",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "wtm22",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 8,
+          "points": 2.0,
+          "finished": 3,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "Kayrosas",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Unknownprodigy",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "OhDearPleaseNo",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "sandy0889",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Llawlietnea",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Lou-E",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "TTotr",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "mkubecek",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MakeMyMove",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Lexgrad",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "ScienceGeek",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "MartinDanielsson",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "LeporEd",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        }
+      ]
+    },
+    {
       "owner": "Tranzoo",
       "name": "Shakalaka",
       "total": 15935,
@@ -33815,7 +34711,7 @@
           "games": 6
         }
       ],
-      "rank": 37,
+      "rank": 38,
       "round_scores": [
         {
           "round": 1,
@@ -34735,7 +35631,7 @@
           "games": 7
         }
       ],
-      "rank": 38,
+      "rank": 39,
       "round_scores": [
         {
           "round": 1,
@@ -35615,7 +36511,7 @@
           "games": 8
         }
       ],
-      "rank": 39,
+      "rank": 40,
       "round_scores": [
         {
           "round": 1,
@@ -36527,7 +37423,7 @@
           "games": 7
         }
       ],
-      "rank": 40,
+      "rank": 41,
       "round_scores": [
         {
           "round": 1,
@@ -37419,20 +38315,21 @@
       ]
     },
     {
-      "owner": "EnPriseWithEase",
-      "name": "Oh, such are the highs and lows of chess!",
-      "total": 15516,
+      "owner": "cheapskate",
+      "name": "Lowest Cost Team",
+      "bot": true,
+      "total": 7463,
       "points": 27.0,
-      "games": 52,
+      "games": 53,
       "round_games": 2,
       "round_scheduled": 6,
       "games_left": 4,
-      "ppg": 0.5192307692307693,
+      "ppg": 0.5094339622641509,
       "roster": [
         {
-          "handle": "Kayrosas",
+          "handle": "drchessdad",
           "points": 4.0,
-          "games": 6
+          "games": 7
         },
         {
           "handle": "OhDearPleaseNo",
@@ -37441,8 +38338,8 @@
         },
         {
           "handle": "BlazedAndConfused",
-          "points": 3.5,
-          "games": 7
+          "points": 4.5,
+          "games": 8
         },
         {
           "handle": "Llawlietnea",
@@ -37465,12 +38362,12 @@
           "games": 7
         },
         {
-          "handle": "MartinDanielsson",
-          "points": 3.0,
-          "games": 8
+          "handle": "K5KGC",
+          "points": 2.0,
+          "games": 7
         }
       ],
-      "rank": 41,
+      "rank": 42,
       "round_scores": [
         {
           "round": 1,
@@ -37479,14 +38376,14 @@
           "paired": 7,
           "players": [
             {
-              "handle": "Kayrosas",
-              "points": 1.0,
+              "handle": "drchessdad",
+              "points": 0.0,
               "games": [
                 {
-                  "opponent": "SlowRoast",
-                  "actual_result": 1.0,
+                  "opponent": "Razorneck",
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "won",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -37562,15 +38459,15 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
-              "points": 0.0,
+              "handle": "K5KGC",
+              "points": 1.0,
               "games": [
                 {
-                  "opponent": "Mtsundance",
-                  "actual_result": 0.0,
+                  "opponent": "perspikace",
+                  "actual_result": 1.0,
                   "game_url": null,
-                  "status": "lost",
-                  "no_play": false
+                  "status": "won",
+                  "no_play": true
                 }
               ]
             }
@@ -37579,14 +38476,22 @@
         },
         {
           "round": 2,
-          "points": 3.0,
-          "finished": 7,
-          "paired": 7,
+          "points": 4.0,
+          "finished": 8,
+          "paired": 8,
           "players": [
             {
-              "handle": "Kayrosas",
-              "points": 0,
-              "games": []
+              "handle": "drchessdad",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Igor_Jamnik",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
             },
             {
               "handle": "OhDearPleaseNo",
@@ -37667,11 +38572,11 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
+              "handle": "K5KGC",
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "AceRb95",
+                  "opponent": "SpacebarIsTaken",
                   "actual_result": 0.0,
                   "game_url": null,
                   "status": "lost",
@@ -37689,11 +38594,11 @@
           "paired": 8,
           "players": [
             {
-              "handle": "Kayrosas",
+              "handle": "drchessdad",
               "points": 1.0,
               "games": [
                 {
-                  "opponent": "Leverkuhn",
+                  "opponent": "Maroczyy",
                   "actual_result": 1.0,
                   "game_url": null,
                   "status": "won",
@@ -37780,11 +38685,11 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
+              "handle": "K5KGC",
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "WelshKebab",
+                  "opponent": "osumarko",
                   "actual_result": 0.0,
                   "game_url": null,
                   "status": "lost",
@@ -37797,16 +38702,16 @@
         },
         {
           "round": 4,
-          "points": 3.5,
+          "points": 2.5,
           "finished": 6,
           "paired": 6,
           "players": [
             {
-              "handle": "Kayrosas",
+              "handle": "drchessdad",
               "points": 1.0,
               "games": [
                 {
-                  "opponent": "Chesstrix01",
+                  "opponent": "aldric123",
                   "actual_result": 1.0,
                   "game_url": null,
                   "status": "won",
@@ -37877,14 +38782,14 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
-              "points": 1.0,
+              "handle": "K5KGC",
+              "points": 0.0,
               "games": [
                 {
-                  "opponent": "beisn",
-                  "actual_result": 1.0,
+                  "opponent": "DikiyDrozd",
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "won",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -37894,19 +38799,19 @@
         },
         {
           "round": 5,
-          "points": 4.5,
+          "points": 6.0,
           "finished": 8,
           "paired": 8,
           "players": [
             {
-              "handle": "Kayrosas",
-              "points": 0.0,
+              "handle": "drchessdad",
+              "points": 0.5,
               "games": [
                 {
-                  "opponent": "karasso",
-                  "actual_result": 0.0,
+                  "opponent": "FunnyLikeAClown",
+                  "actual_result": 0.5,
                   "game_url": null,
-                  "status": "lost",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -37990,14 +38895,14 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
-              "points": 0.0,
+              "handle": "K5KGC",
+              "points": 1.0,
               "games": [
                 {
-                  "opponent": "Jimq0",
-                  "actual_result": 0.0,
+                  "opponent": "mimrolls",
+                  "actual_result": 1.0,
                   "game_url": null,
-                  "status": "lost",
+                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -38007,19 +38912,19 @@
         },
         {
           "round": 6,
-          "points": 2.5,
+          "points": 2.0,
           "finished": 7,
           "paired": 7,
           "players": [
             {
-              "handle": "Kayrosas",
-              "points": 0.0,
+              "handle": "drchessdad",
+              "points": 0.5,
               "games": [
                 {
-                  "opponent": "Micomps",
-                  "actual_result": 0.0,
+                  "opponent": "GoneNowhere",
+                  "actual_result": 0.5,
                   "game_url": null,
-                  "status": "lost",
+                  "status": "draw",
                   "no_play": false
                 }
               ]
@@ -38095,14 +39000,14 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
-              "points": 1.0,
+              "handle": "K5KGC",
+              "points": 0.0,
               "games": [
                 {
-                  "opponent": "HiddenGrandmaster92",
-                  "actual_result": 1.0,
+                  "opponent": "lavizien",
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "won",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -38112,19 +39017,19 @@
         },
         {
           "round": 7,
-          "points": 5.5,
+          "points": 3.5,
           "finished": 7,
           "paired": 7,
           "players": [
             {
-              "handle": "Kayrosas",
-              "points": 1.0,
+              "handle": "drchessdad",
+              "points": 0.0,
               "games": [
                 {
-                  "opponent": "Silkthewanderer",
-                  "actual_result": 1.0,
+                  "opponent": "jwwells42",
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "won",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -38200,14 +39105,14 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
-              "points": 1.0,
+              "handle": "K5KGC",
+              "points": 0.0,
               "games": [
                 {
-                  "opponent": "wtm22",
-                  "actual_result": 1.0,
+                  "opponent": "f1re_bunny",
+                  "actual_result": 0.0,
                   "game_url": null,
-                  "status": "won",
+                  "status": "lost",
                   "no_play": false
                 }
               ]
@@ -38217,16 +39122,16 @@
         },
         {
           "round": 8,
-          "points": 1.0,
+          "points": 2.0,
           "finished": 2,
           "paired": 6,
           "players": [
             {
-              "handle": "Kayrosas",
+              "handle": "drchessdad",
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "Unknownprodigy",
+                  "opponent": "LIKESPACE_BOT",
                   "actual_result": null,
                   "game_url": null,
                   "status": "pending",
@@ -38241,13 +39146,13 @@
             },
             {
               "handle": "BlazedAndConfused",
-              "points": 0.0,
+              "points": 1.0,
               "games": [
                 {
                   "opponent": "sandy0889",
-                  "actual_result": null,
+                  "actual_result": 1.0,
                   "game_url": null,
-                  "status": "pending",
+                  "status": "won",
                   "no_play": false
                 }
               ]
@@ -38297,14 +39202,14 @@
               ]
             },
             {
-              "handle": "MartinDanielsson",
+              "handle": "K5KGC",
               "points": 0.0,
               "games": [
                 {
-                  "opponent": "LeporEd",
-                  "actual_result": 0.0,
+                  "opponent": "nightsub",
+                  "actual_result": null,
                   "game_url": null,
-                  "status": "lost",
+                  "status": "pending",
                   "no_play": false
                 }
               ]
@@ -38367,7 +39272,7 @@
           "games": 8
         }
       ],
-      "rank": 42,
+      "rank": 43,
       "round_scores": [
         {
           "round": 1,
@@ -39271,7 +40176,7 @@
           "games": 7
         }
       ],
-      "rank": 43,
+      "rank": 44,
       "round_scores": [
         {
           "round": 1,
@@ -40182,7 +41087,7 @@
           "games": 7
         }
       ],
-      "rank": 44,
+      "rank": 45,
       "round_scores": [
         {
           "round": 1,
@@ -41124,7 +42029,7 @@
           "games": 7
         }
       ],
-      "rank": 45,
+      "rank": 46,
       "round_scores": [
         {
           "round": 1,
@@ -42036,7 +42941,7 @@
           "games": 7
         }
       ],
-      "rank": 46,
+      "rank": 47,
       "round_scores": [
         {
           "round": 1,
@@ -42972,7 +43877,7 @@
           "games": 8
         }
       ],
-      "rank": 47,
+      "rank": 48,
       "round_scores": [
         {
           "round": 1,
@@ -43916,7 +44821,7 @@
           "games": 8
         }
       ],
-      "rank": 48,
+      "rank": 49,
       "round_scores": [
         {
           "round": 1,
@@ -44799,911 +45704,6 @@
                   "actual_result": 1.0,
                   "game_url": null,
                   "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        }
-      ]
-    },
-    {
-      "owner": "cheapskate",
-      "name": "Lowest Cost Team",
-      "bot": true,
-      "total": 7463,
-      "points": 26.0,
-      "games": 52,
-      "round_games": 1,
-      "round_scheduled": 6,
-      "games_left": 5,
-      "ppg": 0.5,
-      "roster": [
-        {
-          "handle": "drchessdad",
-          "points": 4.0,
-          "games": 7
-        },
-        {
-          "handle": "OhDearPleaseNo",
-          "points": 1.5,
-          "games": 5
-        },
-        {
-          "handle": "BlazedAndConfused",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "Llawlietnea",
-          "points": 4.0,
-          "games": 8
-        },
-        {
-          "handle": "TTotr",
-          "points": 4.5,
-          "games": 7
-        },
-        {
-          "handle": "MakeMyMove",
-          "points": 1.5,
-          "games": 4
-        },
-        {
-          "handle": "Lexgrad",
-          "points": 5.0,
-          "games": 7
-        },
-        {
-          "handle": "K5KGC",
-          "points": 2.0,
-          "games": 7
-        }
-      ],
-      "rank": 49,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 3.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Razorneck",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "cowtone",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "cluffas",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Jeb_al_Gloke",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "GoldenRetrieverChess",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Chess_with_Anay_YT",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "perspikace",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 4.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Igor_Jamnik",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "yellorambo",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Analogue_Man",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "m-p-d",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "NirakuHakamura",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "IckyDemon",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Pineapplechiffoncake",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "SpacebarIsTaken",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 4.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Maroczyy",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Fierolocchio",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "KirkD",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "flipiflapi",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Alzaw",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lotus_62",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Rehbein",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "osumarko",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 2.5,
-          "finished": 6,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "aldric123",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Paulze2000",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "tuomas01",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Airini_H",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "baberle",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "DikiyDrozd",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 5,
-          "points": 6.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "FunnyLikeAClown",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Fischer_and_Chips88",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MrScribbles",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Banshee3333",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "gary0892",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "moonspawn",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "eldotore",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "mimrolls",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 6,
-          "points": 2.0,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "GoneNowhere",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ascoliloko",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "morganbp",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MEGALODON777hs",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "gpetris",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ekopp2000",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "lavizien",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 7,
-          "points": 3.5,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "jwwells42",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Kartoffe1",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Aryan99",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Drotciv",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Joonaf",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "rickerw",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "f1re_bunny",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 8,
-          "points": 1.0,
-          "finished": 1,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "drchessdad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "LIKESPACE_BOT",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "OhDearPleaseNo",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "sandy0889",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Llawlietnea",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Lou-E",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "TTotr",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "mkubecek",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "MakeMyMove",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Lexgrad",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "ScienceGeek",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "K5KGC",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "nightsub",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
                   "no_play": false
                 }
               ]
@@ -55800,6 +55800,870 @@
       ]
     },
     {
+      "owner": "Kborman",
+      "name": "The Magnificent Nine",
+      "total": 15941,
+      "points": 24.0,
+      "games": 48,
+      "round_games": 2,
+      "round_scheduled": 6,
+      "games_left": 4,
+      "ppg": 0.5,
+      "roster": [
+        {
+          "handle": "digvijay_sunil",
+          "points": 1.5,
+          "games": 5
+        },
+        {
+          "handle": "NameGoesInHere",
+          "points": 2.5,
+          "games": 7
+        },
+        {
+          "handle": "BlazedAndConfused",
+          "points": 4.5,
+          "games": 8
+        },
+        {
+          "handle": "adande1",
+          "points": 5.0,
+          "games": 8
+        },
+        {
+          "handle": "Chesspatzerswan",
+          "points": 3.0,
+          "games": 5
+        },
+        {
+          "handle": "Fischerforlife",
+          "points": 2.5,
+          "games": 7
+        },
+        {
+          "handle": "Chess_with_Anay_YT",
+          "points": 0.0,
+          "games": 1
+        },
+        {
+          "handle": "AceRb95",
+          "points": 5.0,
+          "games": 7
+        }
+      ],
+      "rank": 61,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": 2.0,
+          "finished": 8,
+          "paired": 8,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "TBest",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "NaveenGeorge",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "cowtone",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "PawnPushingPleb",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "glbert",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "WordRearrangment",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lexgrad",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "AceRb95",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "TimeFork",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 2,
+          "points": 3.5,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Qudit",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Darktigr",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Analogue_Man",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "BaffoDacciaio",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "PapaShirogane",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "cbpio",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MartinDanielsson",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 3,
+          "points": 4.5,
+          "finished": 6,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "j3084",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "KirkD",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Johansen231",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "owlfn62025",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "ribrubrib",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "metalpawn",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 4,
+          "points": 2.0,
+          "finished": 6,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "karasso",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "super0jins",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Paulze2000",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Sarahwynn",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "KamagayaJiji",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "scoobysnack19",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 5,
+          "points": 5.0,
+          "finished": 6,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "MrMatt96",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "LIKESPACE_BOT",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "MrScribbles",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "cluffas",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "baberle",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "chraki",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 6,
+          "points": 3.5,
+          "finished": 7,
+          "paired": 7,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Razorneck",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "ATrueRavenclaw",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "morganbp",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "Verqsu",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "mo_mo",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "threeonesix",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "jakubjaniak1994",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 7,
+          "points": 2.0,
+          "finished": 6,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "VanRoy",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "Aryan99",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": true
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "markmarkedymarkmark",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "pepepibote",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Acebulf",
+                  "actual_result": 0.0,
+                  "game_url": null,
+                  "status": "lost",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "SeniorJrIII",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "final"
+        },
+        {
+          "round": 8,
+          "points": 1.5,
+          "finished": 2,
+          "paired": 6,
+          "players": [
+            {
+              "handle": "digvijay_sunil",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "NameGoesInHere",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "Lordziax",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "BlazedAndConfused",
+              "points": 1.0,
+              "games": [
+                {
+                  "opponent": "sandy0889",
+                  "actual_result": 1.0,
+                  "game_url": null,
+                  "status": "won",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "adande1",
+              "points": 0.5,
+              "games": [
+                {
+                  "opponent": "pemula64",
+                  "actual_result": 0.5,
+                  "game_url": null,
+                  "status": "draw",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chesspatzerswan",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "bagelkh",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Fischerforlife",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "AScannerDarkly",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            },
+            {
+              "handle": "Chess_with_Anay_YT",
+              "points": 0,
+              "games": []
+            },
+            {
+              "handle": "AceRb95",
+              "points": 0.0,
+              "games": [
+                {
+                  "opponent": "hpors",
+                  "actual_result": null,
+                  "game_url": null,
+                  "status": "pending",
+                  "no_play": false
+                }
+              ]
+            }
+          ],
+          "state": "so_far"
+        }
+      ]
+    },
+    {
       "owner": "Micomps",
       "name": "My other team is coming in 53rd place",
       "total": 15946,
@@ -55851,7 +56715,7 @@
           "games": 7
         }
       ],
-      "rank": 61,
+      "rank": 62,
       "round_scores": [
         {
           "round": 1,
@@ -56749,870 +57613,6 @@
                   "actual_result": 0.0,
                   "game_url": null,
                   "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "so_far"
-        }
-      ]
-    },
-    {
-      "owner": "Kborman",
-      "name": "The Magnificent Nine",
-      "total": 15941,
-      "points": 23.0,
-      "games": 47,
-      "round_games": 1,
-      "round_scheduled": 6,
-      "games_left": 5,
-      "ppg": 0.48936170212765956,
-      "roster": [
-        {
-          "handle": "digvijay_sunil",
-          "points": 1.5,
-          "games": 5
-        },
-        {
-          "handle": "NameGoesInHere",
-          "points": 2.5,
-          "games": 7
-        },
-        {
-          "handle": "BlazedAndConfused",
-          "points": 3.5,
-          "games": 7
-        },
-        {
-          "handle": "adande1",
-          "points": 5.0,
-          "games": 8
-        },
-        {
-          "handle": "Chesspatzerswan",
-          "points": 3.0,
-          "games": 5
-        },
-        {
-          "handle": "Fischerforlife",
-          "points": 2.5,
-          "games": 7
-        },
-        {
-          "handle": "Chess_with_Anay_YT",
-          "points": 0.0,
-          "games": 1
-        },
-        {
-          "handle": "AceRb95",
-          "points": 5.0,
-          "games": 7
-        }
-      ],
-      "rank": 62,
-      "round_scores": [
-        {
-          "round": 1,
-          "points": 2.0,
-          "finished": 8,
-          "paired": 8,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "TBest",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "NaveenGeorge",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "cowtone",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "PawnPushingPleb",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "glbert",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "WordRearrangment",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lexgrad",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "AceRb95",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "TimeFork",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 2,
-          "points": 3.5,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Qudit",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Darktigr",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Analogue_Man",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "BaffoDacciaio",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "PapaShirogane",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "cbpio",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MartinDanielsson",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 3,
-          "points": 4.5,
-          "finished": 6,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "j3084",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "KirkD",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Johansen231",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "owlfn62025",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "ribrubrib",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "metalpawn",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 4,
-          "points": 2.0,
-          "finished": 6,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "karasso",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "super0jins",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Paulze2000",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Sarahwynn",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "KamagayaJiji",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "scoobysnack19",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 5,
-          "points": 5.0,
-          "finished": 6,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "MrMatt96",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "LIKESPACE_BOT",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "MrScribbles",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "cluffas",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "baberle",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "chraki",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 6,
-          "points": 3.5,
-          "finished": 7,
-          "paired": 7,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Razorneck",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "ATrueRavenclaw",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "morganbp",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "Verqsu",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "mo_mo",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "threeonesix",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "jakubjaniak1994",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 7,
-          "points": 2.0,
-          "finished": 6,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "VanRoy",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "Aryan99",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": true
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "markmarkedymarkmark",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "pepepibote",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Acebulf",
-                  "actual_result": 0.0,
-                  "game_url": null,
-                  "status": "lost",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 1.0,
-              "games": [
-                {
-                  "opponent": "SeniorJrIII",
-                  "actual_result": 1.0,
-                  "game_url": null,
-                  "status": "won",
-                  "no_play": false
-                }
-              ]
-            }
-          ],
-          "state": "final"
-        },
-        {
-          "round": 8,
-          "points": 0.5,
-          "finished": 1,
-          "paired": 6,
-          "players": [
-            {
-              "handle": "digvijay_sunil",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "NameGoesInHere",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "Lordziax",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "BlazedAndConfused",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "sandy0889",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "adande1",
-              "points": 0.5,
-              "games": [
-                {
-                  "opponent": "pemula64",
-                  "actual_result": 0.5,
-                  "game_url": null,
-                  "status": "draw",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chesspatzerswan",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "bagelkh",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Fischerforlife",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "AScannerDarkly",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
-                  "no_play": false
-                }
-              ]
-            },
-            {
-              "handle": "Chess_with_Anay_YT",
-              "points": 0,
-              "games": []
-            },
-            {
-              "handle": "AceRb95",
-              "points": 0.0,
-              "games": [
-                {
-                  "opponent": "hpors",
-                  "actual_result": null,
-                  "game_url": null,
-                  "status": "pending",
                   "no_play": false
                 }
               ]
@@ -65609,7 +65609,7 @@
   ],
   "round": {
     "number": 8,
-    "played": 95,
+    "played": 99,
     "total": 216
   }
 }
